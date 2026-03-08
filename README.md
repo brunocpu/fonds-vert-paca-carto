@@ -7,26 +7,27 @@ Cartographie interactive des projets financés par le Fonds Vert en Provence-Alp
 - **276 communes** géocodées
 - **568 projets** — zéro retrait, zéro exclusion
 - **138,1 M€** d'engagements
-- Carte interactive Leaflet (fond sombre CARTO)
-- Filtres par département, popups détaillés, panel statistiques
+- Carte interactive Leaflet (fond clair CartoDB Positron, contours départementaux)
+- Filtres par département et par mesure, popups détaillés, panel statistiques
+- Accessibilité WCAG (skip link, ARIA labels, focus visible, contraste AA)
 
 ## Pipeline
 
 ```
 MCP datagouv -> search_datasets("fonds vert")
              -> list_dataset_resources
-             -> download CSV (33 657 lignes, 7,8 MB)
+             -> download CSV national (33 657 lignes, 7,8 MB)
              -> filtre PACA + agrégation par commune
-             -> corrections géolocalisation (25 anomalies, voir ci-dessous)
+             -> corrections géolocalisation (voir ci-dessous)
              -> géocodage via geo.api.gouv.fr
              -> carte Leaflet HTML autonome
 ```
 
 ## Corrections de géolocalisation
 
-Le champ `code_commune` du CSV MTE pointe parfois sur le **siège du bénéficiaire** (SIRET) plutôt que sur le lieu réel du projet. C'est un défaut structurel des données Chorus/Démarches Simplifiées.
+Le champ `code_commune` du CSV MTE pointe parfois sur le **siège du bénéficiaire** (SIRET) plutôt que sur le lieu réel du projet. C'est un écart classique quand on passe de données comptables (Chorus/Démarches Simplifiées) à un usage géographique.
 
-**25 anomalies détectées, 25 corrigées, 0 exclusion.**
+**25 anomalies examinées. 21 corrigées. 4 conservées. 0 exclusion.**
 
 ### Relocalisés depuis le titre du projet (10) — 16,8 M€
 
@@ -57,9 +58,9 @@ Le champ `code_commune` du CSV MTE pointe parfois sur le **siège du bénéficia
 | 13001 | Aix | Carpentras (84) | 225 k€ | CITTA, étude en Vaucluse, commune non identifiable |
 | 26220 | Nyons | Valréas (84) | 2,5 k€ | SM Eygues, bassin versant frontalier 26/84 |
 
-### PAPI Côtiers des Maures (7) — 1,8 M€
+### PAPI Côtiers des Maures (7 projets, 8 lignes CSV) — 1,8 M€
 
-7 projets du Canal de Provence (siège Le Tholonet, 13) -> **Le Muy (83086)** — massif des Maures, intégralement dans le Var.
+7 projets du Canal de Provence (siège Le Tholonet, 13) -> **Le Muy (83086)** — massif des Maures, intégralement dans le Var. Correspond à 8 lignes dans le CSV (une action sur 2 lignes).
 
 ### Conservés en l'état (4) — 1,1 M€
 
@@ -80,12 +81,14 @@ Le champ `code_commune` du CSV MTE pointe parfois sur le **siège du bénéficia
 
 ```
 ├── README.md                            # Ce fichier
+├── MCP_SETUP.md                         # Guide de configuration MCP Claude Desktop
 ├── fonds-vert-paca-carte.html           # Carte interactive (ouvrir dans Chrome)
 ├── build_map.py                         # Script reproductible
+├── setup.py                             # Helper : télécharge le CSV et lance build_map.py
 ├── data/
 │   ├── fonds_vert_2024_source.csv       # CSV source MTE (téléchargé, gitignored)
 │   ├── paca_map_data_v3.json            # Données corrigées par commune
-│   └── corrections.json                 # Détail des 25 corrections
+│   └── corrections.json                 # Détail des corrections
 └── .gitignore
 ```
 
@@ -99,7 +102,7 @@ Dataset : `66a215a463a9da4fb801b8cf` / Resource : `1fdc94e1-0f50-4d39-8be3-40ab3
 
 ## Contexte
 
-POC réalisé dans le cadre d'un test du connecteur MCP data.gouv.fr v1.26.0 sur Claude Desktop. Coordinateur de programmes État en région PACA (SGAR).
+POC réalisé dans le cadre d'un test du connecteur MCP data.gouv.fr sur Claude Desktop. Coordinateur de programmes État en région PACA (SGAR).
 
 ## Licence
 
