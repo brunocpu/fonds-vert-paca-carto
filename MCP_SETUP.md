@@ -50,24 +50,19 @@ Ajouter à la racine du fichier de config :
 
 ### Vérification
 
-Après redémarrage de Claude Desktop, le serveur doit afficher :
-- Nom : `data.gouv.fr MCP server`
-- Version : `1.26.0` (ou supérieure)
-- 9 outils disponibles : `search_datasets`, `search_dataservices`, `get_dataset_info`, `list_dataset_resources`, `get_resource_info`, `query_resource_data`, `get_dataservice_info`, `get_dataservice_openapi_spec`, `get_metrics`
+Après redémarrage de Claude Desktop, le serveur doit afficher ses outils disponibles.
 
-## Outils disponibles
+## Outils disponibles (7)
 
 | Outil | Usage |
 |---|---|
 | `search_datasets` | Recherche de jeux de données par mots-clés |
-| `list_dataset_resources` | Liste les fichiers (CSV, JSON...) d'un dataset |
-| `query_resource_data` | Requête tabulaire sur un CSV/XLSX sans téléchargement |
-| `get_resource_info` | Métadonnées d'un fichier (taille, format, URL) |
 | `get_dataset_info` | Métadonnées d'un dataset (description, licence, dates) |
-| `get_metrics` | Statistiques de téléchargement/consultation |
+| `list_dataset_resources` | Liste les fichiers (CSV, JSON...) d'un dataset |
+| `get_resource_info` | Métadonnées d'un fichier (taille, format, URL) |
+| `query_resource_data` | Requête tabulaire sur un CSV/XLSX sans téléchargement |
 | `search_dataservices` | Recherche d'APIs tierces référencées |
-| `get_dataservice_info` | Détail d'une API tierce |
-| `get_dataservice_openapi_spec` | Spécification OpenAPI d'une API tierce |
+| `get_metrics` | Statistiques de téléchargement/consultation |
 
 ## Note sur les gros fichiers
 
