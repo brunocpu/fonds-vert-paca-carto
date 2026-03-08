@@ -60,6 +60,17 @@ body {
 }
 .filter-group { display: flex; flex-direction: column; gap: 3px; }
 
+.dept-btn {
+  display: block; width: 100%; padding: 6px 10px;
+  border: 1px solid #ddd; border-radius: 4px;
+  background: #fff; color: #333; font-size: 12px;
+  font-family: inherit; cursor: pointer; text-align: left;
+  transition: all .15s;
+}
+.dept-btn:hover { background: #f0f0f0; border-color: #000091; }
+.dept-btn:focus { outline: 2px solid #000091; outline-offset: 1px; }
+.dept-btn.active { background: #000091; color: #fff; border-color: #000091; }
+
 .filter-cb {
   display: flex; align-items: center; gap: 6px;
   padding: 4px 6px; border-radius: 4px; cursor: pointer;
@@ -183,7 +194,7 @@ body {
 
   <div class="filter-section">
     <h3 id="dept-filter-label">Départements</h3>
-    <div class="filter-group" role="group" aria-labelledby="dept-filter-label" id="deptFilters"></div>
+    <div class="filter-group" role="group" aria-labelledby="dept-filter-label" id="deptFilters" style="gap:4px;"></div>
   </div>
 
   <div class="filter-section">
@@ -397,22 +408,44 @@ function updateStats(filtered) {
     '</div>';
 }
 
-// === DEPT FILTER CHECKBOXES ===
+// === DEPT FILTER BUTTONS (with zoom) ===
 const deptContainer = document.getElementById('deptFilters');
+let activeDeptFilter = 'all';
+
+// "Tous" button
+const allBtn = document.createElement('button');
+allBtn.className = 'dept-btn active';
+allBtn.textContent = 'Tous les départements';
+allBtn.setAttribute('aria-label', 'Afficher tous les départements');
+allBtn.addEventListener('click', () => {
+  activeDeptFilter = 'all';
+  activeDepts = new Set(Object.keys(DEPT_NAMES));
+  document.querySelectorAll('#deptFilters .dept-btn').forEach(b => b.classList.remove('active'));
+  allBtn.classList.add('active');
+  renderCircles();
+  map.fitBounds(pacaBounds, { padding: [0, 270] });
+});
+deptContainer.appendChild(allBtn);
+
+// Department buttons
 Object.entries(DEPT_NAMES).sort((a, b) => a[1].localeCompare(b[1], 'fr')).forEach(([code, name]) => {
-  const label = document.createElement('label');
-  label.className = 'filter-cb';
-  const cb = document.createElement('input');
-  cb.type = 'checkbox'; cb.checked = true;
-  cb.setAttribute('aria-label', name);
-  cb.addEventListener('change', () => {
-    if (cb.checked) activeDepts.add(code);
-    else activeDepts.delete(code);
+  const btn = document.createElement('button');
+  btn.className = 'dept-btn';
+  btn.textContent = code + ' – ' + name;
+  btn.setAttribute('aria-label', 'Filtrer sur ' + name);
+  btn.addEventListener('click', () => {
+    activeDeptFilter = code;
+    activeDepts = new Set([code]);
+    document.querySelectorAll('#deptFilters .dept-btn').forEach(b => b.classList.remove('active'));
+    btn.classList.add('active');
     renderCircles();
+    const pts = DATA.filter(d => d.code_dept === code && activeMesures.has(d.demarche_short));
+    if (pts.length) {
+      const bounds = L.latLngBounds(pts.map(d => [d.lat, d.lng]));
+      map.fitBounds(bounds, { padding: [60, 60] });
+    }
   });
-  label.appendChild(cb);
-  label.appendChild(document.createTextNode(code + ' – ' + name));
-  deptContainer.appendChild(label);
+  deptContainer.appendChild(btn);
 });
 
 // === MESURE FILTER CHECKBOXES ===
