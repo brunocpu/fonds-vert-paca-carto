@@ -1,0 +1,60 @@
+{
+  "metadata": {
+    "dataset": "Fonds Vert - Liste des projets subventionnés",
+    "dataset_id": "66a215a463a9da4fb801b8cf",
+    "source": "data.gouv.fr / Ministère de la Transition écologique",
+    "csv_url": "https://static.data.gouv.fr/resources/fonds-vert-liste-des-projets-subventionnes/20250731-095516/fonds-vert-2024-export.csv",
+    "date_analyse": "2026-03-08",
+    "probleme": "Le champ code_commune pointe parfois sur le siège SIRET du bénéficiaire plutôt que sur le lieu réel du projet (défaut Chorus/DS)"
+  },
+  "relocalises_depuis_titre": [
+    {"code_csv": "75056", "commune_csv": "Paris", "code_corrige": "13054", "commune_corrigee": "Marignane", "montant": 4299851.00, "indice": "Reconquête du Centre Ancien de Marignane", "beneficiaire": "ASSOCIATION FONCIERE DE LOGEMENT"},
+    {"code_csv": "54395", "commune_csv": "Nancy", "code_corrige": "06085", "commune_corrigee": "Mougins", "montant": 1200000.00, "indice": "847 chemin de l'Espagnol à Mougins", "beneficiaire": "BATIGERE HABITAT"},
+    {"code_csv": "13055", "commune_csv": "Marseille", "code_corrige": "04112", "commune_corrigee": "Manosque", "montant": 5217275.14, "indice": "Lycée Félix Esclangon – MANOSQUE", "beneficiaire": "REGION PROVENCE-ALPES-COTE D'AZUR"},
+    {"code_csv": "13055", "commune_csv": "Marseille", "code_corrige": "06083", "commune_corrigee": "Menton", "montant": 2098064.06, "indice": "Lycée Pierre et Marie CURIE à MENTON (06)", "beneficiaire": "REGION PROVENCE-ALPES-COTE D'AZUR"},
+    {"code_csv": "13055", "commune_csv": "Marseille", "code_corrige": "06088", "commune_corrigee": "Nice", "montant": 1226000.00, "indice": "Ilot Jean Médecin à NICE", "beneficiaire": "ETS PUB FONCIER P.A.C.A"},
+    {"code_csv": "13055", "commune_csv": "Marseille", "code_corrige": "83137", "commune_corrigee": "Toulon", "montant": 1065000.00, "indice": "ligne de covoiturage entre Toulon et Cuers", "beneficiaire": "REGION PROVENCE-ALPES-COTE D'AZUR"},
+    {"code_csv": "13055", "commune_csv": "Marseille", "code_corrige": "04143", "commune_corrigee": "Oraison", "montant": 946380.00, "indice": "site Lacroix à Oraison", "beneficiaire": "CONSEIL URBAIN"},
+    {"code_csv": "13055", "commune_csv": "Marseille", "code_corrige": "83098", "commune_corrigee": "Le Pradet", "montant": 450000.00, "indice": "Ancienne station service - Le Pradet (83)", "beneficiaire": "LA MAISON FAMILIALE DE PROVENCE"},
+    {"code_csv": "13001", "commune_csv": "Aix-en-Provence", "code_corrige": "04245", "commune_corrigee": "Volx", "montant": 250000.00, "indice": "Volx Cave Coopérative", "beneficiaire": "MEDITERRANEE AMENAGEMENT PROMOTION"},
+    {"code_csv": "69123", "commune_csv": "Lyon", "code_corrige": "13077", "commune_corrigee": "Port-de-Bouc", "montant": 31000.00, "indice": "Friche Azur Chimie - Port de Bouc (13)", "beneficiaire": "SEANERGIES"}
+  ],
+  "relocalises_depuis_recherche_web": [
+    {"code_csv": "13055", "commune_csv": "Marseille", "code_corrige": "04049", "commune_corrigee": "Château-Arnoux-Saint-Auban", "montant": 315000.00, "indice": "Article mesinfos.fr 27/08/2025 : 21 logements sociaux sur ancien gymnase Lapie à Château-Arnoux", "beneficiaire": "UNICIL"},
+    {"code_csv": "13055", "commune_csv": "Marseille", "code_corrige": "83098", "commune_corrigee": "Le Pradet", "montant": 165000.00, "indice": "Site Maison Familiale de Provence : 38 logements (19 BRS + 19 locatif social) au Pradet, maire Hervé Stassinos", "beneficiaire": "LA MAISON FAMILIALE DE PROVENCE"}
+  ],
+  "relocalises_approximation": [
+    {"code_csv": "13001", "commune_csv": "Aix-en-Provence", "code_corrige": "84031", "commune_corrigee": "Carpentras (approx centroide 84)", "montant": 225000.00, "indice": "Projet en Vaucluse (84), commune exacte non trouvée malgré recherche web. CITTA est un bureau d'urbanisme basé à Aix.", "beneficiaire": "CITTA URBANISME & PAYSAGE"},
+    {"code_csv": "26220", "commune_csv": "Nyons", "code_corrige": "84138", "commune_corrigee": "Valréas (approx, SM Eygues zone 26/84)", "montant": 2500.00, "indice": "SM Eygues en Aygues, bassin versant frontalier 26/84. Rattaché à Valréas comme commune PACA la plus proche.", "beneficiaire": "SYNDICAT MIXTE D'EYGUES EN AYGUES"}
+  ],
+  "papi_maures_relocalises": {
+    "description": "7 projets PAPI Côtiers des Maures portés par la Société du Canal de Provence (siège Le Tholonet, 13109), relocalisés vers Le Muy (83086) — approximation, le massif des Maures est intégralement dans le Var",
+    "code_csv": "13109",
+    "commune_csv": "Le Tholonet",
+    "code_corrige": "83086",
+    "commune_corrigee": "Le Muy",
+    "beneficiaire": "SOCIETE DU CANAL DE PROVENCE ET D'AMENAGEMENT DE LA REGION PROVENCALE",
+    "montant_total": 1804829.00,
+    "nb_projets": 7
+  },
+  "conserves_en_etat": [
+    {"code_commune": "83062", "commune": "La Garde", "dept_declared": "06", "raison": "SOC GARDEENNE confirme que le code_commune 83 est correct — c'est dept_declared=06 qui est erroné", "montant": 987503.00},
+    {"code_commune": "84007", "commune": "Avignon", "dept_declared": "13", "raison": "Commission Exécutive de la Durance, projet multi-département, Avignon acceptable", "montant": 12500.00},
+    {"code_commune": "04135", "commune": "Moustiers-Sainte-Marie", "dept_declared": "83", "raison": "PNR Verdon, zone frontière 04/83, localisation acceptable", "montant": 56650.00},
+    {"code_commune": "04135", "commune": "Moustiers-Sainte-Marie", "dept_declared": "83", "raison": "PNR Verdon, animation PAPI Verdon", "montant": 9764.00}
+  ],
+  "bilan": {
+    "total_projets_paca_csv": 568,
+    "retires": 0,
+    "relocalises_titre": 10,
+    "relocalises_web": 2,
+    "relocalises_approximation": 2,
+    "relocalises_papi_maures": 7,
+    "conserves": 4,
+    "exclus": 0,
+    "total_carte": 568,
+    "total_communes": 276,
+    "montant_carte": 138083433,
+    "taux_couverture": "100%"
+  }
+}
