@@ -1,0 +1,82 @@
+{
+  "generated": "2026-03-22",
+  "generated_by": "Claude (Anthropic)",
+  "global": {
+    "title": "Synthèse IA — Fonds Vert PACA 2023-2024",
+    "summary": "294,5 M€ investis sur deux ans pour 1 154 projets dans 440 communes. L'enveloppe recule de 11,7 % entre 2023 et 2024, mais le recentrage est net : la rénovation énergétique passe de 27 % à 42 % du total, tandis que l'éclairage public et la biodiversité perdent l'essentiel de leurs crédits. La concentration territoriale reste élevée — les 10 premières communes captent la moitié des fonds chaque année.",
+    "key_findings": [
+      {
+        "icon": "📉",
+        "title": "Budget en baisse",
+        "text": "156,4 M€ en 2023 → 138,1 M€ en 2024 (−11,7 %). Le nombre de projets reste stable (586 → 568), mais le ticket moyen baisse de 267 k€ à 243 k€."
+      },
+      {
+        "icon": "🏗️",
+        "title": "Recentrage sur la rénovation énergétique",
+        "text": "La rénov. énergétique absorbe 57,3 M€ en 2024, soit +14,9 M€ vs 2023. Sa part passe de 27 % à 42 %. C'est le seul poste en forte croissance. À l'inverse, l'éclairage public (−10,5 M€), la biodiversité (−10,7 M€) et les ZFE (−9,2 M€) reculent fortement."
+      },
+      {
+        "icon": "🏔️",
+        "title": "Les Alpes-de-Haute-Provence, grand gagnant",
+        "text": "Le 04 double presque ses crédits : 9,4 → 17,5 M€, soit 171 €/habitant en 2024 contre 92 en 2023. Cet effet est porté par la réhabilitation du lycée Esclangon à Manosque (5,2 M€). À l'opposé, le Vaucluse perd la moitié de son intensité : 68 → 34 €/hab."
+      },
+      {
+        "icon": "🏙️",
+        "title": "Marseille capte 20 % de l'enveloppe",
+        "text": "59,8 M€ cumulés sur deux ans, loin devant Nice (21 M€) et Avignon (8 M€). Mais le ratio €/habitant des Bouches-du-Rhône reste le plus faible de PACA : 15 €/hab en 2024 vs 171 €/hab pour les Alpes-de-Haute-Provence."
+      },
+      {
+        "icon": "🔄",
+        "title": "Forte rotation des communes bénéficiaires",
+        "text": "163 communes financées en 2023 n'ont rien reçu en 2024, et 133 nouvelles apparaissent. Seules 144 communes (33 % de l'union) sont présentes les deux années. Cela reflète la logique d'appels à projets plutôt qu'un financement récurrent."
+      },
+      {
+        "icon": "🏘️",
+        "title": "Les petites communes à forte intensité",
+        "text": "Le Vernet (132 hab, 04) reçoit 3 168 €/hab en 2024. Sigoyer (101 hab, 04) atteint 2 944 €/hab. Ces montants élevés par habitant traduisent des projets de rénovation structurants dans des communes très rurales."
+      }
+    ]
+  },
+  "by_year": {
+    "2023": {
+      "headline": "156,4 M€ · 586 projets · 307 communes",
+      "insight": "Année de lancement avec une enveloppe large. L'éclairage public (15 M€) et la biodiversité (10,7 M€) y sont très présents — deux mesures qui disparaîtront presque totalement en 2024. Le Vaucluse est le département à la plus forte intensité hors montagne (68 €/hab), porté par Apt (8,5 M€ pour le PNR Luberon) et Avignon (4,2 M€)."
+    },
+    "2024": {
+      "headline": "138,1 M€ · 568 projets · 277 communes",
+      "insight": "Resserrement budgétaire et thématique. Deux nouvelles mesures apparaissent : Territoires d'Industrie (4,4 M€) et Mobilités rurales (0,3 M€). La plus forte progression est Manosque (+2 196 %, de 0,3 à 7,8 M€), portée par le seul lycée Esclangon. La plus forte régression : L'Isle-sur-la-Sorgue (−98 %, de 3,8 M€ à 80 k€)."
+    }
+  },
+  "by_dept": {
+    "04": {
+      "name": "Alpes-de-Haute-Provence",
+      "insight": "Champion de l'intensité budgétaire avec 171 €/hab en 2024 (×1,9 vs 2023). Le département compense sa faible population par des projets structurants de grande taille. Forte présence des mesures risques (incendies, montagne) typiques du territoire.",
+      "highlight": "Manosque : 7,8 M€ en 2024 — un seul projet (lycée Esclangon) pèse 38 % du budget départemental"
+    },
+    "05": {
+      "name": "Hautes-Alpes",
+      "insight": "Budget stable (9,9 → 9,4 M€) avec une intensité élevée (102 €/hab). Le mix est le plus diversifié de la région : risques montagne, covoiturage, GEMAPI et rénov. énergétique se répartissent les crédits sans concentration excessive.",
+      "highlight": "Guillestre : hub multi-mesures avec 6 projets couvrant 4 thématiques différentes"
+    },
+    "06": {
+      "name": "Alpes-Maritimes",
+      "insight": "Budget quasi stable (26 → 25 M€), très concentré sur Nice qui capte 35 % des crédits départementaux. Faible intensité (31 €/hab) malgré des besoins importants en renaturation littorale et GEMAPI post-tempête Alex.",
+      "highlight": "Mougins : 2ᵉ commune du 06, portée par le recyclage foncier (1,2 M€)"
+    },
+    "13": {
+      "name": "Bouches-du-Rhône",
+      "insight": "Plus gros volume (106 M€ cumulés) mais plus faible intensité de PACA : 15 €/hab. L'effet Marseille concentre les crédits — hors Marseille, le département ne reçoit que 22,8 M€ en 2024. Le plan « Marseille en Grand » explique cette polarisation.",
+      "highlight": "Marignane : 4,3 M€ en 2024 pour une seule opération de recyclage foncier au centre ancien"
+    },
+    "83": {
+      "name": "Var",
+      "insight": "Recul marqué : 27 → 21 M€ (−22 %). La baisse des crédits éclairage public (−3 M€) et incendies de forêt (−2 M€) impacte un département très exposé au risque feux. Draguignan reste le pôle majeur (4,2 M€) porté par les PAPI Nartuby.",
+      "highlight": "Le Muy : 10 projets PAPI Côtiers des Maures pour 2,1 M€ — la plus forte concentration anti-inondation"
+    },
+    "84": {
+      "name": "Vaucluse",
+      "insight": "Division par deux de l'intensité : 68 → 34 €/hab, la plus forte chute de la région. L'effet Apt 2023 (8,5 M€ PNR Luberon) ne se reproduit pas. Les crédits biodiversité qui portaient le département en 2023 ont disparu de la programmation 2024.",
+      "highlight": "Carpentras : 7 projets sur 5 mesures différentes, profil le plus diversifié du département"
+    }
+  }
+}
