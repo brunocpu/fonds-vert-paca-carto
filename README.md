@@ -1,108 +1,110 @@
-# Cartographie Fonds Vert PACA 2024
+# Fonds Vert PACA — Cartographie interactive v1.4
 
-Cartographie interactive des projets financés par le Fonds Vert en Provence-Alpes-Côte d'Azur (2024), produite à partir des données ouvertes de [data.gouv.fr](https://www.data.gouv.fr/datasets/fonds-vert-liste-des-projets-subventionnes) via le connecteur MCP.
+Cartographie interactive des projets financés par le Fonds Vert en Provence-Alpes-Côte d'Azur (2023 + 2024), croisés avec les zonages et programmes nationaux (ZRR, PVD, ACV, Villages d'Avenir).
 
-## Résultat
+**[Voir la carte](https://brunocpu.github.io/fonds-vert-paca-carto/)**
 
-- **276 communes** géocodées
-- **568 projets** — zéro retrait, zéro exclusion
-- **138,1 M€** d'engagements
-- Carte interactive Leaflet (fond clair CartoDB Positron, contours départementaux)
-- Filtres par département et par mesure, popups détaillés, panel statistiques
-- Accessibilité WCAG (skip link, ARIA labels, focus visible, contraste AA)
+Données ouvertes [data.gouv.fr](https://www.data.gouv.fr/datasets/fonds-vert-liste-des-projets-subventionnes) via connecteur MCP.
+
+## Chiffres
+
+| | 2023 | 2024 | 2023+2024 |
+|---|---|---|---|
+| Communes | 307 | 277 | 440 |
+| Projets | 586 | 568 | 1 154 |
+| Montant | 156,4 M€ | 138,1 M€ | 294,5 M€ |
+| Géocodage | 100% | 100% | — |
+
+## Fonctionnalités
+
+- **Sélecteur millésime** : 2023 / 2024 / 2023+2024 (défaut)
+- **Recherche plein texte** : sur les 1 154 noms de projets, communes, mesures
+- **Filtres croisés** : département × mesure × zonage/programme
+- **Filtre Zonage / Programme** : ZRR (484 communes), PVD (65), ACV (12), Villages d'Avenir (208)
+- **Évolution 2023→2024** : dans les popups des communes présentes les deux années
+- **€/habitant par département** : toggle dans le panel stats (bar chart comparatif)
+- **Donut** : répartition par mesure (top 5 + "Autres")
+- **Export CSV** : données filtrées, BOM UTF-8 pour Excel
+- **Header dynamique** : compteurs mis à jour à chaque filtrage
+- **Réinitialiser** : reset global de tous les filtres
+
+## Sources de données
+
+| Source | Dataset | Usage |
+|---|---|---|
+| Fonds Vert 2024 | `1fdc94e1-0f50-4d39-8be3-40ab381ee9c4` | Projets 2024 |
+| Fonds Vert 2023 | `ac2da594-aea2-4b87-973f-03f406ec4cfd` | Projets 2023 |
+| Croisement ANCT | `617322c7c8e7b27041570e71` | PVD, ACV, VA, TI, FS, Cités édu. |
+| ZRR (COG 2021) | `5943d13588ee38742a95eb0c` | Zones de Revitalisation Rurale |
+| geo.api.gouv.fr | API | Géocodage + population |
 
 ## Pipeline
 
 ```
-MCP datagouv -> search_datasets("fonds vert")
-             -> list_dataset_resources
-             -> download CSV national (33 657 lignes, 7,8 MB)
-             -> filtre PACA + agrégation par commune
-             -> corrections géolocalisation (voir ci-dessous)
-             -> géocodage via geo.api.gouv.fr
-             -> carte Leaflet HTML autonome
+MCP datagouv → CSV national (2023 + 2024)
+            → filtre PACA (6 départements)
+            → corrections géolocalisation (24 dossiers 2024 + 113 NULL 2023)
+            → géocodage geo.api.gouv.fr (442 communes, cache local)
+            → build_map_v2.py --year both
+            → generate_combined_data_js.py → data.js
+            → programmes_anct.js (ANCT + ZRR)
+            → index.html (Leaflet, GitHub Pages)
 ```
-
-## Corrections de géolocalisation
-
-Le champ `code_commune` du CSV MTE pointe parfois sur le **siège du bénéficiaire** (SIRET) plutôt que sur le lieu réel du projet. C'est un écart classique quand on passe de données comptables (Chorus/Démarches Simplifiées) à un usage géographique.
-
-**25 anomalies examinées. 21 corrigées. 4 conservées. 0 exclusion.**
-
-### Relocalisés depuis le titre du projet (10) — 16,8 M€
-
-| Code CSV | Commune CSV | Commune réelle | Montant | Indice |
-|---|---|---|---|---|
-| 75056 | Paris | Marignane (13) | 4 300 k€ | "Centre Ancien de Marignane" |
-| 54395 | Nancy | Mougins (06) | 1 200 k€ | "chemin de l'Espagnol à Mougins" |
-| 13055 | Marseille | Manosque (04) | 5 217 k€ | "Lycée Esclangon – MANOSQUE" |
-| 13055 | Marseille | Menton (06) | 2 098 k€ | "Lycée Curie à MENTON" |
-| 13055 | Marseille | Nice (06) | 1 226 k€ | "Ilot Jean Médecin à NICE" |
-| 13055 | Marseille | Toulon (83) | 1 065 k€ | "covoiturage Toulon-Cuers" |
-| 13055 | Marseille | Oraison (04) | 946 k€ | "site Lacroix à Oraison" |
-| 13055 | Marseille | Le Pradet (83) | 450 k€ | "station service - Le Pradet" |
-| 13001 | Aix | Volx (04) | 250 k€ | "Volx Cave Coopérative" |
-| 69123 | Lyon | Port-de-Bouc (13) | 31 k€ | "Friche Azur Chimie - Port de Bouc" |
-
-### Relocalisés par recherche web (2) — 480 k€
-
-| Code CSV | Commune CSV | Commune réelle | Montant | Source |
-|---|---|---|---|---|
-| 13055 | Marseille | Château-Arnoux (04) | 315 k€ | Article mesinfos.fr 27/08/2025 |
-| 13055 | Marseille | Le Pradet (83) | 165 k€ | Site Maison Familiale de Provence |
-
-### Relocalisés par approximation (2) — 228 k€
-
-| Code CSV | Commune CSV | Rattachement | Montant | Justification |
-|---|---|---|---|---|
-| 13001 | Aix | Carpentras (84) | 225 k€ | CITTA, étude en Vaucluse, commune non identifiable |
-| 26220 | Nyons | Valréas (84) | 2,5 k€ | SM Eygues, bassin versant frontalier 26/84 |
-
-### PAPI Côtiers des Maures (7 projets, 8 lignes CSV) — 1,8 M€
-
-7 projets du Canal de Provence (siège Le Tholonet, 13) -> **Le Muy (83086)** — massif des Maures, intégralement dans le Var. Correspond à 8 lignes dans le CSV (une action sur 2 lignes).
-
-### Conservés en l'état (4) — 1,1 M€
-
-- **La Garde (83062)** : "SOC GARDEENNE" = code_commune correct, dept_declared erroné
-- **Avignon (84007)** : Commission Durance, multi-département, acceptable
-- **Moustiers-Sainte-Marie (04135)** : PNR Verdon, zone 04/83, acceptable (2 projets)
-
-### Impact
-
-| Métrique | Données brutes | Après corrections |
-|---|---|---|
-| Marseille | 39,3 M€ (44 proj) | 27,8 M€ (36 proj) |
-| Projets sur la carte | 568 | 568 |
-| Communes | 277 | 276 |
-| Montant total | 138,1 M€ | 138,1 M€ |
 
 ## Fichiers
 
 ```
-├── README.md                            # Ce fichier
-├── MCP_SETUP.md                         # Guide de configuration MCP Claude Desktop
-├── fonds-vert-paca-carte.html           # Carte interactive (ouvrir dans Chrome)
-├── build_map.py                         # Script reproductible
-├── setup.py                             # Helper : télécharge le CSV et lance build_map.py
+├── index.html                    # Carte interactive v1.4
+├── data.js                       # Données combinées 2023+2024 (349 KB)
+├── programmes_anct.js            # Zonages ANCT + ZRR par commune PACA (17 KB)
+├── build_map_v2.py               # Pipeline unifié 2023+2024
+├── generate_combined_data_js.py  # Génère data.js depuis les JSON
+├── init_data.py                  # One-shot : corrections_2023.json + geocode_cache.json
+├── fix_cache.py                  # One-shot : re-encode cache latin-1→UTF-8
+├── patch_cache_names.py          # One-shot : hardcode 11 noms API indisponibles
 ├── data/
-│   ├── fonds_vert_2024_source.csv       # CSV source MTE (téléchargé, gitignored)
-│   ├── paca_map_data_v3.json            # Données corrigées par commune
-│   └── corrections.json                 # Détail des corrections
+│   ├── fonds_vert_2023_source.csv
+│   ├── fonds_vert_2024_source.csv
+│   ├── corrections_2023.json     # 113 corrections NULL 2023
+│   ├── geocode_cache.json        # 442 communes géocodées + noms API
+│   ├── paca_2023_map_data.json   # 307 communes, 586 projets
+│   └── paca_2024_map_data.json   # 277 communes, 568 projets
+├── README.md
+├── MCP_SETUP.md
 └── .gitignore
 ```
 
-## Source des données
+## Corrections de géolocalisation (2024)
+
+24 dossiers corrigés — le champ `code_commune` du CSV MTE pointe parfois sur le siège du bénéficiaire (SIRET) plutôt que sur le lieu réel du projet. Détail dans le code source (`DOSSIER_CORRECTIONS` dans `build_map_v2.py`).
+
+Impact : Marseille passe de 39,3 M€ à 27,8 M€ (8 projets relocalisés vers leur commune réelle).
+
+## Croisements clés
+
+| Zonage/Programme | Communes PACA | Financées Fonds Vert | Couverture |
+|---|---|---|---|
+| ZRR | 484 | 193 | 39% |
+| PVD | 65 | 54 | 83% |
+| ACV | 12 | 12 | 100% |
+| Villages d'Avenir | 208 | 110 | 52% |
+
+## Build
 
 ```bash
-curl -L "https://static.data.gouv.fr/resources/fonds-vert-liste-des-projets-subventionnes/20250731-095516/fonds-vert-2024-export.csv" -o data/fonds_vert_2024_source.csv
-```
+# Données (cache complet, 0 appel API)
+python build_map_v2.py --year both
+python generate_combined_data_js.py
 
-Dataset : `66a215a463a9da4fb801b8cf` / Resource : `1fdc94e1-0f50-4d39-8be3-40ab381ee9c4`
+# Déploiement
+git add -A
+git commit -m "v1.x: description"
+git push
+```
 
 ## Contexte
 
-POC réalisé dans le cadre d'un test du connecteur MCP data.gouv.fr sur Claude Desktop. Coordinateur de programmes État en région PACA (SGAR).
+POC réalisé avec Claude + MCP (connecteurs data.gouv.fr, filesystem). Exercice de bout en bout : sourcing données ouvertes, pipeline Python, cartographie Leaflet, croisement inter-programmes, déploiement GitHub Pages.
 
 ## Licence
 
