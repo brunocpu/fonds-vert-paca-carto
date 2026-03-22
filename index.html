@@ -81,21 +81,22 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
 <body>
 <a href="#map" class="skip-link">Aller au contenu principal</a>
 <header class="header-bar" role="banner">
-  <h1>Fonds Vert 2024 — Provence-Alpes-Côte d'Azur</h1>
-  <span class="subtitle" id="headerStats">568 projets · 138,1 M€ · 277 communes</span>
+  <h1>Fonds Vert 2023+2024 — Provence-Alpes-Côte d'Azur</h1>
+  <span class="subtitle" id="headerStats">1 154 projets · 294,5 M€ · 440 communes</span>
   <div style="display:flex;gap:4px;align-items:center;margin-left:auto;pointer-events:auto">
     <button class="year-btn" id="btn2023" onclick="switchYear(2023)">2023</button>
-    <button class="year-btn active" id="btn2024" onclick="switchYear(2024)">2024</button>
-    <button class="year-btn" id="btnBoth" onclick="switchYear('both')">2023+2024</button>
+    <button class="year-btn" id="btn2024" onclick="switchYear(2024)">2024</button>
+    <button class="year-btn active" id="btnBoth" onclick="switchYear('both')">2023+2024</button>
 
   </div>
 </header>
 <nav class="filters-panel" role="navigation" aria-label="Filtres de la carte">
   <h2>Filtres</h2>
-  <div class="filter-section" style="margin-bottom:14px"><h3 style="font-size:12px;font-weight:600;color:#333;margin-bottom:6px">Rechercher</h3><div style="position:relative"><input type="text" id="searchInput" placeholder="projet, commune, bénéficiaire..." autocomplete="off" style="width:100%;padding:6px 10px 6px 28px;font-size:12px;border:1px solid #ddd;border-radius:4px;background:#fff;color:#333;font-family:inherit"/><svg style="position:absolute;left:8px;top:50%;transform:translateY(-50%);width:14px;height:14px;opacity:.4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div><div id="searchResults" style="display:none;position:absolute;z-index:2000;background:#fff;border:1px solid #ddd;border-radius:4px;margin-top:2px;max-height:320px;overflow-y:auto;box-shadow:0 4px 12px rgba(0,0,0,.12);width:280px"></div></div>
+  <div class="filter-section" style="margin-bottom:14px"><h3 style="font-size:12px;font-weight:600;color:#333;margin-bottom:6px">Rechercher</h3><div style="position:relative"><input type="text" id="searchInput" placeholder="projet, commune, bénéficiaire..." autocomplete="off" style="width:100%;padding:6px 10px 6px 28px;font-size:12px;border:1px solid #ddd;border-radius:4px;background:#fff;color:#333;font-family:inherit"/><svg style="position:absolute;left:8px;top:50%;transform:translateY(-50%);width:14px;height:14px;opacity:.4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div></div>
   <div class="filter-section"><h3 id="dept-filter-label">Départements</h3><div class="filter-group" role="group" aria-labelledby="dept-filter-label" id="deptFilters" style="gap:4px;"></div></div>
   <div class="filter-section"><h3 id="mesure-filter-label">Mesures</h3><div class="filter-group" role="group" aria-labelledby="mesure-filter-label" id="mesureFilters"></div><button class="filter-reset" onclick="resetMesures()" aria-label="Réinitialiser les filtres de mesures">Tout afficher</button></div>
 </nav>
+<div id="searchResults" style="display:none;position:fixed;z-index:2000;background:#fff;border:1px solid #ddd;border-radius:4px;max-height:320px;overflow-y:auto;box-shadow:0 4px 12px rgba(0,0,0,.12);width:280px"></div>
 <main><div id="map" role="application" aria-label="Carte interactive des projets Fonds Vert en PACA" tabindex="0"></div></main>
 <aside class="stats-panel" role="complementary" aria-label="Statistiques">
   <h2>Statistiques</h2>
@@ -304,7 +305,7 @@ searchInput.addEventListener('input',function(){
   searchResults.innerHTML='';
   if(q.length<2){searchResults.style.display='none';return;}
   const matches=searchIdx.filter(p=>p._s.includes(q)).sort((a,b)=>b.montant-a.montant).slice(0,15);
-  if(!matches.length){searchResults.innerHTML='<div style="padding:8px 10px;font-size:11px;color:#888">Aucun résultat</div>';searchResults.style.display='block';return;}
+  if(!matches.length){searchResults.innerHTML='<div style="padding:8px 10px;font-size:11px;color:#888">Aucun résultat</div>';var r0=searchInput.getBoundingClientRect();searchResults.style.top=(r0.bottom+2)+'px';searchResults.style.left=r0.left+'px';searchResults.style.display='block';return;}
   const totalM=matches.reduce((s,p)=>s+p.montant,0);
   const header=document.createElement('div');
   header.style.cssText='padding:6px 10px;font-size:11px;color:#666;border-bottom:1px solid #ddd;background:#f8f8f8';
@@ -328,6 +329,9 @@ searchInput.addEventListener('input',function(){
     });
     searchResults.appendChild(div);
   });
+  var rect=searchInput.getBoundingClientRect();
+  searchResults.style.top=(rect.bottom+2)+'px';
+  searchResults.style.left=rect.left+'px';
   searchResults.style.display='block';
 });
 document.addEventListener('click',function(e){if(!searchInput.contains(e.target)&&!searchResults.contains(e.target))searchResults.style.display='none';});
@@ -359,9 +363,12 @@ function mergeData(d1,d2){
   return Array.from(m.values()).sort((a,b)=>b.montant-a.montant);
 }
 const DATA_BOTH=mergeData(DATA_2023,DATA_2024);
+DATA=DATA_BOTH;
+searchIdx=buildSearchIndex();
+renderCircles();
 
 // Year switcher
-let currentYear=2024;
+let currentYear='both';
 function switchYear(year){
   if(year===currentYear)return;
   currentYear=year;
