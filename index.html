@@ -3,7 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fonds Vert — Cartographie des projets en Provence-Alpes-Côte d'Azur</title>
+<title>Fonds Vert PACA — v1.4</title>
+<!-- v1.4 — 2025-03-22 : filtre ZRR/PVD/ACV/VA, recherche plein texte, donut top5, header dynamique, reset global -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
@@ -125,13 +126,10 @@ function fmt(n){if(n>=1e6)return(n/1e6).toFixed(1).replace('.',',')+"\u00a0M€"
 function fmtHab(n){if(n>=1000)return(n/1000).toFixed(1).replace('.',',')+"\u00a0k€/hab";return Math.round(n)+"\u00a0€/hab";}
 function getRadius(m,maxM){return 4+28*Math.pow(m/maxM,0.4);}
 function getColor(m){return MESURE_COLORS[m]||"#999";}
-const PROG_STYLES={PVD:['#e8f5e9','#2e7d32'],ACV:['#e3f2fd','#1565c0'],VA:['#fff3e0','#e65100']};
-const PROG_SHOW=new Set(['PVD','ACV','VA']);
-function progBadges(code){var p=ANCT_PROGRAMMES[code];if(!p||!p.length)return '';var show=p.filter(function(n){return PROG_SHOW.has(n);});if(!show.length)return '';return '<div style="margin-bottom:6px;display:flex;flex-wrap:wrap;gap:3px">'+show.map(function(n){var s=PROG_STYLES[n]||['#eee','#555'];return '<span style="font-size:9px;padding:1px 5px;border-radius:3px;background:'+s[0]+';color:'+s[1]+';font-weight:600">'+n+'</span>';}).join('')+'</div>';}
 const pacaBounds=L.latLngBounds([[42.9,4.15],[45.1,7.7]]);
 const map=L.map('map',{zoomControl:false,attributionControl:true,maxBounds:pacaBounds.pad(0.05),maxBoundsViscosity:1.0,minZoom:7,maxZoom:15}).fitBounds(pacaBounds,{padding:[0,270]});
 L.control.zoom({position:'bottomright'}).addTo(map);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a> · Données : <a href="https://www.data.gouv.fr">data.gouv.fr</a>',maxZoom:18,subdomains:'abcd'}).addTo(map);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a> · Données : <a href="https://www.data.gouv.fr">data.gouv.fr</a> · v1.4',maxZoom:18,subdomains:'abcd'}).addTo(map);
 L.geoJSON(DEPTS_GEOJSON,{style:{color:'#000091',weight:2,opacity:0.6,fillColor:'transparent',fillOpacity:0,dashArray:'6,3'},onEachFeature:function(f,l){l.bindTooltip(f.properties.nom,{permanent:false,direction:'center',className:'dept-label'});}}).addTo(map);
 Object.entries(DEPT_CENTROIDS).forEach(([c,ll])=>{const l=L.marker(ll,{icon:L.divIcon({className:'dept-label',html:DEPT_NAMES[c],iconSize:null}),interactive:false}).addTo(map);deptLabels.push(l);});
 map.on('zoomend',function(){const z=map.getZoom();deptLabels.forEach(l=>{if(z>=10)map.removeLayer(l);else if(!map.hasLayer(l))l.addTo(map);});});
@@ -178,14 +176,12 @@ function renderCircles(){
       }
       ph+='</div>';
     }
-    const habLine='';
     const evolLine=buildEvolutionHtml(d.code);
     circle.bindPopup(
       '<div class="popup-title">'+d.commune+'</div>'+
       '<div class="popup-dept">'+d.dept+' ('+d.code_dept+')'+(d.population?' · pop. '+d.population.toLocaleString('fr-FR'):'')+'</div>'+
       '<div class="popup-stat"><span class="popup-stat-label">Projets</span><span class="popup-stat-value">'+d.count+'</span></div>'+
       '<div class="popup-stat"><span class="popup-stat-label">Montant total</span><span class="popup-stat-value">'+fmt(d.montant)+'</span></div>'+
-      habLine+
       '<div class="popup-stat"><span class="popup-stat-label">Mesure principale</span><span class="popup-stat-value" style="color:'+color+'">'+d.demarche_short+'</span></div>'+
       evolLine+ph,{maxWidth:320});
     circle.on('mouseover',function(){this.setStyle({fillOpacity:0.8,weight:2.5});});
@@ -206,8 +202,15 @@ function updateStats(f){
   // Build donut SVG arcs
   const R=38,CX=50,CY=50,C=2*Math.PI*R;
   let offset=0,arcs='',legend='';
-  mesArr.forEach(([name,val])=>{
-    const pct=tm>0?val/tm:0,len=pct*C,color=MESURE_COLORS[name]||'#999';
+  // Top 5 + Autres for donut
+  const mesTop5=mesArr.slice(0,5);
+  const mesAutres=mesArr.slice(5);
+  if(mesAutres.length>0){
+    const autresVal=mesAutres.reduce((s,e)=>s+e[1],0);
+    mesTop5.push(['Autres',autresVal]);
+  }
+  mesTop5.forEach(([name,val])=>{
+    const pct=tm>0?val/tm:0,len=pct*C,color=name==='Autres'?'#bbb':(MESURE_COLORS[name]||'#999');
     arcs+='<circle cx="'+CX+'" cy="'+CY+'" r="'+R+'" fill="none" stroke="'+color+'" stroke-width="12" stroke-dasharray="'+len.toFixed(1)+' '+(C-len).toFixed(1)+'" stroke-dashoffset="'+(-offset).toFixed(1)+'"/>';
     offset+=len;
     legend+='<div style="display:flex;align-items:center;gap:5px;font-size:11px"><span style="width:8px;height:8px;border-radius:2px;background:'+color+';flex-shrink:0"></span><span style="flex:1;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+name+'</span><span style="color:#888;flex-shrink:0">'+(pct*100).toFixed(1)+'%</span></div>';
@@ -259,7 +262,7 @@ function updateStats(f){
     '<div class="stat-row"><span class="stat-label">Enveloppe</span><span class="stat-value">'+fmt(tm)+'</span></div>'+
     '<div class="stat-row"><span class="stat-label">Projets</span><span class="stat-value">'+tp+'</span></div>'+
     '<div class="stat-row"><span class="stat-label">Communes</span><span class="stat-value">'+tc+'</span></div>'+
-    '<div class="stat-row"><span class="stat-label">Ticket moyen</span><span class="stat-value">'+fmt(tk)+'</span></div>'+
+    '<div class="stat-row"><span class="stat-label">Montant moyen attribué</span><span class="stat-value">'+fmt(tk)+'</span></div>'+
     donutHtml+bottomHtml;
 }
 
