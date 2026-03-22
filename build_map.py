@@ -71,6 +71,11 @@ def clean(s):
     return s.replace('\n', ' ').replace('\r', '').replace('\t', ' ').strip() if s else ''
 
 
+def norm(s):
+    """Normalise les apostrophes typographiques en apostrophes droites."""
+    return s.replace('\u2019', "'").replace('\u2018', "'") if s else ''
+
+
 def download_csv():
     if CSV_PATH.exists():
         print(f"CSV présent : {CSV_PATH}")
@@ -109,21 +114,20 @@ def parse_csv():
                 montant = 0
 
             dem = row.get('demarche', '') or ''
-            dem_short = DEMARCHE_SHORT.get(dem, dem[:25] if dem else 'Autre')
+            dem_short = DEMARCHE_SHORT.get(norm(dem), dem[:25] if dem else 'Autre')
 
             communes[code]['count'] += 1
             communes[code]['montant'] += montant
             communes[code]['commune'] = clean(row.get('nom_commune', ''))
             communes[code]['dept'] = clean(row.get('nom_departement', ''))
             communes[code]['code_dept'] = code[:2]
-            communes[code]['demarches'][dem] += 1
-            if len(communes[code]['projets']) < 3:
-                communes[code]['projets'].append({
-                    'nom': clean(row.get('nom_du_projet', ''))[:80],
-                    'montant': montant,
-                    'demarche': dem,
-                    'demarche_short': dem_short,
-                })
+            communes[code]['demarches'][norm(dem)] += montant
+            communes[code]['projets'].append({
+                'nom': clean(row.get('nom_du_projet', ''))[:80],
+                'montant': montant,
+                'demarche': norm(dem),
+                'demarche_short': dem_short,
+            })
             stats['total'] += 1
 
     print(f"Projets PACA : {stats['total']} (corrigés : {stats['corrected']})")
