@@ -91,8 +91,9 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
   </div>
 </header>
 <nav class="filters-panel" role="navigation" aria-label="Filtres de la carte">
-  <h2>Filtres</h2>
+  <h2 style="display:flex;justify-content:space-between;align-items:center">Filtres <button onclick="resetAll()" style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:#000091;background:none;border:none;cursor:pointer;font-family:inherit;padding:0">Réinitialiser</button></h2>
   <div class="filter-section" style="margin-bottom:14px"><h3 style="font-size:12px;font-weight:600;color:#333;margin-bottom:6px">Rechercher</h3><div style="position:relative"><input type="text" id="searchInput" placeholder="projet, commune, bénéficiaire..." autocomplete="off" style="width:100%;padding:6px 10px 6px 28px;font-size:12px;border:1px solid #ddd;border-radius:4px;background:#fff;color:#333;font-family:inherit"/><svg style="position:absolute;left:8px;top:50%;transform:translateY(-50%);width:14px;height:14px;opacity:.4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div></div>
+  <div class="filter-section"><h3>Zonage / Programme</h3><div class="filter-group" id="progFilters" style="gap:4px"></div></div>
   <div class="filter-section"><h3 id="dept-filter-label">Départements</h3><div class="filter-group" role="group" aria-labelledby="dept-filter-label" id="deptFilters" style="gap:4px;"></div></div>
   <div class="filter-section"><h3 id="mesure-filter-label">Mesures</h3><div class="filter-group" role="group" aria-labelledby="mesure-filter-label" id="mesureFilters"></div><button class="filter-reset" onclick="resetMesures()" aria-label="Réinitialiser les filtres de mesures">Tout afficher</button></div>
 </nav>
@@ -108,6 +109,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
   <button class="export-btn" onclick="exportCSV()">⬇ Exporter CSV</button>
 </aside>
 <script src="data.js"></script>
+<script src="programmes_anct.js"></script>
 <script>
 const MESURE_COLORS={"Rénov. énergétique":"#2f5496","Recyclage foncier":"#bf8f00","Renaturation":"#2e7d32","Éclairage public":"#7b1fa2","PAPI/GEMAPI":"#c62828","ZFE mobilité":"#ad1457","Incendies de forêt":"#e65100","Terr. Industrie":"#00838f","Biodéchets":"#558b2f","Covoiturage":"#00695c","Mobilités rurales":"#4527a0","Ingénierie":"#546e7a","Risques montagne":"#6a1b9a","Biodiversité":"#1b5e20","Trait de côte":"#0277bd"};
 const DEPT_NAMES={"04":"Alpes-de-Haute-Provence","05":"Hautes-Alpes","06":"Alpes-Maritimes","13":"Bouches-du-Rhône","83":"Var","84":"Vaucluse"};
@@ -123,6 +125,9 @@ function fmt(n){if(n>=1e6)return(n/1e6).toFixed(1).replace('.',',')+"\u00a0M€"
 function fmtHab(n){if(n>=1000)return(n/1000).toFixed(1).replace('.',',')+"\u00a0k€/hab";return Math.round(n)+"\u00a0€/hab";}
 function getRadius(m,maxM){return 4+28*Math.pow(m/maxM,0.4);}
 function getColor(m){return MESURE_COLORS[m]||"#999";}
+const PROG_STYLES={PVD:['#e8f5e9','#2e7d32'],ACV:['#e3f2fd','#1565c0'],VA:['#fff3e0','#e65100']};
+const PROG_SHOW=new Set(['PVD','ACV','VA']);
+function progBadges(code){var p=ANCT_PROGRAMMES[code];if(!p||!p.length)return '';var show=p.filter(function(n){return PROG_SHOW.has(n);});if(!show.length)return '';return '<div style="margin-bottom:6px;display:flex;flex-wrap:wrap;gap:3px">'+show.map(function(n){var s=PROG_STYLES[n]||['#eee','#555'];return '<span style="font-size:9px;padding:1px 5px;border-radius:3px;background:'+s[0]+';color:'+s[1]+';font-weight:600">'+n+'</span>';}).join('')+'</div>';}
 const pacaBounds=L.latLngBounds([[42.9,4.15],[45.1,7.7]]);
 const map=L.map('map',{zoomControl:false,attributionControl:true,maxBounds:pacaBounds.pad(0.05),maxBoundsViscosity:1.0,minZoom:7,maxZoom:15}).fitBounds(pacaBounds,{padding:[0,270]});
 L.control.zoom({position:'bottomright'}).addTo(map);
@@ -154,7 +159,7 @@ function buildEvolutionHtml(code){
 
 function renderCircles(){
   circles.forEach(c=>map.removeLayer(c));circles=[];
-  const filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&activeMesures.has(d.demarche_short));
+  const filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&activeMesures.has(d.demarche_short)&&(!activeProg||(ANCT_PROGRAMMES[d.code]&&ANCT_PROGRAMMES[d.code].indexOf(activeProg)>=0)));
   const maxM=filtered.length?Math.max(...filtered.map(d=>d.montant)):1;
   [...filtered].sort((a,b)=>a.montant-b.montant).forEach(d=>{
     const color=getColor(d.demarche_short),radius=getRadius(d.montant,maxM);
@@ -248,6 +253,8 @@ function updateStats(f){
       t5.map((d,i)=>'<div class="stat-row"><span class="stat-label">'+(i+1)+'. '+d.commune+'</span><span class="stat-value" style="font-size:12px;">'+fmt(d.montant)+'</span></div>').join('')+
       '<div class="legend-sizes"><div class="legend-size-item"><div class="legend-size-circle" style="width:8px;height:8px;"></div><div class="legend-size-label">&lt;100k</div></div><div class="legend-size-item"><div class="legend-size-circle" style="width:18px;height:18px;"></div><div class="legend-size-label">~500k</div></div><div class="legend-size-item"><div class="legend-size-circle" style="width:32px;height:32px;"></div><div class="legend-size-label">&gt;5M</div></div></div>';
   }
+  // Update header subtitle with filtered counts
+  document.getElementById('headerStats').textContent=tp+' projets \u00b7 '+(tm/1e6).toFixed(1).replace('.',',')+' M\u20ac \u00b7 '+tc+' communes';
   document.getElementById('statsContent').innerHTML=
     '<div class="stat-row"><span class="stat-label">Enveloppe</span><span class="stat-value">'+fmt(tm)+'</span></div>'+
     '<div class="stat-row"><span class="stat-label">Projets</span><span class="stat-value">'+tp+'</span></div>'+
@@ -258,7 +265,7 @@ function updateStats(f){
 
 // Export CSV
 function exportCSV(){
-  const filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&activeMesures.has(d.demarche_short));
+  const filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&activeMesures.has(d.demarche_short)&&(!activeProg||(ANCT_PROGRAMMES[d.code]&&ANCT_PROGRAMMES[d.code].indexOf(activeProg)>=0)));
   const yr=currentYear==='both'?'2023-2024':String(currentYear);
   let csv='\ufeff"Code INSEE","Commune","Département","Code dept","Projets","Montant (€)","Population","€/habitant","Mesure principale"\n';
   filtered.sort((a,b)=>b.montant-a.montant).forEach(d=>{
@@ -282,6 +289,31 @@ Object.entries(DEPT_NAMES).sort((a,b)=>a[1].localeCompare(b[1],'fr')).forEach(([
 const mc=document.getElementById('mesureFilters');
 Object.entries(MESURE_COLORS).forEach(([n,c])=>{const l=document.createElement('label');l.className='filter-cb';const cb=document.createElement('input');cb.type='checkbox';cb.checked=true;cb.addEventListener('change',()=>{if(cb.checked)activeMesures.add(n);else activeMesures.delete(n);renderCircles();});const sw=document.createElement('span');sw.className='color-swatch';sw.style.background=c;l.appendChild(cb);l.appendChild(sw);l.appendChild(document.createTextNode(n));mc.appendChild(l);});
 function resetMesures(){activeMesures=new Set(Object.keys(MESURE_COLORS));document.querySelectorAll('#mesureFilters input[type="checkbox"]').forEach(cb=>cb.checked=true);renderCircles();}
+function resetAll(){
+  activeDepts=new Set(Object.keys(DEPT_NAMES));
+  activeMesures=new Set(Object.keys(MESURE_COLORS));
+  activeProg=null;
+  document.querySelectorAll('#deptFilters .dept-btn').forEach(function(b){b.classList.remove('active');});
+  document.querySelector('#deptFilters .dept-btn').classList.add('active');
+  document.querySelectorAll('#mesureFilters input[type="checkbox"]').forEach(function(cb){cb.checked=true;});
+  document.querySelectorAll('#progFilters .dept-btn').forEach(function(b){b.classList.remove('active');});
+  document.querySelector('#progFilters .dept-btn').classList.add('active');
+  searchInput.value='';
+  searchResults.style.display='none';
+  renderCircles();
+  map.fitBounds(pacaBounds,{padding:[0,270]});
+}
+// Zonage / Programme filter
+let activeProg=null;
+const PROG_LIST=[['ZRR','Zone Revitalisation Rurale'],['PVD','Petites Villes de Demain'],['ACV','Action Cœur de Ville'],['VA','Villages d\'Avenir']];
+const pf=document.getElementById('progFilters');
+const pAll=document.createElement('button');pAll.className='dept-btn active';pAll.textContent='Tous';
+pAll.addEventListener('click',function(){activeProg=null;document.querySelectorAll('#progFilters .dept-btn').forEach(function(b){b.classList.remove('active');});pAll.classList.add('active');renderCircles();});
+pf.appendChild(pAll);
+PROG_LIST.forEach(function(item){var btn=document.createElement('button');btn.className='dept-btn';btn.textContent=item[0]+' – '+item[1];
+btn.addEventListener('click',function(){activeProg=item[0];document.querySelectorAll('#progFilters .dept-btn').forEach(function(b){b.classList.remove('active');});btn.classList.add('active');renderCircles();});
+pf.appendChild(btn);});
+
 renderCircles();
 
 // Full-text project search
@@ -382,6 +414,9 @@ function switchYear(year){
   document.getElementById('headerStats').textContent=tp+' projets \u00b7 '+(tm/1e6).toFixed(1).replace('.',',')+' M\u20ac \u00b7 '+DATA.length+' communes';
   activeDepts=new Set(Object.keys(DEPT_NAMES));
   activeMesures=new Set(Object.keys(MESURE_COLORS));
+  activeProg=null;
+  document.querySelectorAll('#progFilters .dept-btn').forEach(function(b){b.classList.remove('active');});
+  document.querySelector('#progFilters .dept-btn').classList.add('active');
   document.querySelectorAll('#deptFilters .dept-btn').forEach(b=>b.classList.remove('active'));
   document.querySelector('#deptFilters .dept-btn').classList.add('active');
   document.querySelectorAll('#mesureFilters input[type="checkbox"]').forEach(cb=>cb.checked=true);
