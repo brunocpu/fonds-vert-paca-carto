@@ -75,6 +75,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
   <div style="display:flex;gap:4px;margin-left:auto;pointer-events:auto">
     <button class="year-btn" id="btn2023" onclick="switchYear(2023)">2023</button>
     <button class="year-btn active" id="btn2024" onclick="switchYear(2024)">2024</button>
+    <button class="year-btn" id="btnBoth" onclick="switchYear('both')">2023+2024</button>
   </div>
 </header>
 <nav class="filters-panel" role="navigation" aria-label="Filtres de la carte">
@@ -87,7 +88,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
 <aside class="stats-panel" role="complementary" aria-label="Statistiques"><h2>Statistiques</h2><div id="statsContent"></div></aside>
 <script src="data.js"></script>
 <script>
-const MESURE_COLORS={"Rénov. énergétique":"#2f5496","Recyclage foncier":"#bf8f00","Renaturation":"#2e7d32","Éclairage public":"#7b1fa2","PAPI/GEMAPI":"#c62828","ZFE mobilité":"#ad1457","Incendies de forêt":"#e65100","Terr. Industrie":"#00838f","Biodéchets":"#558b2f","Covoiturage":"#00695c","Mobilités rurales":"#4527a0","Ingénierie":"#546e7a","Risques montagne":"#6a1b9a"};
+const MESURE_COLORS={"Rénov. énergétique":"#2f5496","Recyclage foncier":"#bf8f00","Renaturation":"#2e7d32","Éclairage public":"#7b1fa2","PAPI/GEMAPI":"#c62828","ZFE mobilité":"#ad1457","Incendies de forêt":"#e65100","Terr. Industrie":"#00838f","Biodéchets":"#558b2f","Covoiturage":"#00695c","Mobilités rurales":"#4527a0","Ingénierie":"#546e7a","Risques montagne":"#6a1b9a","Biodiversité":"#1b5e20","Trait de côte":"#0277bd"};
 const DEPT_NAMES={"04":"Alpes-de-Haute-Provence","05":"Hautes-Alpes","06":"Alpes-Maritimes","13":"Bouches-du-Rhône","83":"Var","84":"Vaucluse"};
 const DEPT_CENTROIDS={"04":[44.05,6.2],"05":[44.65,6.3],"06":[43.85,7.1],"13":[43.45,5.1],"83":[43.4,6.3],"84":[44.05,5.1]};
 let activeDepts=new Set(Object.keys(DEPT_NAMES)),activeMesures=new Set(Object.keys(MESURE_COLORS)),circles=[],deptLabels=[];
@@ -178,15 +179,46 @@ const searchInput=document.getElementById('searchInput'),searchResults=document.
 searchInput.addEventListener('input',function(){const q=this.value.trim().toLowerCase();searchResults.innerHTML='';if(q.length<2){searchResults.style.display='none';return;}const matches=DATA.filter(d=>d.commune.toLowerCase().includes(q)).slice(0,10);if(!matches.length){searchResults.style.display='none';return;}matches.forEach(d=>{const div=document.createElement('div');div.style.cssText='padding:6px 10px;font-size:12px;cursor:pointer;border-bottom:1px solid #eee;color:#333';div.textContent=d.commune+' ('+d.code_dept+') — '+fmt(d.montant);div.addEventListener('mouseenter',()=>div.style.background='#f0f0f5');div.addEventListener('mouseleave',()=>div.style.background='#fff');div.addEventListener('click',()=>{map.setView([d.lat,d.lng],13);const c=circles.find(ci=>{const ll=ci.getLatLng();return Math.abs(ll.lat-d.lat)<0.001&&Math.abs(ll.lng-d.lng)<0.001;});if(c)c.openPopup();searchInput.value=d.commune;searchResults.style.display='none';});searchResults.appendChild(div);});searchResults.style.display='block';});
 document.addEventListener('click',function(e){if(!searchInput.contains(e.target)&&!searchResults.contains(e.target))searchResults.style.display='none';});
 
+// Merge 2023+2024 by code commune
+function mergeData(d1,d2){
+  const map=new Map();
+  d1.forEach(d=>{
+    map.set(d.code,{lat:d.lat,lng:d.lng,commune:d.commune,code:d.code,dept:d.dept,code_dept:d.code_dept,
+      count:d.count,montant:d.montant,population:d.population,projets:d.projets.map(p=>({nom:p.nom,montant:p.montant,demarche_short:p.demarche_short}))});
+  });
+  d2.forEach(d=>{
+    if(map.has(d.code)){
+      const e=map.get(d.code);
+      e.count+=d.count;e.montant+=d.montant;
+      e.population=Math.max(e.population||0,d.population||0);
+      d.projets.forEach(p=>e.projets.push({nom:p.nom,montant:p.montant,demarche_short:p.demarche_short}));
+    }else{
+      map.set(d.code,{lat:d.lat,lng:d.lng,commune:d.commune,code:d.code,dept:d.dept,code_dept:d.code_dept,
+        count:d.count,montant:d.montant,population:d.population,projets:d.projets.map(p=>({nom:p.nom,montant:p.montant,demarche_short:p.demarche_short}))});
+    }
+  });
+  // Recalc demarche_short = top mesure by montant
+  map.forEach(d=>{
+    const byM={};d.projets.forEach(p=>{byM[p.demarche_short]=(byM[p.demarche_short]||0)+p.montant;});
+    let top='',mx=0;for(const[k,v]of Object.entries(byM))if(v>mx){mx=v;top=k;}
+    d.demarche_short=top;d.top_demarche=top;
+    d.projets.sort((a,b)=>b.montant-a.montant);
+  });
+  return Array.from(map.values()).sort((a,b)=>b.montant-a.montant);
+}
+const DATA_BOTH=mergeData(DATA_2023,DATA_2024);
+
 // Year switcher
 let currentYear=2024;
 function switchYear(year){
   if(year===currentYear)return;
   currentYear=year;
-  DATA=year===2023?DATA_2023:DATA_2024;
+  DATA=year===2023?DATA_2023:year===2024?DATA_2024:DATA_BOTH;
   document.getElementById('btn2023').classList.toggle('active',year===2023);
   document.getElementById('btn2024').classList.toggle('active',year===2024);
-  document.querySelector('.header-bar h1').textContent='Fonds Vert '+year+' \u2014 Provence-Alpes-C\u00f4te d\u2019Azur';
+  document.getElementById('btnBoth').classList.toggle('active',year==='both');
+  const label=year==='both'?'2023+2024':String(year);
+  document.querySelector('.header-bar h1').textContent='Fonds Vert '+label+' \u2014 Provence-Alpes-C\u00f4te d\u2019Azur';
   const tm=DATA.reduce((s,d)=>s+d.montant,0),tp=DATA.reduce((s,d)=>s+d.count,0);
   document.getElementById('headerStats').textContent=tp+' projets \u00b7 '+(tm/1e6).toFixed(1).replace('.',',')+' M\u20ac \u00b7 '+DATA.length+' communes';
   activeDepts=new Set(Object.keys(DEPT_NAMES));

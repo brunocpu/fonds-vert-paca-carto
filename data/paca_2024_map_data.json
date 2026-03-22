@@ -1,7 +1,7 @@
 [
   {
     "code": "13055",
-    "commune": "Marseille 1Er Arrondissement",
+    "commune": "Marseille",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 27796207.92,
@@ -200,7 +200,7 @@
   },
   {
     "code": "06088",
-    "commune": "Marseille 1Er Arrondissement",
+    "commune": "Nice",
     "code_dept": "06",
     "dept": "Alpes-Maritimes",
     "montant": 8877310.5,
@@ -383,7 +383,7 @@
   },
   {
     "code": "13054",
-    "commune": "Paris 13E Arrondissement",
+    "commune": "Marignane",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 4299851.0,
@@ -545,7 +545,7 @@
   },
   {
     "code": "06083",
-    "commune": "Marseille 2E Arrondissement",
+    "commune": "Menton",
     "code_dept": "06",
     "dept": "Alpes-Maritimes",
     "montant": 3242064.06,
@@ -686,7 +686,7 @@
   },
   {
     "code": "04070",
-    "commune": "Digne-Les-Bains",
+    "commune": "Digne-les-Bains",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 2178571.04,
@@ -824,7 +824,7 @@
   },
   {
     "code": "06085",
-    "commune": "Nancy",
+    "commune": "Mougins",
     "code_dept": "06",
     "dept": "Alpes-Maritimes",
     "montant": 1900000.0,
@@ -867,7 +867,7 @@
   },
   {
     "code": "13001",
-    "commune": "Aix-En-Provence",
+    "commune": "Aix-en-Provence",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 1790980.0,
@@ -1071,7 +1071,7 @@
   },
   {
     "code": "04143",
-    "commune": "Marseille 6E Arrondissement",
+    "commune": "Oraison",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 1086145.0,
@@ -1100,7 +1100,7 @@
   },
   {
     "code": "13103",
-    "commune": "Salon-De-Provence",
+    "commune": "Salon-de-Provence",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 1076600.0,
@@ -1124,7 +1124,7 @@
   },
   {
     "code": "13099",
-    "commune": "Saint-Paul-Lès-Durance",
+    "commune": "Saint-Paul-lès-Durance",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 1033410.0,
@@ -1148,7 +1148,7 @@
   },
   {
     "code": "83144",
-    "commune": "La Valette-Du-Var",
+    "commune": "La Valette-du-Var",
     "code_dept": "83",
     "dept": "Var",
     "montant": 1001273.0,
@@ -1244,7 +1244,7 @@
   },
   {
     "code": "13104",
-    "commune": "Sausset-Les-Pins",
+    "commune": "Sausset-les-Pins",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 800000.0,
@@ -1366,7 +1366,7 @@
   },
   {
     "code": "13043",
-    "commune": "Gignac-La-Nerthe",
+    "commune": "Gignac-la-Nerthe",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 772290.0,
@@ -1390,7 +1390,7 @@
   },
   {
     "code": "83098",
-    "commune": "Marseille 8E Arrondissement",
+    "commune": "Le Pradet",
     "code_dept": "83",
     "dept": "Var",
     "montant": 751460.0,
@@ -1507,7 +1507,7 @@
   },
   {
     "code": "13106",
-    "commune": "Septèmes-Les-Vallons",
+    "commune": "Septèmes-les-Vallons",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 702463.0,
@@ -1550,7 +1550,7 @@
   },
   {
     "code": "83126",
-    "commune": "La Seyne-Sur-Mer",
+    "commune": "La Seyne-sur-Mer",
     "code_dept": "83",
     "dept": "Var",
     "montant": 658766.9,
@@ -1699,7 +1699,7 @@
   },
   {
     "code": "83123",
-    "commune": "Sanary-Sur-Mer",
+    "commune": "Sanary-sur-Mer",
     "code_dept": "83",
     "dept": "Var",
     "montant": 599027.91,
@@ -1723,7 +1723,7 @@
   },
   {
     "code": "13100",
-    "commune": "Saint-Rémy-De-Provence",
+    "commune": "Saint-Rémy-de-Provence",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 591772.0,
@@ -1791,7 +1791,7 @@
   },
   {
     "code": "05006",
-    "commune": "L'Argentière-La-Bessée",
+    "commune": "L'Argentière-la-Bessée",
     "code_dept": "05",
     "dept": "Hautes-Alpes",
     "montant": 545174.44,
@@ -1911,7 +1911,7 @@
   },
   {
     "code": "83027",
-    "commune": "La Cadière-D'Azur",
+    "commune": "La Cadière-d'Azur",
     "code_dept": "83",
     "dept": "Var",
     "montant": 502182.0,
@@ -2253,7 +2253,7 @@
   },
   {
     "code": "06123",
-    "commune": "Saint-Laurent-Du-Var",
+    "commune": "Saint-Laurent-du-Var",
     "code_dept": "06",
     "dept": "Alpes-Maritimes",
     "montant": 396950.84,
@@ -2315,7 +2315,7 @@
   },
   {
     "code": "83112",
-    "commune": "Saint-Cyr-Sur-Mer",
+    "commune": "Saint-Cyr-sur-Mer",
     "code_dept": "83",
     "dept": "Var",
     "montant": 380000.0,
@@ -2465,7 +2465,7 @@
   },
   {
     "code": "84014",
-    "commune": "Beaumont-De-Pertuis",
+    "commune": "Beaumont-de-Pertuis",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 350098.41,
@@ -2705,7 +2705,7 @@
   },
   {
     "code": "83152",
-    "commune": "Rayol-Canadel-Sur-Mer",
+    "commune": "Rayol-Canadel-sur-Mer",
     "code_dept": "83",
     "dept": "Var",
     "montant": 315587.8,
@@ -2724,7 +2724,7 @@
   },
   {
     "code": "04049",
-    "commune": "Marseille 6E Arrondissement",
+    "commune": "Château-Arnoux-Saint-Auban",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 315000.0,
@@ -2743,7 +2743,7 @@
   },
   {
     "code": "84137",
-    "commune": "Vaison-La-Romaine",
+    "commune": "Vaison-la-Romaine",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 312133.24,
@@ -2767,7 +2767,7 @@
   },
   {
     "code": "05036",
-    "commune": "Châteauroux-Les-Alpes",
+    "commune": "Châteauroux-les-Alpes",
     "code_dept": "05",
     "dept": "Hautes-Alpes",
     "montant": 303640.0,
@@ -2796,7 +2796,7 @@
   },
   {
     "code": "84043",
-    "commune": "Entraigues-Sur-La-Sorgue",
+    "commune": "Entraigues-sur-la-Sorgue",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 302857.76,
@@ -2849,7 +2849,7 @@
   },
   {
     "code": "84029",
-    "commune": "Camaret-Sur-Aigues",
+    "commune": "Camaret-sur-Aigues",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 299992.95,
@@ -2887,7 +2887,7 @@
   },
   {
     "code": "84012",
-    "commune": "Beaumes-De-Venise",
+    "commune": "Beaumes-de-Venise",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 299947.27,
@@ -2968,7 +2968,7 @@
   },
   {
     "code": "83093",
-    "commune": "Plan-D'Aups-Sainte-Baume",
+    "commune": "Plan-d'Aups-Sainte-Baume",
     "code_dept": "83",
     "dept": "Var",
     "montant": 288000.0,
@@ -3006,7 +3006,7 @@
   },
   {
     "code": "05132",
-    "commune": "Saint-Bonnet-En-Champsaur",
+    "commune": "Saint-Bonnet-en-Champsaur",
     "code_dept": "05",
     "dept": "Hautes-Alpes",
     "montant": 278750.0,
@@ -3125,7 +3125,7 @@
   },
   {
     "code": "04245",
-    "commune": "Aix-En-Provence",
+    "commune": "Volx",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 250000.0,
@@ -3345,7 +3345,7 @@
   },
   {
     "code": "83019",
-    "commune": "Bormes-Les-Mimosas",
+    "commune": "Bormes-les-Mimosas",
     "code_dept": "83",
     "dept": "Var",
     "montant": 202037.76,
@@ -3364,7 +3364,7 @@
   },
   {
     "code": "84088",
-    "commune": "Pernes-Les-Fontaines",
+    "commune": "Pernes-les-Fontaines",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 199983.06,
@@ -3383,7 +3383,7 @@
   },
   {
     "code": "84148",
-    "commune": "Villes-Sur-Auzon",
+    "commune": "Villes-sur-Auzon",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 199982.08,
@@ -3517,7 +3517,7 @@
   },
   {
     "code": "04173",
-    "commune": "Saint-André-Les-Alpes",
+    "commune": "Saint-André-les-Alpes",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 178576.88,
@@ -3570,7 +3570,7 @@
   },
   {
     "code": "13098",
-    "commune": "Saint-Mitre-Les-Remparts",
+    "commune": "Saint-Mitre-les-Remparts",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 176000.0,
@@ -3704,7 +3704,7 @@
   },
   {
     "code": "84124",
-    "commune": "Saumane-De-Vaucluse",
+    "commune": "Saumane-de-Vaucluse",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 166020.83,
@@ -4014,7 +4014,7 @@
   },
   {
     "code": "83153",
-    "commune": "Saint-Mandrier-Sur-Mer",
+    "commune": "Saint-Mandrier-sur-Mer",
     "code_dept": "83",
     "dept": "Var",
     "montant": 131131.95,
@@ -4162,7 +4162,7 @@
   },
   {
     "code": "05144",
-    "commune": "Saint-Jacques-En-Valgodemard",
+    "commune": "Saint-Jacques-en-Valgodemard",
     "code_dept": "05",
     "dept": "Hautes-Alpes",
     "montant": 114133.08,
@@ -4272,7 +4272,7 @@
   },
   {
     "code": "84106",
-    "commune": "Sainte-Cécile-Les-Vignes",
+    "commune": "Sainte-Cécile-les-Vignes",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 102663.21,
@@ -4353,7 +4353,7 @@
   },
   {
     "code": "84024",
-    "commune": "Cabrières-D'Aigues",
+    "commune": "Cabrières-d'Aigues",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 100029.5,
@@ -4467,7 +4467,7 @@
   },
   {
     "code": "13096",
-    "commune": "Saintes-Maries-De-La-Mer",
+    "commune": "Saintes-Maries-de-la-Mer",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 98951.98,
@@ -4510,7 +4510,7 @@
   },
   {
     "code": "05064",
-    "commune": "La Chapelle-En-Valgaudémar",
+    "commune": "La Chapelle-en-Valgaudémar",
     "code_dept": "05",
     "dept": "Hautes-Alpes",
     "montant": 90466.2,
@@ -4601,7 +4601,7 @@
   },
   {
     "code": "04190",
-    "commune": "Saint-Martin-Les-Eaux",
+    "commune": "Saint-Martin-les-Eaux",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 88339.84,
@@ -4625,7 +4625,7 @@
   },
   {
     "code": "84054",
-    "commune": "L'Isle-Sur-La-Sorgue",
+    "commune": "L'Isle-sur-la-Sorgue",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 82412.0,
@@ -4649,7 +4649,7 @@
   },
   {
     "code": "13084",
-    "commune": "La Roque-D'Anthéron",
+    "commune": "La Roque-d'Anthéron",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 78662.51,
@@ -4697,7 +4697,7 @@
   },
   {
     "code": "13074",
-    "commune": "Peyrolles-En-Provence",
+    "commune": "Peyrolles-en-Provence",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 75000.0,
@@ -4740,7 +4740,7 @@
   },
   {
     "code": "84133",
-    "commune": "La Tour-D'Aigues",
+    "commune": "La Tour-d'Aigues",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 74550.0,
@@ -4807,7 +4807,7 @@
   },
   {
     "code": "13070",
-    "commune": "La Penne-Sur-Huveaune",
+    "commune": "La Penne-sur-Huveaune",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 73456.0,
@@ -4845,7 +4845,7 @@
   },
   {
     "code": "84036",
-    "commune": "Châteauneuf-De-Gadagne",
+    "commune": "Châteauneuf-de-Gadagne",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 69266.1,
@@ -4864,7 +4864,7 @@
   },
   {
     "code": "84060",
-    "commune": "Lagarde-D'Apt",
+    "commune": "Lagarde-d'Apt",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 68490.8,
@@ -4883,7 +4883,7 @@
   },
   {
     "code": "84112",
-    "commune": "Saint-Martin-De-Castillon",
+    "commune": "Saint-Martin-de-Castillon",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 64001.85,
@@ -4902,7 +4902,7 @@
   },
   {
     "code": "13014",
-    "commune": "Berre-L'Étang",
+    "commune": "Berre-l'Étang",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 59256.88,
@@ -4969,7 +4969,7 @@
   },
   {
     "code": "83143",
-    "commune": "Moustiers-Sainte-Marie",
+    "commune": "Le Val",
     "code_dept": "83",
     "dept": "Var",
     "montant": 56650.0,
@@ -4988,7 +4988,7 @@
   },
   {
     "code": "84090",
-    "commune": "Peypin-D'Aigues",
+    "commune": "Peypin-d'Aigues",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 56125.38,
@@ -5050,7 +5050,7 @@
   },
   {
     "code": "04042",
-    "commune": "Castellet-Lès-Sausses",
+    "commune": "Castellet-lès-Sausses",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 54502.2,
@@ -5107,7 +5107,7 @@
   },
   {
     "code": "06027",
-    "commune": "Cagnes-Sur-Mer",
+    "commune": "Cagnes-sur-Mer",
     "code_dept": "06",
     "dept": "Alpes-Maritimes",
     "montant": 50000.0,
@@ -5145,7 +5145,7 @@
   },
   {
     "code": "13057",
-    "commune": "Mas-Blanc-Des-Alpilles",
+    "commune": "Mas-Blanc-des-Alpilles",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 49000.0,
@@ -5331,7 +5331,7 @@
   },
   {
     "code": "04139",
-    "commune": "Noyers-Sur-Jabron",
+    "commune": "Noyers-sur-Jabron",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 43404.2,
@@ -5350,7 +5350,7 @@
   },
   {
     "code": "13097",
-    "commune": "Saint-Martin-De-Crau",
+    "commune": "Saint-Martin-de-Crau",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 43094.4,
@@ -5369,7 +5369,7 @@
   },
   {
     "code": "04063",
-    "commune": "Corbières-En-Provence",
+    "commune": "Corbières-en-Provence",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 42675.2,
@@ -5426,7 +5426,7 @@
   },
   {
     "code": "83151",
-    "commune": "Vins-Sur-Caramy",
+    "commune": "Vins-sur-Caramy",
     "code_dept": "83",
     "dept": "Var",
     "montant": 41761.72,
@@ -5445,7 +5445,7 @@
   },
   {
     "code": "05174",
-    "commune": "Val-Des-Prés",
+    "commune": "Val-des-Prés",
     "code_dept": "05",
     "dept": "Hautes-Alpes",
     "montant": 40000.0,
@@ -5464,7 +5464,7 @@
   },
   {
     "code": "06143",
-    "commune": "Touët-Sur-Var",
+    "commune": "Touët-sur-Var",
     "code_dept": "06",
     "dept": "Alpes-Maritimes",
     "montant": 39120.0,
@@ -5483,7 +5483,7 @@
   },
   {
     "code": "83091",
-    "commune": "Pierrefeu-Du-Var",
+    "commune": "Pierrefeu-du-Var",
     "code_dept": "83",
     "dept": "Var",
     "montant": 39000.0,
@@ -5564,7 +5564,7 @@
   },
   {
     "code": "84118",
-    "commune": "Saint-Saturnin-Lès-Apt",
+    "commune": "Saint-Saturnin-lès-Apt",
     "code_dept": "84",
     "dept": "Vaucluse",
     "montant": 33456.24,
@@ -5640,7 +5640,7 @@
   },
   {
     "code": "04134",
-    "commune": "La Motte-Du-Caire",
+    "commune": "La Motte-du-Caire",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 31477.2,
@@ -5659,7 +5659,7 @@
   },
   {
     "code": "13077",
-    "commune": "Lyon 7E Arrondissement",
+    "commune": "Port-de-Bouc",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 31000.0,
@@ -5697,7 +5697,7 @@
   },
   {
     "code": "05071",
-    "commune": "Lardier-Et-Valença",
+    "commune": "Lardier-et-Valença",
     "code_dept": "05",
     "dept": "Hautes-Alpes",
     "montant": 30115.53,
@@ -5735,7 +5735,7 @@
   },
   {
     "code": "13026",
-    "commune": "Châteauneuf-Les-Martigues",
+    "commune": "Châteauneuf-les-Martigues",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 28578.44,
@@ -5811,7 +5811,7 @@
   },
   {
     "code": "13119",
-    "commune": "Carnoux-En-Provence",
+    "commune": "Carnoux-en-Provence",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 26435.55,
@@ -5987,7 +5987,7 @@
   },
   {
     "code": "13058",
-    "commune": "Maussane-Les-Alpilles",
+    "commune": "Maussane-les-Alpilles",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
     "montant": 19172.94,
@@ -6529,7 +6529,7 @@
   },
   {
     "code": "83111",
-    "commune": "Sainte-Anastasie-Sur-Issole",
+    "commune": "Sainte-Anastasie-sur-Issole",
     "code_dept": "83",
     "dept": "Var",
     "montant": 6345.92,
@@ -6605,7 +6605,7 @@
   },
   {
     "code": "04183",
-    "commune": "Saint-Julien-Du-Verdon",
+    "commune": "Saint-Julien-du-Verdon",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 4800.0,
@@ -6624,7 +6624,7 @@
   },
   {
     "code": "83014",
-    "commune": "Baudinard-Sur-Verdon",
+    "commune": "Baudinard-sur-Verdon",
     "code_dept": "83",
     "dept": "Var",
     "montant": 4800.0,
