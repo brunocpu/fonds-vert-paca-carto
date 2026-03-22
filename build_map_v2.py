@@ -160,15 +160,15 @@ def download_csv(url, path):
 
 
 def geocode_commune(code):
-    """Géocode une commune via geo.api.gouv.fr. Retourne (lat, lng, pop) ou None."""
+    """Géocode une commune via geo.api.gouv.fr. Retourne (lat, lng, pop, nom) ou None."""
     try:
-        url = f"https://geo.api.gouv.fr/communes?code={code}&fields=centre,population&limit=1"
+        url = f"https://geo.api.gouv.fr/communes?code={code}&fields=nom,centre,population&limit=1"
         req = urllib.request.Request(url, headers={'User-Agent': 'FondsVert-PACA/2.0'})
         resp = urllib.request.urlopen(req, timeout=5)
         results = json.loads(resp.read())
         if results and 'centre' in results[0] and results[0]['centre']:
             c = results[0]['centre']['coordinates']
-            return (c[1], c[0], results[0].get('population'))
+            return (c[1], c[0], results[0].get('population'), results[0].get('nom'))
     except Exception:
         pass
     return None
@@ -216,15 +216,20 @@ def build_year(year):
             dept = row.get(COL_DEPT, '').strip()
 
             # Appliquer corrections par dossier
+            corrected = False
             if dossier in corrections:
                 code = corrections[dossier]
                 stats['corrected'] += 1
+                corrected = True
             elif code in ('', 'NULL', 'nan'):
                 stats['skipped'] += 1
                 continue
             elif code[:2] not in PACA_DEPTS:
                 stats['skipped'] += 1
                 continue
+
+            # Toujours dériver dept du code (corrige les incohérences CSV)
+            dept = code[:2]
 
             # Parser montant
             try:
@@ -242,8 +247,10 @@ def build_year(year):
             communes[code]['count'] += 1
             communes[code]['montant'] += montant
             communes[code]['demarches'][dem_short] += montant
-            if not communes[code]['commune']:
-                communes[code]['commune'] = nom_commune
+            # Ne pas setter le nom depuis un dossier corrigé (nom CSV faux)
+            if not communes[code]['commune'] and not corrected:
+                if nom_commune and nom_commune.lower() != 'null':
+                    communes[code]['commune'] = nom_commune
             communes[code]['dept'] = DEPT_NAMES.get(dept, dept)
             communes[code]['code_dept'] = dept
             communes[code]['projets'].append({
@@ -263,16 +270,32 @@ def build_year(year):
     cache_path = Path('data/geocode_cache.json')
     geo_cache = {}
     if cache_path.exists():
-        with open(cache_path, 'r') as f:
+        with open(cache_path, 'r', encoding='utf-8') as f:
             geo_cache = json.load(f)
+
+    # Enrichir le cache avec les noms si manquants (tout le cache, pas que l'année)
+    codes_need_name = [code for code, v in geo_cache.items() if 'nom' not in v]
+    if codes_need_name:
+        print(f"  Enrichissement noms cache ({len(codes_need_name)} entr\u00e9es)...")
+        for code in codes_need_name:
+            result = geocode_commune(code)
+            if result and result[3]:
+                geo_cache[code]['nom'] = result[3]
+            time.sleep(0.05)
+        # Sauvegarder imm\u00e9diatement
+        with open(cache_path, 'w', encoding='utf-8') as f:
+            json.dump(geo_cache, f, ensure_ascii=False)
+        print(f"    Fait.")
 
     data = []
     geo_ok, geo_cached, geo_fail = 0, 0, 0
     for code in sorted(communes.keys(), key=lambda c: -communes[c]['montant']):
         c = communes[code]
+        # Nom : priorité au cache API (canonique), sinon CSV
+        nom_final = geo_cache.get(code, {}).get('nom') or c['commune'] or code
         entry = {
             'code': code,
-            'commune': c['commune'],
+            'commune': nom_final,
             'code_dept': c['code_dept'],
             'dept': c['dept'],
             'montant': round(c['montant'], 2),
@@ -285,15 +308,21 @@ def build_year(year):
             entry['lat'] = geo_cache[code]['lat']
             entry['lng'] = geo_cache[code]['lng']
             entry['population'] = geo_cache[code].get('population')
+            # Résoudre nom depuis cache si manquant ou "Null"
+            if (not entry['commune'] or entry['commune'].lower() == 'null') and 'nom' in geo_cache[code]:
+                entry['commune'] = geo_cache[code]['nom']
             geo_cached += 1
         else:
             result = geocode_commune(code)
             if result:
-                lat, lng, pop = result
+                lat, lng, pop, nom = result
                 entry['lat'] = lat
                 entry['lng'] = lng
                 entry['population'] = pop
-                geo_cache[code] = {'lat': lat, 'lng': lng, 'population': pop}
+                geo_cache[code] = {'lat': lat, 'lng': lng, 'population': pop, 'nom': nom}
+                # Résoudre nom depuis API si manquant
+                if (not entry['commune'] or entry['commune'].lower() == 'null') and nom:
+                    entry['commune'] = nom
                 geo_ok += 1
             else:
                 geo_fail += 1
@@ -303,7 +332,7 @@ def build_year(year):
 
     # Sauvegarder cache
     cache_path.parent.mkdir(parents=True, exist_ok=True)
-    with open(cache_path, 'w') as f:
+    with open(cache_path, 'w', encoding='utf-8') as f:
         json.dump(geo_cache, f, ensure_ascii=False)
 
     total_geo = sum(1 for d in data if 'lat' in d)
