@@ -1,0 +1,6720 @@
+[
+  {
+    "code": "13055",
+    "commune": "Marseille 1Er Arrondissement",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 27796207.92,
+    "count": 37,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Connexion des navires à quai des secteurs non massifiés du GPMM",
+        "montant": 5000000.0,
+        "demarche_short": "ZFE mobilité"
+      },
+      {
+        "nom": "SAINT-CHAMAS EXTENSION ZAE LES PLAINES SUD - RECYCLAGE FRICHE BARNEOUD",
+        "montant": 3000000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "Aménagements en faveur des mobilités actives dans le quartier Cazemajou",
+        "montant": 1831458.27,
+        "demarche_short": "ZFE mobilité"
+      },
+      {
+        "nom": "Rénovation de l'internat du lycée Paul Cézanne à Aix en Provence",
+        "montant": 1544190.2,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation globale du groupe scolaire Saint-André Barnier",
+        "montant": 1500000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Réhabilitation énergérique et modernisation des résidences Endoume et Madrague des Marins Pompiers",
+        "montant": 1500000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation des écoles, volet du plan Marseille en Grand",
+        "montant": 1464655.51,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "L'EPF va acquérir le foncier qui faisait l'objet d'ICPE afin de déconstruire et dépolluer le site puis éventuellement réaliser une opération de 345 logements dont 40% de logements locatifs sociaux.",
+        "montant": 1400000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "Résorption d’un ilot d’habitat dégradé et d’une friche dans la zone d’activités de l’Anjoly à Vitrolles",
+        "montant": 1325000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "Rénovation des écoles, volet du plan Marseille en Grand",
+        "montant": 1213547.35,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Création du Parc Bougainville à Marseille",
+        "montant": 1049000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "Restructuration bâtiment industriel en logements sociaux",
+        "montant": 852830.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "Rénovation des écoles, volet du plan Marseille en Grand",
+        "montant": 821797.14,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation globale du groupe scolaire Rose Castors",
+        "montant": 773274.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation globale du Groupe scolaire Saint-Charles",
+        "montant": 605110.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "RENATURATION DE LA COPROPRIETE KALLISTE",
+        "montant": 550000.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Rénovation de groupe scolaire Peyssonel QPV",
+        "montant": 503755.32,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Végétalisation et projet d'agriculture urbaine Maille 1 Mercure",
+        "montant": 500968.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "ECOQUARTIER OASIS MIRAMAS",
+        "montant": 440000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "TECSE - FORET - Création d'une vigie sur le mont Carpiagne",
+        "montant": 264000.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Investissement dans l'assemblage et la pré-industrialisation d'une technologie d'énergie solaire   à concentration",
+        "montant": 234000.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Dispositif expérimental d’aide au changement de mobilité - Mise en place d'un vélo école sur Euroméditerranée",
+        "montant": 176000.0,
+        "demarche_short": "ZFE mobilité"
+      },
+      {
+        "nom": "Requalification du Jardin Corderie",
+        "montant": 170000.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Déploiement et animation du réseau de l'accompagnement des territoires sur la biodiversité et appui au montage de projets",
+        "montant": 153945.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Poursuite du service Lecovoiturage Volet 8",
+        "montant": 150000.0,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "Investissement dans le développement d'un centre de formation d'installateurs de panneau photovoltaïques pour devenir le leader pédagogique du solaire",
+        "montant": 130650.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Subvention Travaux vigies 2024",
+        "montant": 125333.33,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "AMENAGEMENT DES ESPACES PUBLICS - RENOVATION PARC LUMINAIRE INNOVANT",
+        "montant": 76295.0,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Elaboration d’un schéma régional des aires et points d’arrêt de covoiturage",
+        "montant": 75000.0,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "MISE EN APPLICATION DES OBLIGATIONS LEGALES DE DEBROUSSAILLEMENT LUMINY ET PASTRE",
+        "montant": 66216.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Poursuite du service Lecovoiturage Volet 7",
+        "montant": 62586.0,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "Réalisation d’une analyse régionale des continuités écologiques dans la perspective de résorption de points noirs et de renaturation d’espaces à enjeux écologiques.",
+        "montant": 52000.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Etude de dépollution - Smartseille Odyssée - Marseille (13)",
+        "montant": 51000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "TECSE - FORET - Travaux de création et mise aux normes de la piste Piémont sur 4 070 ml - commune de La Fare les Oliviers – Massif des Collines de Lançon",
+        "montant": 47476.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "ETUDE D'OPPORTUNITE FONCIERE DE PARCS-RELAIS",
+        "montant": 45000.0,
+        "demarche_short": "ZFE mobilité"
+      },
+      {
+        "nom": "Réalisation d’un plateau technique et pédagogique \"vert\" orienté sur la thématique des obligations légales de débroussaillement sur le centre de formation départemental du SDIS 13",
+        "montant": 28620.8,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Etude sur la supervision et les restitutions des canaux de la Commission Exécutive de la Durance",
+        "montant": 12500.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.2803,
+    "lng": 5.3806,
+    "population": 886040
+  },
+  {
+    "code": "06088",
+    "commune": "Marseille 1Er Arrondissement",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 8877310.5,
+    "count": 19,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Promenade du Paillon II -phase 2 jusqu'à la Traverse Jean Monet- hors aménagement sud (BARLA)",
+        "montant": 1500000.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Requalification de l'Ilot Jean Médecin à NICE",
+        "montant": 1226000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "Rénovation énergétique du groupe scolaire Bon Voyage",
+        "montant": 984054.92,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Travaux de confortement des Digues de Puget-Théniers  - Période N° 4 et 5",
+        "montant": 952000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Rénovation énergétique du centre AQUAVALLEE d'Isola (06420)",
+        "montant": 885000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "STEPRIM CARF Action 7.1.a Reconstruction des berges de la Roya dans la traversée de ville Commune de Fontan (06540)",
+        "montant": 663525.5,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Parc de l'université 1c Nice Méridia",
+        "montant": 588508.5,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Rénovation énergétique du groupe scolaire Bois de Boulogne",
+        "montant": 574052.37,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Aménagement de la piste cyclable RD2204b : connexion pôle d'échanges multimodal de Cantaron - quartier de La Condamine",
+        "montant": 570800.0,
+        "demarche_short": "ZFE mobilité"
+      },
+      {
+        "nom": "Rénovation énergétique du groupe scolaire Jean Macé",
+        "montant": 406200.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Renaturation GEANT DU PNEU",
+        "montant": 217800.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Renaturation - Parcelle Ubaldi",
+        "montant": 95747.36,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Ferme départementale - Rénovation énergétique de l'habitation du terrain de La Roquette-sur-Var",
+        "montant": 86535.85,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Etude pour la Connexion Electrique des Navires à Quai (CENAQ) du Port de Nice",
+        "montant": 46086.0,
+        "demarche_short": "ZFE mobilité"
+      },
+      {
+        "nom": "PEP SIAGNE 6.2:  Définition du programme d’aménagement prioritaire pour la réduction du risque inondation et la restauration des fonctionnalités naturelles des sous-bassins de la Frayère et de la Mourachonne",
+        "montant": 30000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "PEP/PAPI SIAGNE 6.1 :  Définition du programme d’aménagement prioritaire du val de Siagne pour la réduction des inondations et la restauration des fonctionnalités naturelles des milieux aquatiques",
+        "montant": 20000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "PAPI VAR 3 Action n° 0.1 Pilotage, coordination et suivi du PAPI Var 3 - Année 2024",
+        "montant": 15000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "PEP/PAPI SIAGNE Action n° 0.1  Pilotage, coordination et suivi du PAPI d’intention - Année 4 (2024)",
+        "montant": 10000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "PAPI VAR 3 Action n°6.6 - Etude de la continuité sédimentaire des torrents du Gralet et du Naudié à Puget-Théniers",
+        "montant": 6000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 43.7032,
+    "lng": 7.2528,
+    "population": 357737
+  },
+  {
+    "code": "04112",
+    "commune": "Manosque",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 7831574.66,
+    "count": 12,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "RÉHABILITATION DU LYCÉE FÉLIX ESCLANGON –  MANOSQUE  –  Alpes-de-Haute-Provence",
+        "montant": 5217275.14,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Aménagement du coeur de projet Alicante/Plantiers dans le cadre du projet de renouvellement urbain (NPNRU) à Manosque",
+        "montant": 500000.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Travaux de requalification de l'avenue du 1er mai - Zone d'activités St Joseph à Manosque",
+        "montant": 500000.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Travaux de rénovation énergétique de l'école élémentaire Le Colombier",
+        "montant": 455574.92,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Travaux de rénovation énergétique de l'école élémentaire Saint-Lazare",
+        "montant": 344341.2,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Investissement dans le développement d'instruments permettant l'intervention aux nouvelles cavités de stockage d'hydrogène à grande échelle, à Manosque (04)",
+        "montant": 280000.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Investissement dans l'automatisation et la digitalisation de la production de produits de protection contre les maladies vectorielles parfumés, à Manosque (04)",
+        "montant": 186675.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Phase complémentaire de déploiement du tri à la source des biodéchets sur le territoire de DLVA",
+        "montant": 138045.0,
+        "demarche_short": "Biodéchets"
+      },
+      {
+        "nom": "Accompagnement du milieu économique à la transition énergétique et écologique",
+        "montant": 117612.6,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Accompagnement du milieu économique à la transition énergétique et écologique",
+        "montant": 57900.8,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Remplacement d'environ 394 lanternes et  1100 ampoules led sur 2 communes de notre EPCI",
+        "montant": 18750.0,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Co-voiturage en DLVAgglo",
+        "montant": 15400.0,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 43.8293,
+    "lng": 5.7896,
+    "population": 22718
+  },
+  {
+    "code": "13054",
+    "commune": "Paris 13E Arrondissement",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 4299851.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Foncière Logement - DIGNEO et la Reconquête du Centre Ancien de Marignane",
+        "montant": 4299851.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 43.4218,
+    "lng": 5.2178,
+    "population": 33692
+  },
+  {
+    "code": "83050",
+    "commune": "Draguignan",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 4239813.54,
+    "count": 13,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "ACTION 62 : Aménagement hydraulique du site de la Palud contre les inondations",
+        "montant": 1800000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Rénovation énergétique Tranche 1 \" école élémentaire P. Brossolette\"",
+        "montant": 819407.5,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "ACTION 45 : Programme de prévention des inondations à Brignoles",
+        "montant": 698213.71,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Investissement dans la   fabrication à l'échelle industrielle de matériaux en terre crue bas carbone   pour le bâtiment, à Draguignan (83)",
+        "montant": 285000.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Opération de renouvellement urbain de l'ancienne école de garçons et d'une maison de village mitoyenne en contrebas à Salernes",
+        "montant": 220000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "AMENAGEMENT D'UNE CENTRALE PHOTOVOLTAIQUE",
+        "montant": 150489.39,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Suppression des énergies fossiles : Théâtre Draguignan : remplacement de la chaudière à gaz par une PAC (y compris groupes froids)",
+        "montant": 103656.86,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Mise en place d’un réseau d’acteurs sur la thématique de l’économie de l’eau en agriculture.",
+        "montant": 52320.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Suppression des énergies fossiles : remplacement chaudière gaz par PAC + dépose cuve propane sur 3 sites",
+        "montant": 30500.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Désimperméabilisation et végétalisation école élémentaire M.arcel Pagnol",
+        "montant": 26464.96,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Définition du document cadre sur les projets photovoltaïques au sol – relatif à la Loi sur l’accélération des EnR",
+        "montant": 20416.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "PLANTATION D'ARBRES",
+        "montant": 17283.1,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "VEGETALISATION ECOLES FERRY ET DAUDET",
+        "montant": 16062.02,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.5346,
+    "lng": 6.4651,
+    "population": 40826
+  },
+  {
+    "code": "84007",
+    "commune": "Avignon",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 3786739.66,
+    "count": 10,
+    "demarche_short": "ZFE mobilité",
+    "projets": [
+      {
+        "nom": "Réhabilitation du groupe scolaire Grands cyprès",
+        "montant": 927730.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "MALAUCENE - LE CENTENAIRE",
+        "montant": 742000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "Aménagements cyclables 2024 du Grand Avignon",
+        "montant": 714358.7,
+        "demarche_short": "ZFE mobilité"
+      },
+      {
+        "nom": "Renforcement de la politique de gestion des biodéchets sur le territoire de la COGA",
+        "montant": 424183.0,
+        "demarche_short": "Biodéchets"
+      },
+      {
+        "nom": "Aménagements cyclables 2023 du Grand Avignon",
+        "montant": 309035.54,
+        "demarche_short": "ZFE mobilité"
+      },
+      {
+        "nom": "REALISATION DES TRAVAUX DE RESTRUCTURATION ET DE CONFORTEMENT DE LA DIGUE DE LAURIS TRANCHE 3",
+        "montant": 274650.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Fraish'cours 2024",
+        "montant": 232308.61,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "CREATION D'UNE AIRE DE COVOITURAGE - L'ISLE SUR LA SORGUE - CARREFOUR GIRATOIRE - RD900/RD938",
+        "montant": 72000.0,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "Itinéraire mode doux Avenue Monclar",
+        "montant": 54975.0,
+        "demarche_short": "ZFE mobilité"
+      },
+      {
+        "nom": "Plan intercommunal de sauvegarde (PICS) du Grand Avignon",
+        "montant": 35498.81,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.9416,
+    "lng": 4.8333,
+    "population": 92188
+  },
+  {
+    "code": "06083",
+    "commune": "Marseille 2E Arrondissement",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 3242064.06,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation de l'internat et de l'enveloppe de l'externat au Lycée Pierre et Marie CURIE à MENTON (06)",
+        "montant": 2098064.06,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "AMENAGEMENT D'UN CENTRE DE SUPERVISION URBAIN ET POSTE DE POLICE MUNICIPALE",
+        "montant": 1144000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.7961,
+    "lng": 7.498,
+    "population": 30604
+  },
+  {
+    "code": "06152",
+    "commune": "Valbonne",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 2915900.0,
+    "count": 3,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Réhabilitation de l'Equipement Ile Verte",
+        "montant": 1500000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Programme départemental de rénovation du parc d'éclairage public des communes des Alpes-Maritimes adhérentes au SICTIAM - TRANCHE 2",
+        "montant": 750000.0,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "RENATURATION ET REVEGETALISATION DES ESPACES URBAINS",
+        "montant": 665900.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.6267,
+    "lng": 7.0291,
+    "population": 11939
+  },
+  {
+    "code": "83137",
+    "commune": "Toulon",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 2775137.8,
+    "count": 9,
+    "demarche_short": "Covoiturage",
+    "projets": [
+      {
+        "nom": "Expérimentation d'une ligne de covoiturage à haut niveau de service entre Toulon et Cuers",
+        "montant": 1065000.0,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "Déploiement de la collecte séparée des biodéchets sur le territoire MTPM",
+        "montant": 1006656.0,
+        "demarche_short": "Biodéchets"
+      },
+      {
+        "nom": "Réfection totale du bâtiment de la Direction de la Prévention, de la Collecte, de la Valorisation des Déchets - Déchetterie de Toulon",
+        "montant": 357270.8,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Ligne de covoiturage Toulon-Cuers",
+        "montant": 115000.0,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "RENOVATION ECOLE MATERNELLE JULES MURAIRE",
+        "montant": 103624.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Création d'un outil SIG renforçant la réalisation des obligations légales de débroussaillement du Département du Var",
+        "montant": 50754.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "MAILLAGE DU TERRITOIRE PAR DES CAPTEURS  PLUVIOMETRIQUES EN TEMPS REEL",
+        "montant": 42500.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Animation du PAPI PCT et coordination de la mise en œuvre des opérations (année 1-2024)",
+        "montant": 26000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Mise en œuvre des travaux de réduction de la vulnérabilité des bâtiments publics.",
+        "montant": 8333.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 43.1364,
+    "lng": 5.9334,
+    "population": 179116
+  },
+  {
+    "code": "13005",
+    "commune": "Aubagne",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 2309594.0,
+    "count": 3,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Projet de réhabilitation / restructuration  du collège",
+        "montant": 2000000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Travaux de réduction de la vulnérabilité, de restauration de l'Huveaune et de sa valorisation",
+        "montant": 204000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Rénovation énergitique de l'éclairage public",
+        "montant": 105594.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.2904,
+    "lng": 5.5643,
+    "population": 47529
+  },
+  {
+    "code": "04070",
+    "commune": "Digne-Les-Bains",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 2178571.04,
+    "count": 12,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique de la gendarmerie du Moulin - Tranche optionnelle 1 Bâtiment C + chaufferie",
+        "montant": 523250.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Acquisition-Amélioration de l’Hôtel des Postes pour la réalisation d’une résidence Accueil de 25 logements locatifs sociaux en PLAI, de bureaux et de 8 logements locatifs sociaux seniors en PLUS 4",
+        "montant": 460174.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "Des dispositifs vertueux et inédits visant à proscrire l’usage de l’eau potable lors des reconditionnements des véhicules de lutte et lors de la réalisation d’exercices en caserne",
+        "montant": 354400.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Réhabilitation de l'ancien cinéma le TOP en tiers lieu culturel",
+        "montant": 300000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "Acquisition de véhicules de patrouilles préventives armées CCF léger",
+        "montant": 157000.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Rénovation énergétique de la gendarmerie du Moulin – Tranche 2 (bâtiment B)",
+        "montant": 123999.24,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Aménagements de véhicules dévidoirs",
+        "montant": 96000.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Financement du poste de chargé de mission Villages d'avenir - Année 2",
+        "montant": 59214.8,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Demande de renfort en ingénierie pour la mise en œuvre du programme « Villages d'Avenir »",
+        "montant": 38133.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Acquisition de caméra de détection des départs de feux de forêts et de végétation",
+        "montant": 32800.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Formation et entrainement des élus à la gestion de crise",
+        "montant": 24000.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Acquisition d’un drone multifonctions pour les opérations de secours et de planification",
+        "montant": 9600.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 44.0954,
+    "lng": 6.2495,
+    "population": 17979
+  },
+  {
+    "code": "83086",
+    "commune": "Le Muy",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 2117406.5,
+    "count": 10,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "PAPI Côtiers des Maures, action 7.4b : Favoriser l'exutoire à la mer par la création d'un ouvrage estuaire de dérivation du Maravenne aval",
+        "montant": 858474.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "PAPI Côtiers des Maures action 7.2b : Homogénéiser les capacités des cours d'eau (Pansard)",
+        "montant": 522045.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "PAPI Côtiers des Maures, action 7.4a : Favoriser l’exutoire à la mer par la restauration de la continuité écologique aval du Batailler",
+        "montant": 215199.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Marché public global de performance (MPGP) associant la modernisation, la rénovation, l'exploitation, la maintenance et la gestion des installations d'éclairage public et des installations connexes",
+        "montant": 202177.5,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Detection précoce des départs de feux,surveillance",
+        "montant": 110400.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "PAPI Côtiers des Maures, action 7.3 : Protéger localement les secteurs vulnérables (Pansard)",
+        "montant": 78022.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "PAPI Côtiers des Maures, action 7.1b :Reprendre les ouvrages d'art pour limiter les effets de verrou hydraulique (Pansard - Ducournau)",
+        "montant": 53365.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "PAPI Côtiers des Maures, action 7.3a : Protéger localement les secteurs vulnérables (Batailler)",
+        "montant": 29000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "PAPI Côtiers des Maures, action 7.2a : Homogénéiser les capacités des cours d'eau (Batailler)",
+        "montant": 25522.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "PAPI Côtiers des Maures",
+        "montant": 23202.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 43.468,
+    "lng": 6.5844,
+    "population": 10118
+  },
+  {
+    "code": "06085",
+    "commune": "Nancy",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 1900000.0,
+    "count": 2,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Construction de 22 logements locatifs sociaux sis 847 chemin de l'Espagnol à Mougins (06)",
+        "montant": 1200000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "RENOVATION THERMIQUE DU GROUPE SCOLAIRE DES CABRIERES",
+        "montant": 700000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.5931,
+    "lng": 7.0046,
+    "population": 19782
+  },
+  {
+    "code": "13028",
+    "commune": "La Ciotat",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 1850000.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Réhabilitation des Nefs A, B et C",
+        "montant": 1850000.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 43.1882,
+    "lng": 5.6175,
+    "population": 38477
+  },
+  {
+    "code": "13001",
+    "commune": "Aix-En-Provence",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 1790980.0,
+    "count": 8,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Projet de rénovation énergétique des bâtiments de la Maison des Agriculteurs - Bâtiment Alpilles",
+        "montant": 414000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation énergétique bâtiment scolaire",
+        "montant": 368000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Programme projecteurs scéniques de type LED",
+        "montant": 254869.6,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation énergétique bâtiment scolaire",
+        "montant": 236000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation énergétique bâtiment scolaire",
+        "montant": 224000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Travaux de réduction énergétique pour les bureaux de l’Archevêché",
+        "montant": 166466.4,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Remplacement d'éclairages scéniques et de surtitrage de type LED",
+        "montant": 107052.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Définition du document cadre pour les installations photovoltaïques au sol dans les Bouches-du-Rhône relatif à la Loi sur l’accélération des EnR",
+        "montant": 20592.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.536,
+    "lng": 5.3879,
+    "population": 149695
+  },
+  {
+    "code": "05061",
+    "commune": "Gap",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 1767196.94,
+    "count": 5,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation du groupe scolaire de Beauregard",
+        "montant": 643914.84,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation de l'école de Anselme Gras",
+        "montant": 434963.1,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Mise en place du tri à la source des biodéchets sur le territoire de la CAGTD (05)",
+        "montant": 368199.0,
+        "demarche_short": "Biodéchets"
+      },
+      {
+        "nom": "Relocalisation d'une unité de production agroalimentaire contribuant au développement des filières alimentaires locales et à la réduction des déchets",
+        "montant": 300000.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "DEFINITION DU DOCUMENT CADRE PHOTOVOLTAÏQUE AU SOL",
+        "montant": 20120.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 44.5797,
+    "lng": 6.0616,
+    "population": 41293
+  },
+  {
+    "code": "06095",
+    "commune": "Peymeinade",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 1226418.0,
+    "count": 2,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Recyclage foncier de l'ESPACE LEBON",
+        "montant": 987503.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "RENOVER LE PARC DE LUMINAIRES D'ECLAIRAGE PUBLIC - PHASE II",
+        "montant": 238915.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.6289,
+    "lng": 6.8807,
+    "population": 8514
+  },
+  {
+    "code": "06069",
+    "commune": "Grasse",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 1204793.0,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "FONDS VERT - RÉHABILITATION ÉNERGÉTIQUE DE L'ANCIENNE GENDARMERIE - OPÉRATION D'EXTENSION CAMPUS II",
+        "montant": 1000000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Investissement dans une ligne de remplissage avec thermo scellage de recharges cosmétiques éco-conçues et dans une ligne de production de produits solides",
+        "montant": 204793.0,
+        "demarche_short": "Terr. Industrie"
+      }
+    ],
+    "lat": 43.656,
+    "lng": 6.937,
+    "population": 50970
+  },
+  {
+    "code": "06071",
+    "commune": "Guillaumes",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 1166555.2,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "RENOVATION ENERGETIQUE DU BATIMENT LA CAIREL - MFR DE GUILLAUMES",
+        "montant": 1166555.2,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.1007,
+    "lng": 6.8673,
+    "population": 587
+  },
+  {
+    "code": "05065",
+    "commune": "Guillestre",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 1114915.23,
+    "count": 6,
+    "demarche_short": "Risques montagne",
+    "projets": [
+      {
+        "nom": "Travaux d’aménagement du cône de déjection du torrent du Chalps suite à la crue de décembre 2023 - Communes de Guillestre et Risoul",
+        "montant": 446565.23,
+        "demarche_short": "Risques montagne"
+      },
+      {
+        "nom": "Investissement dans l'agrandissement d'une unité de production de fromages locaux favorisant le circuit court et les pratiques agricoles durables",
+        "montant": 320000.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Travaux de protection de berges du torrent du Chagne sur la route des Sagnes à Vars Sainte-Marie, Tranche 2",
+        "montant": 216000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Rénovation énergétique et modernisation du cinéma Le Rioubel",
+        "montant": 98400.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Elaboration d'un plan de mobilité simplifié",
+        "montant": 30000.0,
+        "demarche_short": "Mobilités rurales"
+      },
+      {
+        "nom": "Mise en place d'une solution d'autostop organisé avec points d'arrêts physiques, accompagnée d'une plateforme de covoiturage",
+        "montant": 3950.0,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 44.6596,
+    "lng": 6.6983,
+    "population": 2295
+  },
+  {
+    "code": "04143",
+    "commune": "Marseille 6E Arrondissement",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 1086145.0,
+    "count": 3,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Recyclage foncier du site Lacroix à Oraison en vue d'une opération mixte de logements",
+        "montant": 946380.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "rénovation énergétique de l’antenne de la Chambre d’agriculture à Oraison, viser la neutralité énergétique",
+        "montant": 120405.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Développement de la nature en ville et de la végétalisation citoyenne",
+        "montant": 19360.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.9116,
+    "lng": 5.9232,
+    "population": 6155
+  },
+  {
+    "code": "13103",
+    "commune": "Salon-De-Provence",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 1076600.0,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux d'isolation thermique par l'extérieur et remplacement des menuiseries de l'école élémentaire des Canourgues",
+        "montant": 990700.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Travaux d'isolation thermique par l'extérieur de l'école élémentaire Saint-Norbert",
+        "montant": 85900.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.643,
+    "lng": 5.049,
+    "population": 44194
+  },
+  {
+    "code": "13099",
+    "commune": "Saint-Paul-Lès-Durance",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 1033410.0,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "RÉHABILITATION / EXTENSION  ÉCOLE PRIMAIRE PAUL CAILLAT - SAINT PAUL LEZ DURANCE",
+        "montant": 633410.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "REQUALIFICATION DU CENTRE BOURG PAR DES AMÉNAGEMENTS DURABLES",
+        "montant": 400000.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.6869,
+    "lng": 5.748,
+    "population": 885
+  },
+  {
+    "code": "83144",
+    "commune": "La Valette-Du-Var",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 1001273.0,
+    "count": 2,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "LE RAYOL CANADEL COEUR VILLAGE 14LLS-13BRS-16 LGT SENIORS-1 PARKING PUBLIC-COMMERCES-ESPLANADE",
+        "montant": 901469.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "LE VAL LA BERGERIE CONTRUCTION NEUVE DE 8 LOGEMENTS SOCIAUX ET 7 STATIONNEMENTS",
+        "montant": 99804.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 43.1484,
+    "lng": 5.9893,
+    "population": 23719
+  },
+  {
+    "code": "13081",
+    "commune": "Rognac",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 906900.0,
+    "count": 2,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Renaturation en cœur de ville du site Lamartine",
+        "montant": 900000.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Audit technique et énergétique des bâtiments à usage tertiaire",
+        "montant": 6900.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.4995,
+    "lng": 5.233,
+    "population": 12576
+  },
+  {
+    "code": "84129",
+    "commune": "Sorgues",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 841041.78,
+    "count": 3,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Accélérer la rénovation du parc éclairage public en Vaucluse en 2024",
+        "montant": 494248.32,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Rénovation energétique de l'école maternelle le Parc",
+        "montant": 186344.63,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Renaturation de l’entrée de Ville Sud, avenue d’Avignon - Commune de Sorgues (dans le cadre du projet de Requalification de l'Avenue d'Avignon)",
+        "montant": 160448.83,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 44.016,
+    "lng": 4.8555,
+    "population": 19006
+  },
+  {
+    "code": "06149",
+    "commune": "La Trinité",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 833200.0,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Requalification et création de 3 ilots de fraîcheur interdépendants au centre Ville de La Trinité",
+        "montant": 833200.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.7415,
+    "lng": 7.3413,
+    "population": 10602
+  },
+  {
+    "code": "13104",
+    "commune": "Sausset-Les-Pins",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 800000.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "REHABILITATION GROUPE SCOLAIRE VICTOR HUGO",
+        "montant": 800000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.3469,
+    "lng": 5.1158,
+    "population": 7574
+  },
+  {
+    "code": "13072",
+    "commune": "Peynier",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 795133.35,
+    "count": 4,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Transition énergétique Foyer socio-culturel",
+        "montant": 440000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Investissement dans l'acquisition d'une ligne de production visant à industrialiser l'innovation GREENBOOST : le turbo des véhicules électriques",
+        "montant": 293670.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Rénovation du parc d'éclairage public pour réduction de la consommation d'énergie Lieu de",
+        "montant": 41863.35,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "réalisation d'un diagnotic de performance energetique (DPE) et audit energetique sur l'ensemble des batiments communaux de Peynier dans la prespective de rénovation energetique du patrimoine bati",
+        "montant": 19600.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.4375,
+    "lng": 5.6204,
+    "population": 3739
+  },
+  {
+    "code": "83023",
+    "commune": "Brignoles",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 789993.55,
+    "count": 11,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "ACTION 45 : Programme de prévention des inondations à Brignoles",
+        "montant": 550000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 59259.75,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 49914.3,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "RENOVATION DU PARC ECLAIRAGE PUBLIC",
+        "montant": 37256.4,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 21799.5,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 20033.7,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 17955.15,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 9923.1,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 9912.3,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 8093.4,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 5845.95,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.3878,
+    "lng": 6.0759,
+    "population": 17850
+  },
+  {
+    "code": "13043",
+    "commune": "Gignac-La-Nerthe",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 772290.0,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "RENOVATION THERMIQUE DU GYMNASE DE LA VIGUIERE",
+        "montant": 422290.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "REHABILITATION DE L’ECOLE MATERNELLE MARIE MAURON (EX ECOLE MICHEL GOUIRAN)",
+        "montant": 350000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.3873,
+    "lng": 5.2334,
+    "population": 10343
+  },
+  {
+    "code": "83098",
+    "commune": "Marseille 8E Arrondissement",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 751460.0,
+    "count": 3,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Travaux de dépollution - Ancienne station service - Le Pradet   (83)",
+        "montant": 450000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "REALISATION D'UNE OPERATION MIXTE D'HABITAT SOCIAL DE 38 LOGEMENTS",
+        "montant": 165460.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "Réhabilitation du bâtiment de l'espace naturel Courbebaisse",
+        "montant": 136000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.0984,
+    "lng": 6.0214,
+    "population": 10933
+  },
+  {
+    "code": "05046",
+    "commune": "Embrun",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 732738.6,
+    "count": 5,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "Travaux de confortement des ouvrages dans le torrent de Sainte-Marthe sur la commune d’Embrun",
+        "montant": 462881.6,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Travaux de restauration du torrent de Réallon à Savines-le-Lac - La Paroisse",
+        "montant": 162000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Travaux de restauration du torrent de Vachères entre Baratier et Embrun",
+        "montant": 48000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Travaux de restauration du torrent de Bramafan entre Embrun et Châteauroux-les-Alpes (tranche 1)",
+        "montant": 40857.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Etude de solutions de mobilité pour les communes de la CCSP non desservies par des lignes régulières à l'année",
+        "montant": 19000.0,
+        "demarche_short": "Mobilités rurales"
+      }
+    ],
+    "lat": 44.5806,
+    "lng": 6.475,
+    "population": 6412
+  },
+  {
+    "code": "84031",
+    "commune": "Carpentras",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 724030.8,
+    "count": 7,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Montage d'une opération de logements sociaux en déconstruction/reconstruction sur un ensemble de foncier en friche",
+        "montant": 225000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "Renaturation et requalification de l'Avenue du Mont Ventoux et de la Place Verdun",
+        "montant": 150000.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Rénovation du réfectoire de l'école des Garrigues",
+        "montant": 143534.97,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Renaturation de l'ilot Versins",
+        "montant": 69774.46,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Requalification et renaturation du Square Pasculin",
+        "montant": 53054.25,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Un ilot de fraicheur au coeur du QPV des Amandiers - Pour une occupation de l'espace public par les habitants",
+        "montant": 49473.2,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Incitations financières à la pratique du covoiturage avec Klaxit",
+        "montant": 33193.92,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 44.0629,
+    "lng": 5.0584,
+    "population": 31619
+  },
+  {
+    "code": "13106",
+    "commune": "Septèmes-Les-Vallons",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 702463.0,
+    "count": 2,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Mission d’aménagement des extérieurs de la Résidence « La Gavotte Peyret »",
+        "montant": 430000.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Rénovation énergétique des bâtiments publics locaux : Groupe scolaire LANGEVIN-WALLON",
+        "montant": 272463.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.3931,
+    "lng": 5.3828,
+    "population": 11995
+  },
+  {
+    "code": "84017",
+    "commune": "Bédoin",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 700000.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Réhabilitation du prieuré du Moustier en Maison et siège administratif du Parc naturel régional du Mont-Ventoux",
+        "montant": 700000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.1337,
+    "lng": 5.2342,
+    "population": 3106
+  },
+  {
+    "code": "83126",
+    "commune": "La Seyne-Sur-Mer",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 658766.9,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "RENOVATION ENERGETIQUE ECOLE VICTOR HUGO",
+        "montant": 387916.9,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Relocalisation et investissement dans des machines d’usinage de haute précision économes en énergie, en matières et réemployant les déchets",
+        "montant": 270850.0,
+        "demarche_short": "Terr. Industrie"
+      }
+    ],
+    "lat": 43.0837,
+    "lng": 5.8789,
+    "population": 63732
+  },
+  {
+    "code": "06137",
+    "commune": "Spéracèdes",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 645533.88,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Création d'hydrants",
+        "montant": 645533.88,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.652,
+    "lng": 6.8573,
+    "population": 1241
+  },
+  {
+    "code": "83067",
+    "commune": "Gonfaron",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 635583.53,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Réhabilitation de la salle polyvalente",
+        "montant": 628789.8,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation thermique de l'école maternelle",
+        "montant": 6793.73,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.3149,
+    "lng": 6.2978,
+    "population": 4496
+  },
+  {
+    "code": "13108",
+    "commune": "Tarascon",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 630000.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "REHABILITATION ECOLE JEAN MACE ET DE LA SALLE MALRAUX",
+        "montant": 630000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.7972,
+    "lng": 4.6852,
+    "population": 15396
+  },
+  {
+    "code": "04209",
+    "commune": "Sisteron",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 619111.75,
+    "count": 6,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "RENOVATION ET TRANSFORMATION ECOLOGIQUE DU PARC D'ECLAIRAGE PUBLIC",
+        "montant": 186262.5,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Amélioration des performances énergetiques du bâtiment situé 32 avenue de la libération à Sisteron",
+        "montant": 181033.01,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Dernière phase de déploiement du tri à la source des biodéchets sur le territoire de la CCSB (04)",
+        "montant": 132076.0,
+        "demarche_short": "Biodéchets"
+      },
+      {
+        "nom": "Atout village 04",
+        "montant": 65515.24,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Mise en oeuvre et animation du PCAET",
+        "montant": 36225.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Mise en place d'éclairage solaire à détection de présence sur les passages piétons de la traversée de la ville",
+        "montant": 18000.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.1993,
+    "lng": 5.9276,
+    "population": 7850
+  },
+  {
+    "code": "83016",
+    "commune": "Le Beausset",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 600000.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Réhabilitation de l’Espace Mistral",
+        "montant": 600000.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 43.205,
+    "lng": 5.8239,
+    "population": 10219
+  },
+  {
+    "code": "83123",
+    "commune": "Sanary-Sur-Mer",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 599027.91,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "RENOVATION ENERGETIQUE DE L'ECOLE ELEMENTAIRE JEAN-MICHEL COUSTEAU",
+        "montant": 437646.22,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "RENOVATION ENERGETIQUE DU GROUPE SCOLAIRE LA VERNETTE",
+        "montant": 161381.69,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.1374,
+    "lng": 5.7951,
+    "population": 18538
+  },
+  {
+    "code": "13100",
+    "commune": "Saint-Rémy-De-Provence",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 591772.0,
+    "count": 6,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "FRICHE DE L'ANCIENNE CASERNE DE LA COMBETTE",
+        "montant": 176000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "RENATURATION DE LA COUR DE L'ECOLE DE LA REPUBLIQUE ET SES ABORDS",
+        "montant": 149300.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Rénovation énergétique des bureaux d'information touristique et du Centre Technique à Maussane les Alpilles",
+        "montant": 100000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d’éclairage public des boulevards du Cours et Trame noire",
+        "montant": 94500.0,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "AUDITS ENERGETIQUES ET DPE DES BATIMENTS MUNICIPAUX",
+        "montant": 54000.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Dispositif de gratification du covoiturage sur le territoire intercommunal de la CCVBA",
+        "montant": 17972.0,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 43.7815,
+    "lng": 4.8455,
+    "population": 9599
+  },
+  {
+    "code": "83090",
+    "commune": "Ollioules",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 552516.0,
+    "count": 2,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Désimperméabilisation des espaces publics dans le cadre du Grand Projet Urbain",
+        "montant": 418476.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "accélérer la transition écologique dans les territoires du Var par une offre en ingénierie amplifiée",
+        "montant": 134040.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.1385,
+    "lng": 5.8515,
+    "population": 14568
+  },
+  {
+    "code": "05006",
+    "commune": "L'Argentière-La-Bessée",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 545174.44,
+    "count": 4,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux d'isolation thermique de l'école de la Bessée - Tranche 2",
+        "montant": 236750.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Construction d’une aire de covoiturage/mobilité multiservices à l’Argentière-La Bessée",
+        "montant": 139118.04,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "Travaux d’aménagement et de rénovation énergétique de l’école de musique intercommunale - Communauté des Communes du Pays des Écrins",
+        "montant": 85800.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Entretien de végétation des torrents du Fournel et du Riou Sec à L'Argentière-La Bessée",
+        "montant": 83506.4,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 44.7835,
+    "lng": 6.4716,
+    "population": 2288
+  },
+  {
+    "code": "06084",
+    "commune": "Mouans-Sartoux",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 527188.0,
+    "count": 3,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation de l'éclairage public en vue de réduire la pollution lumineuse, de sauvegarder la biodiversité et réaliser des économies financières",
+        "montant": 290395.0,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Investissement dans une nouvelle presse à dorer/gaufrer plus sobre et plus performante, pour la fabrication de supports de testeurs de parfums",
+        "montant": 204793.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Continuité végétale entre le château, le centre ancien, le périmètre du projet \"Cœur de Ville\" et l’école A. Legall",
+        "montant": 32000.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.6192,
+    "lng": 6.9677,
+    "population": 11015
+  },
+  {
+    "code": "04203",
+    "commune": "Selonnet",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 509670.92,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation exemplaire de la maison BARLES",
+        "montant": 509670.92,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.3713,
+    "lng": 6.299,
+    "population": 443
+  },
+  {
+    "code": "05039",
+    "commune": "Aubessagne",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 504821.3,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Réhabilitation de l'école d'Aubessagne",
+        "montant": 504821.3,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.739,
+    "lng": 6.0311,
+    "population": 740
+  },
+  {
+    "code": "84019",
+    "commune": "Bollène",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 504624.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Opération de renouvellement urbain du site Moulard-Autoroute",
+        "montant": 504624.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 44.2885,
+    "lng": 4.751,
+    "population": 14024
+  },
+  {
+    "code": "83027",
+    "commune": "La Cadière-D'Azur",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 502182.0,
+    "count": 1,
+    "demarche_short": "Biodéchets",
+    "projets": [
+      {
+        "nom": "Déploiement du tri à la source des biodéchets sur le territoire de la CASSB (83)",
+        "montant": 502182.0,
+        "demarche_short": "Biodéchets"
+      }
+    ],
+    "lat": 43.2026,
+    "lng": 5.7231,
+    "population": 5739
+  },
+  {
+    "code": "84089",
+    "commune": "Pertuis",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 499923.3,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "RENOVATION DU GROUPE SCOLAIRE JOSEPH-MARIE MARSILY -  TRANCHE 1 : rénovation de l’aile EST et démolition-reconstruction partielle et réhabilitation de l'aile OUEST pour création d'une maternelle",
+        "montant": 499923.3,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.6931,
+    "lng": 5.5345,
+    "population": 19548
+  },
+  {
+    "code": "84069",
+    "commune": "Malaucène",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 491737.28,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Ilot démonstrateur de revitalisation sur le périmètre de la porte Cabanette et la Grand Rue à Malaucène",
+        "montant": 491737.28,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 44.1804,
+    "lng": 5.1559,
+    "population": 2758
+  },
+  {
+    "code": "06155",
+    "commune": "Vallauris",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 484000.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique de l'école Mistral",
+        "montant": 484000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.5787,
+    "lng": 7.0604,
+    "population": 29259
+  },
+  {
+    "code": "84138",
+    "commune": "Valréas",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 469287.0,
+    "count": 7,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "Travaux de protection de Valréas contre les inondations",
+        "montant": 223500.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Déploiement du tri à la source des biodéchets sur le territoire de la CCEPPG",
+        "montant": 86787.0,
+        "demarche_short": "Biodéchets"
+      },
+      {
+        "nom": "Mise en œuvre d'un modèle hydraulique et d'un modèle pluie/débit sur le bassin versant du Lez",
+        "montant": 82500.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Financement des études de danger des systèmes d'endiguement",
+        "montant": 58000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Animation du Programme d'Actions de Prévention des Inondations du Lez",
+        "montant": 10000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Plan de communication sur le risque et actions de sensibilisation",
+        "montant": 6000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Création du site internet du Syndicat Mixte d'Eygues en Aygues",
+        "montant": 2500.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 44.379,
+    "lng": 4.9973,
+    "population": 9224
+  },
+  {
+    "code": "84035",
+    "commune": "Cavaillon",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 469235.36,
+    "count": 4,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Projet de renaturation/désimperméabilisation de la place François Tourel en centre-ville",
+        "montant": 311265.28,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Mise en œuvre du tri à la source et de la valorisation des biodéchets sur le territoire de LMVA",
+        "montant": 128832.0,
+        "demarche_short": "Biodéchets"
+      },
+      {
+        "nom": "Développement du covoiturage sur le territoire de LMV",
+        "montant": 27564.44,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "Rénovation de l'éclairage public carrefour Follereau / Kennedy / Gordes",
+        "montant": 1573.64,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.8485,
+    "lng": 5.0333,
+    "population": 25636
+  },
+  {
+    "code": "05017",
+    "commune": "La Bâtie-Neuve",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 461944.42,
+    "count": 6,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "ISOLATION THERMIQUE ET CONFORT D'ETE ECOLE DE LA TOUR",
+        "montant": 254453.4,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "RENATURATION DE LA COUR DE L'ECOLE DE LA TOUR",
+        "montant": 79000.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Ensemble d'études portant sur les torrents et les rases de la CCSPVA dans le cadre de la diminution de la vulnérabilité du territoire engagée dans la démarche STePRiM",
+        "montant": 56750.0,
+        "demarche_short": "Risques montagne"
+      },
+      {
+        "nom": "Travaux d'urgence de remise en état de la digue de protection contre les inondations et des merlons fusibles de la base de loisirs des Trois Lacs endommagés lors des intempéries de début décembre 2023 (Communes de Rochebrune et Piégut)",
+        "montant": 48000.0,
+        "demarche_short": "Risques montagne"
+      },
+      {
+        "nom": "Travaux d'urgence de confortement et d'aménagement d’une protection de berge existante suite aux intempéries de décembre 2023 pour la sécurisation des réseaux d’assainissement et de la STEP de Saint-Etienne-Le-Laus",
+        "montant": 14157.02,
+        "demarche_short": "Risques montagne"
+      },
+      {
+        "nom": "Travaux d'urgence de sécurisation de l'ancienne décharge communale à proximité du torrent du Saint-Pancrace (Commune de La Bâtie-Neuve)",
+        "montant": 9584.0,
+        "demarche_short": "Risques montagne"
+      }
+    ],
+    "lat": 44.5817,
+    "lng": 6.2151,
+    "population": 2628
+  },
+  {
+    "code": "13042",
+    "commune": "Gémenos",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 455700.0,
+    "count": 2,
+    "demarche_short": "Terr. Industrie",
+    "projets": [
+      {
+        "nom": "Investissement dans la création de micro-usines de recyclage plastique en circuit court, modulaires   et connectées",
+        "montant": 300000.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Investissement dans l'industrialisation d'un ponton d'amarrage innovant pour la TE des ports, intégrant des solutions durables",
+        "montant": 155700.0,
+        "demarche_short": "Terr. Industrie"
+      }
+    ],
+    "lat": 43.2969,
+    "lng": 5.6518,
+    "population": 6579
+  },
+  {
+    "code": "13102",
+    "commune": "Saint-Victoret",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 422740.0,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Aménagement d’un tiers-lieu culturel dans un local communal",
+        "montant": 327680.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "TRAVAUX DE MISE EN OEUVRE DES OBLIGATIONS LEGALES DE DEBROUSSAILLEMENT ET DFCI",
+        "montant": 95060.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.4121,
+    "lng": 5.2508,
+    "population": 6730
+  },
+  {
+    "code": "04237",
+    "commune": "Le Vernet",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 418200.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "MISE AUX NORMES THERMIQUES DE L'IMMEUBLE COMMUNAL DU PASSAVOUS POUR SON AMENAGEMENT EN 8 LOGEMENTS INCLUSIFS ET 2 SALLES D'ACTIVITES",
+        "montant": 418200.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.2762,
+    "lng": 6.4153,
+    "population": 132
+  },
+  {
+    "code": "84003",
+    "commune": "Apt",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 414669.97,
+    "count": 3,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique du Château de l'environnement à Buoux - Tranche 1 - 2024",
+        "montant": 233159.64,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation énergétique du bâtiment du siège de la Communauté de communes Pays d'Apt Luberon",
+        "montant": 99999.13,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "REHABILITATION ET RENOVATION ENERGETIQUE DE LA BASE NAUTIQUE ET DU BLOC SANITAIRE DE LA ZONE DE LOISIRS DU PLAN D'EAU DE LA RIAILLE A APT",
+        "montant": 81511.2,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.8815,
+    "lng": 5.3814,
+    "population": 10143
+  },
+  {
+    "code": "06019",
+    "commune": "Blausasc",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 407692.9,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "REHABILITATION THERMIQUE DE 6 LOGEMENTS",
+        "montant": 345622.9,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Mise en place d'un dispositif de tri à la source des biodéchets",
+        "montant": 62070.0,
+        "demarche_short": "Biodéchets"
+      }
+    ],
+    "lat": 43.7938,
+    "lng": 7.357,
+    "population": 1668
+  },
+  {
+    "code": "05177",
+    "commune": "Vars",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 407600.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Aménagement d'une micro-crèche et d'une crèche saisonnière",
+        "montant": 407600.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 44.5907,
+    "lng": 6.7211,
+    "population": 588
+  },
+  {
+    "code": "06123",
+    "commune": "Saint-Laurent-Du-Var",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 396950.84,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "JARDINS FAMILIAUX ET PARC ARBORE COMESTIBLE",
+        "montant": 396950.84,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.6865,
+    "lng": 7.1822,
+    "population": 32172
+  },
+  {
+    "code": "13047",
+    "commune": "Istres",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 396583.0,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de rénovation thermique de l'école maternelle de la BUISSONNIERE",
+        "montant": 317900.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "\"Racine de l’avenir : Cultivons la Nature au Cœur de nos Cours d'École !",
+        "montant": 78683.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.5455,
+    "lng": 4.9477,
+    "population": 44292
+  },
+  {
+    "code": "05176",
+    "commune": "Valserres",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 384417.6,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Réhabilitation du bâtiment communal : mairie, agence postale communale, bibliothèque, logements",
+        "montant": 384417.6,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.4921,
+    "lng": 6.1354,
+    "population": 289
+  },
+  {
+    "code": "83112",
+    "commune": "Saint-Cyr-Sur-Mer",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 380000.0,
+    "count": 2,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "CLOS SAINT MARC",
+        "montant": 300000.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "CREATION DE PISTES CYCLABLES ET CHEMIN PIETONNIER (GARE - PAS DE GRAINE)",
+        "montant": 80000.0,
+        "demarche_short": "ZFE mobilité"
+      }
+    ],
+    "lat": 43.17,
+    "lng": 5.7055,
+    "population": 11658
+  },
+  {
+    "code": "83138",
+    "commune": "Tourrettes",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 374880.0,
+    "count": 1,
+    "demarche_short": "Terr. Industrie",
+    "projets": [
+      {
+        "nom": "Investissement dans la modernisation d'une ligne de production et d'assemblage de luminaires peu énergivores",
+        "montant": 374880.0,
+        "demarche_short": "Terr. Industrie"
+      }
+    ],
+    "lat": 43.609,
+    "lng": 6.7252,
+    "population": 2972
+  },
+  {
+    "code": "13092",
+    "commune": "Saint-Chamas",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 364106.0,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "VEGETALISATION ET REAMENAGEMENT APAISE DE LA ROUTE DU LOIR AVEC RENATURARION DE SES ABORDS",
+        "montant": 364106.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.5414,
+    "lng": 5.072,
+    "population": 8676
+  },
+  {
+    "code": "13004",
+    "commune": "Arles",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 361540.0,
+    "count": 8,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "Réflexion autour des conséquences du changement climatique sur la Camargue et notamment sur le niveau de salinité",
+        "montant": 110400.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Ressuyage de la Camargue insulaire",
+        "montant": 98800.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Audit énergétique des 39 écoles de la Commune d'Arles",
+        "montant": 62000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Travaux de rénovation et d’optimisation énergétique de l’éclairage public dans les ZAE",
+        "montant": 37500.0,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Schéma directeur de l'ASA des Arrosants de Saint Cézaire dans le cadre de la feuille de route \"construire l'avenir de la Camargue avec le sel\"",
+        "montant": 27840.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Feuille de route \"Construire l'avenir de la Camargue avec le sel ?\" - Développement de solution d’intégration de données facilitant l’alimentation de la BDD du SIT Eau de façon durable",
+        "montant": 12960.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "ETAT DES LIEUX DU RESEAU SECONDAIRE DE L’ASA ET PROJET DE PROGRAMME D’AMENAGEMENT POUR LA REHABILITATION ET L’ENTRETIEN DU RESEAU SYNDICAL",
+        "montant": 8000.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Réalisation d'une etude thermique en vue de la renovation energetique d'un batiment destiné à l'accueil du public",
+        "montant": 4040.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.5441,
+    "lng": 4.6513,
+    "population": 51811
+  },
+  {
+    "code": "83130",
+    "commune": "Solliès-Pont",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 351702.16,
+    "count": 4,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de rénovation de la crèche Les Petits Pas Ta Pont",
+        "montant": 257543.16,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "PROJET OASIS COURS GROUPE SCOLAIRE MISTRAL - DECONNEXION, DESIMPERMEABILISATION DES SOLS ET INFILTRATIONS",
+        "montant": 80000.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "RENOVATION EN LED DE L’ECLAIRAGE PUBLIC DES ZONES D’ACTIVITES COMMUNAUTAIRES SITUEES A LA FARLEDE",
+        "montant": 11250.0,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Projet de ligne de covoiturage Toulon – Cuers : demande de financement de l’aménagement des arrêts - SOLLIES-PONT",
+        "montant": 2909.0,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 43.1895,
+    "lng": 6.0625,
+    "population": 12521
+  },
+  {
+    "code": "84014",
+    "commune": "Beaumont-De-Pertuis",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 350098.41,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Réhabilitation de l'ancienne gendarmerie - partie études et travaux",
+        "montant": 350098.41,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.7372,
+    "lng": 5.6978,
+    "population": 1130
+  },
+  {
+    "code": "83012",
+    "commune": "Barjols",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 350005.17,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique du centre de loisirs les Gavroches",
+        "montant": 350005.17,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.5484,
+    "lng": 5.973,
+    "population": 2984
+  },
+  {
+    "code": "83049",
+    "commune": "Cuers",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 349917.58,
+    "count": 3,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "MARCHE PUBLIC GLOBAL DE PERFORMANCE ENERGETIQUE",
+        "montant": 346953.08,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Projet de ligne de covoiturage Toulon – Cuers : financement de l’aménagement de l'arrêt ZAE des Bousquets (CCMPM)",
+        "montant": 2500.0,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "PROJET DE LIGNE COVOITURAGE TOULON-CUERS",
+        "montant": 464.5,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 43.2429,
+    "lng": 6.0654,
+    "population": 13271
+  },
+  {
+    "code": "83115",
+    "commune": "Sainte-Maxime",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 347500.0,
+    "count": 1,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "Actions 6.13 et 6.14 du PAPI GST, réduire la fréquence des débordements de la garonnette, et réaliser un piege à embacle.",
+        "montant": 347500.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 43.3584,
+    "lng": 6.6139,
+    "population": 14118
+  },
+  {
+    "code": "04102",
+    "commune": "Le Lauzet-Ubaye",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 334230.63,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "RENOVATION ENERGETIQUE ET RESTRUCTURATION DE LA GENDARMERIE DU LAUZET-UBAYE",
+        "montant": 334230.63,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.4255,
+    "lng": 6.4052,
+    "population": 229
+  },
+  {
+    "code": "13034",
+    "commune": "Eygalières",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 333143.63,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "RENOVATION ENERGETIQUE ET AMENAGEMENT D'UN BATIMENT COMMUNAL POUR L'ACCUEIL DE LOISIRS",
+        "montant": 293176.13,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "RENOVATION DE L'ECLAIRAGE PUBLIC",
+        "montant": 39967.5,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.7638,
+    "lng": 4.9554,
+    "population": 1773
+  },
+  {
+    "code": "83009",
+    "commune": "Bandol",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 320000.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de réfection complète thermique de la toiture du groupe scolaire Octave Maurel",
+        "montant": 320000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.147,
+    "lng": 5.7488,
+    "population": 8267
+  },
+  {
+    "code": "05170",
+    "commune": "Tallard",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 319581.04,
+    "count": 2,
+    "demarche_short": "Terr. Industrie",
+    "projets": [
+      {
+        "nom": "Investissement dans une unité de recyclage d'aéronefs avec des technologies de propulsion de nouvelle génération",
+        "montant": 267600.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Mise en valeur du centre médiéval de Tallard",
+        "montant": 51981.04,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 44.4599,
+    "lng": 6.0485,
+    "population": 2292
+  },
+  {
+    "code": "06161",
+    "commune": "Villeneuve-Loubet",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 318470.77,
+    "count": 3,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Renaturation du boulevard Nationale 7 à Villeneuve Loubet",
+        "montant": 179470.77,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Plan de prévention des risques incendies des forêts 2024",
+        "montant": 121000.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Travaux de renforcement du réseau d'eau potable et mise en place d'un poteau incendie au droit du chemin des Hautes Ginestières",
+        "montant": 18000.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.647,
+    "lng": 7.0984,
+    "population": 17548
+  },
+  {
+    "code": "05023",
+    "commune": "Briançon",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 318383.0,
+    "count": 5,
+    "demarche_short": "Terr. Industrie",
+    "projets": [
+      {
+        "nom": "Investissement dans une unité économe de production de câblages électriques et gainages de PER à Briançon",
+        "montant": 156231.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Travaux d’aménagement de l’aire de covoiturage Zone Sud à Briançon",
+        "montant": 75000.0,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "Monêtier-les-Bains : Travaux d'urgence et Etudes de protection de la zone artisanale des Sables",
+        "montant": 52000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "La Grave : Confortement de la berge de la déchetterie",
+        "montant": 19704.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Installation de 3 stations de mesures sur la Guisane et la Romanche et frais de fonctionnement sur 2 ans",
+        "montant": 15448.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 44.8995,
+    "lng": 6.6536,
+    "population": 11411
+  },
+  {
+    "code": "83152",
+    "commune": "Rayol-Canadel-Sur-Mer",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 315587.8,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Réhabilitation de la salle des fêtes",
+        "montant": 315587.8,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.1664,
+    "lng": 6.4744,
+    "population": 639
+  },
+  {
+    "code": "04049",
+    "commune": "Marseille 6E Arrondissement",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 315000.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Résidence LAPIE",
+        "montant": 315000.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 44.0801,
+    "lng": 5.9942,
+    "population": 5107
+  },
+  {
+    "code": "84137",
+    "commune": "Vaison-La-Romaine",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 312133.24,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique du groupe scolaire Ferry",
+        "montant": 300001.24,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Covoiturons ensemble de façon solidaire, tous les jours et à tout âge !",
+        "montant": 12132.0,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 44.2395,
+    "lng": 5.0586,
+    "population": 6058
+  },
+  {
+    "code": "05036",
+    "commune": "Châteauroux-Les-Alpes",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 303640.0,
+    "count": 3,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "Travaux de confortement du barrage du Rabioux sur la commune de Châteauroux-les-Alpes (05)",
+        "montant": 109200.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Travaux de restauration du lit du torrent du Rabioux à Châteauroux-les-Alpes",
+        "montant": 99000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Torrent d'Ailefroide : protection de berge pour piste d'accès au captage d'eau potable.",
+        "montant": 95440.0,
+        "demarche_short": "Risques montagne"
+      }
+    ],
+    "lat": 44.6424,
+    "lng": 6.4834,
+    "population": 1234
+  },
+  {
+    "code": "84043",
+    "commune": "Entraigues-Sur-La-Sorgue",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 302857.76,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de rénovation énergétique salle des sports",
+        "montant": 302857.76,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.9959,
+    "lng": 4.9347,
+    "population": 8913
+  },
+  {
+    "code": "05179",
+    "commune": "Veynes",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 300077.4,
+    "count": 4,
+    "demarche_short": "Covoiturage",
+    "projets": [
+      {
+        "nom": "Aire de covoiturage du Boutariq",
+        "montant": 197469.92,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "Recrutement d'un chargé de projet mobilités sur 2 ans",
+        "montant": 41600.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Elargissement du Buëch à la Faurie",
+        "montant": 32000.0,
+        "demarche_short": "Risques montagne"
+      },
+      {
+        "nom": "Isolation thermique bâtiments communaux",
+        "montant": 29007.48,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.5599,
+    "lng": 5.8227,
+    "population": 3214
+  },
+  {
+    "code": "84029",
+    "commune": "Camaret-Sur-Aigues",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 299992.95,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique et thermique école maternelle La Souleïado",
+        "montant": 299992.95,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.1551,
+    "lng": 4.8911,
+    "population": 4533
+  },
+  {
+    "code": "84099",
+    "commune": "Robion",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 299963.15,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Adaptation de l'espace public d'une partie du centre ancien aux contraintes climatiques",
+        "montant": 299963.15,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.8429,
+    "lng": 5.1066,
+    "population": 4816
+  },
+  {
+    "code": "84012",
+    "commune": "Beaumes-De-Venise",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 299947.27,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "AMENAGEMENT DU PARC DE LA MAIRIE",
+        "montant": 299947.27,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 44.1224,
+    "lng": 5.0279,
+    "population": 2442
+  },
+  {
+    "code": "13117",
+    "commune": "Vitrolles",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 297400.0,
+    "count": 2,
+    "demarche_short": "Terr. Industrie",
+    "projets": [
+      {
+        "nom": "Investissement dans l'industrialisation de la Pierre-Carbone (CFS), matériau bas-carbone innovant pour la production d'éléments de construction",
+        "montant": 197400.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Végétalisation de la Place de Provence",
+        "montant": 100000.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.4509,
+    "lng": 5.2656,
+    "population": 36758
+  },
+  {
+    "code": "04207",
+    "commune": "Sigoyer",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 297321.5,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique et réhabilitation de l'école communale",
+        "montant": 297321.5,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.3231,
+    "lng": 5.9648,
+    "population": 101
+  },
+  {
+    "code": "04126",
+    "commune": "Montclar",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 295844.5,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "PROGRAMME DE TRAVAUX DE MISE EN CONFORMITE ET SECURITE DE SECTEURS PRIORIATIRES DECI",
+        "montant": 295844.5,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 44.4004,
+    "lng": 6.3428,
+    "population": 394
+  },
+  {
+    "code": "83093",
+    "commune": "Plan-D'Aups-Sainte-Baume",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 288000.0,
+    "count": 1,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "Renaturation des villes et villages de la Sainte-Baume",
+        "montant": 288000.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.3336,
+    "lng": 5.7472,
+    "population": 2527
+  },
+  {
+    "code": "13049",
+    "commune": "Lamanon",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 280000.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Réhabilitation du bâtiment du Cabaret",
+        "montant": 280000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.7073,
+    "lng": 5.0898,
+    "population": 2097
+  },
+  {
+    "code": "05132",
+    "commune": "Saint-Bonnet-En-Champsaur",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 278750.0,
+    "count": 2,
+    "demarche_short": "Biodéchets",
+    "projets": [
+      {
+        "nom": "Déploiement de solutions de tri à la source des biodéchets sur le territoire de la CCCV (05)",
+        "montant": 243250.0,
+        "demarche_short": "Biodéchets"
+      },
+      {
+        "nom": "Travaux d'aménagement d'un pôle multimodal comprenant une aire de covoiturage",
+        "montant": 35500.0,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 44.692,
+    "lng": 6.0988,
+    "population": 2086
+  },
+  {
+    "code": "83092",
+    "commune": "Pignans",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 274471.36,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique de l'école maternelle DAUDET",
+        "montant": 274471.36,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.2997,
+    "lng": 6.2625,
+    "population": 4838
+  },
+  {
+    "code": "83148",
+    "commune": "Vidauban",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 270000.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Extension de l'hôtel de ville par réhabilitation d'une maison de ville",
+        "montant": 270000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.4071,
+    "lng": 6.4599,
+    "population": 12608
+  },
+  {
+    "code": "13116",
+    "commune": "Verquières",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 268975.0,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Réaménagement de la Place de l'Eglise et ses abords",
+        "montant": 268975.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.8377,
+    "lng": 4.9192,
+    "population": 772
+  },
+  {
+    "code": "05184",
+    "commune": "Vitrolles",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 261917.97,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "REHABILITATION DU BATIMENT DE LA MAIRIE ET REAMENAGEMENT DE L'ESPACE PUBLIC",
+        "montant": 261917.97,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.4296,
+    "lng": 5.9485,
+    "population": 221
+  },
+  {
+    "code": "83063",
+    "commune": "La Garde-Freinet",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 251459.8,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation et extension de l’école élémentaire",
+        "montant": 251459.8,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.3251,
+    "lng": 6.4603,
+    "population": 1862
+  },
+  {
+    "code": "04245",
+    "commune": "Aix-En-Provence",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 250000.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Volx Cave Coopérative",
+        "montant": 250000.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 43.8677,
+    "lng": 5.8252,
+    "population": 3243
+  },
+  {
+    "code": "06074",
+    "commune": "Lantosque",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 250000.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Travaux de déconstruction et de confortement d'un immeuble menacant de s'effondrer sur la place de la mairie et revalorisation du site en un lieu intergénérationnel dans le cadre d'une démarche globale",
+        "montant": 250000.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 43.9787,
+    "lng": 7.3121,
+    "population": 1198
+  },
+  {
+    "code": "84076",
+    "commune": "Mirabeau",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 249156.25,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "PROJET D’AMENAGEMENT DE LA PLACE DU BARRY Mirabeau, une « Petite Ville de demain », porte d’entrée du territoire",
+        "montant": 249156.25,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.7035,
+    "lng": 5.6482,
+    "population": 1450
+  },
+  {
+    "code": "83045",
+    "commune": "Correns",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 234960.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Mise en place d'un contrat de performance énergétique des bâtiments communaux",
+        "montant": 234960.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.4884,
+    "lng": 6.0543,
+    "population": 886
+  },
+  {
+    "code": "06029",
+    "commune": "Cannes",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 229925.0,
+    "count": 2,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Plan fraîcheur dans les écoles : l'école Hélène Vagliano",
+        "montant": 145500.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "SOUTIEN AU DEVELOPPEMENT D’UN RESEAU DE COVOITURAGE SUR LE TERRITOIRE DE LA C.A.C.P.L.",
+        "montant": 84425.0,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 43.5454,
+    "lng": 7.0152,
+    "population": 74350
+  },
+  {
+    "code": "84002",
+    "commune": "Ansouis",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 229400.94,
+    "count": 3,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Halle de plein vent - esplanade de liaison - liaison verticale depuis le parking coignet",
+        "montant": 192080.0,
+        "demarche_short": "Recyclage foncier"
+      },
+      {
+        "nom": "REVALORISATION DES SOURCES - ALIMENTATION DES FONTAINES",
+        "montant": 21876.8,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Rénovation de l'éclairage de l'école + bibliothèque",
+        "montant": 15444.14,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.7338,
+    "lng": 5.4682,
+    "population": 1064
+  },
+  {
+    "code": "04222",
+    "commune": "Turriers",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 227852.0,
+    "count": 3,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "RENOVATION ENERGETIQUE DU BATIMENT DE L'ECOLE",
+        "montant": 210000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Rénovation de l’ancienne école pour logements",
+        "montant": 10532.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Appui à démarche de bâti en état d'abandon manifeste",
+        "montant": 7320.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 44.3934,
+    "lng": 6.1596,
+    "population": 345
+  },
+  {
+    "code": "13110",
+    "commune": "Trets",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 220395.4,
+    "count": 2,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Végétalisation de la place de la Libération",
+        "montant": 184222.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Rénovation du parc d'éclairage public",
+        "montant": 36173.4,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.4452,
+    "lng": 5.7137,
+    "population": 10946
+  },
+  {
+    "code": "05119",
+    "commune": "Risoul",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 216000.0,
+    "count": 1,
+    "demarche_short": "Risques montagne",
+    "projets": [
+      {
+        "nom": "Travaux d'aménagement de protection des crues du torrent du Palps sur son cône de déjection - première phase / Communes de Risoul et Guillestre",
+        "montant": 216000.0,
+        "demarche_short": "Risques montagne"
+      }
+    ],
+    "lat": 44.6202,
+    "lng": 6.6242,
+    "population": 664
+  },
+  {
+    "code": "04111",
+    "commune": "Mane",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 209107.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Réhabilitation immeuble de la place dit \"Mairif\"",
+        "montant": 209107.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 43.9426,
+    "lng": 5.7419,
+    "population": 1410
+  },
+  {
+    "code": "83019",
+    "commune": "Bormes-Les-Mimosas",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 202037.76,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Amélioration de la gestion de l'aléa incendie à Bormes-les-Mimosas",
+        "montant": 202037.76,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.1575,
+    "lng": 6.3615,
+    "population": 8545
+  },
+  {
+    "code": "84088",
+    "commune": "Pernes-Les-Fontaines",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 199983.06,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique des bâtiments scolaires.",
+        "montant": 199983.06,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.9966,
+    "lng": 5.0289,
+    "population": 10504
+  },
+  {
+    "code": "84148",
+    "commune": "Villes-Sur-Auzon",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 199982.08,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "REHABILITATION GLOBALE D'UN BATIMENT COMMUNAL : L'ANCIEN HOPITAL",
+        "montant": 199982.08,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.0658,
+    "lng": 5.2572,
+    "population": 1306
+  },
+  {
+    "code": "83118",
+    "commune": "Saint-Raphaël",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 197083.33,
+    "count": 4,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Réalisation d’une étude complémentaire de définition des travaux sur les sous-bassins versants du Pédégal, Valescure et Garonne -Phase 2- action 44 B du PAPI de l’Argens",
+        "montant": 83000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "CONVERSION LED DE L'ECLAIRAGE DE 16 ECOLES MATERNELLES ET ELEMENTAIRES",
+        "montant": 59486.4,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Incitation à la pratique du covoiturage sur le territoire d'Estérel Côte d'Azur Agglomération",
+        "montant": 29583.35,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "CONVERSION LED DE L'ECLAIRAGE DU STADE NAUTIQUE",
+        "montant": 25013.58,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.4582,
+    "lng": 6.8483,
+    "population": 37113
+  },
+  {
+    "code": "04006",
+    "commune": "Allos",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 191400.0,
+    "count": 1,
+    "demarche_short": "Risques montagne",
+    "projets": [
+      {
+        "nom": "Intempéries du 1er Décembre 2023",
+        "montant": 191400.0,
+        "demarche_short": "Risques montagne"
+      }
+    ],
+    "lat": 44.269,
+    "lng": 6.6304,
+    "population": 812
+  },
+  {
+    "code": "05040",
+    "commune": "Chorges",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 184238.08,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Mise en œuvre du schéma directeur d'aménagement lumière sur les communes adhérentes à la compétence éclairage public de Territoire d'énergie Hautes Alpes",
+        "montant": 184238.08,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.5473,
+    "lng": 6.287,
+    "population": 3146
+  },
+  {
+    "code": "04019",
+    "commune": "Barcelonnette",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 180397.4,
+    "count": 2,
+    "demarche_short": "Biodéchets",
+    "projets": [
+      {
+        "nom": "Phase II du déploiement du tri à la source des biodéchets sur le territoire de la CCVUSP",
+        "montant": 119020.0,
+        "demarche_short": "Biodéchets"
+      },
+      {
+        "nom": "Chargé de mission Atout Village 04 Communauté de Communes Vallée de l'Ubaye Serre-Ponçon",
+        "montant": 61377.4,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 44.3751,
+    "lng": 6.6463,
+    "population": 2518
+  },
+  {
+    "code": "84047",
+    "commune": "Gargas",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 180000.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique de bâtiments communaux (ensemble comprenant école élémentaire, le RASED Réseau d'Aide Spécialisé aux Elèves en Difficulté, salle polyvalente, salle associative, restauration scolaire, point cyber, bibliothèque, espaces sportifs)",
+        "montant": 180000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.8939,
+    "lng": 5.3435,
+    "population": 3035
+  },
+  {
+    "code": "04173",
+    "commune": "Saint-André-Les-Alpes",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 178576.88,
+    "count": 3,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "Déploiement et animation d'un service de mobilité",
+        "montant": 75000.0,
+        "demarche_short": "Mobilités rurales"
+      },
+      {
+        "nom": "accompagnement en ingénierie de communes rurales labellisées Village d'avenir et engagées dans un projet communal d'aménagement global et structurant",
+        "montant": 61776.88,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Chargé de mission Village d'Avenir",
+        "montant": 41800.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.9711,
+    "lng": 6.5043,
+    "population": 1029
+  },
+  {
+    "code": "04149",
+    "commune": "Peyruis",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 176291.0,
+    "count": 2,
+    "demarche_short": "Terr. Industrie",
+    "projets": [
+      {
+        "nom": "Investissement dans des équipements de production de savon liquide en écorecharge, avec réutilisation des eaux usées et installation de PV à Peyruis (04)",
+        "montant": 111491.0,
+        "demarche_short": "Terr. Industrie"
+      },
+      {
+        "nom": "Développement complémentaire du compostage de proximité pour la CCJLVD et la CCPFML (04)",
+        "montant": 64800.0,
+        "demarche_short": "Biodéchets"
+      }
+    ],
+    "lat": 44.0351,
+    "lng": 5.9306,
+    "population": 2798
+  },
+  {
+    "code": "13098",
+    "commune": "Saint-Mitre-Les-Remparts",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 176000.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation thermique du groupe scolaire Jean Rostand",
+        "montant": 176000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.4565,
+    "lng": 5.0152,
+    "population": 6175
+  },
+  {
+    "code": "13019",
+    "commune": "Cabriès",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 175002.2,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Désimperméabilisation et végétalisation des groupes scolaires de Petit Lac et Trébillane",
+        "montant": 175002.2,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.453,
+    "lng": 5.3467,
+    "population": 10240
+  },
+  {
+    "code": "84080",
+    "commune": "Monteux",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 168540.46,
+    "count": 3,
+    "demarche_short": "ZFE mobilité",
+    "projets": [
+      {
+        "nom": "Création d'une ligne de bus urbain à Monteux",
+        "montant": 124849.73,
+        "demarche_short": "ZFE mobilité"
+      },
+      {
+        "nom": "Incitations financières à la pratique du covoiturage avec BlablaCar Daily",
+        "montant": 29460.61,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "Renaturation de la cour de l'école maternelle Sénateur Béraud",
+        "montant": 14230.12,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 44.033,
+    "lng": 4.9862,
+    "population": 13301
+  },
+  {
+    "code": "13063",
+    "commune": "Miramas",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 168000.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "REHABILITATION ET RENOVATION ENERGETIQUE DU GROUPE SCOLAIRE CARRAIRE",
+        "montant": 168000.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.5841,
+    "lng": 5.0148,
+    "population": 26203
+  },
+  {
+    "code": "04088",
+    "commune": "Forcalquier",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 166824.74,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "REHABILITATION ET RENOVATION ENERGETIQUE DE LA SALLE D'ESCALADE",
+        "montant": 93128.7,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Accompagner par l'ingénierie à l'émergence et l'accompagnement de projets les communes d'Ongles et de Sigonce",
+        "montant": 73696.04,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.9582,
+    "lng": 5.7842,
+    "population": 5222
+  },
+  {
+    "code": "04135",
+    "commune": "Moustiers-Sainte-Marie",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 166167.52,
+    "count": 2,
+    "demarche_short": "Risques montagne",
+    "projets": [
+      {
+        "nom": "Travaux d’urgence sur le bassin du haut-Verdon suite à la crue des 1er et 2 décembre 2023",
+        "montant": 156403.52,
+        "demarche_short": "Risques montagne"
+      },
+      {
+        "nom": "Animation du PAPI Verdon Année 2024",
+        "montant": 9764.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 43.837,
+    "lng": 6.2289,
+    "population": 683
+  },
+  {
+    "code": "84124",
+    "commune": "Saumane-De-Vaucluse",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 166020.83,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "VEGETALISATION - DESIMPERMEABILISATION COUR DE L'ECOLE JEAN-HENRI FABRE A SAUMANE DE VAUCLUSE",
+        "montant": 166020.83,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.9334,
+    "lng": 5.1201,
+    "population": 886
+  },
+  {
+    "code": "83124",
+    "commune": "Seillans",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 157606.65,
+    "count": 2,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Travaux de réhabilitation de Défense Contre l'Incendie (DECI) afin de sécuriser la défense incendie de la Commune de SEILLANS en zones déjà urbanisées.",
+        "montant": 94320.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Renforcement de la DECI dans les quartiers de St. Cyr les Vignasses et du Rouquier",
+        "montant": 63286.65,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.6326,
+    "lng": 6.6024,
+    "population": 2941
+  },
+  {
+    "code": "06004",
+    "commune": "Antibes",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 155010.36,
+    "count": 1,
+    "demarche_short": "Covoiturage",
+    "projets": [
+      {
+        "nom": "Incitations financières à la pratique du covoiturage sur le territoire de la CASA avec Comuto",
+        "montant": 155010.36,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 43.5823,
+    "lng": 7.1048,
+    "population": 77637
+  },
+  {
+    "code": "05108",
+    "commune": "Puy-Saint-Eusèbe",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 154285.0,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Mise aux normes et performances énergétiques sur le parc éclairage public des 15 communes membres du syndicat",
+        "montant": 154285.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.5667,
+    "lng": 6.4129,
+    "population": 191
+  },
+  {
+    "code": "84143",
+    "commune": "Venasque",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 153208.36,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique R+1 école",
+        "montant": 153208.36,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.9866,
+    "lng": 5.1684,
+    "population": 1082
+  },
+  {
+    "code": "84123",
+    "commune": "Sault",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 150987.2,
+    "count": 2,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Désimperméabilisation et renaturation de la cour de récréation et du parvis de l'école de Sault",
+        "montant": 128284.2,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Accompagnement complémentaire au tri à la source et à la valorisation des biodéchets sur le territoire de la CCVS",
+        "montant": 22703.0,
+        "demarche_short": "Biodéchets"
+      }
+    ],
+    "lat": 44.0774,
+    "lng": 5.3892,
+    "population": 1343
+  },
+  {
+    "code": "04033",
+    "commune": "Ubaye-Serre-Ponçon",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 150104.96,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Restauration des bâtiments de la base nautique Partie commerces",
+        "montant": 150104.96,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.4447,
+    "lng": 6.319,
+    "population": 786
+  },
+  {
+    "code": "83056",
+    "commune": "Figanières",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 149412.18,
+    "count": 2,
+    "demarche_short": "Covoiturage",
+    "projets": [
+      {
+        "nom": "Création d'une aire de covoiturage quartier Saint Esprit",
+        "montant": 96168.0,
+        "demarche_short": "Covoiturage"
+      },
+      {
+        "nom": "Rénovation énergétique de l'école René Cassin",
+        "montant": 53244.18,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.5642,
+    "lng": 6.4915,
+    "population": 2762
+  },
+  {
+    "code": "84121",
+    "commune": "Sannes",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 141034.4,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation et isolation de l'ancienne école (priorité toiture et appartement en haut)",
+        "montant": 141034.4,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.7588,
+    "lng": 5.4917,
+    "population": 290
+  },
+  {
+    "code": "05070",
+    "commune": "Laragne-Montéglin",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 140397.67,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Création d'une école de musique intercommunale",
+        "montant": 140397.67,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.3372,
+    "lng": 5.8197,
+    "population": 3549
+  },
+  {
+    "code": "04141",
+    "commune": "Ongles",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 140062.5,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique du foyer rural « Yvan DURAND »",
+        "montant": 140062.5,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.039,
+    "lng": 5.7249,
+    "population": 358
+  },
+  {
+    "code": "04206",
+    "commune": "Sigonce",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 139150.0,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Désimperméabilisation et végétalisation de la cour de l'école communale",
+        "montant": 139150.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 44.0087,
+    "lng": 5.8505,
+    "population": 419
+  },
+  {
+    "code": "05114",
+    "commune": "Réallon",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 138499.63,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "RENOVATION DE L'ANCIENNE ECOLE DU CHEF LIEU ET REHABILITATION THERMIQUE",
+        "montant": 103499.63,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Travaux de confortement des ouvrages de protection le long du torrent de la Pisse sur la commune de Réallon",
+        "montant": 35000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 44.6163,
+    "lng": 6.3622,
+    "population": 242
+  },
+  {
+    "code": "13066",
+    "commune": "Noves",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 136000.0,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "METAMORPHOSE DU SITE DES 3 VERGERS - Aménagement paysager et espace de stationnement ombragé",
+        "montant": 136000.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.86,
+    "lng": 4.9018,
+    "population": 6080
+  },
+  {
+    "code": "05012",
+    "commune": "Baratier",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 134116.0,
+    "count": 2,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "Travaux d’aménagement du torrent de la Combe de l’homme mort  sur la commune de Baratier",
+        "montant": 114216.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Rénovation du logement communal du Presbytère",
+        "montant": 19900.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.5051,
+    "lng": 6.504,
+    "population": 648
+  },
+  {
+    "code": "83153",
+    "commune": "Saint-Mandrier-Sur-Mer",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 131131.95,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de rénovation thermique du groupe scolaire Louis Clément",
+        "montant": 131131.95,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.0762,
+    "lng": 5.9272,
+    "population": 6000
+  },
+  {
+    "code": "06034",
+    "commune": "Castagniers",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 128175.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "travaux thermiques à l'école des Moulins",
+        "montant": 128175.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.79,
+    "lng": 7.2298,
+    "population": 1666
+  },
+  {
+    "code": "06018",
+    "commune": "Biot",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 125327.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "EQUIPEMENTS DE PROTECTION CONTRE L'INCENDIES DE FORÊTS",
+        "montant": 125327.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.6273,
+    "lng": 7.0821,
+    "population": 10511
+  },
+  {
+    "code": "84052",
+    "commune": "Grambois",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 119996.56,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique de 2 logements",
+        "montant": 119996.56,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.7581,
+    "lng": 5.6022,
+    "population": 1234
+  },
+  {
+    "code": "83145",
+    "commune": "Varages",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 118766.8,
+    "count": 3,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation thermique de l'école communale",
+        "montant": 50816.8,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Elaboration d'un Plan de Mobilité Simplifié (PDMS)",
+        "montant": 40000.0,
+        "demarche_short": "Mobilités rurales"
+      },
+      {
+        "nom": "Covoiturage en Provence Verdon",
+        "montant": 27950.0,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 43.5924,
+    "lng": 5.9435,
+    "population": 1177
+  },
+  {
+    "code": "84082",
+    "commune": "Mormoiron",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 118441.02,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "REAMENAGEMENT DE LA CRECHE INTERCOMMUNALE DE MORMOIRON AVEC RENOVATION ENERGETIQUE",
+        "montant": 118441.02,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.0686,
+    "lng": 5.1918,
+    "population": 1884
+  },
+  {
+    "code": "13041",
+    "commune": "Gardanne",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 118000.0,
+    "count": 2,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Aménagement paysager du complexe sportif et de loisirs de Fontvenelle et création d'un Pump track - phase 1",
+        "montant": 80000.0,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "Application prévention feux de forêts : Action prévention",
+        "montant": 38000.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.4585,
+    "lng": 5.4857,
+    "population": 21597
+  },
+  {
+    "code": "05144",
+    "commune": "Saint-Jacques-En-Valgodemard",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 114133.08,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique du bâtiment communal de la mairie et de l'appartement communal",
+        "montant": 114133.08,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.7773,
+    "lng": 6.0649,
+    "population": 113
+  },
+  {
+    "code": "84087",
+    "commune": "Orange",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 112528.92,
+    "count": 3,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Réhabilitation et équipements  des groupes scolaires LE CASTEL-LE COUDOULET-LES SABLES-LE GRES",
+        "montant": 67624.72,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "REHABILITATION DES ATELIERS MUNICIPAUX",
+        "montant": 42304.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Végétalisation et désimpérméabilisation de l'école maternelle CAMUS",
+        "montant": 2600.2,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 44.1264,
+    "lng": 4.8031,
+    "population": 29706
+  },
+  {
+    "code": "04036",
+    "commune": "Le Brusquet",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 107933.6,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Dépenses énergétiques dans le cadre de la création d'un cabinet médical",
+        "montant": 107933.6,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.1725,
+    "lng": 6.3036,
+    "population": 965
+  },
+  {
+    "code": "04244",
+    "commune": "Volonne",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 105808.0,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Désimperméabilisation de la cour de l'école maternelle",
+        "montant": 105808.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 44.1232,
+    "lng": 6.0333,
+    "population": 1633
+  },
+  {
+    "code": "83062",
+    "commune": "La Garde",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 105334.97,
+    "count": 2,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "DESIMPERMEABILISATION COUR D ECOLE ESLA TRIOLET SITUEE AU SEIN D UN QPV",
+        "montant": 87734.26,
+        "demarche_short": "Renaturation"
+      },
+      {
+        "nom": "DESIMPERMEABILISATION ET RENATURATION DE L ECOLOCRECHE LES LUCIOLES",
+        "montant": 17600.71,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.129,
+    "lng": 6.0162,
+    "population": 26476
+  },
+  {
+    "code": "84106",
+    "commune": "Sainte-Cécile-Les-Vignes",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 102663.21,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Amélioration énergétique DOJO",
+        "montant": 102663.21,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.2344,
+    "lng": 4.8949,
+    "population": 2656
+  },
+  {
+    "code": "83054",
+    "commune": "La Farlède",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 102030.5,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique du restaurant scolaire",
+        "montant": 86400.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Projet de ligne de covoiturage Toulon – Cuers : dossier de demande de financement de l’aménagement des arrêts - LA FARLEDE",
+        "montant": 15630.5,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 43.164,
+    "lng": 6.0414,
+    "population": 10014
+  },
+  {
+    "code": "06122",
+    "commune": "Saint-Jeannet",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 100935.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique Ecole Elémentaire Ferrage",
+        "montant": 100935.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.7619,
+    "lng": 7.1477,
+    "population": 4453
+  },
+  {
+    "code": "04007",
+    "commune": "Angles",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 100034.78,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "rénovation énergétique du bâtiment comportant la salle polyvalente et un logement",
+        "montant": 100034.78,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.9442,
+    "lng": 6.5531,
+    "population": 72
+  },
+  {
+    "code": "84024",
+    "commune": "Cabrières-D'Aigues",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 100029.5,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "AMENAGEMENT DE LA PLACE DU 8 MAI 1945",
+        "montant": 100029.5,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.7882,
+    "lng": 5.4891,
+    "population": 946
+  },
+  {
+    "code": "04097",
+    "commune": "La Javie",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 100010.47,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique de 10 logements communaux",
+        "montant": 100010.47,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.197,
+    "lng": 6.3183,
+    "population": 376
+  },
+  {
+    "code": "83133",
+    "commune": "Tanneron",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 100005.81,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "MISE EN SECURITE DE LA ROUTE DE LA SORBIERE DANS LE CADRE DE LA DEFENSE INCENDIE",
+        "montant": 100005.81,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.5732,
+    "lng": 6.8538,
+    "population": 1750
+  },
+  {
+    "code": "84004",
+    "commune": "Aubignan",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 100002.31,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Réaménagement de l'entrée de ville d'Aubignan",
+        "montant": 100002.31,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 44.0962,
+    "lng": 5.0331,
+    "population": 5981
+  },
+  {
+    "code": "06127",
+    "commune": "Saint-Martin-Vésubie",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 100000.0,
+    "count": 1,
+    "demarche_short": "Terr. Industrie",
+    "projets": [
+      {
+        "nom": "Investissement dans l'amélioration écologique et durable de l'outil de production de la Brasserie du Comté",
+        "montant": 100000.0,
+        "demarche_short": "Terr. Industrie"
+      }
+    ],
+    "lat": 44.0944,
+    "lng": 7.307,
+    "population": 1337
+  },
+  {
+    "code": "84150",
+    "commune": "Visan",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 99951.91,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Remplacement des systèmes de chauffage obsolètes de l'école et du FREP avec une deuxième phase d'isolation des huisseries école",
+        "montant": 99951.91,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.3288,
+    "lng": 4.9477,
+    "population": 1857
+  },
+  {
+    "code": "13096",
+    "commune": "Saintes-Maries-De-La-Mer",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 98951.98,
+    "count": 2,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "Maitrise d'ouvrage- Restauration d'une prise d'eau gravitaire du petit Rhône à l'étang de Consécanière",
+        "montant": 85600.0,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Projet de rénovation de l'éclairage public. phase 3.",
+        "montant": 13351.98,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.4958,
+    "lng": 4.4374,
+    "population": 2433
+  },
+  {
+    "code": "05007",
+    "commune": "Arvieux",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 92464.75,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Eco-rénovation énergétique du bâtiment de l'Arche des Cimes à Ristolas",
+        "montant": 92464.75,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.7623,
+    "lng": 6.7181,
+    "population": 340
+  },
+  {
+    "code": "05064",
+    "commune": "La Chapelle-En-Valgaudémar",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 90466.2,
+    "count": 1,
+    "demarche_short": "Risques montagne",
+    "projets": [
+      {
+        "nom": "Confortement ouvrages de protection torrent des Oulles",
+        "montant": 90466.2,
+        "demarche_short": "Risques montagne"
+      }
+    ],
+    "lat": 44.8069,
+    "lng": 6.244,
+    "population": 120
+  },
+  {
+    "code": "13036",
+    "commune": "Eyragues",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 90000.0,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Désimperméabilisation et végétalisation de la cour de l'école élémentaire d'Eyragues",
+        "montant": 90000.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.8414,
+    "lng": 4.8423,
+    "population": 4298
+  },
+  {
+    "code": "84132",
+    "commune": "Le Thor",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 89475.0,
+    "count": 4,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Adaptation des territoires vauclusiens aux risques d'incendies de forêt et de végétation ; Diagnostic des OLD linéaires des communes et des zones de friches",
+        "montant": 48000.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Adaptation des territoires vauclusiens aux risques d'incendies de forêt et de végétation ; programme pluriannuel de travaux et d'actions de prévention",
+        "montant": 18375.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Adaptation des territoires vauclusiens aux risques d'incendies de forêt et de végétation ; programme de travaux Massif des Monts de Vaucluse",
+        "montant": 16500.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Adaptation des territoires vauclusiens aux risques d'incendies de forêt et de végétation ; programme de travaux Massif Bollène-Uchaux",
+        "montant": 6600.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.9236,
+    "lng": 4.9939,
+    "population": 8882
+  },
+  {
+    "code": "04026",
+    "commune": "Bellaffaire",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 89100.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation d'un logement communal",
+        "montant": 89100.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.4074,
+    "lng": 6.1947,
+    "population": 159
+  },
+  {
+    "code": "04190",
+    "commune": "Saint-Martin-Les-Eaux",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 88339.84,
+    "count": 2,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Remplacement conduite AEP / DFCI Les Coupiers - Le Gach",
+        "montant": 52975.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Débroussaillement voirie et équipements communaux pour améliorer la protection DFCI de la forêt et des zones urbanisées",
+        "montant": 35364.84,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.8693,
+    "lng": 5.7429,
+    "population": 120
+  },
+  {
+    "code": "84054",
+    "commune": "L'Isle-Sur-La-Sorgue",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 82412.0,
+    "count": 2,
+    "demarche_short": "Biodéchets",
+    "projets": [
+      {
+        "nom": "Mise en place d'une collecte séparée des biodéchets sur le territoire de la CCPSMV",
+        "montant": 51192.0,
+        "demarche_short": "Biodéchets"
+      },
+      {
+        "nom": "Désimperméabilisation de la cour de l’école de Petit Palais",
+        "montant": 31220.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.9191,
+    "lng": 5.0588,
+    "population": 20244
+  },
+  {
+    "code": "13084",
+    "commune": "La Roque-D'Anthéron",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 78662.51,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "RENOVATION DE L’ECLAIRAGE PUBLIC MAITRISE DES DEPENSES ENERGETIQUES",
+        "montant": 78662.51,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.7166,
+    "lng": 5.3165,
+    "population": 5459
+  },
+  {
+    "code": "04018",
+    "commune": "Banon",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 77655.65,
+    "count": 3,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "DEFENSE INCENDIE- INSTALLATION DE 4 POTEAUX INCENDIES SUR LES COMMUNES DE AUBIGNOSC-SIMIANE LA ROTONE ET VACHERES",
+        "montant": 57960.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "schéma directeur de défense extérieure contre l'incendie",
+        "montant": 15200.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Rénovation de l'éclairage public",
+        "montant": 4495.65,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.0244,
+    "lng": 5.6496,
+    "population": 1072
+  },
+  {
+    "code": "13074",
+    "commune": "Peyrolles-En-Provence",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 75000.0,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "RENOVATION RESEAU ECLAIRAGE PUBLIC",
+        "montant": 75000.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.6262,
+    "lng": 5.5763,
+    "population": 5409
+  },
+  {
+    "code": "05032",
+    "commune": "Champoléon",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 74894.4,
+    "count": 2,
+    "demarche_short": "Risques montagne",
+    "projets": [
+      {
+        "nom": "Travaux d'urgence dans la combe fourchue pour la protection du hameau des Eyrauds : demande de subvention",
+        "montant": 50280.0,
+        "demarche_short": "Risques montagne"
+      },
+      {
+        "nom": "Travaux d’urgence dans la combe fourchue pour la protection du hameau des Eyrauds : phase 2",
+        "montant": 24614.4,
+        "demarche_short": "Risques montagne"
+      }
+    ],
+    "lat": 44.7416,
+    "lng": 6.2741,
+    "population": 144
+  },
+  {
+    "code": "84133",
+    "commune": "La Tour-D'Aigues",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 74550.0,
+    "count": 3,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Réalisation du Plan Intercommunal de Sauvegarde de la Communauté de Communes Sud Luberon",
+        "montant": 40000.0,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "Rénovation énergétique partielle des installations communales d'éclairage public",
+        "montant": 24300.0,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Déploiement du covoiturage",
+        "montant": 10250.0,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 43.7128,
+    "lng": 5.5682,
+    "population": 4405
+  },
+  {
+    "code": "04084",
+    "commune": "Estoublon",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 74160.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Restructuration et rénovation du gite de randonneur",
+        "montant": 74160.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.9487,
+    "lng": 6.2004,
+    "population": 469
+  },
+  {
+    "code": "05022",
+    "commune": "Bréziers",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 73600.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation bâtiment communal",
+        "montant": 73600.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.4163,
+    "lng": 6.2184,
+    "population": 229
+  },
+  {
+    "code": "13070",
+    "commune": "La Penne-Sur-Huveaune",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 73456.0,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Programme de transition LED",
+        "montant": 73456.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.2778,
+    "lng": 5.5185,
+    "population": 6605
+  },
+  {
+    "code": "13113",
+    "commune": "Venelles",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 70845.0,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "RENOVATION DU PARC ECLAIRAGE PUBLIC EN LED (phase 1)",
+        "montant": 70845.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.5951,
+    "lng": 5.4991,
+    "population": 8418
+  },
+  {
+    "code": "84036",
+    "commune": "Châteauneuf-De-Gadagne",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 69266.1,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de rénovation énergétique de la mairie",
+        "montant": 69266.1,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.9307,
+    "lng": 4.9435,
+    "population": 3565
+  },
+  {
+    "code": "84060",
+    "commune": "Lagarde-D'Apt",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 68490.8,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Opération d’ensemble : réfection complète de la toiture et des murs d’un immeuble composé de la mairie, de la salle polyvalente (l’ancienne église) et du logement communal.",
+        "montant": 68490.8,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.9842,
+    "lng": 5.4769,
+    "population": 30
+  },
+  {
+    "code": "84112",
+    "commune": "Saint-Martin-De-Castillon",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 64001.85,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation thermique du restaurant scolaire",
+        "montant": 64001.85,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.8557,
+    "lng": 5.5141,
+    "population": 689
+  },
+  {
+    "code": "13014",
+    "commune": "Berre-L'Étang",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 59256.88,
+    "count": 3,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de relamping de plusieurs bâtiments communaux",
+        "montant": 29120.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Travaux de relamping dans les établissements scolaires en quartiers prioritaires",
+        "montant": 19798.74,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Mise en place d'une gestion à distance de 16 armoires d'éclairage public",
+        "montant": 10338.14,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.4976,
+    "lng": 5.1596,
+    "population": 13832
+  },
+  {
+    "code": "06140",
+    "commune": "Le Tignet",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 57990.0,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation modernisation de l'éclairage public communal au titre de la transition énergétique",
+        "montant": 57990.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.6257,
+    "lng": 6.8538,
+    "population": 3212
+  },
+  {
+    "code": "83142",
+    "commune": "Trigance",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 56935.72,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique globale de la mairie-école",
+        "montant": 56935.72,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.7365,
+    "lng": 6.438,
+    "population": 232
+  },
+  {
+    "code": "83143",
+    "commune": "Moustiers-Sainte-Marie",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 56650.0,
+    "count": 1,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "Etude de maitrise d’œuvre et établissement des autorisations pour les travaux de confortement des digues à Vinon-sur-Verdon",
+        "montant": 56650.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 43.4468,
+    "lng": 6.0569,
+    "population": 4335
+  },
+  {
+    "code": "84090",
+    "commune": "Peypin-D'Aigues",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 56125.38,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Désamiantage et isolation toitures sur bâtiment communal école",
+        "montant": 56125.38,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.7962,
+    "lng": 5.5617,
+    "population": 664
+  },
+  {
+    "code": "04005",
+    "commune": "Allons",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 55817.68,
+    "count": 2,
+    "demarche_short": "Mobilités rurales",
+    "projets": [
+      {
+        "nom": "acquisition d'un véhicule électrique destiné à de l'autopartage",
+        "montant": 38497.68,
+        "demarche_short": "Mobilités rurales"
+      },
+      {
+        "nom": "Purge de blocs rocheux menaçant le village",
+        "montant": 17320.0,
+        "demarche_short": "Risques montagne"
+      }
+    ],
+    "lat": 43.9769,
+    "lng": 6.5929,
+    "population": 126
+  },
+  {
+    "code": "04172",
+    "commune": "Roumoules",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 55005.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique de deux logements communaux (choix de la variante 3)",
+        "montant": 55005.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.8196,
+    "lng": 6.1526,
+    "population": 725
+  },
+  {
+    "code": "04042",
+    "commune": "Castellet-Lès-Sausses",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 54502.2,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Réhabilitation totale d'une maison (maison RISANI)",
+        "montant": 54502.2,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.0442,
+    "lng": 6.7436,
+    "population": 143
+  },
+  {
+    "code": "13050",
+    "commune": "Lambesc",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 51570.0,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "RENOVATION ECLAIRAGE PUBLIC EN 100% LED",
+        "montant": 51570.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.6636,
+    "lng": 5.2493,
+    "population": 10024
+  },
+  {
+    "code": "83088",
+    "commune": "Néoules",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 50732.2,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique des bâtiments communaux - Salle polyvalente",
+        "montant": 50732.2,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.2912,
+    "lng": 6.0267,
+    "population": 2976
+  },
+  {
+    "code": "06027",
+    "commune": "Cagnes-Sur-Mer",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 50000.0,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Ecole élémentaire du Val Fleuri : Végétalisation de la cour",
+        "montant": 50000.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.6712,
+    "lng": 7.1502,
+    "population": 53354
+  },
+  {
+    "code": "13027",
+    "commune": "Châteaurenard",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 49579.6,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Modernisation de l'éclairage public phase 3",
+        "montant": 49579.6,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.8829,
+    "lng": 4.8344,
+    "population": 16545
+  },
+  {
+    "code": "13057",
+    "commune": "Mas-Blanc-Des-Alpilles",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 49000.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Création d'une piste DFCI pour la défense du massif forestier et des habitations jouxtant la chapelle Saint-Lambert",
+        "montant": 49000.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.7887,
+    "lng": 4.7637,
+    "population": 564
+  },
+  {
+    "code": "05053",
+    "commune": "Garde-Colombe",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 47066.81,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de mise en oeuvre de la rénovation thermique du bâtiment du groupe scolaire Henri AUDIBERT à EYGUIANS",
+        "montant": 47066.81,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.3602,
+    "lng": 5.7865,
+    "population": 539
+  },
+  {
+    "code": "84044",
+    "commune": "Entrechaux",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 46750.0,
+    "count": 2,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "Travaux d’entretien de la végétation des systèmes d’endiguement -  Visites Techniques Approfondies post-crue des ouvrages de protection du système d’endiguement de classe B de l’Ouvèze",
+        "montant": 26250.0,
+        "demarche_short": "PAPI/GEMAPI"
+      },
+      {
+        "nom": "Animation et coordination de la compétence GEMAPI à l’échelle du bassin versant de l’Ouvèze provençale la période 2024-2025",
+        "montant": 20500.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 44.2238,
+    "lng": 5.1364,
+    "population": 1177
+  },
+  {
+    "code": "13006",
+    "commune": "Aureille",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 45408.0,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de rénovation énergétique à l'école maternelle d'Aureille",
+        "montant": 31230.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Travaux de rénovation énergétique de la Mairie d'Aureille",
+        "montant": 14178.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.6983,
+    "lng": 4.942,
+    "population": 1533
+  },
+  {
+    "code": "13051",
+    "commune": "Lançon-Provence",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 45240.0,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation thermique - Changement des équipements thermiques et climatiques du groupe scolaire des Pinèdes",
+        "montant": 30000.0,
+        "demarche_short": "Rénov. énergétique"
+      },
+      {
+        "nom": "Changement des équipements thermiques et climatiques de la cantine de l'école maternelle",
+        "montant": 15240.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.5728,
+    "lng": 5.1725,
+    "population": 9915
+  },
+  {
+    "code": "05027",
+    "commune": "Cervières",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 44000.0,
+    "count": 1,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "Cervières - Le Laus : Torrent du Blétonnet - Création d'une zone d'expansion de crue",
+        "montant": 44000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 44.8586,
+    "lng": 6.7746,
+    "population": 205
+  },
+  {
+    "code": "04095",
+    "commune": "L'Hospitalet",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 43966.77,
+    "count": 1,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "Demande de financement pour les missions d'ingénierie préalables à la mise en place d'un éco quartier de 5 logements",
+        "montant": 43966.77,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 44.1068,
+    "lng": 5.7078,
+    "population": 99
+  },
+  {
+    "code": "83085",
+    "commune": "La Motte",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 43888.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique du Presbytère",
+        "montant": 43888.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.5091,
+    "lng": 6.5506,
+    "population": 3071
+  },
+  {
+    "code": "13012",
+    "commune": "Beaurecueil",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 43548.0,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Désimperméabilisation de la cour de l'école",
+        "montant": 43548.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.5197,
+    "lng": 5.5481,
+    "population": 585
+  },
+  {
+    "code": "04139",
+    "commune": "Noyers-Sur-Jabron",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 43404.2,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique local bureau",
+        "montant": 43404.2,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.1644,
+    "lng": 5.8078,
+    "population": 525
+  },
+  {
+    "code": "13097",
+    "commune": "Saint-Martin-De-Crau",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 43094.4,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique de l'éclairage public",
+        "montant": 43094.4,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.6074,
+    "lng": 4.8688,
+    "population": 14145
+  },
+  {
+    "code": "04063",
+    "commune": "Corbières-En-Provence",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 42675.2,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Mise en place d'une citerne DFCI de 60 m3 et réfection de la piste",
+        "montant": 42675.2,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.7593,
+    "lng": 5.7481,
+    "population": 1317
+  },
+  {
+    "code": "05073",
+    "commune": "Lazer",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 42524.6,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "TRAVAUX DE RENOVATION ENERGETIQUE - ECLAIRAGES PUBLIC",
+        "montant": 42524.6,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.3488,
+    "lng": 5.851,
+    "population": 345
+  },
+  {
+    "code": "84095",
+    "commune": "Puyvert",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 41829.94,
+    "count": 1,
+    "demarche_short": "Covoiturage",
+    "projets": [
+      {
+        "nom": "Création d'une aire de covoiturage - Jas de PUYVERT",
+        "montant": 41829.94,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 43.7519,
+    "lng": 5.3384,
+    "population": 865
+  },
+  {
+    "code": "83151",
+    "commune": "Vins-Sur-Caramy",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 41761.72,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique des bâtiments communaux",
+        "montant": 41761.72,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.432,
+    "lng": 6.1495,
+    "population": 936
+  },
+  {
+    "code": "05174",
+    "commune": "Val-Des-Prés",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 40000.0,
+    "count": 1,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "Val des Prés - Torrent des Gamattes - Création d'un ouvrage de protection",
+        "montant": 40000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 44.9399,
+    "lng": 6.657,
+    "population": 593
+  },
+  {
+    "code": "06143",
+    "commune": "Touët-Sur-Var",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 39120.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique villa Marie",
+        "montant": 39120.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.9433,
+    "lng": 7.0091,
+    "population": 748
+  },
+  {
+    "code": "83091",
+    "commune": "Pierrefeu-Du-Var",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 39000.0,
+    "count": 1,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "Animer le PAPI Gapeau et superviser la mise en oeuvre des actions-Année 2024",
+        "montant": 39000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 43.2351,
+    "lng": 6.1798,
+    "population": 6084
+  },
+  {
+    "code": "04122",
+    "commune": "Mirabeau",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 35686.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation Energétique de deux bâtiments communaux",
+        "montant": 35686.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.0608,
+    "lng": 6.0826,
+    "population": 522
+  },
+  {
+    "code": "04219",
+    "commune": "Thorame-Haute",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 35517.75,
+    "count": 2,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation du parc communal de luminaires d'éclairage public",
+        "montant": 33486.0,
+        "demarche_short": "Éclairage public"
+      },
+      {
+        "nom": "Rénovation du parc d'éclairage public",
+        "montant": 2031.75,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.083,
+    "lng": 6.6152,
+    "population": 247
+  },
+  {
+    "code": "84027",
+    "commune": "Caderousse",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 34529.36,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de réhabilitation et de rénovation thermique d'un bien sis 1/3 rue Pasteur à Caderousse",
+        "montant": 34529.36,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.1155,
+    "lng": 4.746,
+    "population": 2493
+  },
+  {
+    "code": "84118",
+    "commune": "Saint-Saturnin-Lès-Apt",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 33456.24,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation energétique salle des fêtes de la tuilière",
+        "montant": 33456.24,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.961,
+    "lng": 5.3566,
+    "population": 3004
+  },
+  {
+    "code": "05166",
+    "commune": "Serres",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 33326.4,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Amélioration des performances énergétiques du bâtiment de Serres",
+        "montant": 33326.4,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.4224,
+    "lng": 5.7142,
+    "population": 1298
+  },
+  {
+    "code": "83055",
+    "commune": "Fayence",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 32500.0,
+    "count": 1,
+    "demarche_short": "Mobilités rurales",
+    "projets": [
+      {
+        "nom": "Élaboration du Plan de Mobilité Simplifié (PDMS) du Pays de Fayence",
+        "montant": 32500.0,
+        "demarche_short": "Mobilités rurales"
+      }
+    ],
+    "lat": 43.6118,
+    "lng": 6.6762,
+    "population": 6157
+  },
+  {
+    "code": "84078",
+    "commune": "Mondragon",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 31600.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Réaffectation de l'ancienne caserne des pompiers",
+        "montant": 31600.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 44.2407,
+    "lng": 4.7326,
+    "population": 3833
+  },
+  {
+    "code": "04134",
+    "commune": "La Motte-Du-Caire",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 31477.2,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation du parc d'éclairage public",
+        "montant": 31477.2,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.3412,
+    "lng": 6.0406,
+    "population": 546
+  },
+  {
+    "code": "13077",
+    "commune": "Lyon 7E Arrondissement",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 31000.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Etudes de dépollution - Friche Azur Chimie - Port de Bouc (13)",
+        "montant": 31000.0,
+        "demarche_short": "Recyclage foncier"
+      }
+    ],
+    "lat": 43.4207,
+    "lng": 4.9993,
+    "population": 15802
+  },
+  {
+    "code": "04096",
+    "commune": "Jausiers",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 30750.0,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation du parc de luminaires constituant l'éclairage public communal",
+        "montant": 30750.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.3795,
+    "lng": 6.7745,
+    "population": 1146
+  },
+  {
+    "code": "05071",
+    "commune": "Lardier-Et-Valença",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 30115.53,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "AMENAGEMENT DE L'AIRE DE JEUX POUR ENFANTS DEVANT L'ECOLE ET INSTALLATION DE JEUX CONFORMES",
+        "montant": 30115.53,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 44.4372,
+    "lng": 5.9721,
+    "population": 391
+  },
+  {
+    "code": "84093",
+    "commune": "Puget",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 29716.64,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Le projet \"Un coin de verdure pour la pluie dans la cour de récré \" répond au projet de renaturation des villes et des villages. un dossier de DETR avait été déposé en février 2024 mais Madame la Sous-préfète nous a invités à candidater au \"Fonds Vert\" pour la renaturation des villes et des villages.",
+        "montant": 29716.64,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.7699,
+    "lng": 5.2572,
+    "population": 894
+  },
+  {
+    "code": "13026",
+    "commune": "Châteauneuf-Les-Martigues",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 28578.44,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique du bâtiment scolaire René PERRIN",
+        "montant": 28578.44,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.3904,
+    "lng": 5.1464,
+    "population": 18455
+  },
+  {
+    "code": "83084",
+    "commune": "Montmeyan",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 28271.6,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Protection contre le risque incendie d'habitations situées dans des zones à risque",
+        "montant": 28271.6,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.6574,
+    "lng": 6.0652,
+    "population": 596
+  },
+  {
+    "code": "84028",
+    "commune": "Cairanne",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 26829.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation et isolation des bâtiments communaux (bureau de tabac et un logement adossé)",
+        "montant": 26829.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.2277,
+    "lng": 4.9339,
+    "population": 1129
+  },
+  {
+    "code": "83082",
+    "commune": "Montferrat",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 26800.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "INSTALLATION DE 2 POMPES A CHALEUR A LA SALLE POLYVALENTE",
+        "montant": 26800.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.6336,
+    "lng": 6.4774,
+    "population": 1719
+  },
+  {
+    "code": "13119",
+    "commune": "Carnoux-En-Provence",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 26435.55,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation de l'éclairage public",
+        "montant": 26435.55,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.259,
+    "lng": 5.5655,
+    "population": 6873
+  },
+  {
+    "code": "83042",
+    "commune": "Cogolin",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 26000.0,
+    "count": 1,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "ANIMATION DU PAPI - ACTION 0.2 Animation",
+        "montant": 26000.0,
+        "demarche_short": "PAPI/GEMAPI"
+      }
+    ],
+    "lat": 43.2406,
+    "lng": 6.5319,
+    "population": 12301
+  },
+  {
+    "code": "84145",
+    "commune": "Villars",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 25517.4,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de renforcement des performances énergétiques d'une maison de village (confort d'été et confort d'hiver)",
+        "montant": 25517.4,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.9573,
+    "lng": 5.434,
+    "population": 783
+  },
+  {
+    "code": "04058",
+    "commune": "Claret",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 25468.07,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique des bâtiments publics locaux",
+        "montant": 25468.07,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.3728,
+    "lng": 5.9662,
+    "population": 298
+  },
+  {
+    "code": "83081",
+    "commune": "Montauroux",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 25001.77,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "RENATURATION DES VILLES ET VILLAGES",
+        "montant": 25001.77,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.5936,
+    "lng": 6.7993,
+    "population": 7183
+  },
+  {
+    "code": "84085",
+    "commune": "Murs",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 23535.2,
+    "count": 2,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "INSTALLATION D'UN POINT D'EAU NATUREL OU ARTIFICIEL (PENA) POUR LA DEFENSE INCENDIE",
+        "montant": 14061.6,
+        "demarche_short": "Incendies de forêt"
+      },
+      {
+        "nom": "REMPLACEMENT DE LA BAIE VITREE DE L'ECOLE DE MURS",
+        "montant": 9473.6,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.965,
+    "lng": 5.2432,
+    "population": 376
+  },
+  {
+    "code": "04166",
+    "commune": "Riez",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 22500.0,
+    "count": 1,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "Participation de la commune de Riez au concours EUROPAN 18",
+        "montant": 22500.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.8358,
+    "lng": 6.0849,
+    "population": 1610
+  },
+  {
+    "code": "04240",
+    "commune": "Villars-Colmars",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 20999.2,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation du parc d'éclairage public",
+        "montant": 20999.2,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.1952,
+    "lng": 6.5713,
+    "population": 257
+  },
+  {
+    "code": "04123",
+    "commune": "Mison",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 19576.0,
+    "count": 1,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "Rénovation des bâtiments Pacros et Giraud",
+        "montant": 19576.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 44.2629,
+    "lng": 5.8676,
+    "population": 1112
+  },
+  {
+    "code": "13058",
+    "commune": "Maussane-Les-Alpilles",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 19172.94,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation éclairage public commune de Maussane les Alpilles 3ème tranche",
+        "montant": 19172.94,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.7158,
+    "lng": 4.838,
+    "population": 2347
+  },
+  {
+    "code": "83073",
+    "commune": "Le Luc",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 18000.0,
+    "count": 1,
+    "demarche_short": "Mobilités rurales",
+    "projets": [
+      {
+        "nom": "Élaborer un schéma des mobilités actives à l'échelle de la Communauté de Communes Coeur du Var",
+        "montant": 18000.0,
+        "demarche_short": "Mobilités rurales"
+      }
+    ],
+    "lat": 43.3855,
+    "lng": 6.3107,
+    "population": 11310
+  },
+  {
+    "code": "04027",
+    "commune": "Bevons",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 16768.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Débroussaillage des voies communales",
+        "montant": 16768.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 44.1753,
+    "lng": 5.8772,
+    "population": 260
+  },
+  {
+    "code": "06058",
+    "commune": "Escragnolles",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 16352.21,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique de la salle communale LA COLETTE",
+        "montant": 16352.21,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 43.7236,
+    "lng": 6.7758,
+    "population": 622
+  },
+  {
+    "code": "04057",
+    "commune": "Clamensane",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 16187.4,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation du parc de luminaires constituant l'éclairage public communal",
+        "montant": 16187.4,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.3301,
+    "lng": 6.0784,
+    "population": 183
+  },
+  {
+    "code": "13095",
+    "commune": "Saint-Marc-Jaumegarde",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 14448.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Plan communal de débroussaillement phase 1 et 2",
+        "montant": 14448.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.5567,
+    "lng": 5.5202,
+    "population": 1273
+  },
+  {
+    "code": "13115",
+    "commune": "Vernègues",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 14338.4,
+    "count": 2,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "Audit énergétique des bâtiments communaux",
+        "montant": 11338.4,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Audit énergétique du parc d'éclairage public",
+        "montant": 3000.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.6841,
+    "lng": 5.1892,
+    "population": 2166
+  },
+  {
+    "code": "84020",
+    "commune": "Bonnieux",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 14201.85,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation du Parc d'éclairage public de Bonnieux",
+        "montant": 14201.85,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.8327,
+    "lng": 5.3172,
+    "population": 1198
+  },
+  {
+    "code": "04041",
+    "commune": "Le Castellet",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 14040.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Prévention des risques d'incendies de forêts et de végétation",
+        "montant": 14040.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.9218,
+    "lng": 5.9798,
+    "population": 296
+  },
+  {
+    "code": "05001",
+    "commune": "Abriès-Ristolas",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 12000.0,
+    "count": 1,
+    "demarche_short": "Risques montagne",
+    "projets": [
+      {
+        "nom": "Etude concernant le phénomène de glissement de terrain du Roux d'Abriès-Ristolas",
+        "montant": 12000.0,
+        "demarche_short": "Risques montagne"
+      }
+    ],
+    "lat": 44.7717,
+    "lng": 6.9717,
+    "population": 374
+  },
+  {
+    "code": "04022",
+    "commune": "Barrême",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 11765.0,
+    "count": 2,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "Projet de requalification de la Place François Rebaud",
+        "montant": 8033.6,
+        "demarche_short": "Ingénierie"
+      },
+      {
+        "nom": "Eclairage public en LED",
+        "montant": 3731.4,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.9467,
+    "lng": 6.386,
+    "population": 413
+  },
+  {
+    "code": "13048",
+    "commune": "Jouques",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 10707.49,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Travaux de rénovation et de modernisation de l'éclairage public - Tranche 4",
+        "montant": 10707.49,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.6289,
+    "lng": 5.6605,
+    "population": 4547
+  },
+  {
+    "code": "84074",
+    "commune": "Mérindol",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 10410.0,
+    "count": 1,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "Etudes préalables à l'opération de préparation et travaux à l'accueil d'installations photovoltaïques sur les toitures de bâtiments communaux de Mérindol",
+        "montant": 10410.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.7648,
+    "lng": 5.1884,
+    "population": 2283
+  },
+  {
+    "code": "04220",
+    "commune": "Les Thuiles",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 9999.0,
+    "count": 1,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "ISOLATION DU FOYER RURAL \"Adrien Jaubert\"",
+        "montant": 9999.0,
+        "demarche_short": "Rénov. énergétique"
+      }
+    ],
+    "lat": 44.3917,
+    "lng": 6.5584,
+    "population": 361
+  },
+  {
+    "code": "04025",
+    "commune": "Beauvezer",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 9904.5,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation/modernisation du parc d'éclairage public",
+        "montant": 9904.5,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.1454,
+    "lng": 6.6051,
+    "population": 384
+  },
+  {
+    "code": "13112",
+    "commune": "Velaux",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 9600.0,
+    "count": 1,
+    "demarche_short": "Renaturation",
+    "projets": [
+      {
+        "nom": "Renaturation de la ville de Velaux",
+        "montant": 9600.0,
+        "demarche_short": "Renaturation"
+      }
+    ],
+    "lat": 43.5215,
+    "lng": 5.246,
+    "population": 8941
+  },
+  {
+    "code": "04054",
+    "commune": "Châteauredon",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 9276.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Mise en conformité de la défense incendie et obligation légale de débroussaillement",
+        "montant": 9276.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 44.0264,
+    "lng": 6.2239,
+    "population": 76
+  },
+  {
+    "code": "04154",
+    "commune": "Pontis",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 9010.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Remplacement poteaux incendie",
+        "montant": 9010.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 44.4984,
+    "lng": 6.3704,
+    "population": 96
+  },
+  {
+    "code": "83127",
+    "commune": "Signes",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 8990.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "ELABORATION DU SCHEMA COMMUNAL DE DECI",
+        "montant": 8990.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.2759,
+    "lng": 5.8498,
+    "population": 3126
+  },
+  {
+    "code": "04194",
+    "commune": "Saint-Pierre",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 8720.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Développent du réseau incendie",
+        "montant": 8720.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.9114,
+    "lng": 6.922,
+    "population": 99
+  },
+  {
+    "code": "04140",
+    "commune": "Les Omergues",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 8667.6,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Passage en LED de l'éclairage public et remplacement de cinq lampadaires haute pression par des lampadaires solaires",
+        "montant": 8667.6,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.1513,
+    "lng": 5.5933,
+    "population": 135
+  },
+  {
+    "code": "04066",
+    "commune": "Curbans",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 8435.2,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Travaux de rénovation de l'éclairage public - Tranche 2",
+        "montant": 8435.2,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.4132,
+    "lng": 6.0189,
+    "population": 575
+  },
+  {
+    "code": "05167",
+    "commune": "Sigottier",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 7960.0,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "ECLAIRAGE PUBLIC",
+        "montant": 7960.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.4601,
+    "lng": 5.6808,
+    "population": 82
+  },
+  {
+    "code": "06076",
+    "commune": "Lieuche",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 7696.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "ELABORATION DU PLAN COMMUNAL DE DEBROUSSAILLEMENT (OLD)",
+        "montant": 7696.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 44.0001,
+    "lng": 7.0361,
+    "population": 50
+  },
+  {
+    "code": "04113",
+    "commune": "Marcoux",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 7360.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "PREVENTION RISQUES INCENDIES DE FORET ET VEGETATION A MARCOUX",
+        "montant": 7360.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 44.1287,
+    "lng": 6.2818,
+    "population": 466
+  },
+  {
+    "code": "04242",
+    "commune": "Villeneuve",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 6864.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "CREATION DE DEUX HYDRANTS AUX CHEMINS DES SEIGNES ET DE LA COMBE D'AZARD",
+        "montant": 6864.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.8848,
+    "lng": 5.8509,
+    "population": 4360
+  },
+  {
+    "code": "13053",
+    "commune": "Mallemort",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 6600.0,
+    "count": 1,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "AUDITs ENERGETIQUEs DEs BATIMENTS COMMUNAUX",
+        "montant": 6600.0,
+        "demarche_short": "Ingénierie"
+      }
+    ],
+    "lat": 43.728,
+    "lng": 5.1849,
+    "population": 6166
+  },
+  {
+    "code": "13065",
+    "commune": "Mouriès",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 6408.22,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation de l'éclairage public en agglomération - phase 3",
+        "montant": 6408.22,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.7053,
+    "lng": 4.8781,
+    "population": 3527
+  },
+  {
+    "code": "83111",
+    "commune": "Sainte-Anastasie-Sur-Issole",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 6345.92,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Elaboration du plan communal de gestion des obligations légales de débroussaillement",
+        "montant": 6345.92,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.3337,
+    "lng": 6.1227,
+    "population": 2165
+  },
+  {
+    "code": "05183",
+    "commune": "Villar-Saint-Pancrace",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 5816.6,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Opération éclairage public de la rue de la Vibourelle",
+        "montant": 5816.6,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.8378,
+    "lng": 6.6483,
+    "population": 1433
+  },
+  {
+    "code": "83131",
+    "commune": "Solliès-Toucas",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 4984.0,
+    "count": 1,
+    "demarche_short": "Covoiturage",
+    "projets": [
+      {
+        "nom": "Projet de ligne de covoiturage Toulon – Cuers : dossier de demande de financement de l’aménagement des arrêts de la Commune Solliès-Toucas",
+        "montant": 4984.0,
+        "demarche_short": "Covoiturage"
+      }
+    ],
+    "lat": 43.2097,
+    "lng": 5.9836,
+    "population": 6269
+  },
+  {
+    "code": "06089",
+    "commune": "Opio",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 4877.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Elaboration du plan communal de débroussaillement",
+        "montant": 4877.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.6574,
+    "lng": 7.0094,
+    "population": 2527
+  },
+  {
+    "code": "04183",
+    "commune": "Saint-Julien-Du-Verdon",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 4800.0,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation du parc communal de luminaires d'éclairage public",
+        "montant": 4800.0,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 43.9122,
+    "lng": 6.5472,
+    "population": 179
+  },
+  {
+    "code": "83014",
+    "commune": "Baudinard-Sur-Verdon",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 4800.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Mise en place des OLD",
+        "montant": 4800.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.714,
+    "lng": 6.1351,
+    "population": 235
+  },
+  {
+    "code": "83146",
+    "commune": "La Verdière",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 4332.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "ELABORATION DU PLAN COMMUNAL DE GESTION DES OLD",
+        "montant": 4332.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.6529,
+    "lng": 5.9374,
+    "population": 1668
+  },
+  {
+    "code": "05060",
+    "commune": "Furmeyer",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 3905.62,
+    "count": 1,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation éclairage public aux Savoyons",
+        "montant": 3905.62,
+        "demarche_short": "Éclairage public"
+      }
+    ],
+    "lat": 44.5379,
+    "lng": 5.8751,
+    "population": 169
+  },
+  {
+    "code": "13017",
+    "commune": "Boulbon",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 3773.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "Acquisition & mise en place d'une citerne / récupérateur d'eau de 60 000 l. Carrière des Bruns Massif de la Montagnette (réserve d'eau pour remplissage camions pompiers si incendie)",
+        "montant": 3773.0,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.8721,
+    "lng": 4.6962,
+    "population": 1543
+  },
+  {
+    "code": "04170",
+    "commune": "La Rochette",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 2777.6,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "PROTECTION DU VILLAGE CONTRE LES INCENDIES - DEBROUSSAILLAGE",
+        "montant": 2777.6,
+        "demarche_short": "Incendies de forêt"
+      }
+    ],
+    "lat": 43.9097,
+    "lng": 6.875,
+    "population": 74
+  }
+]
