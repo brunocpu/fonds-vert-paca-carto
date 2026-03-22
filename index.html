@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fonds Vert PACA — v1.4</title>
-<!-- v1.4 — 2025-03-22 : filtre ZRR/PVD/ACV/VA, recherche plein texte, donut top5, header dynamique, reset global -->
+<title>Fonds Vert PACA — v1.5</title>
+<!-- v1.5 — 2025-03-22 : responsive mobile, accessibilité AA, contraste WCAG -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
@@ -37,11 +37,11 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
 .stat-label{font-size:12px;color:#555}
 .stat-value{font-size:14px;font-weight:700;color:#000091}
 .stat-sep{border-top:1px solid #eee;margin:8px 0}
-.stat-sub{font-size:11px;color:#888;margin-bottom:4px}
+.stat-sub{font-size:11px;color:#666;margin-bottom:4px}
 .legend-sizes{display:flex;align-items:flex-end;gap:12px;margin-top:8px;padding-top:8px;border-top:1px solid #eee}
 .legend-size-item{text-align:center}
 .legend-size-circle{border:2px solid #888;border-radius:50%;margin:0 auto 2px;background:transparent}
-.legend-size-label{font-size:10px;color:#888}
+.legend-size-label{font-size:10px;color:#666}
 .leaflet-popup-content-wrapper{background:#fff!important;border-radius:6px!important;box-shadow:0 4px 16px rgba(0,0,0,.15)!important;border:1px solid #ddd!important}
 .leaflet-popup-tip{background:#fff!important}
 .leaflet-popup-content{color:#1a1a1a!important;font-family:inherit!important;margin:12px 16px!important;line-height:1.5!important}
@@ -50,7 +50,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
 .popup-stat{display:flex;justify-content:space-between;margin-bottom:3px}
 .popup-stat-label{font-size:12px;color:#666}
 .popup-stat-value{font-size:13px;font-weight:700;color:#000091}
-.popup-evol{font-size:11px;color:#888;margin-top:6px;padding-top:6px;border-top:1px dashed #ddd}
+.popup-evol{font-size:11px;color:#666;margin-top:6px;padding-top:6px;border-top:1px dashed #ddd}
 .popup-evol-up{color:#2e7d32;font-weight:600}
 .popup-evol-down{color:#c62828;font-weight:600}
 .popup-evol-new{color:#000091;font-weight:600}
@@ -76,7 +76,26 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
 .mode-toggle button:hover:not(.active){background:#f0f0f5}
 .export-btn{display:block;width:100%;margin-top:10px;padding:6px 0;border:1px solid #000091;border-radius:4px;background:#fff;color:#000091;font-size:11px;font-weight:600;cursor:pointer;font-family:inherit;transition:all .15s;text-align:center}
 .export-btn:hover{background:#000091;color:#fff}
-@media(max-width:768px){.filters-panel{width:200px;padding:10px;font-size:11px}.stats-panel{width:180px;padding:10px}.header-bar h1{font-size:15px}}
+.mobile-toggle{display:none;position:fixed;bottom:16px;z-index:1001;padding:10px 16px;border:1px solid #000091;border-radius:20px;background:#fff;color:#000091;font-size:12px;font-weight:700;cursor:pointer;font-family:inherit;box-shadow:0 2px 8px rgba(0,0,0,.15)}
+.mobile-toggle:hover{background:#000091;color:#fff}
+.mobile-close{display:none;position:absolute;top:10px;right:14px;background:none;border:none;font-size:18px;color:#666;cursor:pointer;padding:4px}
+@media(max-width:768px){
+  .header-bar{padding:8px 12px;gap:8px;flex-wrap:wrap}
+  .header-bar h1{font-size:13px;width:100%}
+  .header-bar .subtitle{font-size:11px;order:1}
+  .header-bar>div:last-child{order:2;margin-left:auto}
+  .year-btn{padding:3px 8px;font-size:11px}
+  .filters-panel,.stats-panel{display:none;position:fixed;top:0;bottom:0;width:85vw;max-width:320px;max-height:100vh;border-radius:0;z-index:2000;padding:16px;padding-top:48px}
+  .filters-panel{left:0}
+  .stats-panel{right:0;left:auto}
+  .filters-panel.open,.stats-panel.open{display:block}
+  .mobile-toggle{display:block}
+  .mobile-toggle.toggle-filters{left:16px}
+  .mobile-toggle.toggle-stats{right:16px}
+  .mobile-close{display:block}
+  .leaflet-popup-content{margin:8px 10px!important}
+  .popup-title{font-size:13px}
+}
 </style>
 </head>
 <body>
@@ -92,6 +111,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
   </div>
 </header>
 <nav class="filters-panel" role="navigation" aria-label="Filtres de la carte">
+  <button class="mobile-close" onclick="this.parentElement.classList.remove('open')" aria-label="Fermer les filtres">×</button>
   <h2 style="display:flex;justify-content:space-between;align-items:center">Filtres <button onclick="resetAll()" style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:#000091;background:none;border:none;cursor:pointer;font-family:inherit;padding:0">Réinitialiser</button></h2>
   <div class="filter-section" style="margin-bottom:14px"><h3 style="font-size:12px;font-weight:600;color:#333;margin-bottom:6px">Rechercher</h3><div style="position:relative"><input type="text" id="searchInput" placeholder="projet, commune, bénéficiaire..." autocomplete="off" style="width:100%;padding:6px 10px 6px 28px;font-size:12px;border:1px solid #ddd;border-radius:4px;background:#fff;color:#333;font-family:inherit"/><svg style="position:absolute;left:8px;top:50%;transform:translateY(-50%);width:14px;height:14px;opacity:.4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div></div>
   <div class="filter-section"><h3>Zonage / Programme</h3><div class="filter-group" id="progFilters" style="gap:4px"></div></div>
@@ -101,6 +121,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
 <div id="searchResults" style="display:none;position:fixed;z-index:2000;background:#fff;border:1px solid #ddd;border-radius:4px;max-height:320px;overflow-y:auto;box-shadow:0 4px 12px rgba(0,0,0,.12);width:280px"></div>
 <main><div id="map" role="application" aria-label="Carte interactive des projets Fonds Vert en PACA" tabindex="0"></div></main>
 <aside class="stats-panel" role="complementary" aria-label="Statistiques">
+  <button class="mobile-close" onclick="this.parentElement.classList.remove('open')" aria-label="Fermer les statistiques">×</button>
   <h2>Statistiques</h2>
   <div class="mode-toggle" id="modeToggle">
     <button class="active" onclick="setMode('montant')">Montant total</button>
@@ -109,6 +130,8 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
   <div id="statsContent"></div>
   <button class="export-btn" onclick="exportCSV()">⬇ Exporter CSV</button>
 </aside>
+<button class="mobile-toggle toggle-filters" onclick="document.querySelector('.filters-panel').classList.toggle('open');document.querySelector('.stats-panel').classList.remove('open')">Filtres</button>
+<button class="mobile-toggle toggle-stats" onclick="document.querySelector('.stats-panel').classList.toggle('open');document.querySelector('.filters-panel').classList.remove('open')">Stats</button>
 <script src="data.js"></script>
 <script src="programmes_anct.js"></script>
 <script>
@@ -129,7 +152,7 @@ function getColor(m){return MESURE_COLORS[m]||"#999";}
 const pacaBounds=L.latLngBounds([[42.9,4.15],[45.1,7.7]]);
 const map=L.map('map',{zoomControl:false,attributionControl:true,maxBounds:pacaBounds.pad(0.05),maxBoundsViscosity:1.0,minZoom:7,maxZoom:15}).fitBounds(pacaBounds,{padding:[0,270]});
 L.control.zoom({position:'bottomright'}).addTo(map);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a> · Données : <a href="https://www.data.gouv.fr">data.gouv.fr</a> · v1.4',maxZoom:18,subdomains:'abcd'}).addTo(map);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a> · Données : <a href="https://www.data.gouv.fr">data.gouv.fr</a> · v1.5',maxZoom:18,subdomains:'abcd'}).addTo(map);
 L.geoJSON(DEPTS_GEOJSON,{style:{color:'#000091',weight:2,opacity:0.6,fillColor:'transparent',fillOpacity:0,dashArray:'6,3'},onEachFeature:function(f,l){l.bindTooltip(f.properties.nom,{permanent:false,direction:'center',className:'dept-label'});}}).addTo(map);
 Object.entries(DEPT_CENTROIDS).forEach(([c,ll])=>{const l=L.marker(ll,{icon:L.divIcon({className:'dept-label',html:DEPT_NAMES[c],iconSize:null}),interactive:false}).addTo(map);deptLabels.push(l);});
 map.on('zoomend',function(){const z=map.getZoom();deptLabels.forEach(l=>{if(z>=10)map.removeLayer(l);else if(!map.hasLayer(l))l.addTo(map);});});
@@ -213,14 +236,14 @@ function updateStats(f){
     const pct=tm>0?val/tm:0,len=pct*C,color=name==='Autres'?'#bbb':(MESURE_COLORS[name]||'#999');
     arcs+='<circle cx="'+CX+'" cy="'+CY+'" r="'+R+'" fill="none" stroke="'+color+'" stroke-width="12" stroke-dasharray="'+len.toFixed(1)+' '+(C-len).toFixed(1)+'" stroke-dashoffset="'+(-offset).toFixed(1)+'"/>';
     offset+=len;
-    legend+='<div style="display:flex;align-items:center;gap:5px;font-size:11px"><span style="width:8px;height:8px;border-radius:2px;background:'+color+';flex-shrink:0"></span><span style="flex:1;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+name+'</span><span style="color:#888;flex-shrink:0">'+(pct*100).toFixed(1)+'%</span></div>';
+    legend+='<div style="display:flex;align-items:center;gap:5px;font-size:11px"><span style="width:8px;height:8px;border-radius:2px;background:'+color+';flex-shrink:0"></span><span style="flex:1;color:#333;white-space:nowrap;overflow:hidden;text-overflow:ellipsis">'+name+'</span><span style="color:#666;flex-shrink:0">'+(pct*100).toFixed(1)+'%</span></div>';
   });
   const donutHtml='<div class="stat-sep"></div><div class="stat-sub">Répartition par mesure</div>'+
     '<div style="position:relative;width:140px;height:140px;margin:4px auto 8px">'+
     '<svg viewBox="0 0 100 100" style="width:100%;height:100%;transform:rotate(-90deg)">'+arcs+'</svg>'+
     '<div style="position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);text-align:center">'+
     '<div style="font-size:15px;font-weight:700;color:#000091">'+fmt(tm)+'</div>'+
-    '<div style="font-size:9px;color:#888">total</div></div></div>'+
+    '<div style="font-size:9px;color:#666">total</div></div></div>'+
     '<div style="display:flex;flex-direction:column;gap:2px">'+legend+'</div>';
   const isHab=displayMode==='habitant';
   // Dept aggregation for €/hab view
@@ -248,7 +271,7 @@ function updateStats(f){
         '<span style="color:#000091;font-weight:700">'+Math.round(d.hab)+' €/hab</span></div>'+
         '<div style="background:#eee;border-radius:3px;height:8px;overflow:hidden">'+
         '<div style="background:#000091;height:100%;width:'+pct.toFixed(1)+'%;border-radius:3px;transition:width .3s"></div></div>'+
-        '<div style="font-size:10px;color:#888;margin-top:1px">'+fmt(d.montant)+' · '+d.count+' projets · '+d.communes+' communes</div>'+
+        '<div style="font-size:10px;color:#666;margin-top:1px">'+fmt(d.montant)+' · '+d.count+' projets · '+d.communes+' communes</div>'+
         '</div>';
     });
   } else {
@@ -340,7 +363,7 @@ searchInput.addEventListener('input',function(){
   searchResults.innerHTML='';
   if(q.length<2){searchResults.style.display='none';return;}
   const matches=searchIdx.filter(p=>p._s.includes(q)).sort((a,b)=>b.montant-a.montant).slice(0,15);
-  if(!matches.length){searchResults.innerHTML='<div style="padding:8px 10px;font-size:11px;color:#888">Aucun résultat</div>';var r0=searchInput.getBoundingClientRect();searchResults.style.top=(r0.bottom+2)+'px';searchResults.style.left=r0.left+'px';searchResults.style.display='block';return;}
+  if(!matches.length){searchResults.innerHTML='<div style="padding:8px 10px;font-size:11px;color:#666">Aucun résultat</div>';var r0=searchInput.getBoundingClientRect();searchResults.style.top=(r0.bottom+2)+'px';searchResults.style.left=r0.left+'px';searchResults.style.display='block';return;}
   const totalM=matches.reduce((s,p)=>s+p.montant,0);
   const header=document.createElement('div');
   header.style.cssText='padding:6px 10px;font-size:11px;color:#666;border-bottom:1px solid #ddd;background:#f8f8f8';
@@ -351,7 +374,7 @@ searchInput.addEventListener('input',function(){
     div.style.cssText='padding:6px 10px;font-size:11px;cursor:pointer;border-bottom:1px solid #f0f0f0;color:#333';
     div.innerHTML='<div style="margin-bottom:2px">'+hlMatch(p.nom.substring(0,80),q)+'</div>'+
       '<div style="display:flex;justify-content:space-between;align-items:center">'+
-      '<span style="color:#888">'+hlMatch(p.commune,q)+' ('+p.code_dept+') \u00b7 '+p.demarche+'</span>'+
+      '<span style="color:#666">'+hlMatch(p.commune,q)+' ('+p.code_dept+') \u00b7 '+p.demarche+'</span>'+
       '<span style="color:#000091;font-weight:600;white-space:nowrap;margin-left:6px">'+fmt(p.montant)+'</span></div>'+
       '';
     div.addEventListener('mouseenter',function(){this.style.background='#f0f0f5';});
