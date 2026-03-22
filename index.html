@@ -72,6 +72,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
 </header>
 <nav class="filters-panel" role="navigation" aria-label="Filtres de la carte">
   <h2>Filtres</h2>
+  <div class="filter-section" style="margin-bottom:14px"><h3 style="font-size:12px;font-weight:600;color:#333;margin-bottom:6px">Rechercher une commune</h3><div style="position:relative"><input type="text" id="searchInput" placeholder="ex : Manosque, Gap..." autocomplete="off" style="width:100%;padding:6px 10px 6px 28px;font-size:12px;border:1px solid #ddd;border-radius:4px;background:#fff;color:#333;font-family:inherit"/><svg style="position:absolute;left:8px;top:50%;transform:translateY(-50%);width:14px;height:14px;opacity:.4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div><div id="searchResults" style="display:none;position:absolute;z-index:2000;background:#fff;border:1px solid #ddd;border-radius:4px;margin-top:2px;max-height:200px;overflow-y:auto;box-shadow:0 4px 12px rgba(0,0,0,.12);width:232px"></div></div>
   <div class="filter-section"><h3 id="dept-filter-label">Départements</h3><div class="filter-group" role="group" aria-labelledby="dept-filter-label" id="deptFilters" style="gap:4px;"></div></div>
   <div class="filter-section"><h3 id="mesure-filter-label">Mesures</h3><div class="filter-group" role="group" aria-labelledby="mesure-filter-label" id="mesureFilters"></div><button class="filter-reset" onclick="resetMesures()" aria-label="Réinitialiser les filtres de mesures">Tout afficher</button></div>
 </nav>
@@ -143,6 +144,11 @@ const mc=document.getElementById('mesureFilters');
 Object.entries(MESURE_COLORS).forEach(([n,c])=>{const l=document.createElement('label');l.className='filter-cb';const cb=document.createElement('input');cb.type='checkbox';cb.checked=true;cb.addEventListener('change',()=>{if(cb.checked)activeMesures.add(n);else activeMesures.delete(n);renderCircles();});const sw=document.createElement('span');sw.className='color-swatch';sw.style.background=c;l.appendChild(cb);l.appendChild(sw);l.appendChild(document.createTextNode(n));mc.appendChild(l);});
 function resetMesures(){activeMesures=new Set(Object.keys(MESURE_COLORS));document.querySelectorAll('#mesureFilters input[type="checkbox"]').forEach(cb=>cb.checked=true);renderCircles();}
 renderCircles();
+
+// Search
+const searchInput=document.getElementById('searchInput'),searchResults=document.getElementById('searchResults');
+searchInput.addEventListener('input',function(){const q=this.value.trim().toLowerCase();searchResults.innerHTML='';if(q.length<2){searchResults.style.display='none';return;}const matches=DATA.filter(d=>d.commune.toLowerCase().includes(q)).slice(0,10);if(!matches.length){searchResults.style.display='none';return;}matches.forEach(d=>{const div=document.createElement('div');div.style.cssText='padding:6px 10px;font-size:12px;cursor:pointer;border-bottom:1px solid #eee;color:#333';div.textContent=d.commune+' ('+d.code_dept+') — '+fmt(d.montant);div.addEventListener('mouseenter',()=>div.style.background='#f0f0f5');div.addEventListener('mouseleave',()=>div.style.background='#fff');div.addEventListener('click',()=>{map.setView([d.lat,d.lng],13);const c=circles.find(ci=>{const ll=ci.getLatLng();return Math.abs(ll.lat-d.lat)<0.001&&Math.abs(ll.lng-d.lng)<0.001;});if(c)c.openPopup();searchInput.value=d.commune;searchResults.style.display='none';});searchResults.appendChild(div);});searchResults.style.display='block';});
+document.addEventListener('click',function(e){if(!searchInput.contains(e.target)&&!searchResults.contains(e.target))searchResults.style.display='none';});
 </script>
 </body>
 </html>
