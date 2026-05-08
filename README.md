@@ -1,4 +1,4 @@
-# Fonds Vert PACA — Cartographie interactive v1.4
+# Fonds Vert PACA — Cartographie interactive v1.5.1
 
 Cartographie interactive des projets financés par le Fonds Vert en Provence-Alpes-Côte d'Azur (2023 + 2024), croisés avec les zonages et programmes nationaux (ZRR, PVD, ACV, Villages d'Avenir).
 
@@ -27,6 +27,9 @@ Données ouvertes [data.gouv.fr](https://www.data.gouv.fr/datasets/fonds-vert-li
 - **Export CSV** : données filtrées, BOM UTF-8 pour Excel
 - **Header dynamique** : compteurs mis à jour à chaque filtrage
 - **Réinitialiser** : reset global de tous les filtres
+- **Responsive mobile** : panneaux Filtres / Stats en off-canvas sous 768 px
+- **Accessibilité AA** : contrastes WCAG, aria-labels, skip-link, navigation clavier
+- **Bandeau « preuve de concept »** : mention non-officielle, liens data.gouv.fr et MCP data.gouv
 
 ## Sources de données
 
@@ -54,7 +57,7 @@ MCP datagouv → CSV national (2023 + 2024)
 ## Fichiers
 
 ```
-├── index.html                    # Carte interactive v1.4
+├── index.html                    # Carte interactive v1.5.1
 ├── data.js                       # Données combinées 2023+2024 (349 KB)
 ├── programmes_anct.js            # Zonages ANCT + ZRR par commune PACA (17 KB)
 ├── build_map_v2.py               # Pipeline unifié 2023+2024
@@ -74,11 +77,28 @@ MCP datagouv → CSV national (2023 + 2024)
 └── .gitignore
 ```
 
-## Corrections de géolocalisation (2024)
+## Retraitement des données sources
 
-24 dossiers corrigés — le champ `code_commune` du CSV MTE pointe parfois sur le siège du bénéficiaire (SIRET) plutôt que sur le lieu réel du projet. Détail dans le code source (`DOSSIER_CORRECTIONS` dans `build_map_v2.py`).
+Les deux millésimes ont nécessité un travail de réparation pour atteindre 100 % de géocodage. Toutes les corrections sont versionnées et reproductibles.
 
-Impact : Marseille passe de 39,3 M€ à 27,8 M€ (8 projets relocalisés vers leur commune réelle).
+### 2023 — 113 corrections (`data/corrections_2023.json`)
+
+113 projets sans `code_commune` (champ NULL dans le CSV MTE) ont été rattachés à une commune réelle :
+
+| Méthode | Nb | Description |
+|---|---|---|
+| `benef` | 73 | Rattachement via le bénéficiaire / EPCI (siège de la collectivité porteuse) |
+| `dept_fallback` | 20 | Rattachement à la préfecture du département quand la commune ne peut pas être ciblée |
+| `titre` | 13 | Commune déduite du titre du projet |
+| `titre_fix` | 7 | Code commune corrigé à partir du titre (incohérence avérée) |
+
+Sans ce travail, ces 113 projets seraient invisibles sur la carte.
+
+### 2024 — 24 dossiers relocalisés (`DOSSIER_CORRECTIONS` dans `build_map_v2.py`)
+
+Le champ `code_commune` pointe parfois sur le siège du bénéficiaire (SIRET) plutôt que sur le lieu réel du projet. Identification via le titre, le résumé et le bénéficiaire.
+
+Impact notable : Marseille passe de 39,3 M€ à 27,8 M€, 8 projets étant en réalité portés par d'autres communes (Manosque, Oraison, Château-Arnoux, Nice, Menton, Le Pradet, Toulon, Volx…).
 
 ## Croisements clés
 
