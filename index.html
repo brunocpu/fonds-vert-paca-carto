@@ -141,6 +141,7 @@ const DEPT_NAMES={"04":"Alpes-de-Haute-Provence","05":"Hautes-Alpes","06":"Alpes
 const DEPT_CENTROIDS={"04":[44.05,6.2],"05":[44.65,6.3],"06":[43.85,7.1],"13":[43.45,5.1],"83":[43.4,6.3],"84":[44.05,5.1]};
 let activeDepts=new Set(Object.keys(DEPT_NAMES)),activeMesures=new Set(Object.keys(MESURE_COLORS)),circles=[],deptLabels=[];
 let displayMode='montant'; // 'montant' or 'habitant' (dept level)
+let searchState=null;
 
 // Build lookup indexes for evolution
 const IDX_2023=Object.fromEntries(DATA_2023.map(d=>[d.code,d]));
@@ -181,7 +182,16 @@ function buildEvolutionHtml(code){
 
 function renderCircles(){
   circles.forEach(c=>map.removeLayer(c));circles=[];
-  const filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&activeMesures.has(d.demarche_short)&&(!activeProg||(ANCT_PROGRAMMES[d.code]&&ANCT_PROGRAMMES[d.code].indexOf(activeProg)>=0)));
+  let filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&activeMesures.has(d.demarche_short)&&(!activeProg||(ANCT_PROGRAMMES[d.code]&&ANCT_PROGRAMMES[d.code].indexOf(activeProg)>=0))&&(!searchState||communeMatchesQuery(d,searchState.q,searchState.scope)));
+  if(searchState && searchState.q){
+    filtered=filtered.map(d=>{
+      const fp=searchState.scope==='commune'?d.projets:(d.projets||[]).filter(p=>projectMatchesQuery(p,searchState.q,searchState.scope));
+      if(!fp.length) return null;
+      const byM={};fp.forEach(p=>{byM[p.demarche_short]=(byM[p.demarche_short]||0)+p.montant;});
+      const topDem=Object.entries(byM).sort((a,b)=>b[1]-a[1])[0];
+      return Object.assign({},d,{projets:fp,count:fp.length,montant:fp.reduce((s,p)=>s+p.montant,0),demarche_short:topDem?topDem[0]:d.demarche_short});
+    }).filter(Boolean);
+  }
   const maxM=filtered.length?Math.max(...filtered.map(d=>d.montant)):1;
   [...filtered].sort((a,b)=>a.montant-b.montant).forEach(d=>{
     const color=getColor(d.demarche_short),radius=getRadius(d.montant,maxM);
@@ -191,10 +201,11 @@ function renderCircles(){
     if(d.projets&&d.projets.length>0){
       const uid='proj-'+d.code,f3=d.projets.slice(0,3),rest=d.projets.slice(3);
       ph='<div class="popup-proj">';
-      f3.forEach(p=>{ph+='<div class="popup-proj-item"><span class="popup-proj-name">'+p.nom+'</span><br><span class="popup-proj-amount">'+fmt(p.montant)+'</span> \u00b7 '+(p.demarche_short||'')+'</div>';});
+      const benefLine=p=>p.beneficiaire?'<br><span style="color:#888;font-size:10px">'+p.beneficiaire+'</span>':'';
+      f3.forEach(p=>{ph+='<div class="popup-proj-item"><span class="popup-proj-name">'+p.nom+'</span>'+benefLine(p)+'<br><span class="popup-proj-amount">'+fmt(p.montant)+'</span> \u00b7 '+(p.demarche_short||'')+'</div>';});
       if(rest.length>0){
         ph+='<div id="'+uid+'" class="popup-extra">';
-        rest.forEach(p=>{ph+='<div class="popup-proj-item"><span class="popup-proj-name">'+p.nom+'</span><br><span class="popup-proj-amount">'+fmt(p.montant)+'</span> \u00b7 '+(p.demarche_short||'')+'</div>';});
+        rest.forEach(p=>{ph+='<div class="popup-proj-item"><span class="popup-proj-name">'+p.nom+'</span>'+benefLine(p)+'<br><span class="popup-proj-amount">'+fmt(p.montant)+'</span> \u00b7 '+(p.demarche_short||'')+'</div>';});
         ph+='</div>';
         ph+='<button class="popup-toggle" onclick="var el=document.getElementById(\''+uid+'\');var o=el.classList.toggle(\'open\');this.textContent=o?\'▲ Replier\':\'▼ '+rest.length+' autres projets\'">▼ '+rest.length+' autres projets</button>';
       }
@@ -292,12 +303,26 @@ function updateStats(f){
 
 // Export CSV
 function exportCSV(){
-  const filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&activeMesures.has(d.demarche_short)&&(!activeProg||(ANCT_PROGRAMMES[d.code]&&ANCT_PROGRAMMES[d.code].indexOf(activeProg)>=0)));
+  let filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&activeMesures.has(d.demarche_short)&&(!activeProg||(ANCT_PROGRAMMES[d.code]&&ANCT_PROGRAMMES[d.code].indexOf(activeProg)>=0))&&(!searchState||communeMatchesQuery(d,searchState.q,searchState.scope)));
+  if(searchState && searchState.q){
+    filtered=filtered.map(d=>{
+      const fp=searchState.scope==='commune'?d.projets:(d.projets||[]).filter(p=>projectMatchesQuery(p,searchState.q,searchState.scope));
+      return fp.length?Object.assign({},d,{projets:fp}):null;
+    }).filter(Boolean);
+  }
   const yr=currentYear==='both'?'2023-2024':String(currentYear);
-  let csv='\ufeff"Code INSEE","Commune","Département","Code dept","Projets","Montant (€)","Population","€/habitant","Mesure principale"\n';
-  filtered.sort((a,b)=>b.montant-a.montant).forEach(d=>{
-    const hab=d.population>0?(d.montant/d.population).toFixed(0):'';
-    csv+='"'+d.code+'","'+d.commune+'","'+d.dept+'","'+d.code_dept+'",'+d.count+','+d.montant.toFixed(2)+','+(d.population||'')+','+hab+',"'+d.demarche_short+'"\n';
+  const CSV_COLS=['Département','Code dépt','Code INSEE','Commune','Population','Mesure','Projet','Bénéficiaire','Subvention Fonds Vert (€)'];
+  let csv='\ufeff'+CSV_COLS.map(s=>'"'+s.replace(/"/g,'""')+'"').join(';')+'\r\n';
+  const SEP=';';
+  const num=n=>(n==null||n==='')?'':String(n).replace('.',',');
+  const esc=s=>'"'+String(s==null?'':s).replace(/"/g,'""')+'"';
+  filtered.sort((a,b)=>(a.code_dept===b.code_dept)?b.montant-a.montant:a.code_dept.localeCompare(b.code_dept)).forEach(d=>{
+    (d.projets||[]).forEach(p=>{
+      csv+=[
+        esc(d.dept),esc(d.code_dept),esc(d.code),esc(d.commune),(d.population||''),
+        esc(p.demarche_short),esc(p.nom),esc(p.beneficiaire),num(p.montant.toFixed(2))
+      ].join(SEP)+'\r\n';
+    });
   });
   const blob=new Blob([csv],{type:'text/csv;charset=utf-8'});
   const a=document.createElement('a');
@@ -348,8 +373,8 @@ const searchInput=document.getElementById('searchInput'),searchResults=document.
 function buildSearchIndex(){
   const idx=[];
   DATA.forEach(d=>{d.projets.forEach(p=>{
-    idx.push({nom:p.nom,montant:p.montant,demarche:p.demarche_short,commune:d.commune,code_dept:d.code_dept,dept:d.dept,lat:d.lat,lng:d.lng,code:d.code,
-      _s:(p.nom+' '+d.commune+' '+p.demarche_short+' '+(d.dept||'')).toLowerCase()});
+    idx.push({nom:p.nom,montant:p.montant,demarche:p.demarche_short,beneficiaire:p.beneficiaire,commune:d.commune,code_dept:d.code_dept,dept:d.dept,lat:d.lat,lng:d.lng,code:d.code,
+      _s:(p.nom+' '+d.commune+' '+p.demarche_short+' '+(d.dept||'')+' '+(p.beneficiaire||'')).toLowerCase()});
   });});
   return idx;
 }
@@ -359,21 +384,90 @@ function hlMatch(text,q){
   try{const re=new RegExp('('+q.replace(/[.*+?^${}()|[\]\\]/g,'\\$&')+')','gi');return text.replace(re,'<mark style="background:#fff3cd;padding:0 1px;border-radius:2px">$1</mark>');}
   catch(e){return text;}
 }
-searchInput.addEventListener('input',function(){
-  const q=this.value.trim().toLowerCase();
+function projectMatchesQuery(p,q,scope){
+  if(!q) return true;
+  const nm=p.nom && p.nom.toLowerCase().includes(q);
+  const bm=p.beneficiaire && p.beneficiaire.toLowerCase().includes(q);
+  const mm=p.demarche_short && p.demarche_short.toLowerCase().includes(q);
+  if(scope==='projet') return nm;
+  if(scope==='beneficiaire') return bm;
+  if(scope==='mesure') return mm;
+  if(scope==='commune') return true;
+  return nm||bm||mm;
+}
+function communeMatchesQuery(d,q,scope){
+  if(!q) return true;
+  if(scope==='commune') return d.commune && d.commune.toLowerCase().includes(q);
+  return (d.projets||[]).some(p=>projectMatchesQuery(p,q,scope));
+}
+const SCOPE_DEFS=[{key:'projet',label:'Projet',color:'#000091'},{key:'beneficiaire',label:'Bénéf.',color:'#5a3b8e'},{key:'commune',label:'Commune',color:'#2e7d32'},{key:'mesure',label:'Mesure',color:'#bf8f00'}];
+let activeScope='all';
+function computeScopes(p,q){
+  const s=[];
+  if(p.nom && p.nom.toLowerCase().includes(q)) s.push('projet');
+  if(p.beneficiaire && p.beneficiaire.toLowerCase().includes(q)) s.push('beneficiaire');
+  if(p.commune && p.commune.toLowerCase().includes(q)) s.push('commune');
+  if(p.demarche && p.demarche.toLowerCase().includes(q)) s.push('mesure');
+  return s;
+}
+function runSearch(){
+  const q=searchInput.value.trim().toLowerCase();
   searchResults.innerHTML='';
-  if(q.length<2){searchResults.style.display='none';return;}
-  const matches=searchIdx.filter(p=>p._s.includes(q)).sort((a,b)=>b.montant-a.montant).slice(0,15);
-  if(!matches.length){searchResults.innerHTML='<div style="padding:8px 10px;font-size:11px;color:#666">Aucun résultat</div>';var r0=searchInput.getBoundingClientRect();searchResults.style.top=(r0.bottom+2)+'px';searchResults.style.left=r0.left+'px';searchResults.style.display='block';return;}
+  if(q.length<2){searchResults.style.display='none';if(searchState){searchState=null;renderCircles();}return;}
+  const allMatches=[];
+  for(const p of searchIdx){
+    if(!p._s.includes(q)) continue;
+    const sc=computeScopes(p,q);
+    if(sc.length>0){p._scopes=sc;allMatches.push(p);}
+  }
+  const counts={all:allMatches.length,projet:0,beneficiaire:0,commune:0,mesure:0};
+  allMatches.forEach(p=>p._scopes.forEach(s=>counts[s]++));
+  if(activeScope!=='all' && counts[activeScope]===0) activeScope='all';
+  const scoped=activeScope==='all'?allMatches:allMatches.filter(p=>p._scopes.includes(activeScope));
+  const matches=scoped.sort((a,b)=>b.montant-a.montant).slice(0,15);
   const totalM=matches.reduce((s,p)=>s+p.montant,0);
-  const header=document.createElement('div');
-  header.style.cssText='padding:6px 10px;font-size:11px;color:#666;border-bottom:1px solid #ddd;background:#f8f8f8';
-  header.innerHTML='<b>'+matches.length+'</b> projet'+(matches.length>1?'s':'')+' \u00b7 <b style="color:#000091">'+fmt(totalM)+'</b>';
-  searchResults.appendChild(header);
+  const pillsBar=document.createElement('div');
+  pillsBar.style.cssText='display:flex;gap:4px;padding:6px 8px;border-bottom:1px solid #ddd;background:#f8f8f8;flex-wrap:wrap;align-items:center';
+  const allPills=[{key:'all',label:'Tout',color:'#000091'}].concat(SCOPE_DEFS);
+  allPills.forEach(s=>{
+    const c=counts[s.key]||0;
+    const isActive=activeScope===s.key;
+    const isDim=c===0 && s.key!=='all';
+    const pill=document.createElement('button');
+    pill.type='button';
+    pill.style.cssText='font-family:inherit;font-size:10px;padding:2px 8px;border-radius:10px;border:1px solid '+(isActive?s.color:'#ddd')+';background:'+(isActive?s.color:'#fff')+';color:'+(isActive?'#fff':'#555')+';cursor:'+(isDim?'default':'pointer')+';font-weight:600;'+(isDim?'opacity:0.35;':'');
+    if(isDim) pill.disabled=true;
+    pill.textContent=s.label+' '+c;
+    pill.addEventListener('click',function(){if(!isDim){activeScope=s.key;runSearch();}});
+    pillsBar.appendChild(pill);
+  });
+  const totalSpan=document.createElement('span');
+  totalSpan.style.cssText='margin-left:auto;font-size:10px;color:#000091;font-weight:700';
+  totalSpan.textContent=fmt(totalM);
+  pillsBar.appendChild(totalSpan);
+  searchResults.appendChild(pillsBar);
+  if(!matches.length){
+    const eDiv=document.createElement('div');
+    eDiv.style.cssText='padding:8px 10px;font-size:11px;color:#666';
+    eDiv.textContent='Aucun résultat';
+    searchResults.appendChild(eDiv);
+    var r0=searchInput.getBoundingClientRect();
+    searchResults.style.top=(r0.bottom+2)+'px';
+    searchResults.style.left=r0.left+'px';
+    searchResults.style.display='block';
+    return;
+  }
   matches.forEach(p=>{
     const div=document.createElement('div');
     div.style.cssText='padding:6px 10px;font-size:11px;cursor:pointer;border-bottom:1px solid #f0f0f0;color:#333';
-    div.innerHTML='<div style="margin-bottom:2px">'+hlMatch(p.nom.substring(0,80),q)+'</div>'+
+    const benefHtml=p.beneficiaire?'<div style="color:#888;font-size:10px;margin-bottom:2px">'+hlMatch(p.beneficiaire,q)+'</div>':'';
+    const order=['beneficiaire','commune','mesure','projet'];
+    let primary='projet';
+    for(const k of order){if(p._scopes && p._scopes.indexOf(k)>=0){primary=k;break;}}
+    const def=SCOPE_DEFS.find(sd=>sd.key===primary)||SCOPE_DEFS[0];
+    const badge='<span style="display:inline-block;font-size:9px;padding:1px 5px;border-radius:8px;background:'+def.color+';color:#fff;font-weight:600;margin-right:5px;vertical-align:middle;letter-spacing:.3px">'+def.label+'</span>';
+    div.innerHTML='<div style="margin-bottom:2px">'+badge+hlMatch(p.nom.substring(0,80),q)+'</div>'+
+      benefHtml+
       '<div style="display:flex;justify-content:space-between;align-items:center">'+
       '<span style="color:#666">'+hlMatch(p.commune,q)+' ('+p.code_dept+') \u00b7 '+p.demarche+'</span>'+
       '<span style="color:#000091;font-weight:600;white-space:nowrap;margin-left:6px">'+fmt(p.montant)+'</span></div>'+
@@ -392,7 +486,13 @@ searchInput.addEventListener('input',function(){
   searchResults.style.top=(rect.bottom+2)+'px';
   searchResults.style.left=rect.left+'px';
   searchResults.style.display='block';
-});
+  const newState={q:q,scope:activeScope};
+  if(!searchState||searchState.q!==newState.q||searchState.scope!==newState.scope){
+    searchState=newState;
+    renderCircles();
+  }
+}
+searchInput.addEventListener('input',function(){activeScope='all';runSearch();});
 document.addEventListener('click',function(e){if(!searchInput.contains(e.target)&&!searchResults.contains(e.target))searchResults.style.display='none';});
 
 // Merge 2023+2024 by code commune
@@ -400,17 +500,17 @@ function mergeData(d1,d2){
   const m=new Map();
   d1.forEach(d=>{
     m.set(d.code,{lat:d.lat,lng:d.lng,commune:d.commune,code:d.code,dept:d.dept,code_dept:d.code_dept,
-      count:d.count,montant:d.montant,population:d.population,projets:d.projets.map(p=>({nom:p.nom,montant:p.montant,demarche_short:p.demarche_short}))});
+      count:d.count,montant:d.montant,population:d.population,projets:d.projets.map(p=>({nom:p.nom,montant:p.montant,demarche_short:p.demarche_short,beneficiaire:p.beneficiaire,siren:p.siren}))});
   });
   d2.forEach(d=>{
     if(m.has(d.code)){
       const e=m.get(d.code);
       e.count+=d.count;e.montant+=d.montant;
       e.population=Math.max(e.population||0,d.population||0);
-      d.projets.forEach(p=>e.projets.push({nom:p.nom,montant:p.montant,demarche_short:p.demarche_short}));
+      d.projets.forEach(p=>e.projets.push({nom:p.nom,montant:p.montant,demarche_short:p.demarche_short,beneficiaire:p.beneficiaire,siren:p.siren}));
     }else{
       m.set(d.code,{lat:d.lat,lng:d.lng,commune:d.commune,code:d.code,dept:d.dept,code_dept:d.code_dept,
-        count:d.count,montant:d.montant,population:d.population,projets:d.projets.map(p=>({nom:p.nom,montant:p.montant,demarche_short:p.demarche_short}))});
+        count:d.count,montant:d.montant,population:d.population,projets:d.projets.map(p=>({nom:p.nom,montant:p.montant,demarche_short:p.demarche_short,beneficiaire:p.beneficiaire,siren:p.siren}))});
     }
   });
   m.forEach(d=>{
