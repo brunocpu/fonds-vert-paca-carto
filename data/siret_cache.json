@@ -1,0 +1,3350 @@
+{
+ "420376923": {
+  "nom": "ASSO GROUPE CHIROPTERE DE PROVENCE",
+  "sigle": null,
+  "nature": "9220",
+  "tranche_eff": "11"
+ },
+ "210401493": {
+  "nom": "COMMUNE DE PEYRUIS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "210401212": {
+  "nom": "COMMUNE DE MEZEL",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210400230": {
+  "nom": "COMMUNE DE BAYONS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210400966": {
+  "nom": "COMMUNE DE JAUSIERS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210401022": {
+  "nom": "COMMUNE LE LAUZET UBAYE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "240400440": {
+  "nom": "COM COM PAYS FORCALQUIER  MONT DE LURE",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "12"
+ },
+ "200068625": {
+  "nom": "CC ALPES-PROVENCE-VERDON SOURCES DE LUMIERE",
+  "sigle": "CC APV",
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "220400014": {
+  "nom": "DEPARTEMENT DES ALPES DE HAUTE PROVENCE",
+  "sigle": null,
+  "nature": "7220",
+  "tranche_eff": "42"
+ },
+ "200067437": {
+  "nom": "CA PROVENCE-ALPES-AGGLOMERATION",
+  "sigle": "P2A",
+  "nature": "7348",
+  "tranche_eff": "32"
+ },
+ "210401626": {
+  "nom": "COMMUNE DE REVEST DES BROUSSES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "200034700": {
+  "nom": "DURANCE LUBERON VERDON AGGLOMERATION",
+  "sigle": null,
+  "nature": "7348",
+  "tranche_eff": "32"
+ },
+ "200068765": {
+  "nom": "CC DU SISTERONAIS-BUECH",
+  "sigle": "CC SB",
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "200072304": {
+  "nom": "CC VALLEE DE L'UBAYE - SERRE-PONCON",
+  "sigle": "CC VUSP",
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "210401881": {
+  "nom": "COMMUNE DE SAINT MAIME",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210402418": {
+  "nom": "COMMUNE DE VILLEMUS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210400537": {
+  "nom": "COMMUNE DE CHATEAUNEUF VAL SAINT DONAT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210401709": {
+  "nom": "COMMUNE LA ROCHETTE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210401352": {
+  "nom": "COMMUNE DE MOUSTIERS SAINTE MARIE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210402442": {
+  "nom": "COMMUNE DE VOLONNE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210401162": {
+  "nom": "COMMUNE LES MEES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "210400693": {
+  "nom": "COMMUNE DE DEMANDOLX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "01"
+ },
+ "210400180": {
+  "nom": "COMMUNE DE BANON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210401600": {
+  "nom": "COMMUNE DE REILLANNE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210401246": {
+  "nom": "COMMUNE DE MONTAGNAC MONTPEZAT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210401295": {
+  "nom": "COMMUNE DE MONTJUSTIN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "01"
+ },
+ "210400917": {
+  "nom": "COMMUNE DE GANAGOBIE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210401097": {
+  "nom": "COMMUNE DE MALLEFOUGASSE AUGES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210400909": {
+  "nom": "COMMUNE LE FUGERET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "01"
+ },
+ "210400818": {
+  "nom": "COMMUNE D ESPARRON DE VERDON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "280400169": {
+  "nom": "SCE DEPARTEMENTAL INCENDIE ET SECOURS",
+  "sigle": "SDIS",
+  "nature": "7372",
+  "tranche_eff": "22"
+ },
+ "210401220": {
+  "nom": "COMMUNE DE MIRABEAU",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210400636": {
+  "nom": "COMMUNE DE CORBIERES-EN-PROVENCE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210400792": {
+  "nom": "COMMUNE L ESCALE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "200071025": {
+  "nom": "CC HAUTE-PROVENCE-PAYS DE BANON",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "21"
+ },
+ "210401113": {
+  "nom": "COMMUNE DE MANE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210402095": {
+  "nom": "COMMUNE DE SISTERON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "210400198": {
+  "nom": "COMMUNE DE BARCELONNETTE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "210401501": {
+  "nom": "COMMUNE DE PIEGUT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "250401072": {
+  "nom": "SM DE GESTION DU PARC NATUREL REGIONAL DU VERDON (SMPNRV)",
+  "sigle": "PNRV",
+  "nature": "7355",
+  "tranche_eff": "12"
+ },
+ "250400611": {
+  "nom": "SM ASSE-BLEONE (SMAB)",
+  "sigle": "SMAB",
+  "nature": "7355",
+  "tranche_eff": "03"
+ },
+ "258402304": {
+  "nom": "SYND MIXTE AMENAGEMENT VALLEE LA DURANCE",
+  "sigle": null,
+  "nature": "7355",
+  "tranche_eff": "21"
+ },
+ "210400271": {
+  "nom": "COMMUNE DE BEVONS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210400065": {
+  "nom": "COMMUNE D ALLOS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "250400165": {
+  "nom": "SYNDICAT INTERCOMMUNAL D'ENERGIE ET DE RESEAUX DE TELECOMMUNICATION D'ANNOT-ENTREVAUX",
+  "sigle": "SIERT",
+  "nature": "7353",
+  "tranche_eff": "01"
+ },
+ "210400677": {
+  "nom": "COMMUNE DE CUREL",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210401444": {
+  "nom": "COMMUNE LA PALUD SUR VERDON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210400461": {
+  "nom": "COMMUNE LE CHAFFAUT SAINT JURSON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210401394": {
+  "nom": "COMMUNE DE NOYERS SUR JABRON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210402293": {
+  "nom": "COMMUNE DE VALBELLE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210400586": {
+  "nom": "COMMUNE DE CLARET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210402202": {
+  "nom": "COMMUNE LES THUILES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210402160": {
+  "nom": "COMMUNE DE THEZE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210401238": {
+  "nom": "COMMUNE DE MISON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210402228": {
+  "nom": "COMMUNE DE TURRIERS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "250400710": {
+  "nom": "SYNDICAT D'ENERGIE DES ALPES-DE-HAUTE-PROVENCE",
+  "sigle": "SDE04",
+  "nature": "7354",
+  "tranche_eff": "12"
+ },
+ "210401121": {
+  "nom": "COMMUNE DE MANOSQUE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "210400495": {
+  "nom": "COMMUNE DE CHATEAU ARNOUX-SAINT AUBAN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "210402376": {
+  "nom": "COMMUNE LE VERNET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210401543": {
+  "nom": "COMMUNE DE PONTIS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "180400020": {
+  "nom": "CHAMB DEP AGRIC ALPES HAUTE PROVENCE",
+  "sigle": null,
+  "nature": "7381",
+  "tranche_eff": "21"
+ },
+ "210401956": {
+  "nom": "COMMUNE DE SAINT PONS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210401550": {
+  "nom": "COMMUNE DE PRADS HAUTE BLEONE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210402020": {
+  "nom": "COMMUNE DE SAUSSES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "01"
+ },
+ "210401741": {
+  "nom": "COMMUNE DE SAINT BENOIT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210401667": {
+  "nom": "COMMUNE DE RIEZ",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "200058618": {
+  "nom": "COMMUNE DE VAL D'ORONAYE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210400883": {
+  "nom": "COMMUNE DE FORCALQUIER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "210400941": {
+  "nom": "COMMUNE DE GREOUX LES BAINS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "180503013": {
+  "nom": "PARC NATIONAL DES ECRINS",
+  "sigle": null,
+  "nature": "7385",
+  "tranche_eff": "22"
+ },
+ "210500740": {
+  "nom": "COMMUNE DE LETTRET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "250501285": {
+  "nom": "COMMUNAUTE LOCALE EAU DU DRAC AMONT",
+  "sigle": "CLEDA",
+  "nature": "7354",
+  "tranche_eff": "02"
+ },
+ "210500369": {
+  "nom": "COMMUNE DE CHATEAUROUX LES ALPES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "200067452": {
+  "nom": "CC DU GUILLESTROIS ET DU QUEYRAS",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "210500872": {
+  "nom": "COMMUNE DE MONTMAUR",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210500104": {
+  "nom": "COMMUNE D ASPRES SUR BUECH",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210500377": {
+  "nom": "COMMUNE DE CHATEAUVIEUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "220500011": {
+  "nom": "DEPARTEMENT DES HAUTES ALPES",
+  "sigle": null,
+  "nature": "7220",
+  "tranche_eff": "42"
+ },
+ "210501516": {
+  "nom": "COMMUNE DE SAINT MARTIN DE QUEYRIERES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210500468": {
+  "nom": "COMMUNE D EMBRUN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "210500062": {
+  "nom": "COMMUNE L ARGENTIERE LA BESSEE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "210500120": {
+  "nom": "COMMUNE DE BARATIER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "412111981": {
+  "nom": "MEHDI AIT EL HADJ ALI",
+  "sigle": null,
+  "nature": "1000",
+  "tranche_eff": "NN"
+ },
+ "200067320": {
+  "nom": "CC SERRE-PONCON VAL D'AVANCE",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "12"
+ },
+ "200067742": {
+  "nom": "CC SERRE-PONCON",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "210500971": {
+  "nom": "COMMUNE D ORPIERRE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "250500600": {
+  "nom": "SYNDICAT MIXTE DU PARC NATUREL REGIONAL DU QUEYRAS",
+  "sigle": null,
+  "nature": "7355",
+  "tranche_eff": "12"
+ },
+ "200052801": {
+  "nom": "PETR DU BRIANCONNAIS, DES ECRINS, DU GUILLESTROIS ET DU QUEYRAS",
+  "sigle": "PETR",
+  "nature": "7357",
+  "tranche_eff": "03"
+ },
+ "200053148": {
+  "nom": "COMMUNE DE VAL BUECH-MEOUGE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210500310": {
+  "nom": "COMMUNE DE CHAMPCELLA",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210500575": {
+  "nom": "COMMUNE DE FOUILLOUSE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210501698": {
+  "nom": "COMMUNE DE SORBIERS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "NN"
+ },
+ "210501680": {
+  "nom": "COMMUNE DE SIGOYER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "240500439": {
+  "nom": "COMMUNAUTE COMMUNES DU BRIANCONNAIS",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "31"
+ },
+ "210500682": {
+  "nom": "COMMUNE DE JARJAYES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "240500462": {
+  "nom": "COMMUNAUTE DE COMMUNES DU PAYS DES ECRINS",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "250501210": {
+  "nom": "SYNDICAT MIXTE DE GESTION INTERCOMMUNAUTAIRE DU BUECH ET DE SES AFFLUENTS",
+  "sigle": "SMIGIBA",
+  "nature": "7354",
+  "tranche_eff": "11"
+ },
+ "210501797": {
+  "nom": "COMMUNE DE VEYNES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "200032415": {
+  "nom": "SYNDICAT D'ECLAIRAGE PUBLIC EMBRUNAIS-SAVINOIS",
+  "sigle": null,
+  "nature": "7353",
+  "tranche_eff": "03"
+ },
+ "210501664": {
+  "nom": "COMMUNE DE SERRES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210500195": {
+  "nom": "COMMUNE DE LA BEAUME",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "200075505": {
+  "nom": "SI GUIL-DURANCE D'ECLAIRAGE PUBLIC",
+  "sigle": "SIGDEP",
+  "nature": "7353",
+  "tranche_eff": "01"
+ },
+ "200075059": {
+  "nom": "COMMUNE DE VALDOULE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210500237": {
+  "nom": "COMMUNE DE BRIANCON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "210500708": {
+  "nom": "COMMUNE DE LARAGNE MONTEGLIN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "210500757": {
+  "nom": "COMMUNE DE MANTEYER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210500617": {
+  "nom": "COMMUNE DE GAP",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "210501649": {
+  "nom": "COMMUNE DE SAVINES LE LAC",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210500294": {
+  "nom": "COMMUNE DE CHABOTTES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210501706": {
+  "nom": "COMMUNE DE TALLARD",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "210500401": {
+  "nom": "COMMUNE DE CHORGES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "210500989": {
+  "nom": "COMMUNE LES ORRES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "250500790": {
+  "nom": "SYNDICAT MIXTE DE TRAITEMENT DES ORDURES MENAGERES DU GUILLESTROIS, DU QUEYRAS ET DE L'ARGENTIEROIS (SMITOMGA)",
+  "sigle": "SMITOMGA",
+  "nature": "7354",
+  "tranche_eff": "03"
+ },
+ "220600019": {
+  "nom": "DEPARTEMENT DES ALPES MARITIMES",
+  "sigle": null,
+  "nature": "7220",
+  "tranche_eff": "51"
+ },
+ "180600058": {
+  "nom": "PARC NATIONAL DU MERCANTOUR",
+  "sigle": null,
+  "nature": "7385",
+  "tranche_eff": "21"
+ },
+ "539927079": {
+  "nom": "COMITE DEPARTEMENTAL DES PECHES MARITIMES ET DES ELEVAGES MARINS DES ALPES MARITIMES",
+  "sigle": "C.D.P.M.E.M 06",
+  "nature": "8420",
+  "tranche_eff": "01"
+ },
+ "180005019": {
+  "nom": "CONSERVATOIRE DE L'ESPACE LITTORAL ET DES RIVAGES LACUSTRES",
+  "sigle": null,
+  "nature": "7389",
+  "tranche_eff": "22"
+ },
+ "200030195": {
+  "nom": "METROPOLE NICE COTE D AZUR",
+  "sigle": null,
+  "nature": "7344",
+  "tranche_eff": "51"
+ },
+ "210601415": {
+  "nom": "COMMUNE DE TOUDON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210600052": {
+  "nom": "COMMUNE D ASCROS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "200039931": {
+  "nom": "CC ALPES D'AZUR",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "200039857": {
+  "nom": "CA DU PAYS DE GRASSE",
+  "sigle": null,
+  "nature": "7348",
+  "tranche_eff": "41"
+ },
+ "240600585": {
+  "nom": "COMMUNAUTE D AGGLOMERATION DE SOPHIA ANTIPOLIS",
+  "sigle": "CASA",
+  "nature": "7348",
+  "tranche_eff": "41"
+ },
+ "200039915": {
+  "nom": "COMMUNAUTE D'AGGLOMERATION CANNES PAYS DE LERINS",
+  "sigle": "CAPL",
+  "nature": "7348",
+  "tranche_eff": "41"
+ },
+ "210600888": {
+  "nom": "COMMUNE DE NICE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "52"
+ },
+ "210600953": {
+  "nom": "COMMUNE DE PEYMEINADE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "200093235": {
+  "nom": "SI DES COMMUNES ALIMENTEES PAR LES CANAUX DE LA SIAGNE ET DU LOUP",
+  "sigle": "SICASIL",
+  "nature": "7354",
+  "tranche_eff": "01"
+ },
+ "280600511": {
+  "nom": "SCE DEPARTEMENTAL INCENDIE ET SECOURS",
+  "sigle": "SDIS",
+  "nature": "7372",
+  "tranche_eff": "42"
+ },
+ "210601613": {
+  "nom": "COMMUNE DE VILLENEUVE LOUBET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "210601522": {
+  "nom": "COMMUNE DE VALBONNE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "210600904": {
+  "nom": "COMMUNE DE PEGOMAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "441649225": {
+  "nom": "ETS PUB FONCIER P.A.C.A",
+  "sigle": "EPF PACA",
+  "nature": "4110",
+  "tranche_eff": "21"
+ },
+ "210600649": {
+  "nom": "COMMUNE DE GATTIERES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "210601233": {
+  "nom": "COMMUNE DE SAINT LAURENT DU VAR",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "210600847": {
+  "nom": "COMMUNE DE MOUANS SARTOUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "210600292": {
+  "nom": "COMMUNE DE CANNES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "51"
+ },
+ "798982583": {
+  "nom": "SOCIETE PUBLIQUE LOCALE COTE D'AZUR AMENAGEMENT",
+  "sigle": null,
+  "nature": "5599",
+  "tranche_eff": "02"
+ },
+ "508858883": {
+  "nom": "ETABLISSEMENT PUBLIC D'AMENAGEMENT ECOVALLEE - PLAINE DU VAR",
+  "sigle": null,
+  "nature": "4110",
+  "tranche_eff": "12"
+ },
+ "210600276": {
+  "nom": "COMMUNE DE CAGNES SUR MER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "210601571": {
+  "nom": "COMMUNE DE VENCE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "200071397": {
+  "nom": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
+  "sigle": "SMIAGE",
+  "nature": "7355",
+  "tranche_eff": "21"
+ },
+ "250601879": {
+  "nom": "SM D'INGENIERIE POUR LES COLLECTIVITES ET TERRITOIRES INNOVANTS DES ALPES-MEDITERRANEE",
+  "sigle": "SICTIAM",
+  "nature": "7355",
+  "tranche_eff": "21"
+ },
+ "210600268": {
+  "nom": "COMMUNE DE CABRIS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210601431": {
+  "nom": "COMMUNE DE TOUET SUR VAR",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210600698": {
+  "nom": "COMMUNE DE GRASSE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "42"
+ },
+ "210600763": {
+  "nom": "COMMUNE DE LIEUCHE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "01"
+ },
+ "210601498": {
+  "nom": "COMMUNE DE LA TRINITE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "210601258": {
+  "nom": "COMMUNE DE SAINT MARTIN D ENTRAUNES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "662043116": {
+  "nom": "OFFICE NATIONAL DES FORETS",
+  "sigle": "ONF",
+  "nature": "4110",
+  "tranche_eff": "52"
+ },
+ "200088474": {
+  "nom": "ETABLISSEMENT PUBLIC D'AMENAGEMENT ET DE GESTION DES EAUX HUVEAUNE-COTIERS-AYGALADES (EPAGE HUCA)",
+  "sigle": "HUCA",
+  "nature": "7354",
+  "tranche_eff": "12"
+ },
+ "434391215": {
+  "nom": "LES AMIS DES MARAIS DU VIGUEIRAT",
+  "sigle": null,
+  "nature": "9220",
+  "tranche_eff": "21"
+ },
+ "130016793": {
+  "nom": "ETABLISSEMENT PUBLIC DU PARC NATIONAL DES CALANQUES",
+  "sigle": null,
+  "nature": "7385",
+  "tranche_eff": "21"
+ },
+ "385290309": {
+  "nom": "AGENCE DE L ENVIRONNEMENT ET DE LA MAITRISE DE L ENERGIE",
+  "sigle": "ADEME",
+  "nature": "4110",
+  "tranche_eff": "42"
+ },
+ "775662752": {
+  "nom": "SOC NATIONALE PROTECTION DE LA NATURE",
+  "sigle": null,
+  "nature": "9230",
+  "tranche_eff": "12"
+ },
+ "340747047": {
+  "nom": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
+  "sigle": "CEN PACA",
+  "nature": "9220",
+  "tranche_eff": "21"
+ },
+ "200054807": {
+  "nom": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
+  "sigle": "AMP",
+  "nature": "7344",
+  "tranche_eff": "52"
+ },
+ "291302214": {
+  "nom": "ASSOCIATION SYNDICALE AUTORISEE CANAL DE LA FUMEMORTE",
+  "sigle": null,
+  "nature": "7321",
+  "tranche_eff": "NN"
+ },
+ "251302014": {
+  "nom": "SYNDICAT MIXTE  DE GESTION DU PARC REGIONAL DES ALPILLES",
+  "sigle": null,
+  "nature": "7355",
+  "tranche_eff": "12"
+ },
+ "251301099": {
+  "nom": "AGENCE REGIONALE DE LA BIODIVERSITE ET DE L'ENVIRONNEMENT PROVENCE-ALPES-COTE-D'AZUR",
+  "sigle": "EPCE ARBE",
+  "nature": "7379",
+  "tranche_eff": "12"
+ },
+ "221300015": {
+  "nom": "DEPARTEMENT DES BOUCHES DU RHONE",
+  "sigle": null,
+  "nature": "7220",
+  "tranche_eff": "52"
+ },
+ "815152681": {
+  "nom": "NAUTISME MER DEVELOPPEMENT PORT-SAINT-LOUIS-PROVENCE",
+  "sigle": null,
+  "nature": "5599",
+  "tranche_eff": "11"
+ },
+ "251302295": {
+  "nom": "SM DE GEST PARC NATUREL REGION CAMARGUE",
+  "sigle": null,
+  "nature": "7355",
+  "tranche_eff": "12"
+ },
+ "211300926": {
+  "nom": "COMMUNE DE SAINT CHAMAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "775558489": {
+  "nom": "GRAND PORT MARITIME DE MARSEILLE",
+  "sigle": "GPMM",
+  "nature": "4110",
+  "tranche_eff": "42"
+ },
+ "251302048": {
+  "nom": "SYNDICAT MIXTE INTERREGIONAL D AMENAGEMENT DES DIGUES DU DELTA DU RHONE ET DE LA MER",
+  "sigle": "SYMADREM",
+  "nature": "7355",
+  "tranche_eff": "12"
+ },
+ "231300021": {
+  "nom": "REGION PROVENCE-ALPES-COTE D'AZUR",
+  "sigle": null,
+  "nature": "7230",
+  "tranche_eff": "52"
+ },
+ "291302602": {
+  "nom": "ASSOCIATION SYNDICALE CONSTITUEE D OFFICE DES ARROSANTS DE LA CRAU",
+  "sigle": null,
+  "nature": "7321",
+  "tranche_eff": "02"
+ },
+ "450482294": {
+  "nom": "FED DEP DES STRUCTURES HYDRAULIQUES BDR",
+  "sigle": "FDSH 13",
+  "nature": "9220",
+  "tranche_eff": "01"
+ },
+ "281300020": {
+  "nom": "SCE DEPARTEMENTAL INCENDIE ET SECOURS",
+  "sigle": "SDIS",
+  "nature": "7372",
+  "tranche_eff": "51"
+ },
+ "211300108": {
+  "nom": "COMMUNE DE BARBENTANE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "211300025": {
+  "nom": "COMMUNE D ALLAUCH",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "211300553": {
+  "nom": "COMMUNE DE MARSEILLE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "53"
+ },
+ "211300561": {
+  "nom": "COMMUNE DE MARTIGUES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "51"
+ },
+ "404132292": {
+  "nom": "ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE",
+  "sigle": "EPAEM",
+  "nature": "4110",
+  "tranche_eff": "21"
+ },
+ "913865937": {
+  "nom": "TIERS-LAB DES TRANSITIONS",
+  "sigle": null,
+  "nature": "5560",
+  "tranche_eff": "02"
+ },
+ "524460888": {
+  "nom": "SOCIETE LOCALE D'EQUIPEMENT ET D'AMENAGEMENT DE L'AIRE METROPOLITAINE (AIX-MARSEILLE-PROVENCE)",
+  "sigle": "SOLEAM",
+  "nature": "5599",
+  "tranche_eff": "21"
+ },
+ "552046484": {
+  "nom": "CDC HABITAT SOCIAL SOCIETE ANONYME D'HABITATIONS A LOYER MODERE",
+  "sigle": null,
+  "nature": "5699",
+  "tranche_eff": "51"
+ },
+ "442739413": {
+  "nom": "COGEDIM PROVENCE",
+  "sigle": null,
+  "nature": "5202",
+  "tranche_eff": "NN"
+ },
+ "520668443": {
+  "nom": "PAYS D'AIX TERRITOIRES",
+  "sigle": null,
+  "nature": "5599",
+  "tranche_eff": "01"
+ },
+ "314046004": {
+  "nom": "LOGIS MEDITERRANEE",
+  "sigle": null,
+  "nature": "5646",
+  "tranche_eff": "21"
+ },
+ "211301031": {
+  "nom": "COMMUNE DE SALON DE PROVENCE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "42"
+ },
+ "211300041": {
+  "nom": "COMMUNE D ARLES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "42"
+ },
+ "211301171": {
+  "nom": "COMMUNE DE VITROLLES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "42"
+ },
+ "200089167": {
+  "nom": "ETABLISSEMENT PUBLIC D'AMENAGEMENT ET DE GESTION DES EAUX (EPAGE MENELIK)",
+  "sigle": "MENELIK",
+  "nature": "7354",
+  "tranche_eff": "12"
+ },
+ "211300967": {
+  "nom": "COMMUNE DE SAINTES MARIES DE LA MER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "211300132": {
+  "nom": "COMMUNE DE BELCODENE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "211300140": {
+  "nom": "COMMUNE DE BERRE L ETANG",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "211300272": {
+  "nom": "COMMUNE DE CHATEAURENARD",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "211301189": {
+  "nom": "COMMUNE DE COUDOUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "211300645": {
+  "nom": "COMMUNE DE MOLLEGES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "211300652": {
+  "nom": "COMMUNE DE MOURIES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "211300934": {
+  "nom": "COMMUNE DE SAINT ESTEVE JANSON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "211300587": {
+  "nom": "COMMUNE DE MAUSSANE LES ALPILLES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "211300892": {
+  "nom": "COMMUNE DE SAINT ANDIOL",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "211300397": {
+  "nom": "COMMUNE DE FOS SUR MER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "211300488": {
+  "nom": "COMMUNE DE JOUQUES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "200035087": {
+  "nom": "TERRE DE PROVENCE",
+  "sigle": "TPA",
+  "nature": "7348",
+  "tranche_eff": "22"
+ },
+ "211300306": {
+  "nom": "COMMUNE DE CUGES LES PINS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "211301106": {
+  "nom": "COMMUNE DE TRETS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "211300777": {
+  "nom": "COMMUNE DE PORT DE BOUC",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "211300264": {
+  "nom": "COMMUNE DE CHATEAUNEUF LES MARTIGUES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "211300447": {
+  "nom": "COMMUNE DE GRANS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "211300637": {
+  "nom": "COMMUNE DE MIRAMAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "211300504": {
+  "nom": "COMMUNE DE LAMBESC",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "211300975": {
+  "nom": "COMMUNE DE SAINT MARTIN DE CRAU",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "241300417": {
+  "nom": "COMMUNAUTE  D AGGLOMERATION ARLES CRAU CAMARGUE MONTAGNETTE",
+  "sigle": null,
+  "nature": "7348",
+  "tranche_eff": "32"
+ },
+ "211300173": {
+  "nom": "COMMUNE DE BOULBON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "211300579": {
+  "nom": "COMMUNE DE MAS BLANC DES ALPILLES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "211300470": {
+  "nom": "COMMUNE D ISTRES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "42"
+ },
+ "211300710": {
+  "nom": "COMMUNE LES PENNES MIRABEAU",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "211301080": {
+  "nom": "COMMUNE DE TARASCON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "211301148": {
+  "nom": "COMMUNE DE VENTABREN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "188300057": {
+  "nom": "PARC NATIONAL DE PORT CROS",
+  "sigle": null,
+  "nature": "7385",
+  "tranche_eff": "22"
+ },
+ "350323101": {
+  "nom": "LIGUE PROTECTION DES OISEAUX PACA",
+  "sigle": "LPO PACA",
+  "nature": "9220",
+  "tranche_eff": "21"
+ },
+ "345240592": {
+  "nom": "STATION D'OBSERVATION ET DE PROTECTION DES TORTUES ET DE LEURS MILIEUX",
+  "sigle": "SOPTOM",
+  "nature": "9220",
+  "tranche_eff": "02"
+ },
+ "218300192": {
+  "nom": "COMMUNE DE BORMES LES MIMOSAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "791797145": {
+  "nom": "AGIR ECOLOGIQUE",
+  "sigle": null,
+  "nature": "5499",
+  "tranche_eff": "11"
+ },
+ "248300543": {
+  "nom": "METROPOLE TOULON-PROVENCE-MEDITERRANEE",
+  "sigle": null,
+  "nature": "7344",
+  "tranche_eff": "51"
+ },
+ "218301265": {
+  "nom": "COMMUNE DE LA SEYNE SUR MER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "42"
+ },
+ "218300986": {
+  "nom": "COMMUNE LE PRADET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "200068104": {
+  "nom": "CA DE LA PROVENCE VERTE",
+  "sigle": "CAPV",
+  "nature": "7348",
+  "tranche_eff": "32"
+ },
+ "200008258": {
+  "nom": "SM PROVENCE VERTE VERDON",
+  "sigle": null,
+  "nature": "7354",
+  "tranche_eff": "11"
+ },
+ "200046944": {
+  "nom": "SYNDICAT MIXTE DU MASSIF DES MAURES",
+  "sigle": "SMMM",
+  "nature": "7354",
+  "tranche_eff": "02"
+ },
+ "248300493": {
+  "nom": "DRACENIE PROVENCE VERDON AGGLOMERATION",
+  "sigle": null,
+  "nature": "7348",
+  "tranche_eff": "41"
+ },
+ "330783416": {
+  "nom": "CONSEIL ARCHITEC URBANISME ENVIRONNEMENT",
+  "sigle": "CAUE",
+  "nature": "9220",
+  "tranche_eff": "11"
+ },
+ "218300812": {
+  "nom": "COMMUNE DE MONTAUROUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "288300403": {
+  "nom": "SERVICE DEPARTEMENTAL D'INCENDIE ET DE SECOURS VAR",
+  "sigle": "SDIS",
+  "nature": "7372",
+  "tranche_eff": "42"
+ },
+ "218301497": {
+  "nom": "COMMUNE DE VILLECROZE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218300465": {
+  "nom": "COMMUNE DE COTIGNAC",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218300317": {
+  "nom": "COMMUNE LE CANNET DES MAURES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218301232": {
+  "nom": "COMMUNE DE SANARY SUR MER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "722850229": {
+  "nom": "SA ECO MIXTE CONSTRUCTION DRAGUIGNAN",
+  "sigle": "SAIEMC",
+  "nature": "5599",
+  "tranche_eff": "12"
+ },
+ "258300953": {
+  "nom": "SITTOMAT",
+  "sigle": null,
+  "nature": "7354",
+  "tranche_eff": "12"
+ },
+ "510854631": {
+  "nom": "ELGEA",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "21"
+ },
+ "228300018": {
+  "nom": "DEPARTEMENT DU VAR",
+  "sigle": null,
+  "nature": "7220",
+  "tranche_eff": "52"
+ },
+ "218300507": {
+  "nom": "COMMUNE DE DRAGUIGNAN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "218301125": {
+  "nom": "COMMUNE DE SAINT CYR SUR MER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "218300622": {
+  "nom": "COMMUNE DE LA GARDE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "218301075": {
+  "nom": "COMMUNE DE ROQUEBRUNE SUR ARGENS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "200047611": {
+  "nom": "SM DE L'ARGENS",
+  "sigle": null,
+  "nature": "7354",
+  "tranche_eff": "12"
+ },
+ "200088458": {
+  "nom": "SYNDICAT DE GESTION DE L'EYGOUTIER",
+  "sigle": null,
+  "nature": "7354",
+  "tranche_eff": "11"
+ },
+ "200046795": {
+  "nom": "SYNDICAT MIXTE BASSIN VERSANT DU GAPEAU",
+  "sigle": "SMBVG",
+  "nature": "7354",
+  "tranche_eff": "11"
+ },
+ "057813131": {
+  "nom": "SOCIETE DU CANAL DE PROVENCE ET D'AMENAGEMENT DE LA REGION PROVENCALE",
+  "sigle": "SCP",
+  "nature": "5515",
+  "tranche_eff": "41"
+ },
+ "200035319": {
+  "nom": "ESTEREL COTE D'AZUR AGGLOMERATION",
+  "sigle": null,
+  "nature": "7348",
+  "tranche_eff": "32"
+ },
+ "200036077": {
+  "nom": "COMMUNAUTE DE COMMUNES DU GOLFE DE SAINT-TROPEZ",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "31"
+ },
+ "200028017": {
+  "nom": "SYNDICAT MIXTE DE LA GARONNETTE",
+  "sigle": null,
+  "nature": "7354",
+  "tranche_eff": "02"
+ },
+ "200027100": {
+  "nom": "COMMUNAUTE DE COMMUNES MEDITERRANEE PORTE DES MAURES",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "12"
+ },
+ "258302744": {
+  "nom": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+  "sigle": null,
+  "nature": "7354",
+  "tranche_eff": "12"
+ },
+ "218300085": {
+  "nom": "COMMUNE DE BAGNOLS EN FORET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "248300394": {
+  "nom": "COMMUNAUTE D'AGGLOMERATION SUD SAINTE BAUME",
+  "sigle": null,
+  "nature": "7348",
+  "tranche_eff": "21"
+ },
+ "218300499": {
+  "nom": "COMMUNE DE CUERS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "218301034": {
+  "nom": "COMMUNE LE REVEST LES EAUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218301166": {
+  "nom": "COMMUNE DE SAINT MAXIMIN LA SAINTE BAUME",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "218300341": {
+  "nom": "COMMUNE DE CARQUEIRANNE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "218301521": {
+  "nom": "COMMUNE DE RAYOL CANADEL SUR MER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218300283": {
+  "nom": "COMMUNE DE CALLAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218301216": {
+  "nom": "COMMUNE DE SALERNES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218301430": {
+  "nom": "COMMUNE LE VAL",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218301299": {
+  "nom": "COMMUNE DE SIX FOURS LES PLAGES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "218300382": {
+  "nom": "COMMUNE DE CHATEAUDOUBLE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "218301224": {
+  "nom": "COMMUNE LES SALLES SUR VERDON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "218300713": {
+  "nom": "COMMUNE DE LA LONDE LES MAURES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "393962089": {
+  "nom": "FEDE REG DEFEN ORGANISMES NUISIBLES PACA",
+  "sigle": null,
+  "nature": "8420",
+  "tranche_eff": "12"
+ },
+ "258402346": {
+  "nom": "SM DU PARC NATUREL REGIONAL DU LUBERON",
+  "sigle": null,
+  "nature": "7355",
+  "tranche_eff": "21"
+ },
+ "502629009": {
+  "nom": "NATURALIA ENVIRONNEMENT",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "21"
+ },
+ "130025919": {
+  "nom": "OFFICE FRANCAIS DE LA BIODIVERSITE",
+  "sigle": "OFB",
+  "nature": "7389",
+  "tranche_eff": "51"
+ },
+ "248400251": {
+  "nom": "COMMUNAUTE D'AGGLOMERATION DU GRAND AVIGNON",
+  "sigle": "COGA",
+  "nature": "7348",
+  "tranche_eff": "41"
+ },
+ "479532012": {
+  "nom": "AGENCE D'URBANISME RHONE AVIGNON VAUCLUSE",
+  "sigle": "AURAV",
+  "nature": "9220",
+  "tranche_eff": "11"
+ },
+ "258400019": {
+  "nom": "SYNDICAT MIXTE DE GESTION DU PARC NATUREL REGIONAL DU MONT-VENTOUX",
+  "sigle": null,
+  "nature": "7355",
+  "tranche_eff": "12"
+ },
+ "288400021": {
+  "nom": "SCE DEPARTEMENTAL INCENDIE ET SECOURS",
+  "sigle": "SDIS",
+  "nature": "7372",
+  "tranche_eff": "41"
+ },
+ "218400851": {
+  "nom": "COMMUNE DE MURS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "258401983": {
+  "nom": "SYNDICAT INTERCOMMUNAL ALIMENTATION EN EAU POTABLE ET ASSAINISSEMENT DE LA REGION DE SAULT (SIEPA DE SAULT)",
+  "sigle": null,
+  "nature": "7345",
+  "tranche_eff": "02"
+ },
+ "218400315": {
+  "nom": "COMMUNE DE CARPENTRAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "662620079": {
+  "nom": "GRAND DELTA HABITAT",
+  "sigle": null,
+  "nature": "5560",
+  "tranche_eff": "41"
+ },
+ "218400786": {
+  "nom": "COMMUNE DE MONDRAGON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "248400053": {
+  "nom": "COMMUNAUTE D'AGGLOMERATION VENTOUX COMTAT VENAISSIN",
+  "sigle": "COVE",
+  "nature": "7348",
+  "tranche_eff": "32"
+ },
+ "750120396": {
+  "nom": "CHAPELET PROMOTION",
+  "sigle": null,
+  "nature": "5499",
+  "tranche_eff": "NN"
+ },
+ "210402012": {
+  "nom": "COMMUNE DE SAUMANE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "01"
+ },
+ "218401362": {
+  "nom": "COMMUNE DE VACQUEYRAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400729": {
+  "nom": "COMMUNE DE MAZAN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218400034": {
+  "nom": "COMMUNE D APT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "218400562": {
+  "nom": "COMMUNE DE JONQUIERES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218400877": {
+  "nom": "COMMUNE D ORANGE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "218400075": {
+  "nom": "COMMUNE D AVIGNON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "51"
+ },
+ "218400984": {
+  "nom": "COMMUNE DE ROAIX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "218400059": {
+  "nom": "COMMUNE D AUREL",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "218401388": {
+  "nom": "COMMUNE DE VALREAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "218400802": {
+  "nom": "COMMUNE DE MONTEUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "248400293": {
+  "nom": "COMMUNAUTE D'AGGLOMERATION LES SORGUES DU COMTAT",
+  "sigle": "CASC",
+  "nature": "7348",
+  "tranche_eff": "32"
+ },
+ "200044402": {
+  "nom": "SYNDICAT MIXTE DE L'OUVEZE PROVENCALE",
+  "sigle": "SMOP",
+  "nature": "7354",
+  "tranche_eff": "03"
+ },
+ "218401180": {
+  "nom": "COMMUNE DE SAINT SATURNIN D APT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "200046530": {
+  "nom": "SYNDICAT INTERCOMMUNAUTAIRE RIVIERE CALAVON-COULON",
+  "sigle": "SIRCC-EPAGE",
+  "nature": "7354",
+  "tranche_eff": "03"
+ },
+ "258403005": {
+  "nom": "SYNDICAT MIXTE DU BASSIN VERSANT DU LEZ (SMBVL)",
+  "sigle": "SMBVL",
+  "nature": "7354",
+  "tranche_eff": "03"
+ },
+ "218400257": {
+  "nom": "COMMUNE DE CABRIERES D AVIGNON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401024": {
+  "nom": "COMMUNE DE ROUSSILLON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "200035913": {
+  "nom": "SYNDICAT D'ENERGIE VAUCLUSIEN",
+  "sigle": "SEV",
+  "nature": "7354",
+  "tranche_eff": "11"
+ },
+ "218400356": {
+  "nom": "COMMUNE DE CAVAILLON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "248400160": {
+  "nom": "COMMUNAUTE DE COMMUNES AYGUES OUVEZE EN PROVENCE",
+  "sigle": "CCAOP",
+  "nature": "7346",
+  "tranche_eff": "21"
+ },
+ "218400042": {
+  "nom": "COMMUNE D AUBIGNAN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218400778": {
+  "nom": "COMMUNE DE MODENE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "200040624": {
+  "nom": "CC PAYS D'APT-LUBERON",
+  "sigle": "CCPA-PJ",
+  "nature": "7346",
+  "tranche_eff": "31"
+ },
+ "218400547": {
+  "nom": "COMMUNE DE L ISLE SUR LA SORGUE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "218400018": {
+  "nom": "COMMUNE DE ALTHEN DES PALUDS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218401321": {
+  "nom": "COMMUNE LE THOR",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "248400319": {
+  "nom": "COMMUNAUTE DE COMMUNES PAYS DES SORGUES MONTS DE VAUCLUSE",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "218400893": {
+  "nom": "COMMUNE DE PERTUIS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "218400588": {
+  "nom": "COMMUNE DE LACOSTE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "218400513": {
+  "nom": "COMMUNE DE GOULT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400687": {
+  "nom": "COMMUNE DE LOURMARIN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400570": {
+  "nom": "COMMUNE DE JOUCAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "218400646": {
+  "nom": "COMMUNE DE LAPALUD",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218400299": {
+  "nom": "COMMUNE DE CAMARET SUR AIGUES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "200000628": {
+  "nom": "CC RHONE LEZ PROVENCE",
+  "sigle": "CCRLP",
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "218400943": {
+  "nom": "COMMUNE DE PUYMERAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "228400016": {
+  "nom": "DEPARTEMENT DU VAUCLUSE",
+  "sigle": null,
+  "nature": "7220",
+  "tranche_eff": "51"
+ },
+ "218400448": {
+  "nom": "COMMUNE D ENTRECHAUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401230": {
+  "nom": "COMMUNE DE SAULT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400919": {
+  "nom": "COMMUNE DE PIOLENC",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218400273": {
+  "nom": "COMMUNE DE CADEROUSSE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218400620": {
+  "nom": "COMMUNE DE LAGNES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400737": {
+  "nom": "COMMUNE DE MENERBES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401008": {
+  "nom": "COMMUNE DE LA ROQUE ALRIC",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "218400554": {
+  "nom": "COMMUNE DE JONQUERETTES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401198": {
+  "nom": "COMMUNE DE SAINT SATURNIN LES AVIGNON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218401446": {
+  "nom": "COMMUNE DE VIENS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "248400335": {
+  "nom": "CC VAISON VENTOUX",
+  "sigle": "COPAVO",
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "218400703": {
+  "nom": "COMMUNE DE MALEMORT DU COMTAT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400661": {
+  "nom": "COMMUNE DE LIOUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "218401354": {
+  "nom": "COMMUNE D UCHAUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401040": {
+  "nom": "COMMUNE DE SABLET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400869": {
+  "nom": "COMMUNE D OPPEDE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401057": {
+  "nom": "COMMUNE DE SAIGNON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "218400174": {
+  "nom": "COMMUNE DE BEDOIN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218400281": {
+  "nom": "COMMUNE DE CAIRANNE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401453": {
+  "nom": "COMMUNE DE VILLARS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "218400208": {
+  "nom": "COMMUNE DE BONNIEUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401495": {
+  "nom": "COMMUNE DE VIOLES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400083": {
+  "nom": "COMMUNE LE BARROUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "258402510": {
+  "nom": "SYND INTER COM RAMAS ET TRAIT ORDUR MENA",
+  "sigle": "SIRTOM",
+  "nature": "7354",
+  "tranche_eff": "21"
+ },
+ "200040442": {
+  "nom": "CA LUBERON MONTS DE VAUCLUSE",
+  "sigle": "CA LMV",
+  "nature": "7348",
+  "tranche_eff": "32"
+ },
+ "250401221": {
+  "nom": "SYNDICAT MIXTE DEPARTEMENTAL D'ELIMINATION ET DE VALORISATION DES ORDURES MENAGERES DES ALPES-DE-HAUTE-PROVENCE",
+  "sigle": null,
+  "nature": "7355",
+  "tranche_eff": "12"
+ },
+ "210401402": {
+  "nom": "COMMUNE LES OMERGUES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210400578": {
+  "nom": "COMMUNE DE CLAMENSANE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210400222": {
+  "nom": "COMMUNE DE BARREME",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210401360": {
+  "nom": "COMMUNE LA MURE ARGENS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210402400": {
+  "nom": "COMMUNE DE VILLARS COLMARS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210400669": {
+  "nom": "COMMUNE DE CURBANS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210401832": {
+  "nom": "COMMUNE DE SAINT JULIEN DU VERDON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210402194": {
+  "nom": "COMMUNE DE THORAME HAUTE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "250400512": {
+  "nom": "SYNDICAT MIXTE DU SISTERONAIS-MOYENNE-DURANCE D'ENERGIE ET DES RESEAUX D'ECLAIRAGE PUBLIC ET DE TELECOMMUNICATION",
+  "sigle": "SMSMD",
+  "nature": "7354",
+  "tranche_eff": "01"
+ },
+ "210401345": {
+  "nom": "COMMUNE LA MOTTE DU CAIRE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210400255": {
+  "nom": "COMMUNE DE BEAUVEZER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "573620754": {
+  "nom": "UNICIL SOCIETE ANONYME D'HABITATION A LOYER MODERE",
+  "sigle": "DOMICIL",
+  "nature": "5546",
+  "tranche_eff": "32"
+ },
+ "006650089": {
+  "nom": "HABITATIONS DE HAUTE-PROVENCE",
+  "sigle": "H2P",
+  "nature": "5599",
+  "tranche_eff": "21"
+ },
+ "491308631": {
+  "nom": "CONSEIL URBAIN",
+  "sigle": null,
+  "nature": "5499",
+  "tranche_eff": "NN"
+ },
+ "813578093": {
+  "nom": "LE TOP",
+  "sigle": null,
+  "nature": "5560",
+  "tranche_eff": "NN"
+ },
+ "523299675": {
+  "nom": "MEDITERRANEE AMENAGEMENT PROMOTION",
+  "sigle": "MAP",
+  "nature": "5499",
+  "tranche_eff": "02"
+ },
+ "250400033": {
+  "nom": "SYND INTER COM POUR ADDUC EAU POTAB DURA",
+  "sigle": null,
+  "nature": "7354",
+  "tranche_eff": "01"
+ },
+ "210402426": {
+  "nom": "COMMUNE DE VILLENEUVE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "210401907": {
+  "nom": "COMMUNE DE ST MARTIN LES EAUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210400545": {
+  "nom": "COMMUNE DE CHATEAUREDON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "NN"
+ },
+ "210401949": {
+  "nom": "COMMUNE DE SAINT PIERRE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210401261": {
+  "nom": "COMMUNE DE MONTCLAR",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210400412": {
+  "nom": "COMMUNE LE CASTELLET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210401139": {
+  "nom": "COMMUNE DE MARCOUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210400958": {
+  "nom": "COMMUNE L HOSPITALET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210400057": {
+  "nom": "COMMUNE D ALLONS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210401436": {
+  "nom": "COMMUNE D ORAISON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "210402061": {
+  "nom": "COMMUNE DE SIGONCE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210400362": {
+  "nom": "COMMUNE LE BRUSQUET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210400701": {
+  "nom": "COMMUNE DE DIGNE LES BAINS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "210401725": {
+  "nom": "COMMUNE DE ROUMOULES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210402038": {
+  "nom": "COMMUNE DE SELONNET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210400420": {
+  "nom": "COMMUNE DE CASTELLET LES SAUSSES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210400073": {
+  "nom": "COMMUNE D ANGLES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "01"
+ },
+ "210401410": {
+  "nom": "COMMUNE D ONGLES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210400263": {
+  "nom": "COMMUNE DE BELLAFFAIRE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210402046": {
+  "nom": "COMMUNE DE SENEZ",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210402079": {
+  "nom": "COMMUNE DE SIGOYER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "210400974": {
+  "nom": "COMMUNE LA JAVIE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "200071959": {
+  "nom": "COMMUNE DE UBAYE-SERRE-PONCON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "399286020": {
+  "nom": "FLODIM SARL",
+  "sigle": null,
+  "nature": "5499",
+  "tranche_eff": "12"
+ },
+ "524522158": {
+  "nom": "SAPONALIA",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "11"
+ },
+ "851020560": {
+  "nom": "LABORATOIRE ASTELIA",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "03"
+ },
+ "200068096": {
+  "nom": "CC CHAMPSAUR-VALGAUDEMAR",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "21"
+ },
+ "200067825": {
+  "nom": "CA GAP-TALLARD-DURANCE",
+  "sigle": "CAGTD",
+  "nature": "7348",
+  "tranche_eff": "22"
+ },
+ "200034502": {
+  "nom": "COMMUNE DE SAINT BONNET EN CHAMPSAUR",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "200067445": {
+  "nom": "CC BUECH-DEVOLUY",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "21"
+ },
+ "210501839": {
+  "nom": "COMMUNE DE VILLAR SAINT PANCRACE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "200049203": {
+  "nom": "TERRITOIRE D'ENERGIE HAUTES-ALPES SYME05",
+  "sigle": "SYME05",
+  "nature": "7345",
+  "tranche_eff": "12"
+ },
+ "210501672": {
+  "nom": "COMMUNE DE SIGOTTIER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210500732": {
+  "nom": "COMMUNE DE LAZER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210500609": {
+  "nom": "COMMUNE DE FURMEYER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "01"
+ },
+ "210501771": {
+  "nom": "COMMUNE DE VARS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "180500027": {
+  "nom": "CHAMBRE DEP AGRICULTURE DES HAUTES ALPES",
+  "sigle": null,
+  "nature": "7381",
+  "tranche_eff": "12"
+ },
+ "210500641": {
+  "nom": "COMMUNE LA CHAPELLE EN VALGAUDEMAR",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210500328": {
+  "nom": "COMMUNE DE CHAMPOLEON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "200083517": {
+  "nom": "COMMUNE D'ABRIES-RISTOLAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210500716": {
+  "nom": "COMMUNE DE LARDIER ET VALENCA",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210500179": {
+  "nom": "COMMUNE DE LA BATIE NEUVE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "210500658": {
+  "nom": "COMMUNE DE GUILLESTRE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "200077113": {
+  "nom": "COMMUNE D'AUBESSAGNE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "200054211": {
+  "nom": "COMMUNE DE GARDE-COLOMBE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210501763": {
+  "nom": "COMMUNE DE VALSERRES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210500229": {
+  "nom": "COMMUNE DE BREZIERS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210501144": {
+  "nom": "COMMUNE DE REALLON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210501847": {
+  "nom": "COMMUNE DE VITROLLES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "210501441": {
+  "nom": "COMMUNE DE SAINT JACQUES EN VALGODEMARD",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "401545819": {
+  "nom": "ICARIUS AEROTECHNICS",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "12"
+ },
+ "840691489": {
+  "nom": "MAISON GOURMETON & BONINI",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "01"
+ },
+ "504763467": {
+  "nom": "ALP MEDELEC",
+  "sigle": null,
+  "nature": "5499",
+  "tranche_eff": "12"
+ },
+ "424057321": {
+  "nom": "SARL ATELIER ALPIN FROMAGERIE DE LA DURANCE",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "12"
+ },
+ "240600593": {
+  "nom": "COMMUNAUTE DE COMMUNES DU PAYS DES PAILLONS",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "210601407": {
+  "nom": "COMMUNE LE TIGNET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "645520164": {
+  "nom": "BATIGERE HABITAT",
+  "sigle": null,
+  "nature": "5546",
+  "tranche_eff": "42"
+ },
+ "311963029": {
+  "nom": "SOC GARDEENNE D ECONOMIE MIXTE",
+  "sigle": "SAGEM",
+  "nature": "5599",
+  "tranche_eff": "21"
+ },
+ "210600748": {
+  "nom": "COMMUNE DE LANTOSQUE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210600896": {
+  "nom": "COMMUNE D OPIO",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "210600185": {
+  "nom": "COMMUNE DE BIOT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "210601373": {
+  "nom": "COMMUNE DE SPERACEDES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210601555": {
+  "nom": "COMMUNE DE VALLAURIS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "250602059": {
+  "nom": "SYNDICAT MIXTE DES STATIONS DU MERCANTOUR",
+  "sigle": null,
+  "nature": "7355",
+  "tranche_eff": "03"
+ },
+ "210600714": {
+  "nom": "COMMUNE DE GUILLAUMES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210600839": {
+  "nom": "COMMUNE DE MENTON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "42"
+ },
+ "210600342": {
+  "nom": "COMMUNE DE CASTAGNIERS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "210601225": {
+  "nom": "COMMUNE DE SAINT JEANNET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "210600581": {
+  "nom": "COMMUNE D ESCRAGNOLLES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "210600854": {
+  "nom": "COMMUNE DE MOUGINS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "210600193": {
+  "nom": "COMMUNE DE BLAUSASC",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "850449257": {
+  "nom": "INSPIRATIONS COSMETIQUES",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "03"
+ },
+ "797492121": {
+  "nom": "BRASSERIE DU COMTE",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "11"
+ },
+ "416050045": {
+  "nom": "SAS CARESTIA",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "21"
+ },
+ "303275473": {
+  "nom": "RAGNI",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "22"
+ },
+ "241300375": {
+  "nom": "CC  VALLEE DES BAUX-ALPILLES (CC VBA)",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "211301130": {
+  "nom": "COMMUNE DE VENELLES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "211300702": {
+  "nom": "COMMUNE DE LA PENNE SUR HUVEAUNE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "211301007": {
+  "nom": "COMMUNE DE SAINT REMY DE PROVENCE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "211300744": {
+  "nom": "COMMUNE DE PEYROLLES EN PROVENCE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "211300728": {
+  "nom": "COMMUNE DE PEYNIER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "211300348": {
+  "nom": "COMMUNE D EYGALIERES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "211301197": {
+  "nom": "COMMUNE DE CARNOUX EN PROVENCE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "211300843": {
+  "nom": "COMMUNE DE LA ROQUE D ANTHERON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "211300058": {
+  "nom": "COMMUNE D AUBAGNE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "42"
+ },
+ "401974555": {
+  "nom": "LA CIOTAT SHIPYARDS",
+  "sigle": "SEMIDEP-CIOTAT",
+  "nature": "5599",
+  "tranche_eff": "12"
+ },
+ "058811670": {
+  "nom": "ERILIA",
+  "sigle": null,
+  "nature": "5599",
+  "tranche_eff": "41"
+ },
+ "443966510": {
+  "nom": "ASSOCIATION FONCIERE DE LOGEMENT",
+  "sigle": "FL",
+  "nature": "9220",
+  "tranche_eff": "21"
+ },
+ "309123479": {
+  "nom": "LA MAISON FAMILIALE DE PROVENCE",
+  "sigle": null,
+  "nature": "5560",
+  "tranche_eff": "12"
+ },
+ "314939034": {
+  "nom": "EIFFAGE IMMOBILIER SUD EST",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "NN"
+ },
+ "211301023": {
+  "nom": "COMMUNE DE SAINT VICTORET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "200016012": {
+  "nom": "ENTENTE POUR LA FORET MEDITERRANEENNE",
+  "sigle": null,
+  "nature": "7351",
+  "tranche_eff": "22"
+ },
+ "211300959": {
+  "nom": "COMMUNE DE SAINT MARC JAUMEGARDE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "291301141": {
+  "nom": "ASSOCIATION SYNDICALE AUTORISEE IRRIGATION DE LA HAUTE CRAU",
+  "sigle": null,
+  "nature": "7321",
+  "tranche_eff": "01"
+ },
+ "291302131": {
+  "nom": "ASSOCIATION SYNDICALE AUTORISEE DES ARROSANTS DE SAINT CEZAIRE",
+  "sigle": null,
+  "nature": "7321",
+  "tranche_eff": "NN"
+ },
+ "211300819": {
+  "nom": "COMMUNE DE ROGNAC",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "211300538": {
+  "nom": "COMMUNE DE MALLEMORT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "181300054": {
+  "nom": "CHAMBRE AGRICULTURE DES BOUCHES DU RHONE",
+  "sigle": null,
+  "nature": "7381",
+  "tranche_eff": "21"
+ },
+ "211301155": {
+  "nom": "COMMUNE DE VERNEGUES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "298402132": {
+  "nom": "COMMISSION EXECUTIVE DE LA DURANCE",
+  "sigle": "CED",
+  "nature": "7321",
+  "tranche_eff": "NN"
+ },
+ "211301122": {
+  "nom": "COMMUNE DE VELAUX",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "211300660": {
+  "nom": "COMMUNE DE NOVES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "211301163": {
+  "nom": "COMMUNE DE VERQUIERES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "211300363": {
+  "nom": "COMMUNE DE EYRAGUES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "211300991": {
+  "nom": "COMMUNE DE SAINT PAUL LES DURANCE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "211300124": {
+  "nom": "COMMUNE DE BEAURECUEIL",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "475680815": {
+  "nom": "VILOGIA SOCIETE ANONYME D'HLM",
+  "sigle": null,
+  "nature": "5699",
+  "tranche_eff": "42"
+ },
+ "211300413": {
+  "nom": "COMMUNE DE GARDANNE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "41"
+ },
+ "211300199": {
+  "nom": "COMMUNE DE CABRIES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "211300017": {
+  "nom": "COMMUNE D AIX EN PROVENCE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "51"
+ },
+ "211301049": {
+  "nom": "COMMUNE DE SAUSSET LES PINS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "211300066": {
+  "nom": "COMMUNE D AUREILLE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "211300512": {
+  "nom": "COMMUNE DE LANCON PROVENCE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "211300439": {
+  "nom": "COMMUNE DE GIGNAC LA NERTHE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "211301064": {
+  "nom": "COMMUNE DE SEPTEMES LES VALLONS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "200097673": {
+  "nom": "SOCIETE PUBLIQUE DES ECOLES MARSEILLAISES",
+  "sigle": null,
+  "nature": "5599",
+  "tranche_eff": "11"
+ },
+ "211300983": {
+  "nom": "COMMUNE DE SAINT MITRE LES REMPARTS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "211300496": {
+  "nom": "COMMUNE DE LAMANON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "835144163": {
+  "nom": "TECHNOCARBON TECHNOLOGIES FRANCE",
+  "sigle": "TCTF",
+  "nature": "5710",
+  "tranche_eff": "02"
+ },
+ "838064665": {
+  "nom": "ALTO SOLUTION",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "01"
+ },
+ "952692499": {
+  "nom": "DUALSUN ACADEMIE",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "NN"
+ },
+ "850505744": {
+  "nom": "K-MOTORS",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "03"
+ },
+ "905289914": {
+  "nom": "ONE CONCEPT MARINE",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "NN"
+ },
+ "953911153": {
+  "nom": "CARBON BLUE DEVELOPPEMENT",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "01"
+ },
+ "985252964": {
+  "nom": "SEANERGIES",
+  "sigle": null,
+  "nature": "5515",
+  "tranche_eff": "NN"
+ },
+ "218300549": {
+  "nom": "COMMUNE DE LA FARLEDE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "218301315": {
+  "nom": "COMMUNE DE SOLLIES TOUCAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218300564": {
+  "nom": "COMMUNE DE FIGANIERES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "200040202": {
+  "nom": "CC PROVENCE VERDON",
+  "sigle": "CCPV",
+  "nature": "7346",
+  "tranche_eff": "21"
+ },
+ "218301307": {
+  "nom": "COMMUNE DE SOLLIES PONT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "248300410": {
+  "nom": "COMMUNAUTE COMMUNES VALLEE DU GAPEAU",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "21"
+ },
+ "218300861": {
+  "nom": "COMMUNE LE MUY",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "218300168": {
+  "nom": "COMMUNE LE BEAUSSET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "479904732": {
+  "nom": "OFFICE PUBLIC DE L'HABITAT DU VAR",
+  "sigle": "O.P.H. DU VAR",
+  "nature": "4140",
+  "tranche_eff": "32"
+ },
+ "921039467": {
+  "nom": "VALORCITIM",
+  "sigle": null,
+  "nature": "5710",
+  "tranche_eff": "NN"
+ },
+ "218301273": {
+  "nom": "COMMUNE DE SIGNES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218301463": {
+  "nom": "COMMUNE DE LA VERDIERE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218300143": {
+  "nom": "COMMUNE DE BAUDINARD SUR VERDON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "218301240": {
+  "nom": "COMMUNE DE SEILLANS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218301331": {
+  "nom": "COMMUNE DE TANNERON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218300846": {
+  "nom": "COMMUNE DE MONTMEYAN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "218301117": {
+  "nom": "COMMUNE DE SAINTE ANASTASIE SUR ISSOLE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "451476899": {
+  "nom": "AGENCE URBANISME AIRE TOULONNAISE",
+  "sigle": null,
+  "nature": "9220",
+  "tranche_eff": "12"
+ },
+ "188300024": {
+  "nom": "CHAMBRE DEP D AGRICULTURE DU VAR",
+  "sigle": null,
+  "nature": "7381",
+  "tranche_eff": "21"
+ },
+ "200031623": {
+  "nom": "SYNDICAT MIXTE D'AMENAGEMENT ET DE GESTION DU PARC NATUREL REGIONAL DE LA SAINTE-BAUME",
+  "sigle": null,
+  "nature": "7355",
+  "tranche_eff": "12"
+ },
+ "248300550": {
+  "nom": "COMMUNAUTE DE COMMUNES COEUR DU VAR",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "200004802": {
+  "nom": "COMMUNAUTE DE COM DU PAYS DE FAYENCE",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "22"
+ },
+ "218300903": {
+  "nom": "COMMUNE D OLLIOULES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ },
+ "218301372": {
+  "nom": "COMMUNE DE TOULON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "51"
+ },
+ "218301422": {
+  "nom": "COMMUNE DE TRIGANCE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "218300093": {
+  "nom": "COMMUNE DE BANDOL",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "218300887": {
+  "nom": "COMMUNE DE NEOULES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218301513": {
+  "nom": "COMMUNE DE VINS SUR CARAMY",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218301489": {
+  "nom": "COMMUNE DE VIDAUBAN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "218301182": {
+  "nom": "COMMUNE DE SAINT RAPHAEL",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "42"
+ },
+ "218300820": {
+  "nom": "COMMUNE DE MONTFERRAT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218301455": {
+  "nom": "COMMUNE DE VARAGES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218300630": {
+  "nom": "COMMUNE DE LA GARDE FREINET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218301539": {
+  "nom": "COMMUNE DE SAINT MANDRIER SUR MER",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218300671": {
+  "nom": "COMMUNE DE GONFARON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218300127": {
+  "nom": "COMMUNE DE BARJOLS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218300853": {
+  "nom": "COMMUNE DE LA MOTTE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218300929": {
+  "nom": "COMMUNE DE PIGNANS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218300457": {
+  "nom": "COMMUNE DE CORRENS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "512585340": {
+  "nom": "SOCIETE NOUVELLE MECANOR",
+  "sigle": null,
+  "nature": "5499",
+  "tranche_eff": "03"
+ },
+ "949021786": {
+  "nom": "MANUFACTURE DES TERRES MEDITERRANEENNES",
+  "sigle": "MTM",
+  "nature": "5710",
+  "tranche_eff": "NN"
+ },
+ "200035723": {
+  "nom": "COMMUNAUTE DE COMMUNES VENTOUX SUD",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "21"
+ },
+ "200040681": {
+  "nom": "CC ENCLAVE DES PAPES-PAYS DE GRIGNAN",
+  "sigle": "CCEPPG",
+  "nature": "7346",
+  "tranche_eff": "12"
+ },
+ "248400285": {
+  "nom": "COMMUNAUTE DE COMMUNES SUD LUBERON",
+  "sigle": null,
+  "nature": "7346",
+  "tranche_eff": "21"
+ },
+ "218400950": {
+  "nom": "COMMUNE DE PUYVERT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "218401339": {
+  "nom": "COMMUNE DE LA TOUR D AIGUES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "706320447": {
+  "nom": "SEMIB PLUS ECONO MIXTEIMM AMEN VILLE",
+  "sigle": null,
+  "nature": "5515",
+  "tranche_eff": "03"
+ },
+ "218400026": {
+  "nom": "COMMUNE D ANSOUIS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "849134192": {
+  "nom": "CITTA URBANISME & PAYSAGE",
+  "sigle": null,
+  "nature": "5499",
+  "tranche_eff": "03"
+ },
+ "258402585": {
+  "nom": "SYNDICAT MIXTE DE DEFENSE ET DE VALORISATION FORESTIER",
+  "sigle": "SMDVF",
+  "nature": "7355",
+  "tranche_eff": "12"
+ },
+ "218400745": {
+  "nom": "COMMUNE DE MERINDOL",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "200091718": {
+  "nom": "SYNDICAT MIXTE D'EYGUES EN AYGUES",
+  "sigle": "SMEA",
+  "nature": "7354",
+  "tranche_eff": "03"
+ },
+ "218400935": {
+  "nom": "COMMUNE DE PUGET",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401248": {
+  "nom": "COMMUNE DE SAUMANE DE VAUCLUSE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "218400125": {
+  "nom": "COMMUNE DE BEAUMES DE VENISE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218400695": {
+  "nom": "COMMUNE DE MALAUCENE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218400760": {
+  "nom": "COMMUNE DE MIRABEAU",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400240": {
+  "nom": "COMMUNE DE CABRIERES D AIGUES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400992": {
+  "nom": "COMMUNE DE ROBION",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218401487": {
+  "nom": "COMMUNE DE VILLES SUR AUZON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401370": {
+  "nom": "COMMUNE DE VAISON LA ROMAINE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218401214": {
+  "nom": "COMMUNE DE SANNES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "02"
+ },
+ "218400604": {
+  "nom": "COMMUNE DE LAGARDE D APT",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "01"
+ },
+ "218400364": {
+  "nom": "COMMUNE DE CHATEAUNEUF DE GADAGNE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218400141": {
+  "nom": "COMMUNE DE BEAUMONT DE PERTUIS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400521": {
+  "nom": "COMMUNE DE GRAMBOIS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401438": {
+  "nom": "COMMUNE DE VENASQUE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218400901": {
+  "nom": "COMMUNE DE PEYPIN D AIGUES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "03"
+ },
+ "218400430": {
+  "nom": "COMMUNE D'ENTRAIGUES SUR LA SORGUE",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "22"
+ },
+ "218401065": {
+  "nom": "COMMUNE DE SAINTE CECILE LES VIGNES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218400471": {
+  "nom": "COMMUNE DE GARGAS",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "21"
+ },
+ "218401503": {
+  "nom": "COMMUNE DE VISAN",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "12"
+ },
+ "218401123": {
+  "nom": "COMMUNE DE SAINT MARTIN DE CASTILLON",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "11"
+ },
+ "218401297": {
+  "nom": "COMMUNE DE SORGUES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "32"
+ },
+ "218400885": {
+  "nom": "COMMUNE DE PERNES LES FONTAINES",
+  "sigle": null,
+  "nature": "7210",
+  "tranche_eff": "31"
+ }
+}

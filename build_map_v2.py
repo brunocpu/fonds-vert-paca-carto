@@ -29,6 +29,8 @@ YEARS_CONFIG = {
         'output_js': Path('data_2023.js'),
         'col_demarche': 'nom_demarche_ds',
         'col_beneficiaire': 'nom_beneficiaire_principal',
+        'col_siren': 'siren',
+        'siret_mode': False,
     },
     2024: {
         'csv_url': 'https://static.data.gouv.fr/resources/fonds-vert-liste-des-projets-subventionnes/20250731-095516/fonds-vert-2024-export.csv',
@@ -37,6 +39,8 @@ YEARS_CONFIG = {
         'output_js': Path('data_2024.js'),
         'col_demarche': 'demarche',
         'col_beneficiaire': 'raison_sociale_beneficiaire',
+        'col_siren': 'siret_beneficiaire',
+        'siret_mode': True,
     },
 }
 
@@ -203,6 +207,17 @@ def build_year(year):
     stats = {'total': 0, 'paca': 0, 'corrected': 0, 'skipped': 0}
 
     col_dem = cfg['col_demarche']
+    col_benef = cfg['col_beneficiaire']
+    col_siren = cfg['col_siren']
+    siret_mode = cfg['siret_mode']
+
+    # Charger cache SIRENE pour noms officiels
+    siret_cache_path = Path('data/siret_cache.json')
+    siret_cache = {}
+    if siret_cache_path.exists():
+        with open(siret_cache_path, 'r', encoding='utf-8') as f_sc:
+            siret_cache = json.load(f_sc)
+        print(f"  Cache SIRENE : {len(siret_cache)} entrees")
 
     with open(cfg['csv_path'], 'r', encoding='utf-8') as f:
         reader = csv.DictReader(f)
@@ -253,10 +268,24 @@ def build_year(year):
                     communes[code]['commune'] = nom_commune
             communes[code]['dept'] = DEPT_NAMES.get(dept, dept)
             communes[code]['code_dept'] = dept
+            # Résolution bénéficiaire : SIRENE officiel si dispo, sinon libellé CSV
+            siren_raw = (row.get(col_siren, '') or '').strip()
+            siren = siren_raw[:9] if (siret_mode and len(siren_raw) >= 9) else siren_raw
+            if siren and not siren.isdigit():
+                siren = ''
+            benef_csv = clean(row.get(col_benef, ''))
+            benef_canonical = benef_csv
+            if siren and siren in siret_cache:
+                nom_off = siret_cache[siren].get('nom') or ''
+                if nom_off:
+                    benef_canonical = nom_off
+
             communes[code]['projets'].append({
                 'nom': clean(row.get(COL_PROJET, '')),
                 'montant': montant,
                 'demarche_short': dem_short,
+                'beneficiaire': benef_canonical,
+                'siren': siren,
             })
 
     print(f"\n  Stats parsing :")
