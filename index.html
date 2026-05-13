@@ -3,8 +3,8 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Fonds Vert PACA — v1.5.1</title>
-<!-- v1.5.1 — 2025-03-22 : disclaimer non-officiel -->
+<title>Fonds Vert PACA — v1.8</title>
+<!-- v1.8 — 2026-05-13 : audit libellés (29 dossiers relocalisés, ~12 M€), filtre mesure projet par projet, bouton 'Tout masquer', doctrine localisation -->
 <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css"/>
 <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <style>
@@ -110,7 +110,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
 
   </div>
 </header>
-<div style="position:absolute;top:52px;left:0;right:0;z-index:999;background:#fff8e1;border-bottom:1px solid #f0c040;padding:5px 24px;font-size:11px;color:#5d4037;text-align:center;pointer-events:none">Preuve de concept — Réutilisation de données ouvertes <a href="https://www.data.gouv.fr" style="color:#000091;pointer-events:auto">data.gouv.fr</a> avec outils IA et <a href="https://mcp.data.gouv.fr" style="color:#000091;pointer-events:auto">MCP data.gouv</a> — Ceci n’est pas un site de l’État</div>
+<div style="position:absolute;top:52px;left:0;right:0;z-index:999;background:#fff8e1;border-bottom:1px solid #f0c040;padding:5px 24px;font-size:11px;color:#5d4037;text-align:center;pointer-events:none">Ceci n'est pas un site institutionnel de l'État · données <a href="https://www.data.gouv.fr" style="color:#000091;pointer-events:auto">data.gouv.fr</a> (Min. Transition écologique) · géocodage <a href="https://geo.api.gouv.fr" style="color:#000091;pointer-events:auto">geo.api.gouv.fr</a> · harmonisation des noms des bénéficiaires <a href="https://recherche-entreprises.api.gouv.fr" style="color:#000091;pointer-events:auto">recherche-entreprises.api.gouv.fr</a> · Preuve de concept cartographie avec outils IA (<a href="https://mcp.data.gouv.fr" style="color:#000091;pointer-events:auto">MCP data.gouv</a>, <a href="https://github.com/brunocpu/fonds-vert-paca-carto" style="color:#000091;pointer-events:auto">code source</a>)</div>
 <nav class="filters-panel" role="navigation" aria-label="Filtres de la carte">
   <button class="mobile-close" onclick="this.parentElement.classList.remove('open')" aria-label="Fermer les filtres">×</button>
   <h2 style="display:flex;justify-content:space-between;align-items:center">Filtres <button onclick="resetAll()" style="font-size:10px;font-weight:400;text-transform:none;letter-spacing:0;color:#000091;background:none;border:none;cursor:pointer;font-family:inherit;padding:0">Réinitialiser</button></h2>
@@ -154,7 +154,7 @@ function getColor(m){return MESURE_COLORS[m]||"#999";}
 const pacaBounds=L.latLngBounds([[42.9,4.15],[45.1,7.7]]);
 const map=L.map('map',{zoomControl:false,attributionControl:true,maxBounds:pacaBounds.pad(0.05),maxBoundsViscosity:1.0,minZoom:7,maxZoom:15}).fitBounds(pacaBounds,{padding:[0,270]});
 L.control.zoom({position:'bottomright'}).addTo(map);
-L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a> · Données : <a href="https://www.data.gouv.fr">data.gouv.fr</a> · v1.5.1',maxZoom:18,subdomains:'abcd'}).addTo(map);
+L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png',{attribution:'&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/">CARTO</a> · Données : <a href="https://www.data.gouv.fr">data.gouv.fr</a> · v1.8',maxZoom:18,subdomains:'abcd'}).addTo(map);
 L.geoJSON(DEPTS_GEOJSON,{style:{color:'#000091',weight:2,opacity:0.6,fillColor:'transparent',fillOpacity:0,dashArray:'6,3'},onEachFeature:function(f,l){l.bindTooltip(f.properties.nom,{permanent:false,direction:'center',className:'dept-label'});}}).addTo(map);
 Object.entries(DEPT_CENTROIDS).forEach(([c,ll])=>{const l=L.marker(ll,{icon:L.divIcon({className:'dept-label',html:DEPT_NAMES[c],iconSize:null}),interactive:false}).addTo(map);deptLabels.push(l);});
 map.on('zoomend',function(){const z=map.getZoom();deptLabels.forEach(l=>{if(z>=10)map.removeLayer(l);else if(!map.hasLayer(l))l.addTo(map);});});

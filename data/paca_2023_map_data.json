@@ -466,8 +466,8 @@
     "commune": "Apt",
     "code_dept": "84",
     "dept": "Vaucluse",
-    "montant": 8515718.36,
-    "count": 7,
+    "montant": 8365218.36,
+    "count": 6,
     "demarche_short": "Rénov. énergétique",
     "projets": [
       {
@@ -490,13 +490,6 @@
         "demarche_short": "Biodéchets",
         "beneficiaire": "SYND INTER COM RAMAS ET TRAIT ORDUR MENA",
         "siren": "258402510"
-      },
-      {
-        "nom": "Aménagement du site à empreintes de pas fossiles de Saignon",
-        "montant": 150500.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "SM DU PARC NATUREL REGIONAL DU LUBERON",
-        "siren": "258402346"
       },
       {
         "nom": "Réhabilitation du parc d'éclairage public de la CCPAL",
@@ -774,8 +767,8 @@
     "commune": "L'Isle-sur-la-Sorgue",
     "code_dept": "84",
     "dept": "Vaucluse",
-    "montant": 3805290.36,
-    "count": 2,
+    "montant": 3855477.56,
+    "count": 3,
     "demarche_short": "Rénov. énergétique",
     "projets": [
       {
@@ -791,6 +784,13 @@
         "demarche_short": "Éclairage public",
         "beneficiaire": "COMMUNE DE L ISLE SUR LA SORGUE",
         "siren": "218400547"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public intercommunal",
+        "montant": 50187.2,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "COMMUNAUTE DE COMMUNES PAYS DES SORGUES MONTS DE VAUCLUSE",
+        "siren": "248400319"
       }
     ],
     "lat": 43.9191,
@@ -880,97 +880,6 @@
     "lat": 43.164,
     "lng": 6.0414,
     "population": 10014
-  },
-  {
-    "code": "13001",
-    "commune": "Aix-en-Provence",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 2495765.0,
-    "count": 11,
-    "demarche_short": "Biodiversité",
-    "projets": [
-      {
-        "nom": "Rénovation énergétique des bâtiments de la pépinière Clean Tech du technopôle Arbois",
-        "montant": 1000000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
-        "siren": "200054807"
-      },
-      {
-        "nom": "Arrachage des plantes exotiques envahissantes sur les aires protégées du CEN",
-        "montant": 512570.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
-        "siren": "340747047"
-      },
-      {
-        "nom": "Actualisation des plans de gestions des sites du conservatoire d'espaces naturels",
-        "montant": 371000.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
-        "siren": "340747047"
-      },
-      {
-        "nom": "Acquisition foncière pour la protection du Faux-Cuivré Tomares Ballus",
-        "montant": 190500.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
-        "siren": "340747047"
-      },
-      {
-        "nom": "Animation et concertation pour la mise en place de zones de protection forte",
-        "montant": 139000.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
-        "siren": "340747047"
-      },
-      {
-        "nom": "Fermeture physique de la carrière de Mercurotte en faveur des chiroptères à Saint Chamas",
-        "montant": 122816.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
-        "siren": "340747047"
-      },
-      {
-        "nom": "Création d'une base de données sur les gites des chiroptères",
-        "montant": 55000.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
-        "siren": "340747047"
-      },
-      {
-        "nom": "Rénovations pour la réserve naturelle nationale (RNN) du Coussoul de Crau",
-        "montant": 47150.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
-        "siren": "340747047"
-      },
-      {
-        "nom": "Restauration de l'habitat naturel du Monticole bleu en forêt de la colle du Rouet",
-        "montant": 30096.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "OFFICE NATIONAL DES FORETS",
-        "siren": "662043116"
-      },
-      {
-        "nom": "Mise en sécurité de la maison forestière du Brusq pour le petit rhinolophe",
-        "montant": 17633.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "OFFICE NATIONAL DES FORETS",
-        "siren": "662043116"
-      },
-      {
-        "nom": "Etudier les possibilités d'améliorations pour réduire l'impact des inondations sur le quartier de Lignane à Aix-en-Provence",
-        "montant": 10000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "ETABLISSEMENT PUBLIC D'AMENAGEMENT ET DE GESTION DES EAUX (EPAGE MENELIK)",
-        "siren": "200089167"
-      }
-    ],
-    "lat": 43.536,
-    "lng": 5.3879,
-    "population": 149695
   },
   {
     "code": "13106",
@@ -1069,6 +978,90 @@
     "lat": 44.0954,
     "lng": 6.2495,
     "population": 17979
+  },
+  {
+    "code": "13001",
+    "commune": "Aix-en-Provence",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 2372949.0,
+    "count": 10,
+    "demarche_short": "Biodiversité",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique des bâtiments de la pépinière Clean Tech du technopôle Arbois",
+        "montant": 1000000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
+        "siren": "200054807"
+      },
+      {
+        "nom": "Arrachage des plantes exotiques envahissantes sur les aires protégées du CEN",
+        "montant": 512570.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
+        "siren": "340747047"
+      },
+      {
+        "nom": "Actualisation des plans de gestions des sites du conservatoire d'espaces naturels",
+        "montant": 371000.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
+        "siren": "340747047"
+      },
+      {
+        "nom": "Acquisition foncière pour la protection du Faux-Cuivré Tomares Ballus",
+        "montant": 190500.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
+        "siren": "340747047"
+      },
+      {
+        "nom": "Animation et concertation pour la mise en place de zones de protection forte",
+        "montant": 139000.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
+        "siren": "340747047"
+      },
+      {
+        "nom": "Création d'une base de données sur les gites des chiroptères",
+        "montant": 55000.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
+        "siren": "340747047"
+      },
+      {
+        "nom": "Rénovations pour la réserve naturelle nationale (RNN) du Coussoul de Crau",
+        "montant": 47150.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
+        "siren": "340747047"
+      },
+      {
+        "nom": "Restauration de l'habitat naturel du Monticole bleu en forêt de la colle du Rouet",
+        "montant": 30096.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "OFFICE NATIONAL DES FORETS",
+        "siren": "662043116"
+      },
+      {
+        "nom": "Mise en sécurité de la maison forestière du Brusq pour le petit rhinolophe",
+        "montant": 17633.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "OFFICE NATIONAL DES FORETS",
+        "siren": "662043116"
+      },
+      {
+        "nom": "Etudier les possibilités d'améliorations pour réduire l'impact des inondations sur le quartier de Lignane à Aix-en-Provence",
+        "montant": 10000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "ETABLISSEMENT PUBLIC D'AMENAGEMENT ET DE GESTION DES EAUX (EPAGE MENELIK)",
+        "siren": "200089167"
+      }
+    ],
+    "lat": 43.536,
+    "lng": 5.3879,
+    "population": 149695
   },
   {
     "code": "06029",
@@ -1232,6 +1225,83 @@
     "population": 51811
   },
   {
+    "code": "13039",
+    "commune": "Fos-sur-Mer",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 2276217.33,
+    "count": 4,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique des bâtiments des 2 pépinières d'entreprises du secteur Ouest Métropole (Fos-sur-Mer, Istres)",
+        "montant": 2000000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
+        "siren": "200054807"
+      },
+      {
+        "nom": "Rénovation et modernisation du parc d'éclairage public",
+        "montant": 100553.0,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "COMMUNE DE FOS SUR MER",
+        "siren": "211300397"
+      },
+      {
+        "nom": "Anticipation des besoins de compensation de l'aménagement de la zone industrialo-portuaire de Fos-sur-Mer et constitution d'une \"offre d'écosystèmes restaurés\"",
+        "montant": 100000.0,
+        "demarche_short": "Ingénierie",
+        "beneficiaire": "GRAND PORT MARITIME DE MARSEILLE",
+        "siren": "775558489"
+      },
+      {
+        "nom": "Rénovation thermique du stade nautique",
+        "montant": 75664.33,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE FOS SUR MER",
+        "siren": "211300397"
+      }
+    ],
+    "lat": 43.53,
+    "lng": 5.04,
+    "population": 10000
+  },
+  {
+    "code": "06149",
+    "commune": "La Trinité",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 2267000.0,
+    "count": 3,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Requalification du site La Gare (commune de La Trinité)",
+        "montant": 1100000.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "ETS PUB FONCIER P.A.C.A",
+        "siren": "441649225"
+      },
+      {
+        "nom": "Piste cyclable de la Trinité",
+        "montant": 675000.0,
+        "demarche_short": "ZFE mobilité",
+        "beneficiaire": "METROPOLE NICE COTE D AZUR",
+        "siren": "200030195"
+      },
+      {
+        "nom": "Rénovation énergétique du groupe scolaire Lepeltier et de l'école de musique l'Eau Vive attenante",
+        "montant": 492000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE LA TRINITE",
+        "siren": "210601498"
+      }
+    ],
+    "lat": 43.7415,
+    "lng": 7.3413,
+    "population": 10602
+  },
+  {
     "code": "83069",
     "commune": "Hyères",
     "code_dept": "83",
@@ -1362,8 +1432,8 @@
     "commune": "Carpentras",
     "code_dept": "84",
     "dept": "Vaucluse",
-    "montant": 2039857.62,
-    "count": 4,
+    "montant": 1980012.61,
+    "count": 2,
     "demarche_short": "Recyclage foncier",
     "projets": [
       {
@@ -1379,46 +1449,11 @@
         "demarche_short": "Rénov. énergétique",
         "beneficiaire": "COMMUNAUTE D'AGGLOMERATION VENTOUX COMTAT VENAISSIN",
         "siren": "248400053"
-      },
-      {
-        "nom": "Entretien et surveillance des digues",
-        "montant": 29958.7,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SYND MIXTE AMENAGEMENT VALLEE LA DURANCE",
-        "siren": "258402304"
-      },
-      {
-        "nom": "Entretien et surveillance des digues",
-        "montant": 29886.31,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SYND MIXTE AMENAGEMENT VALLEE LA DURANCE",
-        "siren": "258402304"
       }
     ],
     "lat": 44.0629,
     "lng": 5.0584,
     "population": 31619
-  },
-  {
-    "code": "13029",
-    "commune": "Cornillon-Confoux",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 2000000.0,
-    "count": 1,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "Rénovation énergétique des bâtiments des 2 pépinières d'entreprises du secteur Ouest Métropole (Fos-sur-Mer, Istres)",
-        "montant": 2000000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
-        "siren": "200054807"
-      }
-    ],
-    "lat": 43.4375,
-    "lng": 4.9444,
-    "population": 16584
   },
   {
     "code": "05046",
@@ -1645,32 +1680,32 @@
     "population": 11939
   },
   {
-    "code": "06149",
-    "commune": "La Trinité",
-    "code_dept": "06",
-    "dept": "Alpes-Maritimes",
-    "montant": 1592000.0,
+    "code": "84088",
+    "commune": "Pernes-les-Fontaines",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 1308404.29,
     "count": 2,
-    "demarche_short": "Recyclage foncier",
+    "demarche_short": "Éclairage public",
     "projets": [
       {
-        "nom": "Requalification du site La Gare (commune de La Trinité)",
-        "montant": 1100000.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "ETS PUB FONCIER P.A.C.A",
-        "siren": "441649225"
+        "nom": "Plan Lumière - Etape 1 - Rénovation éclairage public - Généralisation des LED - Tranche 2",
+        "montant": 745319.29,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "COMMUNAUTE D'AGGLOMERATION LES SORGUES DU COMTAT",
+        "siren": "248400293"
       },
       {
-        "nom": "Rénovation énergétique du groupe scolaire Lepeltier et de l'école de musique l'Eau Vive attenante",
-        "montant": 492000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE LA TRINITE",
-        "siren": "210601498"
+        "nom": "Parc de la gare : vers la renaturation d’un ancien site logistique",
+        "montant": 563085.0,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "COMMUNAUTE D'AGGLOMERATION LES SORGUES DU COMTAT",
+        "siren": "248400293"
       }
     ],
-    "lat": 43.7415,
-    "lng": 7.3413,
-    "population": 10602
+    "lat": 43.9966,
+    "lng": 5.0289,
+    "population": 10504
   },
   {
     "code": "13054",
@@ -1692,48 +1727,6 @@
     "lat": 43.4218,
     "lng": 5.2178,
     "population": 33692
-  },
-  {
-    "code": "83031",
-    "commune": "Le Cannet-des-Maures",
-    "code_dept": "83",
-    "dept": "Var",
-    "montant": 1125680.8,
-    "count": 4,
-    "demarche_short": "Biodiversité",
-    "projets": [
-      {
-        "nom": "Elaboration et mise en œuvre de documents de gestion - Réserve naturelle national de la Plaine des Maures (post-incendie)",
-        "montant": 893381.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "SOC NATIONALE PROTECTION DE LA NATURE",
-        "siren": "775662752"
-      },
-      {
-        "nom": "Etablir le programme prioritaire d’intervention, incluant une étude de faisabilité contre les espèces végétales exotiques envahissantes à l’échelle du massif des Maures",
-        "montant": 89632.0,
-        "demarche_short": "Ingénierie",
-        "beneficiaire": "SYNDICAT MIXTE DU MASSIF DES MAURES",
-        "siren": "200046944"
-      },
-      {
-        "nom": "Renforcement de la défense incendie du quartier La Pardiguière",
-        "montant": 78667.8,
-        "demarche_short": "Incendies de forêt",
-        "beneficiaire": "COMMUNE LE CANNET DES MAURES",
-        "siren": "218300317"
-      },
-      {
-        "nom": "Diagnostic de vulnérabilité du Massif des Maures",
-        "montant": 64000.0,
-        "demarche_short": "Ingénierie",
-        "beneficiaire": "SYNDICAT MIXTE DU MASSIF DES MAURES",
-        "siren": "200046944"
-      }
-    ],
-    "lat": 43.3695,
-    "lng": 6.3703,
-    "population": 5140
   },
   {
     "code": "84139",
@@ -1820,39 +1813,32 @@
     "population": 50970
   },
   {
-    "code": "84080",
-    "commune": "Monteux",
-    "code_dept": "84",
-    "dept": "Vaucluse",
-    "montant": 1060747.34,
-    "count": 3,
-    "demarche_short": "Éclairage public",
+    "code": "83031",
+    "commune": "Le Cannet-des-Maures",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 972048.8,
+    "count": 2,
+    "demarche_short": "Biodiversité",
     "projets": [
       {
-        "nom": "Plan Lumière - Etape 1 - Rénovation éclairage public - Généralisation des LED - Tranche 2",
-        "montant": 745319.29,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "COMMUNAUTE D'AGGLOMERATION LES SORGUES DU COMTAT",
-        "siren": "248400293"
+        "nom": "Elaboration et mise en œuvre de documents de gestion - Réserve naturelle national de la Plaine des Maures (post-incendie)",
+        "montant": 893381.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "SOC NATIONALE PROTECTION DE LA NATURE",
+        "siren": "775662752"
       },
       {
-        "nom": "Mise en place de solutions de tri à la source des biodéchets sur la communauté d’agglomération Les Sorgues du Comtat (CASC) 2023-2025",
-        "montant": 225423.5,
-        "demarche_short": "Biodéchets",
-        "beneficiaire": "COMMUNAUTE D'AGGLOMERATION LES SORGUES DU COMTAT",
-        "siren": "248400293"
-      },
-      {
-        "nom": "Renaturation de la cour de l'école élémentaire Sénateur Béraud",
-        "montant": 90004.55,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "COMMUNE DE MONTEUX",
-        "siren": "218400802"
+        "nom": "Renforcement de la défense incendie du quartier La Pardiguière",
+        "montant": 78667.8,
+        "demarche_short": "Incendies de forêt",
+        "beneficiaire": "COMMUNE LE CANNET DES MAURES",
+        "siren": "218300317"
       }
     ],
-    "lat": 44.033,
-    "lng": 4.9862,
-    "population": 13301
+    "lat": 43.3695,
+    "lng": 6.3703,
+    "population": 5140
   },
   {
     "code": "05023",
@@ -1918,34 +1904,6 @@
     "population": 11411
   },
   {
-    "code": "84069",
-    "commune": "Malaucène",
-    "code_dept": "84",
-    "dept": "Vaucluse",
-    "montant": 914882.2,
-    "count": 2,
-    "demarche_short": "Recyclage foncier",
-    "projets": [
-      {
-        "nom": "Reconversion du site des Papèteries de Malaucène (partie haute)",
-        "montant": 864695.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "COMMUNAUTE D'AGGLOMERATION VENTOUX COMTAT VENAISSIN",
-        "siren": "248400053"
-      },
-      {
-        "nom": "Rénovation du parc de luminaires d'éclairage public intercommunal",
-        "montant": 50187.2,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "COMMUNAUTE DE COMMUNES PAYS DES SORGUES MONTS DE VAUCLUSE",
-        "siren": "248400319"
-      }
-    ],
-    "lat": 44.1804,
-    "lng": 5.1559,
-    "population": 2758
-  },
-  {
     "code": "05061",
     "commune": "Gap",
     "code_dept": "05",
@@ -2000,6 +1958,27 @@
     "lat": 44.4883,
     "lng": 6.5774,
     "population": 510
+  },
+  {
+    "code": "84069",
+    "commune": "Malaucène",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 864695.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Reconversion du site des Papèteries de Malaucène (partie haute)",
+        "montant": 864695.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "COMMUNAUTE D'AGGLOMERATION VENTOUX COMTAT VENAISSIN",
+        "siren": "248400053"
+      }
+    ],
+    "lat": 44.1804,
+    "lng": 5.1559,
+    "population": 2758
   },
   {
     "code": "13103",
@@ -2091,27 +2070,6 @@
     "lat": 43.9426,
     "lng": 5.7419,
     "population": 1410
-  },
-  {
-    "code": "06150",
-    "commune": "La Turbie",
-    "code_dept": "06",
-    "dept": "Alpes-Maritimes",
-    "montant": 675000.0,
-    "count": 1,
-    "demarche_short": "ZFE mobilité",
-    "projets": [
-      {
-        "nom": "Piste cyclable de la Trinité",
-        "montant": 675000.0,
-        "demarche_short": "ZFE mobilité",
-        "beneficiaire": "METROPOLE NICE COTE D AZUR",
-        "siren": "200030195"
-      }
-    ],
-    "lat": 43.7462,
-    "lng": 7.3973,
-    "population": 3045
   },
   {
     "code": "83129",
@@ -2259,27 +2217,6 @@
     "lat": 44.6596,
     "lng": 6.6983,
     "population": 2295
-  },
-  {
-    "code": "84088",
-    "commune": "Pernes-les-Fontaines",
-    "code_dept": "84",
-    "dept": "Vaucluse",
-    "montant": 563085.0,
-    "count": 1,
-    "demarche_short": "Renaturation",
-    "projets": [
-      {
-        "nom": "Parc de la gare : vers la renaturation d’un ancien site logistique",
-        "montant": 563085.0,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "COMMUNAUTE D'AGGLOMERATION LES SORGUES DU COMTAT",
-        "siren": "248400293"
-      }
-    ],
-    "lat": 43.9966,
-    "lng": 5.0289,
-    "population": 10504
   },
   {
     "code": "83049",
@@ -2433,8 +2370,8 @@
     "commune": "Gréoux-les-Bains",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
-    "montant": 493981.89,
-    "count": 2,
+    "montant": 479981.89,
+    "count": 1,
     "demarche_short": "Rénov. énergétique",
     "projets": [
       {
@@ -2443,74 +2380,11 @@
         "demarche_short": "Rénov. énergétique",
         "beneficiaire": "COMMUNE DE GREOUX LES BAINS",
         "siren": "210400941"
-      },
-      {
-        "nom": "Réhabilitation de la piste forestière DFCI sur 2 km du coL d'Argenton aux citernes DFCI",
-        "montant": 14000.0,
-        "demarche_short": "Incendies de forêt",
-        "beneficiaire": "COMMUNE LE FUGERET",
-        "siren": "210400909"
       }
     ],
     "lat": 43.9667,
     "lng": 6.75,
     "population": 120
-  },
-  {
-    "code": "84035",
-    "commune": "Cavaillon",
-    "code_dept": "84",
-    "dept": "Vaucluse",
-    "montant": 465603.5,
-    "count": 6,
-    "demarche_short": "Éclairage public",
-    "projets": [
-      {
-        "nom": "Projet de réhabilitation de l'école Castil Blaze en groupe scolaire",
-        "montant": 147000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE CAVAILLON",
-        "siren": "218400356"
-      },
-      {
-        "nom": "Rénovation éclairage public des zones d'activités par des candélabres solaires",
-        "montant": 129551.1,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "COMMUNAUTE DE COMMUNES AYGUES OUVEZE EN PROVENCE",
-        "siren": "248400160"
-      },
-      {
-        "nom": "Rénovation éclairage public boulevard de Europe - Avenue Raoul Follereau à Cavaillon",
-        "montant": 60791.2,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "COMMUNE DE CAVAILLON",
-        "siren": "218400356"
-      },
-      {
-        "nom": "Etude préalable à la mise en oeuvre du tri à la source des biodéchets",
-        "montant": 56000.0,
-        "demarche_short": "Biodéchets",
-        "beneficiaire": "CA LUBERON MONTS DE VAUCLUSE",
-        "siren": "200040442"
-      },
-      {
-        "nom": "Rénovation éclairage public route de Courses - Avenue Charles Delaye à Cavaillon",
-        "montant": 45311.2,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "COMMUNE DE CAVAILLON",
-        "siren": "218400356"
-      },
-      {
-        "nom": "Surveillance et entretien du système d'endiguement de la plaine aval du Coulon",
-        "montant": 26950.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SYNDICAT INTERCOMMUNAUTAIRE RIVIERE CALAVON-COULON",
-        "siren": "200046530"
-      }
-    ],
-    "lat": 43.8485,
-    "lng": 5.0333,
-    "population": 25636
   },
   {
     "code": "83121",
@@ -2539,41 +2413,6 @@
     "lat": 43.56,
     "lng": 6.23,
     "population": 4000
-  },
-  {
-    "code": "06084",
-    "commune": "Mouans-Sartoux",
-    "code_dept": "06",
-    "dept": "Alpes-Maritimes",
-    "montant": 439604.8,
-    "count": 3,
-    "demarche_short": "Éclairage public",
-    "projets": [
-      {
-        "nom": "Rénovation de l'éclairage public en vue de réduire la pollution lumineuse et de sauvegarder la biodiversité",
-        "montant": 161604.8,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "COMMUNE DE MOUANS SARTOUX",
-        "siren": "210600847"
-      },
-      {
-        "nom": "PAPI Var 3 Action n° 2.6 Modernisation et renforcement du radar du Mont Vial",
-        "montant": 150000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
-        "siren": "200071397"
-      },
-      {
-        "nom": "Création et rénovation de 2 ilots de fraicheur dans le  centre ville et agriculture urbaine",
-        "montant": 128000.0,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "COMMUNE DE MOUANS SARTOUX",
-        "siren": "210600847"
-      }
-    ],
-    "lat": 43.6192,
-    "lng": 6.9677,
-    "population": 11015
   },
   {
     "code": "83126",
@@ -2681,6 +2520,41 @@
     "population": 7850
   },
   {
+    "code": "13092",
+    "commune": "Saint-Chamas",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 399055.0,
+    "count": 3,
+    "demarche_short": "Biodiversité",
+    "projets": [
+      {
+        "nom": "Restauration zones humides La Poudrière Saint-Chamas",
+        "montant": 261656.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "CONSERVATOIRE DE L'ESPACE LITTORAL ET DES RIVAGES LACUSTRES",
+        "siren": "180005019"
+      },
+      {
+        "nom": "Fermeture physique de la carrière de Mercurotte en faveur des chiroptères à Saint Chamas",
+        "montant": 122816.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "CONSERVATOIRE D ESPACES NATURELS PROVENCE ALPES COTE D AZUR",
+        "siren": "340747047"
+      },
+      {
+        "nom": "Aménagement d'un projet parking et d'un belvédère dans la zone des Palous",
+        "montant": 14583.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "COMMUNE DE SAINT CHAMAS",
+        "siren": "211300926"
+      }
+    ],
+    "lat": 43.5414,
+    "lng": 5.072,
+    "population": 8676
+  },
+  {
     "code": "04096",
     "commune": "Jausiers",
     "code_dept": "04",
@@ -2749,6 +2623,69 @@
     "lat": 44.0648,
     "lng": 5.7798,
     "population": 1286
+  },
+  {
+    "code": "84035",
+    "commune": "Cavaillon",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 395897.41,
+    "count": 7,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Projet de réhabilitation de l'école Castil Blaze en groupe scolaire",
+        "montant": 147000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE CAVAILLON",
+        "siren": "218400356"
+      },
+      {
+        "nom": "Rénovation éclairage public boulevard de Europe - Avenue Raoul Follereau à Cavaillon",
+        "montant": 60791.2,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "COMMUNE DE CAVAILLON",
+        "siren": "218400356"
+      },
+      {
+        "nom": "Etude préalable à la mise en oeuvre du tri à la source des biodéchets",
+        "montant": 56000.0,
+        "demarche_short": "Biodéchets",
+        "beneficiaire": "CA LUBERON MONTS DE VAUCLUSE",
+        "siren": "200040442"
+      },
+      {
+        "nom": "Rénovation éclairage public route de Courses - Avenue Charles Delaye à Cavaillon",
+        "montant": 45311.2,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "COMMUNE DE CAVAILLON",
+        "siren": "218400356"
+      },
+      {
+        "nom": "Entretien et surveillance des digues",
+        "montant": 29958.7,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SYND MIXTE AMENAGEMENT VALLEE LA DURANCE",
+        "siren": "258402304"
+      },
+      {
+        "nom": "Entretien et surveillance des digues",
+        "montant": 29886.31,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SYND MIXTE AMENAGEMENT VALLEE LA DURANCE",
+        "siren": "258402304"
+      },
+      {
+        "nom": "Surveillance et entretien du système d'endiguement de la plaine aval du Coulon",
+        "montant": 26950.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SYNDICAT INTERCOMMUNAUTAIRE RIVIERE CALAVON-COULON",
+        "siren": "200046530"
+      }
+    ],
+    "lat": 43.8485,
+    "lng": 5.0333,
+    "population": 25636
   },
   {
     "code": "05006",
@@ -3066,6 +3003,34 @@
     "population": 1100
   },
   {
+    "code": "84039",
+    "commune": "Courthézon",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 329551.1,
+    "count": 2,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Réhabilitation de l'ancienne friche SERDA - Courthézon",
+        "montant": 200000.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "CHAPELET PROMOTION",
+        "siren": "750120396"
+      },
+      {
+        "nom": "Rénovation éclairage public des zones d'activités par des candélabres solaires",
+        "montant": 129551.1,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "COMMUNAUTE DE COMMUNES AYGUES OUVEZE EN PROVENCE",
+        "siren": "248400160"
+      }
+    ],
+    "lat": 44.0556,
+    "lng": 5.1278,
+    "population": 1200
+  },
+  {
     "code": "84089",
     "commune": "Pertuis",
     "code_dept": "84",
@@ -3108,6 +3073,34 @@
     "population": 812
   },
   {
+    "code": "84080",
+    "commune": "Monteux",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 315428.05,
+    "count": 2,
+    "demarche_short": "Biodéchets",
+    "projets": [
+      {
+        "nom": "Mise en place de solutions de tri à la source des biodéchets sur la communauté d’agglomération Les Sorgues du Comtat (CASC) 2023-2025",
+        "montant": 225423.5,
+        "demarche_short": "Biodéchets",
+        "beneficiaire": "COMMUNAUTE D'AGGLOMERATION LES SORGUES DU COMTAT",
+        "siren": "248400293"
+      },
+      {
+        "nom": "Renaturation de la cour de l'école élémentaire Sénateur Béraud",
+        "montant": 90004.55,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "COMMUNE DE MONTEUX",
+        "siren": "218400802"
+      }
+    ],
+    "lat": 44.033,
+    "lng": 4.9862,
+    "population": 13301
+  },
+  {
     "code": "13050",
     "commune": "Lambesc",
     "code_dept": "13",
@@ -3127,6 +3120,34 @@
     "lat": 43.6636,
     "lng": 5.2493,
     "population": 10024
+  },
+  {
+    "code": "06084",
+    "commune": "Mouans-Sartoux",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 289604.8,
+    "count": 2,
+    "demarche_short": "Éclairage public",
+    "projets": [
+      {
+        "nom": "Rénovation de l'éclairage public en vue de réduire la pollution lumineuse et de sauvegarder la biodiversité",
+        "montant": 161604.8,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "COMMUNE DE MOUANS SARTOUX",
+        "siren": "210600847"
+      },
+      {
+        "nom": "Création et rénovation de 2 ilots de fraicheur dans le  centre ville et agriculture urbaine",
+        "montant": 128000.0,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "COMMUNE DE MOUANS SARTOUX",
+        "siren": "210600847"
+      }
+    ],
+    "lat": 43.6192,
+    "lng": 6.9677,
+    "population": 11015
   },
   {
     "code": "84078",
@@ -3185,67 +3206,32 @@
     "population": 8573
   },
   {
-    "code": "13092",
-    "commune": "Saint-Chamas",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 276239.0,
+    "code": "84017",
+    "commune": "Bédoin",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 268111.0,
     "count": 2,
-    "demarche_short": "Biodiversité",
+    "demarche_short": "Rénov. énergétique",
     "projets": [
       {
-        "nom": "Restauration zones humides La Poudrière Saint-Chamas",
-        "montant": 261656.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "CONSERVATOIRE DE L'ESPACE LITTORAL ET DES RIVAGES LACUSTRES",
-        "siren": "180005019"
-      },
-      {
-        "nom": "Aménagement d'un projet parking et d'un belvédère dans la zone des Palous",
-        "montant": 14583.0,
-        "demarche_short": "Biodiversité",
-        "beneficiaire": "COMMUNE DE SAINT CHAMAS",
-        "siren": "211300926"
-      }
-    ],
-    "lat": 43.5414,
-    "lng": 5.072,
-    "population": 8676
-  },
-  {
-    "code": "13039",
-    "commune": "Fos-sur-Mer",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 276217.33,
-    "count": 3,
-    "demarche_short": "Éclairage public",
-    "projets": [
-      {
-        "nom": "Rénovation et modernisation du parc d'éclairage public",
-        "montant": 100553.0,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "COMMUNE DE FOS SUR MER",
-        "siren": "211300397"
-      },
-      {
-        "nom": "Anticipation des besoins de compensation de l'aménagement de la zone industrialo-portuaire de Fos-sur-Mer et constitution d'une \"offre d'écosystèmes restaurés\"",
-        "montant": 100000.0,
-        "demarche_short": "Ingénierie",
-        "beneficiaire": "GRAND PORT MARITIME DE MARSEILLE",
-        "siren": "775558489"
-      },
-      {
-        "nom": "Rénovation thermique du stade nautique",
-        "montant": 75664.33,
+        "nom": "Rénovation énergétique du groupe scolaire communal",
+        "montant": 153111.0,
         "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE FOS SUR MER",
-        "siren": "211300397"
+        "beneficiaire": "COMMUNE DE BEDOIN",
+        "siren": "218400174"
+      },
+      {
+        "nom": "Soutenir l'ingénierie du parc du Mont-Ventoux pour favoriser la transition énergétique et climatique du territoire",
+        "montant": 115000.0,
+        "demarche_short": "Ingénierie",
+        "beneficiaire": "SYNDICAT MIXTE DE GESTION DU PARC NATUREL REGIONAL DU MONT-VENTOUX",
+        "siren": "258400019"
       }
     ],
-    "lat": 43.53,
-    "lng": 5.04,
-    "population": 10000
+    "lat": 44.1337,
+    "lng": 5.2342,
+    "population": 3106
   },
   {
     "code": "13071",
@@ -3500,6 +3486,41 @@
     "population": 3000
   },
   {
+    "code": "83043",
+    "commune": "Collobrières",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 228267.2,
+    "count": 3,
+    "demarche_short": "Ingénierie",
+    "projets": [
+      {
+        "nom": "Etablir le programme prioritaire d’intervention, incluant une étude de faisabilité contre les espèces végétales exotiques envahissantes à l’échelle du massif des Maures",
+        "montant": 89632.0,
+        "demarche_short": "Ingénierie",
+        "beneficiaire": "SYNDICAT MIXTE DU MASSIF DES MAURES",
+        "siren": "200046944"
+      },
+      {
+        "nom": "Rénovation du parc éclairage public - Collobrières",
+        "montant": 74635.2,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+        "siren": "258302744"
+      },
+      {
+        "nom": "Diagnostic de vulnérabilité du Massif des Maures",
+        "montant": 64000.0,
+        "demarche_short": "Ingénierie",
+        "beneficiaire": "SYNDICAT MIXTE DU MASSIF DES MAURES",
+        "siren": "200046944"
+      }
+    ],
+    "lat": 43.2446,
+    "lng": 6.3454,
+    "population": 1870
+  },
+  {
     "code": "13110",
     "commune": "Trets",
     "code_dept": "13",
@@ -3675,27 +3696,6 @@
     "population": 26476
   },
   {
-    "code": "84039",
-    "commune": "Courthézon",
-    "code_dept": "84",
-    "dept": "Vaucluse",
-    "montant": 200000.0,
-    "count": 1,
-    "demarche_short": "Recyclage foncier",
-    "projets": [
-      {
-        "nom": "Réhabilitation de l'ancienne friche SERDA - Courthézon",
-        "montant": 200000.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "CHAPELET PROMOTION",
-        "siren": "750120396"
-      }
-    ],
-    "lat": 44.0556,
-    "lng": 5.1278,
-    "population": 1200
-  },
-  {
     "code": "83034",
     "commune": "Carqueiranne",
     "code_dept": "83",
@@ -3857,8 +3857,8 @@
     "population": 597
   },
   {
-    "code": "04068",
-    "commune": "Dauphin",
+    "code": "04069",
+    "commune": "Demandolx",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 174863.31,
@@ -3880,9 +3880,9 @@
         "siren": "210400693"
       }
     ],
-    "lat": 43.8947,
-    "lng": 5.7765,
-    "population": 838
+    "lat": 43.8685,
+    "lng": 6.5768,
+    "population": 112
   },
   {
     "code": "05029",
@@ -3981,6 +3981,34 @@
     "lat": 43.8857,
     "lng": 7.1094,
     "population": 355
+  },
+  {
+    "code": "84105",
+    "commune": "Saignon",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 161026.16,
+    "count": 2,
+    "demarche_short": "Biodiversité",
+    "projets": [
+      {
+        "nom": "Aménagement du site à empreintes de pas fossiles de Saignon",
+        "montant": 150500.0,
+        "demarche_short": "Biodiversité",
+        "beneficiaire": "SM DU PARC NATUREL REGIONAL DU LUBERON",
+        "siren": "258402346"
+      },
+      {
+        "nom": "Réfection toiture avec isolation thermique et installation éclairage basse consommation du bâtiment \"maison des associations\"",
+        "montant": 10526.16,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE SAIGNON",
+        "siren": "218401057"
+      }
+    ],
+    "lat": 43.868,
+    "lng": 5.4405,
+    "population": 912
   },
   {
     "code": "83008",
@@ -4088,27 +4116,6 @@
     "population": 3549
   },
   {
-    "code": "84017",
-    "commune": "Bédoin",
-    "code_dept": "84",
-    "dept": "Vaucluse",
-    "montant": 153111.0,
-    "count": 1,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "Rénovation énergétique du groupe scolaire communal",
-        "montant": 153111.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE BEDOIN",
-        "siren": "218400174"
-      }
-    ],
-    "lat": 44.1337,
-    "lng": 5.2342,
-    "population": 3106
-  },
-  {
     "code": "84051",
     "commune": "Goult",
     "code_dept": "84",
@@ -4128,6 +4135,27 @@
     "lat": 43.8675,
     "lng": 5.2448,
     "population": 1055
+  },
+  {
+    "code": "06078",
+    "commune": "Malaussène",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 150000.0,
+    "count": 1,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "PAPI Var 3 Action n° 2.6 Modernisation et renforcement du radar du Mont Vial",
+        "montant": 150000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
+        "siren": "200071397"
+      }
+    ],
+    "lat": 43.9146,
+    "lng": 7.1389,
+    "population": 326
   },
   {
     "code": "06125",
@@ -4333,8 +4361,8 @@
     "population": 1298
   },
   {
-    "code": "05071",
-    "commune": "Lardier-et-Valença",
+    "code": "05064",
+    "commune": "La Chapelle-en-Valgaudémar",
     "code_dept": "05",
     "dept": "Hautes-Alpes",
     "montant": 137782.0,
@@ -4349,9 +4377,9 @@
         "siren": "220500011"
       }
     ],
-    "lat": 44.4372,
-    "lng": 5.9721,
-    "population": 391
+    "lat": 44.8069,
+    "lng": 6.244,
+    "population": 120
   },
   {
     "code": "84145",
@@ -4515,8 +4543,8 @@
     "population": 400
   },
   {
-    "code": "06114",
-    "commune": "Saint-André-de-la-Roche",
+    "code": "06099",
+    "commune": "Puget-Théniers",
     "code_dept": "06",
     "dept": "Alpes-Maritimes",
     "montant": 128567.0,
@@ -4538,9 +4566,9 @@
         "siren": "200039931"
       }
     ],
-    "lat": 43.7455,
-    "lng": 7.2875,
-    "population": 5896
+    "lat": 43.9498,
+    "lng": 6.9049,
+    "population": 1798
   },
   {
     "code": "06004",
@@ -4751,27 +4779,6 @@
     "lat": 44.416,
     "lng": 6.6163,
     "population": 631
-  },
-  {
-    "code": "84012",
-    "commune": "Beaumes-de-Venise",
-    "code_dept": "84",
-    "dept": "Vaucluse",
-    "montant": 115000.0,
-    "count": 1,
-    "demarche_short": "Ingénierie",
-    "projets": [
-      {
-        "nom": "Soutenir l'ingénierie du parc du Mont-Ventoux pour favoriser la transition énergétique et climatique du territoire",
-        "montant": 115000.0,
-        "demarche_short": "Ingénierie",
-        "beneficiaire": "SYNDICAT MIXTE DE GESTION DU PARC NATUREL REGIONAL DU MONT-VENTOUX",
-        "siren": "258400019"
-      }
-    ],
-    "lat": 44.1224,
-    "lng": 5.0279,
-    "population": 2442
   },
   {
     "code": "83131",
@@ -5502,25 +5509,60 @@
     "population": 2020
   },
   {
-    "code": "83043",
-    "commune": "Collobrières",
-    "code_dept": "83",
-    "dept": "Var",
-    "montant": 74635.2,
-    "count": 1,
-    "demarche_short": "Éclairage public",
+    "code": "05164",
+    "commune": "Savines-le-Lac",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 74791.5,
+    "count": 2,
+    "demarche_short": "Covoiturage",
     "projets": [
       {
-        "nom": "Rénovation du parc éclairage public - Collobrières",
-        "montant": 74635.2,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
-        "siren": "258302744"
+        "nom": "Aménagement d’une aire de covoiturage intercommunale Savines le Lac – quartier de la gare",
+        "montant": 40500.0,
+        "demarche_short": "Covoiturage",
+        "beneficiaire": "CC SERRE-PONCON",
+        "siren": "200067742"
+      },
+      {
+        "nom": "Rénovation énergétique de l'espace Savinois Serre-Ponçon",
+        "montant": 34291.5,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE SAVINES LE LAC",
+        "siren": "210501649"
       }
     ],
-    "lat": 43.2446,
-    "lng": 6.3454,
-    "population": 1870
+    "lat": 44.8667,
+    "lng": 6.3833,
+    "population": 400
+  },
+  {
+    "code": "13097",
+    "commune": "Saint-Martin-de-Crau",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 74652.0,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Audit énergétique réglementaire NF EN 16247 des bâtiments communaux",
+        "montant": 42652.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE SAINT MARTIN DE CRAU",
+        "siren": "211300975"
+      },
+      {
+        "nom": "VOLET 1 : Construire le regroupement  de l'ASCO des arrosants de la Crau avec les ASAs d’irrigation de la Haute Crau et du Rageyrol de Vergières",
+        "montant": 32000.0,
+        "demarche_short": "Ingénierie",
+        "beneficiaire": "ASSOCIATION SYNDICALE CONSTITUEE D OFFICE DES ARROSANTS DE LA CRAU",
+        "siren": "291302602"
+      }
+    ],
+    "lat": 43.6074,
+    "lng": 4.8688,
+    "population": 14145
   },
   {
     "code": "84020",
@@ -6272,27 +6314,6 @@
     "population": 8267
   },
   {
-    "code": "13097",
-    "commune": "Saint-Martin-de-Crau",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 42652.0,
-    "count": 1,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "Audit énergétique réglementaire NF EN 16247 des bâtiments communaux",
-        "montant": 42652.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE SAINT MARTIN DE CRAU",
-        "siren": "211300975"
-      }
-    ],
-    "lat": 43.6074,
-    "lng": 4.8688,
-    "population": 14145
-  },
-  {
     "code": "04063",
     "commune": "Corbières-en-Provence",
     "code_dept": "04",
@@ -6384,27 +6405,6 @@
     "population": 4500
   },
   {
-    "code": "05161",
-    "commune": "La Salle-les-Alpes",
-    "code_dept": "05",
-    "dept": "Hautes-Alpes",
-    "montant": 40500.0,
-    "count": 1,
-    "demarche_short": "Covoiturage",
-    "projets": [
-      {
-        "nom": "Aménagement d’une aire de covoiturage intercommunale Savines le Lac – quartier de la gare",
-        "montant": 40500.0,
-        "demarche_short": "Covoiturage",
-        "beneficiaire": "CC SERRE-PONCON",
-        "siren": "200067742"
-      }
-    ],
-    "lat": 44.9571,
-    "lng": 6.5664,
-    "population": 892
-  },
-  {
     "code": "05097",
     "commune": "Orpierre",
     "code_dept": "05",
@@ -6494,6 +6494,34 @@
     "lat": 43.8485,
     "lng": 6.4871,
     "population": 1472
+  },
+  {
+    "code": "04090",
+    "commune": "Le Fugeret",
+    "code_dept": "04",
+    "dept": "Alpes-de-Haute-Provence",
+    "montant": 37030.0,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Isolation thermique bâtiments communaux - 2ème tranche",
+        "montant": 23030.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE LE FUGERET",
+        "siren": "210400909"
+      },
+      {
+        "nom": "Réhabilitation de la piste forestière DFCI sur 2 km du coL d'Argenton aux citernes DFCI",
+        "montant": 14000.0,
+        "demarche_short": "Incendies de forêt",
+        "beneficiaire": "COMMUNE LE FUGERET",
+        "siren": "210400909"
+      }
+    ],
+    "lat": 44.0183,
+    "lng": 6.6627,
+    "population": 196
   },
   {
     "code": "83096",
@@ -6643,8 +6671,8 @@
     "population": 204
   },
   {
-    "code": "04224",
-    "commune": "Ubraye",
+    "code": "04227",
+    "commune": "Vachères",
     "code_dept": "04",
     "dept": "Alpes-de-Haute-Provence",
     "montant": 34420.0,
@@ -6659,30 +6687,9 @@
         "siren": "200067742"
       }
     ],
-    "lat": 43.9833,
-    "lng": 5.6333,
-    "population": 307
-  },
-  {
-    "code": "05164",
-    "commune": "Savines-le-Lac",
-    "code_dept": "05",
-    "dept": "Hautes-Alpes",
-    "montant": 34291.5,
-    "count": 1,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "Rénovation énergétique de l'espace Savinois Serre-Ponçon",
-        "montant": 34291.5,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE SAVINES LE LAC",
-        "siren": "210501649"
-      }
-    ],
-    "lat": 44.8667,
-    "lng": 6.3833,
-    "population": 400
+    "lat": 43.9489,
+    "lng": 5.6397,
+    "population": 332
   },
   {
     "code": "05177",
@@ -6865,27 +6872,6 @@
     "lat": 43.7815,
     "lng": 4.8455,
     "population": 9599
-  },
-  {
-    "code": "13098",
-    "commune": "Saint-Mitre-les-Remparts",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 32000.0,
-    "count": 1,
-    "demarche_short": "Ingénierie",
-    "projets": [
-      {
-        "nom": "VOLET 1 : Construire le regroupement  de l'ASCO des arrosants de la Crau avec les ASAs d’irrigation de la Haute Crau et du Rageyrol de Vergières",
-        "montant": 32000.0,
-        "demarche_short": "Ingénierie",
-        "beneficiaire": "ASSOCIATION SYNDICALE CONSTITUEE D OFFICE DES ARROSANTS DE LA CRAU",
-        "siren": "291302602"
-      }
-    ],
-    "lat": 43.4565,
-    "lng": 5.0152,
-    "population": 6175
   },
   {
     "code": "83011",
@@ -7224,27 +7210,6 @@
     "population": 4547
   },
   {
-    "code": "04090",
-    "commune": "Le Fugeret",
-    "code_dept": "04",
-    "dept": "Alpes-de-Haute-Provence",
-    "montant": 23030.0,
-    "count": 1,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "Isolation thermique bâtiments communaux - 2ème tranche",
-        "montant": 23030.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE LE FUGERET",
-        "siren": "210400909"
-      }
-    ],
-    "lat": 44.0183,
-    "lng": 6.6627,
-    "population": 196
-  },
-  {
     "code": "04120",
     "commune": "Val d'Oronaye",
     "code_dept": "04",
@@ -7497,8 +7462,8 @@
     "population": 306
   },
   {
-    "code": "05124",
-    "commune": "La Rochette",
+    "code": "05127",
+    "commune": "Rousset-Serre-Ponçon",
     "code_dept": "05",
     "dept": "Hautes-Alpes",
     "montant": 19048.2,
@@ -7513,9 +7478,9 @@
         "siren": "200067320"
       }
     ],
-    "lat": 44.5945,
-    "lng": 6.1473,
-    "population": 471
+    "lat": 44.4856,
+    "lng": 6.2684,
+    "population": 167
   },
   {
     "code": "04079",
@@ -7915,27 +7880,6 @@
     "lat": 44.5477,
     "lng": 5.6518,
     "population": 153
-  },
-  {
-    "code": "84105",
-    "commune": "Saignon",
-    "code_dept": "84",
-    "dept": "Vaucluse",
-    "montant": 10526.16,
-    "count": 1,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "Réfection toiture avec isolation thermique et installation éclairage basse consommation du bâtiment \"maison des associations\"",
-        "montant": 10526.16,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE SAIGNON",
-        "siren": "218401057"
-      }
-    ],
-    "lat": 43.868,
-    "lng": 5.4405,
-    "population": 912
   },
   {
     "code": "84085",

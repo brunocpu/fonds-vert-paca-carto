@@ -58,6 +58,35 @@ PACA_DEPTS = {'04', '05', '06', '13', '83', '84'}
 REGION_PACA = "Provence-Alpes-Côte d'Azur"
 
 # ============================================================
+# DOCTRINE DE LOCALISATION
+# ============================================================
+# Principe : un projet est rattaché à la commune où l'INVESTISSEMENT
+# physique est réalisé, pas au siège juridique du bénéficiaire.
+#
+# Cas généraux corrigés (DOSSIER_CORRECTIONS ci-dessous + corrections_2023.json) :
+#   - Bénéficiaire = collectivité X mais titre/résumé mentionne explicitement
+#     une autre commune Y → relocaliser sur Y.
+#
+# Cas pluri-communaux gardés au porteur (NON corrigés, doctrine intercommunale) :
+#   - 2023 dossier 13075487 : "Sécurisation de la falaise de Lettret",
+#     bénéf=Commune de Châteauvieux (05037), SIREN 210500377. La falaise
+#     est nominalement à Lettret (05074) mais le porteur est Châteauvieux ;
+#     ouvrage probablement à cheval sur la limite communale.
+#   - 2024 dossier 19077674 : "4 poteaux incendie sur Aubignosc/Simiane/
+#     Vachères", bénéf=Syndicat mixte adduction eau Plateau d'Albion,
+#     siège à Banon (04018). Pluri-communal porté par syndicat → siège.
+#   - 2024 dossier (Forcalquier) : "ingénierie communes d'Ongles et de
+#     Sigonce", bénéf=CC Pays de Forcalquier. Idem doctrine intercommunale.
+#   - 2024 dossier (La Bâtie-Neuve) : "digue base loisirs Trois Lacs,
+#     communes de Rochebrune et Piégut", bénéf=CC Serre-Ponçon (cross-dept
+#     04/05). Idem.
+#   - 2024 dossier (Le Thor) : "PAPI massif Bollène-Uchaux", PAPI
+#     départemental Vaucluse → siège opérateur.
+#
+# Cas de toponymes locaux (faux positifs vérifiés) :
+#   - "rue Châteauvieux" à Caderousse, "Porte d'Orange" à Carpentras,
+#     "Pont de Briançon" à Jausiers, "Mas Saint Cézaire" à Arles, etc.
+# ============================================================
 # CORRECTIONS PAR NUMÉRO DE DOSSIER (stables entre versions CSV)
 # ============================================================
 DOSSIER_CORRECTIONS = {
@@ -91,6 +120,25 @@ DOSSIER_CORRECTIONS = {
     '19905814': '83143',  # code 04135 → Vinon-sur-Verdon (titre: "digues à Vinon-sur-Verdon")
     # === 2024 : incertaine ===
     '18214898': '13055',  # Avignon(84007) → Marseille (Commission Durance, dept 13)
+    # === 2024 : audit libellé v1.7 (9 cas 2024 + 2 cas 2023 dans corrections_2023.json, ~4,4 M€ total) ===
+    '15737517': '13117',  # Marseille → Vitrolles (titre: "zone Anjoly à Vitrolles")
+    '18390963': '13037',  # Marseille → La Fare-les-Oliviers (titre: "commune de La Fare les Oliviers")
+    '12701298': '13058',  # Saint-Rémy → Maussane-les-Alpilles (titre: "à Maussane les Alpilles")
+    '17074097': '05164',  # Embrun → Savines-le-Lac (titre: "torrent de Réallon à Savines-le-Lac")
+    '19174475': '05177',  # Guillestre → Vars (titre: "route des Sagnes à Vars Sainte-Marie")
+    '12267155': '06062',  # Nice → Fontan (titre: "Commune de Fontan (06540)")
+    '17018906': '83121',  # Draguignan → Salernes (titre: "à Salernes")
+    '18735327': '83023',  # Draguignan → Brignoles (titre: "inondations à Brignoles")
+    '14838831': '84069',  # Avignon → Malaucène (titre: "MALAUCENE - LE CENTENAIRE")
+    # === 2024 : audit libellé v1.8 (8 cas, ~5,7 M€ relocalisés) ===
+    '15737322': '13092',  # Marseille → Saint-Chamas (titre: "SAINT-CHAMAS EXTENSION ZAE")
+    '16956116': '13001',  # Marseille → Aix-en-Provence (titre: "lycée Paul Cézanne à Aix en Provence")
+    '12266018': '06099',  # Nice → Puget-Théniers (titre: "Digues de Puget-Théniers")
+    '17556692': '06099',  # Nice → Puget-Théniers (titre: "PAPI VAR 3... Gralet et Naudié à Puget-Théniers")
+    '16448120': '13063',  # Marseille → Miramas (titre: "ECOQUARTIER OASIS MIRAMAS")
+    '17181030': '83143',  # La Valette-du-Var → Le Val (titre: "LE VAL LA BERGERIE")
+    '12345200': '84054',  # Avignon → L'Isle-sur-la-Sorgue (titre: "L'ISLE SUR LA SORGUE - CARREFOUR GIRATOIRE")
+    '21205328': '83054',  # Solliès-Pont → La Farlède (titre: "ZONES D'ACTIVITES COMMUNAUTAIRES SITUEES A LA FARLEDE")
 }
 
 # === 2023 : corrections NULL → commune via titre/bénéficiaire ===
@@ -320,8 +368,8 @@ def build_year(year):
     geo_ok, geo_cached, geo_fail = 0, 0, 0
     for code in sorted(communes.keys(), key=lambda c: -communes[c]['montant']):
         c = communes[code]
-        # Nom : priorité au cache API (canonique), sinon CSV
-        nom_final = geo_cache.get(code, {}).get('nom') or c['commune'] or code
+        # Nom : priorité au cache API (canonique), sinon CSV (le fallback final est appliqué après géocodage)
+        nom_final = geo_cache.get(code, {}).get('nom') or c['commune'] or ''
         entry = {
             'code': code,
             'commune': nom_final,
@@ -357,6 +405,9 @@ def build_year(year):
                 geo_fail += 1
             time.sleep(0.05)
 
+        # Filet de sécurité : nom non vide
+        if not entry['commune']:
+            entry['commune'] = code
         data.append(entry)
 
     # Sauvegarder cache

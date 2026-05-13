@@ -4,8 +4,8 @@
     "commune": "Marseille",
     "code_dept": "13",
     "dept": "Bouches-du-Rhône",
-    "montant": 27796207.92,
-    "count": 37,
+    "montant": 21439541.72,
+    "count": 32,
     "demarche_short": "Rénov. énergétique",
     "projets": [
       {
@@ -16,25 +16,11 @@
         "siren": "775558489"
       },
       {
-        "nom": "SAINT-CHAMAS EXTENSION ZAE LES PLAINES SUD - RECYCLAGE FRICHE BARNEOUD",
-        "montant": 3000000.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
-        "siren": "200054807"
-      },
-      {
         "nom": "Aménagements en faveur des mobilités actives dans le quartier Cazemajou",
         "montant": 1831458.27,
         "demarche_short": "ZFE mobilité",
         "beneficiaire": "ETAB PUBLIC AMENAGEMENT EUROMEDITERRANEE",
         "siren": "404132292"
-      },
-      {
-        "nom": "Rénovation de l'internat du lycée Paul Cézanne à Aix en Provence",
-        "montant": 1544190.2,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "REGION PROVENCE-ALPES-COTE D'AZUR",
-        "siren": "231300021"
       },
       {
         "nom": "Rénovation globale du groupe scolaire Saint-André Barnier",
@@ -63,13 +49,6 @@
         "demarche_short": "Recyclage foncier",
         "beneficiaire": "ETS PUB FONCIER P.A.C.A",
         "siren": "441649225"
-      },
-      {
-        "nom": "Résorption d’un ilot d’habitat dégradé et d’une friche dans la zone d’activités de l’Anjoly à Vitrolles",
-        "montant": 1325000.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
-        "siren": "200054807"
       },
       {
         "nom": "Rénovation des écoles, volet du plan Marseille en Grand",
@@ -131,13 +110,6 @@
         "nom": "Végétalisation et projet d'agriculture urbaine Maille 1 Mercure",
         "montant": 500968.0,
         "demarche_short": "Renaturation",
-        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
-        "siren": "200054807"
-      },
-      {
-        "nom": "ECOQUARTIER OASIS MIRAMAS",
-        "montant": 440000.0,
-        "demarche_short": "Recyclage foncier",
         "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
         "siren": "200054807"
       },
@@ -240,13 +212,6 @@
         "siren": "314939034"
       },
       {
-        "nom": "TECSE - FORET - Travaux de création et mise aux normes de la piste Piémont sur 4 070 ml - commune de La Fare les Oliviers – Massif des Collines de Lançon",
-        "montant": 47476.0,
-        "demarche_short": "Incendies de forêt",
-        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
-        "siren": "200054807"
-      },
-      {
         "nom": "ETUDE D'OPPORTUNITE FONCIERE DE PARCS-RELAIS",
         "montant": 45000.0,
         "demarche_short": "ZFE mobilité",
@@ -271,153 +236,6 @@
     "lat": 43.2803,
     "lng": 5.3806,
     "population": 886040
-  },
-  {
-    "code": "06088",
-    "commune": "Nice",
-    "code_dept": "06",
-    "dept": "Alpes-Maritimes",
-    "montant": 8877310.5,
-    "count": 19,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "Promenade du Paillon II -phase 2 jusqu'à la Traverse Jean Monet- hors aménagement sud (BARLA)",
-        "montant": 1500000.0,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "COMMUNE DE NICE",
-        "siren": "210600888"
-      },
-      {
-        "nom": "Requalification de l'Ilot Jean Médecin à NICE",
-        "montant": 1226000.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "ETS PUB FONCIER P.A.C.A",
-        "siren": "441649225"
-      },
-      {
-        "nom": "Rénovation énergétique du groupe scolaire Bon Voyage",
-        "montant": 984054.92,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE NICE",
-        "siren": "210600888"
-      },
-      {
-        "nom": "Travaux de confortement des Digues de Puget-Théniers  - Période N° 4 et 5",
-        "montant": 952000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
-        "siren": "200071397"
-      },
-      {
-        "nom": "Rénovation énergétique du centre AQUAVALLEE d'Isola (06420)",
-        "montant": 885000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "SYNDICAT MIXTE DES STATIONS DU MERCANTOUR",
-        "siren": "250602059"
-      },
-      {
-        "nom": "STEPRIM CARF Action 7.1.a Reconstruction des berges de la Roya dans la traversée de ville Commune de Fontan (06540)",
-        "montant": 663525.5,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
-        "siren": "200071397"
-      },
-      {
-        "nom": "Parc de l'université 1c Nice Méridia",
-        "montant": 588508.5,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "ETABLISSEMENT PUBLIC D'AMENAGEMENT ECOVALLEE - PLAINE DU VAR",
-        "siren": "508858883"
-      },
-      {
-        "nom": "Rénovation énergétique du groupe scolaire Bois de Boulogne",
-        "montant": 574052.37,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE NICE",
-        "siren": "210600888"
-      },
-      {
-        "nom": "Aménagement de la piste cyclable RD2204b : connexion pôle d'échanges multimodal de Cantaron - quartier de La Condamine",
-        "montant": 570800.0,
-        "demarche_short": "ZFE mobilité",
-        "beneficiaire": "DEPARTEMENT DES ALPES MARITIMES",
-        "siren": "220600019"
-      },
-      {
-        "nom": "Rénovation énergétique du groupe scolaire Jean Macé",
-        "montant": 406200.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE NICE",
-        "siren": "210600888"
-      },
-      {
-        "nom": "Renaturation GEANT DU PNEU",
-        "montant": 217800.0,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "ETABLISSEMENT PUBLIC D'AMENAGEMENT ECOVALLEE - PLAINE DU VAR",
-        "siren": "508858883"
-      },
-      {
-        "nom": "Renaturation - Parcelle Ubaldi",
-        "montant": 95747.36,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "ETABLISSEMENT PUBLIC D'AMENAGEMENT ECOVALLEE - PLAINE DU VAR",
-        "siren": "508858883"
-      },
-      {
-        "nom": "Ferme départementale - Rénovation énergétique de l'habitation du terrain de La Roquette-sur-Var",
-        "montant": 86535.85,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "DEPARTEMENT DES ALPES MARITIMES",
-        "siren": "220600019"
-      },
-      {
-        "nom": "Etude pour la Connexion Electrique des Navires à Quai (CENAQ) du Port de Nice",
-        "montant": 46086.0,
-        "demarche_short": "ZFE mobilité",
-        "beneficiaire": "METROPOLE NICE COTE D AZUR",
-        "siren": "200030195"
-      },
-      {
-        "nom": "PEP SIAGNE 6.2:  Définition du programme d’aménagement prioritaire pour la réduction du risque inondation et la restauration des fonctionnalités naturelles des sous-bassins de la Frayère et de la Mourachonne",
-        "montant": 30000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
-        "siren": "200071397"
-      },
-      {
-        "nom": "PEP/PAPI SIAGNE 6.1 :  Définition du programme d’aménagement prioritaire du val de Siagne pour la réduction des inondations et la restauration des fonctionnalités naturelles des milieux aquatiques",
-        "montant": 20000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
-        "siren": "200071397"
-      },
-      {
-        "nom": "PAPI VAR 3 Action n° 0.1 Pilotage, coordination et suivi du PAPI Var 3 - Année 2024",
-        "montant": 15000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
-        "siren": "200071397"
-      },
-      {
-        "nom": "PEP/PAPI SIAGNE Action n° 0.1  Pilotage, coordination et suivi du PAPI d’intention - Année 4 (2024)",
-        "montant": 10000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
-        "siren": "200071397"
-      },
-      {
-        "nom": "PAPI VAR 3 Action n°6.6 - Etude de la continuité sédimentaire des torrents du Gralet et du Naudié à Puget-Théniers",
-        "montant": 6000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
-        "siren": "200071397"
-      }
-    ],
-    "lat": 43.7032,
-    "lng": 7.2528,
-    "population": 357737
   },
   {
     "code": "04112",
@@ -518,6 +336,132 @@
     "population": 22718
   },
   {
+    "code": "06088",
+    "commune": "Nice",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 7255785.0,
+    "count": 16,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Promenade du Paillon II -phase 2 jusqu'à la Traverse Jean Monet- hors aménagement sud (BARLA)",
+        "montant": 1500000.0,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "COMMUNE DE NICE",
+        "siren": "210600888"
+      },
+      {
+        "nom": "Requalification de l'Ilot Jean Médecin à NICE",
+        "montant": 1226000.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "ETS PUB FONCIER P.A.C.A",
+        "siren": "441649225"
+      },
+      {
+        "nom": "Rénovation énergétique du groupe scolaire Bon Voyage",
+        "montant": 984054.92,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE NICE",
+        "siren": "210600888"
+      },
+      {
+        "nom": "Rénovation énergétique du centre AQUAVALLEE d'Isola (06420)",
+        "montant": 885000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "SYNDICAT MIXTE DES STATIONS DU MERCANTOUR",
+        "siren": "250602059"
+      },
+      {
+        "nom": "Parc de l'université 1c Nice Méridia",
+        "montant": 588508.5,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "ETABLISSEMENT PUBLIC D'AMENAGEMENT ECOVALLEE - PLAINE DU VAR",
+        "siren": "508858883"
+      },
+      {
+        "nom": "Rénovation énergétique du groupe scolaire Bois de Boulogne",
+        "montant": 574052.37,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE NICE",
+        "siren": "210600888"
+      },
+      {
+        "nom": "Aménagement de la piste cyclable RD2204b : connexion pôle d'échanges multimodal de Cantaron - quartier de La Condamine",
+        "montant": 570800.0,
+        "demarche_short": "ZFE mobilité",
+        "beneficiaire": "DEPARTEMENT DES ALPES MARITIMES",
+        "siren": "220600019"
+      },
+      {
+        "nom": "Rénovation énergétique du groupe scolaire Jean Macé",
+        "montant": 406200.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE NICE",
+        "siren": "210600888"
+      },
+      {
+        "nom": "Renaturation GEANT DU PNEU",
+        "montant": 217800.0,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "ETABLISSEMENT PUBLIC D'AMENAGEMENT ECOVALLEE - PLAINE DU VAR",
+        "siren": "508858883"
+      },
+      {
+        "nom": "Renaturation - Parcelle Ubaldi",
+        "montant": 95747.36,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "ETABLISSEMENT PUBLIC D'AMENAGEMENT ECOVALLEE - PLAINE DU VAR",
+        "siren": "508858883"
+      },
+      {
+        "nom": "Ferme départementale - Rénovation énergétique de l'habitation du terrain de La Roquette-sur-Var",
+        "montant": 86535.85,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "DEPARTEMENT DES ALPES MARITIMES",
+        "siren": "220600019"
+      },
+      {
+        "nom": "Etude pour la Connexion Electrique des Navires à Quai (CENAQ) du Port de Nice",
+        "montant": 46086.0,
+        "demarche_short": "ZFE mobilité",
+        "beneficiaire": "METROPOLE NICE COTE D AZUR",
+        "siren": "200030195"
+      },
+      {
+        "nom": "PEP SIAGNE 6.2:  Définition du programme d’aménagement prioritaire pour la réduction du risque inondation et la restauration des fonctionnalités naturelles des sous-bassins de la Frayère et de la Mourachonne",
+        "montant": 30000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
+        "siren": "200071397"
+      },
+      {
+        "nom": "PEP/PAPI SIAGNE 6.1 :  Définition du programme d’aménagement prioritaire du val de Siagne pour la réduction des inondations et la restauration des fonctionnalités naturelles des milieux aquatiques",
+        "montant": 20000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
+        "siren": "200071397"
+      },
+      {
+        "nom": "PAPI VAR 3 Action n° 0.1 Pilotage, coordination et suivi du PAPI Var 3 - Année 2024",
+        "montant": 15000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
+        "siren": "200071397"
+      },
+      {
+        "nom": "PEP/PAPI SIAGNE Action n° 0.1  Pilotage, coordination et suivi du PAPI d’intention - Année 4 (2024)",
+        "montant": 10000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
+        "siren": "200071397"
+      }
+    ],
+    "lat": 43.7032,
+    "lng": 7.2528,
+    "population": 357737
+  },
+  {
     "code": "13054",
     "commune": "Marignane",
     "code_dept": "13",
@@ -539,12 +483,117 @@
     "population": 33692
   },
   {
+    "code": "13092",
+    "commune": "Saint-Chamas",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 3364106.0,
+    "count": 2,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "SAINT-CHAMAS EXTENSION ZAE LES PLAINES SUD - RECYCLAGE FRICHE BARNEOUD",
+        "montant": 3000000.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
+        "siren": "200054807"
+      },
+      {
+        "nom": "VEGETALISATION ET REAMENAGEMENT APAISE DE LA ROUTE DU LOIR AVEC RENATURARION DE SES ABORDS",
+        "montant": 364106.0,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "COMMUNE DE SAINT CHAMAS",
+        "siren": "211300926"
+      }
+    ],
+    "lat": 43.5414,
+    "lng": 5.072,
+    "population": 8676
+  },
+  {
+    "code": "13001",
+    "commune": "Aix-en-Provence",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 3335170.2,
+    "count": 9,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation de l'internat du lycée Paul Cézanne à Aix en Provence",
+        "montant": 1544190.2,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "REGION PROVENCE-ALPES-COTE D'AZUR",
+        "siren": "231300021"
+      },
+      {
+        "nom": "Projet de rénovation énergétique des bâtiments de la Maison des Agriculteurs - Bâtiment Alpilles",
+        "montant": 414000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "CHAMBRE AGRICULTURE DES BOUCHES DU RHONE",
+        "siren": "181300054"
+      },
+      {
+        "nom": "Rénovation énergétique bâtiment scolaire",
+        "montant": 368000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
+        "siren": "211300017"
+      },
+      {
+        "nom": "Programme projecteurs scéniques de type LED",
+        "montant": 254869.6,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
+        "siren": "211300017"
+      },
+      {
+        "nom": "Rénovation énergétique bâtiment scolaire",
+        "montant": 236000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
+        "siren": "211300017"
+      },
+      {
+        "nom": "Rénovation énergétique bâtiment scolaire",
+        "montant": 224000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
+        "siren": "211300017"
+      },
+      {
+        "nom": "Travaux de réduction énergétique pour les bureaux de l’Archevêché",
+        "montant": 166466.4,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
+        "siren": "211300017"
+      },
+      {
+        "nom": "Remplacement d'éclairages scéniques et de surtitrage de type LED",
+        "montant": 107052.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
+        "siren": "211300017"
+      },
+      {
+        "nom": "Définition du document cadre pour les installations photovoltaïques au sol dans les Bouches-du-Rhône relatif à la Loi sur l’accélération des EnR",
+        "montant": 20592.0,
+        "demarche_short": "Ingénierie",
+        "beneficiaire": "CHAMBRE AGRICULTURE DES BOUCHES DU RHONE",
+        "siren": "181300054"
+      }
+    ],
+    "lat": 43.536,
+    "lng": 5.3879,
+    "population": 149695
+  },
+  {
     "code": "83050",
     "commune": "Draguignan",
     "code_dept": "83",
     "dept": "Var",
-    "montant": 4239813.54,
-    "count": 13,
+    "montant": 3321599.83,
+    "count": 11,
     "demarche_short": "PAPI/GEMAPI",
     "projets": [
       {
@@ -562,25 +611,11 @@
         "siren": "218300507"
       },
       {
-        "nom": "ACTION 45 : Programme de prévention des inondations à Brignoles",
-        "montant": 698213.71,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SM DE L'ARGENS",
-        "siren": "200047611"
-      },
-      {
         "nom": "Investissement dans la   fabrication à l'échelle industrielle de matériaux en terre crue bas carbone   pour le bâtiment, à Draguignan (83)",
         "montant": 285000.0,
         "demarche_short": "Terr. Industrie",
         "beneficiaire": "MANUFACTURE DES TERRES MEDITERRANEENNES",
         "siren": "949021786"
-      },
-      {
-        "nom": "Opération de renouvellement urbain de l'ancienne école de garçons et d'une maison de village mitoyenne en contrebas à Salernes",
-        "montant": 220000.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "SA ECO MIXTE CONSTRUCTION DRAGUIGNAN",
-        "siren": "722850229"
       },
       {
         "nom": "AMENAGEMENT D'UNE CENTRALE PHOTOVOLTAIQUE",
@@ -644,12 +679,40 @@
     "population": 40826
   },
   {
+    "code": "06083",
+    "commune": "Menton",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 3242064.06,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation de l'internat et de l'enveloppe de l'externat au Lycée Pierre et Marie CURIE à MENTON (06)",
+        "montant": 2098064.06,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "REGION PROVENCE-ALPES-COTE D'AZUR",
+        "siren": "231300021"
+      },
+      {
+        "nom": "AMENAGEMENT D'UN CENTRE DE SUPERVISION URBAIN ET POSTE DE POLICE MUNICIPALE",
+        "montant": 1144000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE MENTON",
+        "siren": "210600839"
+      }
+    ],
+    "lat": 43.7961,
+    "lng": 7.498,
+    "population": 30604
+  },
+  {
     "code": "84007",
     "commune": "Avignon",
     "code_dept": "84",
     "dept": "Vaucluse",
-    "montant": 3786739.66,
-    "count": 10,
+    "montant": 2972739.66,
+    "count": 8,
     "demarche_short": "ZFE mobilité",
     "projets": [
       {
@@ -658,13 +721,6 @@
         "demarche_short": "Rénov. énergétique",
         "beneficiaire": "COMMUNE D AVIGNON",
         "siren": "218400075"
-      },
-      {
-        "nom": "MALAUCENE - LE CENTENAIRE",
-        "montant": 742000.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "GRAND DELTA HABITAT",
-        "siren": "662620079"
       },
       {
         "nom": "Aménagements cyclables 2024 du Grand Avignon",
@@ -702,13 +758,6 @@
         "siren": "218400075"
       },
       {
-        "nom": "CREATION D'UNE AIRE DE COVOITURAGE - L'ISLE SUR LA SORGUE - CARREFOUR GIRATOIRE - RD900/RD938",
-        "montant": 72000.0,
-        "demarche_short": "Covoiturage",
-        "beneficiaire": "DEPARTEMENT DU VAUCLUSE",
-        "siren": "228400016"
-      },
-      {
         "nom": "Itinéraire mode doux Avenue Monclar",
         "montant": 54975.0,
         "demarche_short": "ZFE mobilité",
@@ -726,34 +775,6 @@
     "lat": 43.9416,
     "lng": 4.8333,
     "population": 92188
-  },
-  {
-    "code": "06083",
-    "commune": "Menton",
-    "code_dept": "06",
-    "dept": "Alpes-Maritimes",
-    "montant": 3242064.06,
-    "count": 2,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "Rénovation de l'internat et de l'enveloppe de l'externat au Lycée Pierre et Marie CURIE à MENTON (06)",
-        "montant": 2098064.06,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "REGION PROVENCE-ALPES-COTE D'AZUR",
-        "siren": "231300021"
-      },
-      {
-        "nom": "AMENAGEMENT D'UN CENTRE DE SUPERVISION URBAIN ET POSTE DE POLICE MUNICIPALE",
-        "montant": 1144000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE MENTON",
-        "siren": "210600839"
-      }
-    ],
-    "lat": 43.7961,
-    "lng": 7.498,
-    "population": 30604
   },
   {
     "code": "06152",
@@ -1134,76 +1155,6 @@
     "population": 38477
   },
   {
-    "code": "13001",
-    "commune": "Aix-en-Provence",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 1790980.0,
-    "count": 8,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "Projet de rénovation énergétique des bâtiments de la Maison des Agriculteurs - Bâtiment Alpilles",
-        "montant": 414000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "CHAMBRE AGRICULTURE DES BOUCHES DU RHONE",
-        "siren": "181300054"
-      },
-      {
-        "nom": "Rénovation énergétique bâtiment scolaire",
-        "montant": 368000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
-        "siren": "211300017"
-      },
-      {
-        "nom": "Programme projecteurs scéniques de type LED",
-        "montant": 254869.6,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
-        "siren": "211300017"
-      },
-      {
-        "nom": "Rénovation énergétique bâtiment scolaire",
-        "montant": 236000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
-        "siren": "211300017"
-      },
-      {
-        "nom": "Rénovation énergétique bâtiment scolaire",
-        "montant": 224000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
-        "siren": "211300017"
-      },
-      {
-        "nom": "Travaux de réduction énergétique pour les bureaux de l’Archevêché",
-        "montant": 166466.4,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
-        "siren": "211300017"
-      },
-      {
-        "nom": "Remplacement d'éclairages scéniques et de surtitrage de type LED",
-        "montant": 107052.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE D AIX EN PROVENCE",
-        "siren": "211300017"
-      },
-      {
-        "nom": "Définition du document cadre pour les installations photovoltaïques au sol dans les Bouches-du-Rhône relatif à la Loi sur l’accélération des EnR",
-        "montant": 20592.0,
-        "demarche_short": "Ingénierie",
-        "beneficiaire": "CHAMBRE AGRICULTURE DES BOUCHES DU RHONE",
-        "siren": "181300054"
-      }
-    ],
-    "lat": 43.536,
-    "lng": 5.3879,
-    "population": 149695
-  },
-  {
     "code": "05061",
     "commune": "Gap",
     "code_dept": "05",
@@ -1251,6 +1202,167 @@
     "lat": 44.5797,
     "lng": 6.0616,
     "population": 41293
+  },
+  {
+    "code": "13117",
+    "commune": "Vitrolles",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 1622400.0,
+    "count": 3,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Résorption d’un ilot d’habitat dégradé et d’une friche dans la zone d’activités de l’Anjoly à Vitrolles",
+        "montant": 1325000.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
+        "siren": "200054807"
+      },
+      {
+        "nom": "Investissement dans l'industrialisation de la Pierre-Carbone (CFS), matériau bas-carbone innovant pour la production d'éléments de construction",
+        "montant": 197400.0,
+        "demarche_short": "Terr. Industrie",
+        "beneficiaire": "TECHNOCARBON TECHNOLOGIES FRANCE",
+        "siren": "835144163"
+      },
+      {
+        "nom": "Végétalisation de la Place de Provence",
+        "montant": 100000.0,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "COMMUNE DE VITROLLES",
+        "siren": "211301171"
+      }
+    ],
+    "lat": 43.4509,
+    "lng": 5.2656,
+    "population": 36758
+  },
+  {
+    "code": "83023",
+    "commune": "Brignoles",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 1488207.26,
+    "count": 12,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "ACTION 45 : Programme de prévention des inondations à Brignoles",
+        "montant": 698213.71,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SM DE L'ARGENS",
+        "siren": "200047611"
+      },
+      {
+        "nom": "ACTION 45 : Programme de prévention des inondations à Brignoles",
+        "montant": 550000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "CA DE LA PROVENCE VERTE",
+        "siren": "200068104"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 59259.75,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+        "siren": "258302744"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 49914.3,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+        "siren": "258302744"
+      },
+      {
+        "nom": "RENOVATION DU PARC ECLAIRAGE PUBLIC",
+        "montant": 37256.4,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+        "siren": "258302744"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 21799.5,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+        "siren": "258302744"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 20033.7,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+        "siren": "258302744"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 17955.15,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+        "siren": "258302744"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 9923.1,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+        "siren": "258302744"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 9912.3,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+        "siren": "258302744"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 8093.4,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+        "siren": "258302744"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d'éclairage public",
+        "montant": 5845.95,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
+        "siren": "258302744"
+      }
+    ],
+    "lat": 43.3878,
+    "lng": 6.0759,
+    "population": 17850
+  },
+  {
+    "code": "84069",
+    "commune": "Malaucène",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 1233737.28,
+    "count": 2,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "MALAUCENE - LE CENTENAIRE",
+        "montant": 742000.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "GRAND DELTA HABITAT",
+        "siren": "662620079"
+      },
+      {
+        "nom": "Ilot démonstrateur de revitalisation sur le périmètre de la porte Cabanette et la Grand Rue à Malaucène",
+        "montant": 491737.28,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "COMMUNE DE MALAUCENE",
+        "siren": "218400695"
+      }
+    ],
+    "lat": 44.1804,
+    "lng": 5.1559,
+    "population": 2758
   },
   {
     "code": "06095",
@@ -1328,62 +1440,6 @@
     "lat": 44.1007,
     "lng": 6.8673,
     "population": 587
-  },
-  {
-    "code": "05065",
-    "commune": "Guillestre",
-    "code_dept": "05",
-    "dept": "Hautes-Alpes",
-    "montant": 1114915.23,
-    "count": 6,
-    "demarche_short": "Risques montagne",
-    "projets": [
-      {
-        "nom": "Travaux d’aménagement du cône de déjection du torrent du Chalps suite à la crue de décembre 2023 - Communes de Guillestre et Risoul",
-        "montant": 446565.23,
-        "demarche_short": "Risques montagne",
-        "beneficiaire": "CC DU GUILLESTROIS ET DU QUEYRAS",
-        "siren": "200067452"
-      },
-      {
-        "nom": "Investissement dans l'agrandissement d'une unité de production de fromages locaux favorisant le circuit court et les pratiques agricoles durables",
-        "montant": 320000.0,
-        "demarche_short": "Terr. Industrie",
-        "beneficiaire": "SARL ATELIER ALPIN FROMAGERIE DE LA DURANCE",
-        "siren": "424057321"
-      },
-      {
-        "nom": "Travaux de protection de berges du torrent du Chagne sur la route des Sagnes à Vars Sainte-Marie, Tranche 2",
-        "montant": 216000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "CC DU GUILLESTROIS ET DU QUEYRAS",
-        "siren": "200067452"
-      },
-      {
-        "nom": "Rénovation énergétique et modernisation du cinéma Le Rioubel",
-        "montant": 98400.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE GUILLESTRE",
-        "siren": "210500658"
-      },
-      {
-        "nom": "Elaboration d'un plan de mobilité simplifié",
-        "montant": 30000.0,
-        "demarche_short": "Mobilités rurales",
-        "beneficiaire": "CC DU GUILLESTROIS ET DU QUEYRAS",
-        "siren": "200067452"
-      },
-      {
-        "nom": "Mise en place d'une solution d'autostop organisé avec points d'arrêts physiques, accompagnée d'une plateforme de covoiturage",
-        "montant": 3950.0,
-        "demarche_short": "Covoiturage",
-        "beneficiaire": "CC DU GUILLESTROIS ET DU QUEYRAS",
-        "siren": "200067452"
-      }
-    ],
-    "lat": 44.6596,
-    "lng": 6.6983,
-    "population": 2295
   },
   {
     "code": "04143",
@@ -1477,32 +1533,32 @@
     "population": 885
   },
   {
-    "code": "83144",
-    "commune": "La Valette-du-Var",
-    "code_dept": "83",
-    "dept": "Var",
-    "montant": 1001273.0,
+    "code": "06099",
+    "commune": "Puget-Théniers",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 958000.0,
     "count": 2,
-    "demarche_short": "Recyclage foncier",
+    "demarche_short": "PAPI/GEMAPI",
     "projets": [
       {
-        "nom": "LE RAYOL CANADEL COEUR VILLAGE 14LLS-13BRS-16 LGT SENIORS-1 PARKING PUBLIC-COMMERCES-ESPLANADE",
-        "montant": 901469.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "OFFICE PUBLIC DE L'HABITAT DU VAR",
-        "siren": "479904732"
+        "nom": "Travaux de confortement des Digues de Puget-Théniers  - Période N° 4 et 5",
+        "montant": 952000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
+        "siren": "200071397"
       },
       {
-        "nom": "LE VAL LA BERGERIE CONTRUCTION NEUVE DE 8 LOGEMENTS SOCIAUX ET 7 STATIONNEMENTS",
-        "montant": 99804.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "OFFICE PUBLIC DE L'HABITAT DU VAR",
-        "siren": "479904732"
+        "nom": "PAPI VAR 3 Action n°6.6 - Etude de la continuité sédimentaire des torrents du Gralet et du Naudié à Puget-Théniers",
+        "montant": 6000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
+        "siren": "200071397"
       }
     ],
-    "lat": 43.1484,
-    "lng": 5.9893,
-    "population": 23719
+    "lat": 43.9498,
+    "lng": 6.9049,
+    "population": 1798
   },
   {
     "code": "13081",
@@ -1531,6 +1587,76 @@
     "lat": 43.4995,
     "lng": 5.233,
     "population": 12576
+  },
+  {
+    "code": "83144",
+    "commune": "La Valette-du-Var",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 901469.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "LE RAYOL CANADEL COEUR VILLAGE 14LLS-13BRS-16 LGT SENIORS-1 PARKING PUBLIC-COMMERCES-ESPLANADE",
+        "montant": 901469.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "OFFICE PUBLIC DE L'HABITAT DU VAR",
+        "siren": "479904732"
+      }
+    ],
+    "lat": 43.1484,
+    "lng": 5.9893,
+    "population": 23719
+  },
+  {
+    "code": "05065",
+    "commune": "Guillestre",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 898915.23,
+    "count": 5,
+    "demarche_short": "Risques montagne",
+    "projets": [
+      {
+        "nom": "Travaux d’aménagement du cône de déjection du torrent du Chalps suite à la crue de décembre 2023 - Communes de Guillestre et Risoul",
+        "montant": 446565.23,
+        "demarche_short": "Risques montagne",
+        "beneficiaire": "CC DU GUILLESTROIS ET DU QUEYRAS",
+        "siren": "200067452"
+      },
+      {
+        "nom": "Investissement dans l'agrandissement d'une unité de production de fromages locaux favorisant le circuit court et les pratiques agricoles durables",
+        "montant": 320000.0,
+        "demarche_short": "Terr. Industrie",
+        "beneficiaire": "SARL ATELIER ALPIN FROMAGERIE DE LA DURANCE",
+        "siren": "424057321"
+      },
+      {
+        "nom": "Rénovation énergétique et modernisation du cinéma Le Rioubel",
+        "montant": 98400.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE GUILLESTRE",
+        "siren": "210500658"
+      },
+      {
+        "nom": "Elaboration d'un plan de mobilité simplifié",
+        "montant": 30000.0,
+        "demarche_short": "Mobilités rurales",
+        "beneficiaire": "CC DU GUILLESTROIS ET DU QUEYRAS",
+        "siren": "200067452"
+      },
+      {
+        "nom": "Mise en place d'une solution d'autostop organisé avec points d'arrêts physiques, accompagnée d'une plateforme de covoiturage",
+        "montant": 3950.0,
+        "demarche_short": "Covoiturage",
+        "beneficiaire": "CC DU GUILLESTROIS ET DU QUEYRAS",
+        "siren": "200067452"
+      }
+    ],
+    "lat": 44.6596,
+    "lng": 6.6983,
+    "population": 2295
   },
   {
     "code": "84129",
@@ -1652,97 +1778,6 @@
     "population": 3739
   },
   {
-    "code": "83023",
-    "commune": "Brignoles",
-    "code_dept": "83",
-    "dept": "Var",
-    "montant": 789993.55,
-    "count": 11,
-    "demarche_short": "PAPI/GEMAPI",
-    "projets": [
-      {
-        "nom": "ACTION 45 : Programme de prévention des inondations à Brignoles",
-        "montant": 550000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "CA DE LA PROVENCE VERTE",
-        "siren": "200068104"
-      },
-      {
-        "nom": "Rénovation du parc de luminaires d'éclairage public",
-        "montant": 59259.75,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
-        "siren": "258302744"
-      },
-      {
-        "nom": "Rénovation du parc de luminaires d'éclairage public",
-        "montant": 49914.3,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
-        "siren": "258302744"
-      },
-      {
-        "nom": "RENOVATION DU PARC ECLAIRAGE PUBLIC",
-        "montant": 37256.4,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
-        "siren": "258302744"
-      },
-      {
-        "nom": "Rénovation du parc de luminaires d'éclairage public",
-        "montant": 21799.5,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
-        "siren": "258302744"
-      },
-      {
-        "nom": "Rénovation du parc de luminaires d'éclairage public",
-        "montant": 20033.7,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
-        "siren": "258302744"
-      },
-      {
-        "nom": "Rénovation du parc de luminaires d'éclairage public",
-        "montant": 17955.15,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
-        "siren": "258302744"
-      },
-      {
-        "nom": "Rénovation du parc de luminaires d'éclairage public",
-        "montant": 9923.1,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
-        "siren": "258302744"
-      },
-      {
-        "nom": "Rénovation du parc de luminaires d'éclairage public",
-        "montant": 9912.3,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
-        "siren": "258302744"
-      },
-      {
-        "nom": "Rénovation du parc de luminaires d'éclairage public",
-        "montant": 8093.4,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
-        "siren": "258302744"
-      },
-      {
-        "nom": "Rénovation du parc de luminaires d'éclairage public",
-        "montant": 5845.95,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "TERRITOIRE D'ENERGIE VAR - SYMIELEC",
-        "siren": "258302744"
-      }
-    ],
-    "lat": 43.3878,
-    "lng": 6.0759,
-    "population": 17850
-  },
-  {
     "code": "13043",
     "commune": "Gignac-la-Nerthe",
     "code_dept": "13",
@@ -1804,55 +1839,6 @@
     "lat": 43.0984,
     "lng": 6.0214,
     "population": 10933
-  },
-  {
-    "code": "05046",
-    "commune": "Embrun",
-    "code_dept": "05",
-    "dept": "Hautes-Alpes",
-    "montant": 732738.6,
-    "count": 5,
-    "demarche_short": "PAPI/GEMAPI",
-    "projets": [
-      {
-        "nom": "Travaux de confortement des ouvrages dans le torrent de Sainte-Marthe sur la commune d’Embrun",
-        "montant": 462881.6,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "CC SERRE-PONCON",
-        "siren": "200067742"
-      },
-      {
-        "nom": "Travaux de restauration du torrent de Réallon à Savines-le-Lac - La Paroisse",
-        "montant": 162000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "CC SERRE-PONCON",
-        "siren": "200067742"
-      },
-      {
-        "nom": "Travaux de restauration du torrent de Vachères entre Baratier et Embrun",
-        "montant": 48000.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "CC SERRE-PONCON",
-        "siren": "200067742"
-      },
-      {
-        "nom": "Travaux de restauration du torrent de Bramafan entre Embrun et Châteauroux-les-Alpes (tranche 1)",
-        "montant": 40857.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "CC SERRE-PONCON",
-        "siren": "200067742"
-      },
-      {
-        "nom": "Etude de solutions de mobilité pour les communes de la CCSP non desservies par des lignes régulières à l'année",
-        "montant": 19000.0,
-        "demarche_short": "Mobilités rurales",
-        "beneficiaire": "CC SERRE-PONCON",
-        "siren": "200067742"
-      }
-    ],
-    "lat": 44.5806,
-    "lng": 6.475,
-    "population": 6412
   },
   {
     "code": "84031",
@@ -1967,6 +1953,27 @@
     "population": 3106
   },
   {
+    "code": "06062",
+    "commune": "Fontan",
+    "code_dept": "06",
+    "dept": "Alpes-Maritimes",
+    "montant": 663525.5,
+    "count": 1,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "STEPRIM CARF Action 7.1.a Reconstruction des berges de la Roya dans la traversée de ville Commune de Fontan (06540)",
+        "montant": 663525.5,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SYNDICAT MIXTE POUR LES INONDATIONS, L'AMENAGEMENT ET LA GESTION DES EAUX MARALPIN",
+        "siren": "200071397"
+      }
+    ],
+    "lat": 44.0833,
+    "lng": 7.55,
+    "population": 300
+  },
+  {
     "code": "83126",
     "commune": "La Seyne-sur-Mer",
     "code_dept": "83",
@@ -2065,6 +2072,34 @@
     "population": 15396
   },
   {
+    "code": "05177",
+    "commune": "Vars",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 623600.0,
+    "count": 2,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Aménagement d'une micro-crèche et d'une crèche saisonnière",
+        "montant": 407600.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "COMMUNE DE VARS",
+        "siren": "210501771"
+      },
+      {
+        "nom": "Travaux de protection de berges du torrent du Chagne sur la route des Sagnes à Vars Sainte-Marie, Tranche 2",
+        "montant": 216000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "CC DU GUILLESTROIS ET DU QUEYRAS",
+        "siren": "200067452"
+      }
+    ],
+    "lat": 44.5907,
+    "lng": 6.7211,
+    "population": 588
+  },
+  {
     "code": "04209",
     "commune": "Sisteron",
     "code_dept": "04",
@@ -2121,6 +2156,34 @@
     "population": 7850
   },
   {
+    "code": "13063",
+    "commune": "Miramas",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 608000.0,
+    "count": 2,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "ECOQUARTIER OASIS MIRAMAS",
+        "montant": 440000.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
+        "siren": "200054807"
+      },
+      {
+        "nom": "REHABILITATION ET RENOVATION ENERGETIQUE DU GROUPE SCOLAIRE CARRAIRE",
+        "montant": 168000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE MIRAMAS",
+        "siren": "211300637"
+      }
+    ],
+    "lat": 43.5841,
+    "lng": 5.0148,
+    "population": 26203
+  },
+  {
     "code": "83016",
     "commune": "Le Beausset",
     "code_dept": "83",
@@ -2170,60 +2233,46 @@
     "population": 18538
   },
   {
-    "code": "13100",
-    "commune": "Saint-Rémy-de-Provence",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 591772.0,
-    "count": 6,
-    "demarche_short": "Recyclage foncier",
+    "code": "05046",
+    "commune": "Embrun",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 570738.6,
+    "count": 4,
+    "demarche_short": "PAPI/GEMAPI",
     "projets": [
       {
-        "nom": "FRICHE DE L'ANCIENNE CASERNE DE LA COMBETTE",
-        "montant": 176000.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "COMMUNE DE SAINT REMY DE PROVENCE",
-        "siren": "211301007"
+        "nom": "Travaux de confortement des ouvrages dans le torrent de Sainte-Marthe sur la commune d’Embrun",
+        "montant": 462881.6,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "CC SERRE-PONCON",
+        "siren": "200067742"
       },
       {
-        "nom": "RENATURATION DE LA COUR DE L'ECOLE DE LA REPUBLIQUE ET SES ABORDS",
-        "montant": 149300.0,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "COMMUNE DE SAINT REMY DE PROVENCE",
-        "siren": "211301007"
+        "nom": "Travaux de restauration du torrent de Vachères entre Baratier et Embrun",
+        "montant": 48000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "CC SERRE-PONCON",
+        "siren": "200067742"
       },
       {
-        "nom": "Rénovation énergétique des bureaux d'information touristique et du Centre Technique à Maussane les Alpilles",
-        "montant": 100000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "CC  VALLEE DES BAUX-ALPILLES (CC VBA)",
-        "siren": "241300375"
+        "nom": "Travaux de restauration du torrent de Bramafan entre Embrun et Châteauroux-les-Alpes (tranche 1)",
+        "montant": 40857.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "CC SERRE-PONCON",
+        "siren": "200067742"
       },
       {
-        "nom": "Rénovation du parc de luminaires d’éclairage public des boulevards du Cours et Trame noire",
-        "montant": 94500.0,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "COMMUNE DE SAINT REMY DE PROVENCE",
-        "siren": "211301007"
-      },
-      {
-        "nom": "AUDITS ENERGETIQUES ET DPE DES BATIMENTS MUNICIPAUX",
-        "montant": 54000.0,
-        "demarche_short": "Ingénierie",
-        "beneficiaire": "COMMUNE DE SAINT REMY DE PROVENCE",
-        "siren": "211301007"
-      },
-      {
-        "nom": "Dispositif de gratification du covoiturage sur le territoire intercommunal de la CCVBA",
-        "montant": 17972.0,
-        "demarche_short": "Covoiturage",
-        "beneficiaire": "CC  VALLEE DES BAUX-ALPILLES (CC VBA)",
-        "siren": "241300375"
+        "nom": "Etude de solutions de mobilité pour les communes de la CCSP non desservies par des lignes régulières à l'année",
+        "montant": 19000.0,
+        "demarche_short": "Mobilités rurales",
+        "beneficiaire": "CC SERRE-PONCON",
+        "siren": "200067742"
       }
     ],
-    "lat": 43.7815,
-    "lng": 4.8455,
-    "population": 9599
+    "lat": 44.5806,
+    "lng": 6.475,
+    "population": 6412
   },
   {
     "code": "83090",
@@ -2436,25 +2485,53 @@
     "population": 19548
   },
   {
-    "code": "84069",
-    "commune": "Malaucène",
-    "code_dept": "84",
-    "dept": "Vaucluse",
-    "montant": 491737.28,
-    "count": 1,
-    "demarche_short": "Renaturation",
+    "code": "13100",
+    "commune": "Saint-Rémy-de-Provence",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 491772.0,
+    "count": 5,
+    "demarche_short": "Recyclage foncier",
     "projets": [
       {
-        "nom": "Ilot démonstrateur de revitalisation sur le périmètre de la porte Cabanette et la Grand Rue à Malaucène",
-        "montant": 491737.28,
+        "nom": "FRICHE DE L'ANCIENNE CASERNE DE LA COMBETTE",
+        "montant": 176000.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "COMMUNE DE SAINT REMY DE PROVENCE",
+        "siren": "211301007"
+      },
+      {
+        "nom": "RENATURATION DE LA COUR DE L'ECOLE DE LA REPUBLIQUE ET SES ABORDS",
+        "montant": 149300.0,
         "demarche_short": "Renaturation",
-        "beneficiaire": "COMMUNE DE MALAUCENE",
-        "siren": "218400695"
+        "beneficiaire": "COMMUNE DE SAINT REMY DE PROVENCE",
+        "siren": "211301007"
+      },
+      {
+        "nom": "Rénovation du parc de luminaires d’éclairage public des boulevards du Cours et Trame noire",
+        "montant": 94500.0,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "COMMUNE DE SAINT REMY DE PROVENCE",
+        "siren": "211301007"
+      },
+      {
+        "nom": "AUDITS ENERGETIQUES ET DPE DES BATIMENTS MUNICIPAUX",
+        "montant": 54000.0,
+        "demarche_short": "Ingénierie",
+        "beneficiaire": "COMMUNE DE SAINT REMY DE PROVENCE",
+        "siren": "211301007"
+      },
+      {
+        "nom": "Dispositif de gratification du covoiturage sur le territoire intercommunal de la CCVBA",
+        "montant": 17972.0,
+        "demarche_short": "Covoiturage",
+        "beneficiaire": "CC  VALLEE DES BAUX-ALPILLES (CC VBA)",
+        "siren": "241300375"
       }
     ],
-    "lat": 44.1804,
-    "lng": 5.1559,
-    "population": 2758
+    "lat": 43.7815,
+    "lng": 4.8455,
+    "population": 9599
   },
   {
     "code": "06155",
@@ -2779,27 +2856,6 @@
     "population": 1668
   },
   {
-    "code": "05177",
-    "commune": "Vars",
-    "code_dept": "05",
-    "dept": "Hautes-Alpes",
-    "montant": 407600.0,
-    "count": 1,
-    "demarche_short": "Recyclage foncier",
-    "projets": [
-      {
-        "nom": "Aménagement d'une micro-crèche et d'une crèche saisonnière",
-        "montant": 407600.0,
-        "demarche_short": "Recyclage foncier",
-        "beneficiaire": "COMMUNE DE VARS",
-        "siren": "210501771"
-      }
-    ],
-    "lat": 44.5907,
-    "lng": 6.7211,
-    "population": 588
-  },
-  {
     "code": "06123",
     "commune": "Saint-Laurent-du-Var",
     "code_dept": "06",
@@ -2919,27 +2975,6 @@
     "population": 2972
   },
   {
-    "code": "13092",
-    "commune": "Saint-Chamas",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 364106.0,
-    "count": 1,
-    "demarche_short": "Renaturation",
-    "projets": [
-      {
-        "nom": "VEGETALISATION ET REAMENAGEMENT APAISE DE LA ROUTE DU LOIR AVEC RENATURARION DE SES ABORDS",
-        "montant": 364106.0,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "COMMUNE DE SAINT CHAMAS",
-        "siren": "211300926"
-      }
-    ],
-    "lat": 43.5414,
-    "lng": 5.072,
-    "population": 8676
-  },
-  {
     "code": "13004",
     "commune": "Arles",
     "code_dept": "13",
@@ -3008,48 +3043,6 @@
     "lat": 43.5441,
     "lng": 4.6513,
     "population": 51811
-  },
-  {
-    "code": "83130",
-    "commune": "Solliès-Pont",
-    "code_dept": "83",
-    "dept": "Var",
-    "montant": 351702.16,
-    "count": 4,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "Travaux de rénovation de la crèche Les Petits Pas Ta Pont",
-        "montant": 257543.16,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE SOLLIES PONT",
-        "siren": "218301307"
-      },
-      {
-        "nom": "PROJET OASIS COURS GROUPE SCOLAIRE MISTRAL - DECONNEXION, DESIMPERMEABILISATION DES SOLS ET INFILTRATIONS",
-        "montant": 80000.0,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "COMMUNE DE SOLLIES PONT",
-        "siren": "218301307"
-      },
-      {
-        "nom": "RENOVATION EN LED DE L’ECLAIRAGE PUBLIC DES ZONES D’ACTIVITES COMMUNAUTAIRES SITUEES A LA FARLEDE",
-        "montant": 11250.0,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "COMMUNAUTE COMMUNES VALLEE DU GAPEAU",
-        "siren": "248300410"
-      },
-      {
-        "nom": "Projet de ligne de covoiturage Toulon – Cuers : demande de financement de l’aménagement des arrêts - SOLLIES-PONT",
-        "montant": 2909.0,
-        "demarche_short": "Covoiturage",
-        "beneficiaire": "COMMUNE DE SOLLIES PONT",
-        "siren": "218301307"
-      }
-    ],
-    "lat": 43.1895,
-    "lng": 6.0625,
-    "population": 12521
   },
   {
     "code": "84014",
@@ -3148,6 +3141,41 @@
     "lat": 43.3584,
     "lng": 6.6139,
     "population": 14118
+  },
+  {
+    "code": "83130",
+    "commune": "Solliès-Pont",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 340452.16,
+    "count": 3,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Travaux de rénovation de la crèche Les Petits Pas Ta Pont",
+        "montant": 257543.16,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE SOLLIES PONT",
+        "siren": "218301307"
+      },
+      {
+        "nom": "PROJET OASIS COURS GROUPE SCOLAIRE MISTRAL - DECONNEXION, DESIMPERMEABILISATION DES SOLS ET INFILTRATIONS",
+        "montant": 80000.0,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "COMMUNE DE SOLLIES PONT",
+        "siren": "218301307"
+      },
+      {
+        "nom": "Projet de ligne de covoiturage Toulon – Cuers : demande de financement de l’aménagement des arrêts - SOLLIES-PONT",
+        "montant": 2909.0,
+        "demarche_short": "Covoiturage",
+        "beneficiaire": "COMMUNE DE SOLLIES PONT",
+        "siren": "218301307"
+      }
+    ],
+    "lat": 43.1895,
+    "lng": 6.0625,
+    "population": 12521
   },
   {
     "code": "04102",
@@ -3561,34 +3589,6 @@
     "lat": 44.1224,
     "lng": 5.0279,
     "population": 2442
-  },
-  {
-    "code": "13117",
-    "commune": "Vitrolles",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 297400.0,
-    "count": 2,
-    "demarche_short": "Terr. Industrie",
-    "projets": [
-      {
-        "nom": "Investissement dans l'industrialisation de la Pierre-Carbone (CFS), matériau bas-carbone innovant pour la production d'éléments de construction",
-        "montant": 197400.0,
-        "demarche_short": "Terr. Industrie",
-        "beneficiaire": "TECHNOCARBON TECHNOLOGIES FRANCE",
-        "siren": "835144163"
-      },
-      {
-        "nom": "Végétalisation de la Place de Provence",
-        "montant": 100000.0,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "COMMUNE DE VITROLLES",
-        "siren": "211301171"
-      }
-    ],
-    "lat": 43.4509,
-    "lng": 5.2656,
-    "population": 36758
   },
   {
     "code": "04207",
@@ -4018,6 +4018,27 @@
     "population": 10946
   },
   {
+    "code": "83121",
+    "commune": "Salernes",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 220000.0,
+    "count": 1,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "Opération de renouvellement urbain de l'ancienne école de garçons et d'une maison de village mitoyenne en contrebas à Salernes",
+        "montant": 220000.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "SA ECO MIXTE CONSTRUCTION DRAGUIGNAN",
+        "siren": "722850229"
+      }
+    ],
+    "lat": 43.56,
+    "lng": 6.23,
+    "population": 4000
+  },
+  {
     "code": "05119",
     "commune": "Risoul",
     "code_dept": "05",
@@ -4396,27 +4417,6 @@
     "population": 13301
   },
   {
-    "code": "13063",
-    "commune": "Miramas",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 168000.0,
-    "count": 1,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "REHABILITATION ET RENOVATION ENERGETIQUE DU GROUPE SCOLAIRE CARRAIRE",
-        "montant": 168000.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE MIRAMAS",
-        "siren": "211300637"
-      }
-    ],
-    "lat": 43.5841,
-    "lng": 5.0148,
-    "population": 26203
-  },
-  {
     "code": "04088",
     "commune": "Forcalquier",
     "code_dept": "04",
@@ -4494,6 +4494,27 @@
     "population": 886
   },
   {
+    "code": "05164",
+    "commune": "Savines-le-Lac",
+    "code_dept": "05",
+    "dept": "Hautes-Alpes",
+    "montant": 162000.0,
+    "count": 1,
+    "demarche_short": "PAPI/GEMAPI",
+    "projets": [
+      {
+        "nom": "Travaux de restauration du torrent de Réallon à Savines-le-Lac - La Paroisse",
+        "montant": 162000.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "CC SERRE-PONCON",
+        "siren": "200067742"
+      }
+    ],
+    "lat": 44.8667,
+    "lng": 6.3833,
+    "population": 400
+  },
+  {
     "code": "83124",
     "commune": "Seillans",
     "code_dept": "83",
@@ -4522,6 +4543,34 @@
     "population": 2941
   },
   {
+    "code": "83143",
+    "commune": "Le Val",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 156454.0,
+    "count": 2,
+    "demarche_short": "Recyclage foncier",
+    "projets": [
+      {
+        "nom": "LE VAL LA BERGERIE CONTRUCTION NEUVE DE 8 LOGEMENTS SOCIAUX ET 7 STATIONNEMENTS",
+        "montant": 99804.0,
+        "demarche_short": "Recyclage foncier",
+        "beneficiaire": "OFFICE PUBLIC DE L'HABITAT DU VAR",
+        "siren": "479904732"
+      },
+      {
+        "nom": "Etude de maitrise d’œuvre et établissement des autorisations pour les travaux de confortement des digues à Vinon-sur-Verdon",
+        "montant": 56650.0,
+        "demarche_short": "PAPI/GEMAPI",
+        "beneficiaire": "SM DE GESTION DU PARC NATUREL REGIONAL DU VERDON (SMPNRV)",
+        "siren": "250401072"
+      }
+    ],
+    "lat": 43.4468,
+    "lng": 6.0569,
+    "population": 4335
+  },
+  {
     "code": "06004",
     "commune": "Antibes",
     "code_dept": "06",
@@ -4541,6 +4590,41 @@
     "lat": 43.5823,
     "lng": 7.1048,
     "population": 77637
+  },
+  {
+    "code": "84054",
+    "commune": "L'Isle-sur-la-Sorgue",
+    "code_dept": "84",
+    "dept": "Vaucluse",
+    "montant": 154412.0,
+    "count": 3,
+    "demarche_short": "Covoiturage",
+    "projets": [
+      {
+        "nom": "CREATION D'UNE AIRE DE COVOITURAGE - L'ISLE SUR LA SORGUE - CARREFOUR GIRATOIRE - RD900/RD938",
+        "montant": 72000.0,
+        "demarche_short": "Covoiturage",
+        "beneficiaire": "DEPARTEMENT DU VAUCLUSE",
+        "siren": "228400016"
+      },
+      {
+        "nom": "Mise en place d'une collecte séparée des biodéchets sur le territoire de la CCPSMV",
+        "montant": 51192.0,
+        "demarche_short": "Biodéchets",
+        "beneficiaire": "COMMUNAUTE DE COMMUNES PAYS DES SORGUES MONTS DE VAUCLUSE",
+        "siren": "248400319"
+      },
+      {
+        "nom": "Désimperméabilisation de la cour de l’école de Petit Palais",
+        "montant": 31220.0,
+        "demarche_short": "Renaturation",
+        "beneficiaire": "COMMUNE DE L ISLE SUR LA SORGUE",
+        "siren": "218400547"
+      }
+    ],
+    "lat": 43.9191,
+    "lng": 5.0588,
+    "population": 20244
   },
   {
     "code": "05108",
@@ -4907,6 +4991,34 @@
     "population": 1234
   },
   {
+    "code": "13058",
+    "commune": "Maussane-les-Alpilles",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 119172.94,
+    "count": 2,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique des bureaux d'information touristique et du Centre Technique à Maussane les Alpilles",
+        "montant": 100000.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "CC  VALLEE DES BAUX-ALPILLES (CC VBA)",
+        "siren": "241300375"
+      },
+      {
+        "nom": "Rénovation éclairage public commune de Maussane les Alpilles 3ème tranche",
+        "montant": 19172.94,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "COMMUNE DE MAUSSANE LES ALPILLES",
+        "siren": "211300587"
+      }
+    ],
+    "lat": 43.7158,
+    "lng": 4.838,
+    "population": 2347
+  },
+  {
     "code": "83145",
     "commune": "Varages",
     "code_dept": "83",
@@ -5010,6 +5122,41 @@
     "lat": 44.7773,
     "lng": 6.0649,
     "population": 113
+  },
+  {
+    "code": "83054",
+    "commune": "La Farlède",
+    "code_dept": "83",
+    "dept": "Var",
+    "montant": 113280.5,
+    "count": 3,
+    "demarche_short": "Rénov. énergétique",
+    "projets": [
+      {
+        "nom": "Rénovation énergétique du restaurant scolaire",
+        "montant": 86400.0,
+        "demarche_short": "Rénov. énergétique",
+        "beneficiaire": "COMMUNE DE LA FARLEDE",
+        "siren": "218300549"
+      },
+      {
+        "nom": "Projet de ligne de covoiturage Toulon – Cuers : dossier de demande de financement de l’aménagement des arrêts - LA FARLEDE",
+        "montant": 15630.5,
+        "demarche_short": "Covoiturage",
+        "beneficiaire": "COMMUNE DE LA FARLEDE",
+        "siren": "218300549"
+      },
+      {
+        "nom": "RENOVATION EN LED DE L’ECLAIRAGE PUBLIC DES ZONES D’ACTIVITES COMMUNAUTAIRES SITUEES A LA FARLEDE",
+        "montant": 11250.0,
+        "demarche_short": "Éclairage public",
+        "beneficiaire": "COMMUNAUTE COMMUNES VALLEE DU GAPEAU",
+        "siren": "248300410"
+      }
+    ],
+    "lat": 43.164,
+    "lng": 6.0414,
+    "population": 10014
   },
   {
     "code": "84087",
@@ -5136,34 +5283,6 @@
     "lat": 44.2344,
     "lng": 4.8949,
     "population": 2656
-  },
-  {
-    "code": "83054",
-    "commune": "La Farlède",
-    "code_dept": "83",
-    "dept": "Var",
-    "montant": 102030.5,
-    "count": 2,
-    "demarche_short": "Rénov. énergétique",
-    "projets": [
-      {
-        "nom": "Rénovation énergétique du restaurant scolaire",
-        "montant": 86400.0,
-        "demarche_short": "Rénov. énergétique",
-        "beneficiaire": "COMMUNE DE LA FARLEDE",
-        "siren": "218300549"
-      },
-      {
-        "nom": "Projet de ligne de covoiturage Toulon – Cuers : dossier de demande de financement de l’aménagement des arrêts - LA FARLEDE",
-        "montant": 15630.5,
-        "demarche_short": "Covoiturage",
-        "beneficiaire": "COMMUNE DE LA FARLEDE",
-        "siren": "218300549"
-      }
-    ],
-    "lat": 43.164,
-    "lng": 6.0414,
-    "population": 10014
   },
   {
     "code": "06122",
@@ -5514,34 +5633,6 @@
     "lat": 43.8693,
     "lng": 5.7429,
     "population": 120
-  },
-  {
-    "code": "84054",
-    "commune": "L'Isle-sur-la-Sorgue",
-    "code_dept": "84",
-    "dept": "Vaucluse",
-    "montant": 82412.0,
-    "count": 2,
-    "demarche_short": "Biodéchets",
-    "projets": [
-      {
-        "nom": "Mise en place d'une collecte séparée des biodéchets sur le territoire de la CCPSMV",
-        "montant": 51192.0,
-        "demarche_short": "Biodéchets",
-        "beneficiaire": "COMMUNAUTE DE COMMUNES PAYS DES SORGUES MONTS DE VAUCLUSE",
-        "siren": "248400319"
-      },
-      {
-        "nom": "Désimperméabilisation de la cour de l’école de Petit Palais",
-        "montant": 31220.0,
-        "demarche_short": "Renaturation",
-        "beneficiaire": "COMMUNE DE L ISLE SUR LA SORGUE",
-        "siren": "218400547"
-      }
-    ],
-    "lat": 43.9191,
-    "lng": 5.0588,
-    "population": 20244
   },
   {
     "code": "13084",
@@ -5908,27 +5999,6 @@
     "population": 232
   },
   {
-    "code": "83143",
-    "commune": "Le Val",
-    "code_dept": "83",
-    "dept": "Var",
-    "montant": 56650.0,
-    "count": 1,
-    "demarche_short": "PAPI/GEMAPI",
-    "projets": [
-      {
-        "nom": "Etude de maitrise d’œuvre et établissement des autorisations pour les travaux de confortement des digues à Vinon-sur-Verdon",
-        "montant": 56650.0,
-        "demarche_short": "PAPI/GEMAPI",
-        "beneficiaire": "SM DE GESTION DU PARC NATUREL REGIONAL DU VERDON (SMPNRV)",
-        "siren": "250401072"
-      }
-    ],
-    "lat": 43.4468,
-    "lng": 6.0569,
-    "population": 4335
-  },
-  {
     "code": "84090",
     "commune": "Peypin-d'Aigues",
     "code_dept": "84",
@@ -6123,6 +6193,27 @@
     "lat": 43.7887,
     "lng": 4.7637,
     "population": 564
+  },
+  {
+    "code": "13037",
+    "commune": "La Fare-les-Oliviers",
+    "code_dept": "13",
+    "dept": "Bouches-du-Rhône",
+    "montant": 47476.0,
+    "count": 1,
+    "demarche_short": "Incendies de forêt",
+    "projets": [
+      {
+        "nom": "TECSE - FORET - Travaux de création et mise aux normes de la piste Piémont sur 4 070 ml - commune de La Fare les Oliviers – Massif des Collines de Lançon",
+        "montant": 47476.0,
+        "demarche_short": "Incendies de forêt",
+        "beneficiaire": "METROPOLE D'AIX-MARSEILLE-PROVENCE",
+        "siren": "200054807"
+      }
+    ],
+    "lat": 43.5541,
+    "lng": 5.2051,
+    "population": 9039
   },
   {
     "code": "05053",
@@ -7040,27 +7131,6 @@
     "lat": 44.2629,
     "lng": 5.8676,
     "population": 1112
-  },
-  {
-    "code": "13058",
-    "commune": "Maussane-les-Alpilles",
-    "code_dept": "13",
-    "dept": "Bouches-du-Rhône",
-    "montant": 19172.94,
-    "count": 1,
-    "demarche_short": "Éclairage public",
-    "projets": [
-      {
-        "nom": "Rénovation éclairage public commune de Maussane les Alpilles 3ème tranche",
-        "montant": 19172.94,
-        "demarche_short": "Éclairage public",
-        "beneficiaire": "COMMUNE DE MAUSSANE LES ALPILLES",
-        "siren": "211300587"
-      }
-    ],
-    "lat": 43.7158,
-    "lng": 4.838,
-    "population": 2347
   },
   {
     "code": "83073",
