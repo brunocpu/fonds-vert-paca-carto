@@ -117,7 +117,7 @@ body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica N
   <div class="filter-section" style="margin-bottom:14px"><h3 style="font-size:12px;font-weight:600;color:#333;margin-bottom:6px">Rechercher</h3><div style="position:relative"><input type="text" id="searchInput" placeholder="projet, commune, bénéficiaire..." autocomplete="off" style="width:100%;padding:6px 10px 6px 28px;font-size:12px;border:1px solid #ddd;border-radius:4px;background:#fff;color:#333;font-family:inherit"/><svg style="position:absolute;left:8px;top:50%;transform:translateY(-50%);width:14px;height:14px;opacity:.4" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><path d="m21 21-4.35-4.35"/></svg></div></div>
   <div class="filter-section"><h3>Zonage / Programme</h3><div class="filter-group" id="progFilters" style="gap:4px"></div></div>
   <div class="filter-section"><h3 id="dept-filter-label">Départements</h3><div class="filter-group" role="group" aria-labelledby="dept-filter-label" id="deptFilters" style="gap:4px;"></div></div>
-  <div class="filter-section"><h3 id="mesure-filter-label">Mesures</h3><div class="filter-group" role="group" aria-labelledby="mesure-filter-label" id="mesureFilters"></div><button class="filter-reset" onclick="resetMesures()" aria-label="Réinitialiser les filtres de mesures">Tout afficher</button></div>
+  <div class="filter-section"><h3 id="mesure-filter-label">Mesures</h3><div class="filter-group" role="group" aria-labelledby="mesure-filter-label" id="mesureFilters"></div><button class="filter-reset" onclick="resetMesures()" aria-label="Réinitialiser les filtres de mesures">Tout afficher</button> <button class="filter-reset" onclick="clearMesures()" aria-label="Décocher toutes les mesures">Tout masquer</button></div>
 </nav>
 <div id="searchResults" style="display:none;position:fixed;z-index:2000;background:#fff;border:1px solid #ddd;border-radius:4px;max-height:320px;overflow-y:auto;box-shadow:0 4px 12px rgba(0,0,0,.12);width:280px"></div>
 <main><div id="map" role="application" aria-label="Carte interactive des projets Fonds Vert en PACA" tabindex="0"></div></main>
@@ -176,16 +176,19 @@ function buildEvolutionHtml(code){
   const pct=d23.montant>0?((d24.montant/d23.montant-1)*100):0;
   const cls=diff>=0?'popup-evol-up':'popup-evol-down';
   const arrow=diff>=0?'↗':'↘';
-  return '<div class="popup-evol">2023→2024 : '+fmt(d23.montant)+' → '+fmt(d24.montant)+
+  return '<div class="popup-evol">2023→2024 <span style="color:#888;font-weight:400">(toutes mesures)</span> : '+fmt(d23.montant)+' → '+fmt(d24.montant)+
     ' <span class="'+cls+'">'+arrow+' '+(pct>=0?'+':'')+pct.toFixed(0)+'%</span></div>';
 }
 
 function renderCircles(){
   circles.forEach(c=>map.removeLayer(c));circles=[];
-  let filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&activeMesures.has(d.demarche_short)&&(!activeProg||(ANCT_PROGRAMMES[d.code]&&ANCT_PROGRAMMES[d.code].indexOf(activeProg)>=0))&&(!searchState||communeMatchesQuery(d,searchState.q,searchState.scope)));
-  if(searchState && searchState.q){
+  const allMes=activeMesures.size===Object.keys(MESURE_COLORS).length;
+  let filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&(!activeProg||(ANCT_PROGRAMMES[d.code]&&ANCT_PROGRAMMES[d.code].indexOf(activeProg)>=0))&&(!searchState||communeMatchesQuery(d,searchState.q,searchState.scope)));
+  if(!allMes||(searchState&&searchState.q)){
     filtered=filtered.map(d=>{
-      const fp=searchState.scope==='commune'?d.projets:(d.projets||[]).filter(p=>projectMatchesQuery(p,searchState.q,searchState.scope));
+      let fp=d.projets||[];
+      if(!allMes) fp=fp.filter(p=>activeMesures.has(p.demarche_short));
+      if(searchState&&searchState.q&&searchState.scope!=='commune') fp=fp.filter(p=>projectMatchesQuery(p,searchState.q,searchState.scope));
       if(!fp.length) return null;
       const byM={};fp.forEach(p=>{byM[p.demarche_short]=(byM[p.demarche_short]||0)+p.montant;});
       const topDem=Object.entries(byM).sort((a,b)=>b[1]-a[1])[0];
@@ -303,10 +306,13 @@ function updateStats(f){
 
 // Export CSV
 function exportCSV(){
-  let filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&activeMesures.has(d.demarche_short)&&(!activeProg||(ANCT_PROGRAMMES[d.code]&&ANCT_PROGRAMMES[d.code].indexOf(activeProg)>=0))&&(!searchState||communeMatchesQuery(d,searchState.q,searchState.scope)));
-  if(searchState && searchState.q){
+  const allMes=activeMesures.size===Object.keys(MESURE_COLORS).length;
+  let filtered=DATA.filter(d=>activeDepts.has(d.code_dept)&&(!activeProg||(ANCT_PROGRAMMES[d.code]&&ANCT_PROGRAMMES[d.code].indexOf(activeProg)>=0))&&(!searchState||communeMatchesQuery(d,searchState.q,searchState.scope)));
+  if(!allMes||(searchState&&searchState.q)){
     filtered=filtered.map(d=>{
-      const fp=searchState.scope==='commune'?d.projets:(d.projets||[]).filter(p=>projectMatchesQuery(p,searchState.q,searchState.scope));
+      let fp=d.projets||[];
+      if(!allMes) fp=fp.filter(p=>activeMesures.has(p.demarche_short));
+      if(searchState&&searchState.q&&searchState.scope!=='commune') fp=fp.filter(p=>projectMatchesQuery(p,searchState.q,searchState.scope));
       return fp.length?Object.assign({},d,{projets:fp}):null;
     }).filter(Boolean);
   }
@@ -337,10 +343,11 @@ const dc=document.getElementById('deptFilters');
 const ab=document.createElement('button');ab.className='dept-btn active';ab.textContent='Tous les départements';
 ab.addEventListener('click',()=>{activeDepts=new Set(Object.keys(DEPT_NAMES));document.querySelectorAll('#deptFilters .dept-btn').forEach(b=>b.classList.remove('active'));ab.classList.add('active');renderCircles();map.fitBounds(pacaBounds,{padding:[0,270]});});
 dc.appendChild(ab);
-Object.entries(DEPT_NAMES).sort((a,b)=>a[1].localeCompare(b[1],'fr')).forEach(([code,name])=>{const btn=document.createElement('button');btn.className='dept-btn';btn.textContent=code+' – '+name;btn.addEventListener('click',()=>{activeDepts=new Set([code]);document.querySelectorAll('#deptFilters .dept-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderCircles();const pts=DATA.filter(d=>d.code_dept===code&&activeMesures.has(d.demarche_short));if(pts.length){map.fitBounds(L.latLngBounds(pts.map(d=>[d.lat,d.lng])),{padding:[60,60]});}});dc.appendChild(btn);});
+Object.entries(DEPT_NAMES).sort((a,b)=>a[1].localeCompare(b[1],'fr')).forEach(([code,name])=>{const btn=document.createElement('button');btn.className='dept-btn';btn.textContent=code+' – '+name;btn.addEventListener('click',()=>{activeDepts=new Set([code]);document.querySelectorAll('#deptFilters .dept-btn').forEach(b=>b.classList.remove('active'));btn.classList.add('active');renderCircles();const pts=DATA.filter(d=>d.code_dept===code&&(d.projets||[]).some(p=>activeMesures.has(p.demarche_short)));if(pts.length){map.fitBounds(L.latLngBounds(pts.map(d=>[d.lat,d.lng])),{padding:[60,60]});}});dc.appendChild(btn);});
 const mc=document.getElementById('mesureFilters');
 Object.entries(MESURE_COLORS).forEach(([n,c])=>{const l=document.createElement('label');l.className='filter-cb';const cb=document.createElement('input');cb.type='checkbox';cb.checked=true;cb.addEventListener('change',()=>{if(cb.checked)activeMesures.add(n);else activeMesures.delete(n);renderCircles();});const sw=document.createElement('span');sw.className='color-swatch';sw.style.background=c;l.appendChild(cb);l.appendChild(sw);l.appendChild(document.createTextNode(n));mc.appendChild(l);});
 function resetMesures(){activeMesures=new Set(Object.keys(MESURE_COLORS));document.querySelectorAll('#mesureFilters input[type="checkbox"]').forEach(cb=>cb.checked=true);renderCircles();}
+function clearMesures(){activeMesures=new Set();document.querySelectorAll('#mesureFilters input[type="checkbox"]').forEach(cb=>cb.checked=false);renderCircles();}
 function resetAll(){
   activeDepts=new Set(Object.keys(DEPT_NAMES));
   activeMesures=new Set(Object.keys(MESURE_COLORS));
