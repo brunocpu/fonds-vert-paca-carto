@@ -1,8 +1,12 @@
-# Fonds Vert PACA — Cartographie interactive v1.8
+# Fonds Vert PACA — Cartographie interactive v1.9
+
+[![tests](https://github.com/brunocpu/fonds-vert-paca-carto/actions/workflows/tests.yml/badge.svg)](https://github.com/brunocpu/fonds-vert-paca-carto/actions/workflows/tests.yml)
 
 Cartographie interactive des projets financés par le Fonds Vert en Provence-Alpes-Côte d'Azur (2023 + 2024), croisés avec les zonages et programmes nationaux (ZRR, PVD, ACV, Villages d'Avenir).
 
 **[Voir la carte](https://brunocpu.github.io/fonds-vert-paca-carto/)**
+
+![Aperçu de la carte](docs/screenshot.png)
 
 Données ouvertes [data.gouv.fr](https://www.data.gouv.fr/datasets/fonds-vert-liste-des-projets-subventionnes) via connecteur MCP.
 
@@ -20,7 +24,7 @@ Données ouvertes [data.gouv.fr](https://www.data.gouv.fr/datasets/fonds-vert-li
 
 - **Sélecteur millésime** : 2023 / 2024 / 2023+2024 (défaut)
 - **Recherche par portée** : pills cliquables `Tout / Projet / Bénéficiaire / Commune / Mesure` avec compteurs, badges de scope sur chaque résultat — **synchronisée avec la carte, les stats et l'export CSV**
-- **Bénéficiaires canonicalisés** : libellé officiel INSEE résolu par SIREN (558 entités), -21 % de doublons éliminés
+- **Bénéficiaires harmonisés** : libellé officiel INSEE résolu par SIREN (558 entités), -21 % de doublons éliminés
 - **Filtres croisés** : département × mesure × zonage/programme
 - **Filtre Zonage / Programme** : ZRR (484 communes), PVD (65), ACV (12), Villages d'Avenir (208)
 - **Évolution 2023→2024** : dans les popups des communes présentes les deux années
@@ -31,7 +35,7 @@ Données ouvertes [data.gouv.fr](https://www.data.gouv.fr/datasets/fonds-vert-li
 - **Réinitialiser** : reset global de tous les filtres
 - **Responsive mobile** : panneaux Filtres / Stats en off-canvas sous 768 px
 - **Accessibilité AA** : contrastes WCAG, aria-labels, skip-link, navigation clavier
-- **Bandeau « preuve de concept »** : mention non-officielle, liens data.gouv.fr et MCP data.gouv
+- **Bandeau « preuve de concept »** : mention non-officielle, sources et APIs citées, lien vers code source, mention IA + erreurs résiduelles
 
 ## Sources de données
 
@@ -42,7 +46,7 @@ Données ouvertes [data.gouv.fr](https://www.data.gouv.fr/datasets/fonds-vert-li
 | Croisement ANCT | `617322c7c8e7b27041570e71` | PVD, ACV, VA, TI, FS, Cités édu. |
 | ZRR (COG 2021) | `5943d13588ee38742a95eb0c` | Zones de Revitalisation Rurale |
 | geo.api.gouv.fr | API | Géocodage + population |
-| recherche-entreprises.api.gouv.fr | API | Noms officiels INSEE par SIREN (canonicalisation bénéficiaires) |
+| recherche-entreprises.api.gouv.fr | API | Noms officiels INSEE par SIREN (harmonisation des noms de bénéficiaires) |
 
 ## Pipeline
 
@@ -50,9 +54,9 @@ Données ouvertes [data.gouv.fr](https://www.data.gouv.fr/datasets/fonds-vert-li
 MCP datagouv → CSV national (2023 + 2024)
             → filtre PACA (6 départements)
             → corrections géolocalisation (41 dossiers 2024 + 115 corrections 2023, dont 21 codes INSEE rectifiés)
-            → géocodage geo.api.gouv.fr (442 communes, cache local)
+            → géocodage geo.api.gouv.fr (450 communes, cache local)
             → fetch_siret_names.py (558 SIRENs → noms INSEE, cache local)
-            → build_map_v2.py --year both
+            → build_map.py --year both
             → generate_combined_data_js.py → data.js
             → programmes_anct.js (ANCT + ZRR)
             → index.html (Leaflet, GitHub Pages)
@@ -61,23 +65,23 @@ MCP datagouv → CSV national (2023 + 2024)
 ## Fichiers
 
 ```
-├── index.html                    # Carte interactive v1.8
-├── data.js                       # Données combinées 2023+2024 (~431 KB, +siren +bénéficiaire)
+├── index.html                    # Carte interactive v1.9
+├── data.js                       # Données combinées 2023+2024 (~431 KB) — build artifact versionné volontairement pour permettre le déploiement statique GitHub Pages sans CI
 ├── programmes_anct.js            # Zonages ANCT + ZRR par commune PACA (17 KB)
-├── build_map_v2.py               # Pipeline unifié 2023+2024
+├── build_map.py               # Pipeline unifié 2023+2024
 ├── generate_combined_data_js.py  # Génère data.js depuis les JSON
 ├── fetch_siret_names.py          # Fetch noms officiels INSEE par SIREN (cache)
-├── init_data.py                  # One-shot : corrections_2023.json + geocode_cache.json
-├── fix_cache.py                  # One-shot : re-encode cache latin-1→UTF-8
-├── patch_cache_names.py          # One-shot : hardcode 11 noms API indisponibles
 ├── data/
 │   ├── fonds_vert_2023_source.csv
 │   ├── fonds_vert_2024_source.csv
-│   ├── corrections_2023.json     # 113 corrections NULL 2023
-│   ├── geocode_cache.json        # 442 communes géocodées + noms API
+│   ├── corrections_2023.json     # 115 corrections 2023 (113 NULL + 2 audit libellé)
+│   ├── geocode_cache.json        # 450 communes géocodées + noms API
 │   ├── siret_cache.json          # 558 entités SIRENE (nom officiel par SIREN)
-│   ├── paca_2023_map_data.json   # 307 communes, 586 projets
-│   └── paca_2024_map_data.json   # 277 communes, 568 projets
+│   ├── paca_2023_map_data.json   # 303 communes, 586 projets
+│   └── paca_2024_map_data.json   # 282 communes, 568 projets
+├── tests/
+│   └── test_pipeline.py          # 7 tests d'invariants sur les données
+├── .github/workflows/tests.yml   # CI : rebuild + pytest sur chaque push
 ├── README.md
 ├── MCP_SETUP.md
 └── .gitignore
@@ -97,9 +101,9 @@ Un projet est rattaché à la commune où l'**investissement physique** est réa
 - Les **toponymes locaux** (rue *Châteauvieux* à Caderousse, *Pont de Briançon* à Jausiers, *Plan Porte d'Orange* à Carpentras, *Mas Saint Cézaire* à Arles…) ne déclenchent pas de relocalisation : ce sont des noms de lieux-dits internes à la commune réelle.
 - Cas **frontaliers ambigus** (ex. dossier 13075487 *Falaise de Lettret*, porté par la Commune de Châteauvieux voisine, ouvrage probablement à cheval) : on garde au porteur juridique pour cohérence avec la logique SIRET.
 
-### Canonicalisation des bénéficiaires (SIRENE)
+### Harmonisation des noms de bénéficiaires (SIRENE)
 
-Les CSV sources contiennent plusieurs libellés pour une même entité légale (ex. `AIX MARSEILLE PROVENCE BP MET` + `METROPOLE D'AIX-MARSEILLE-PROVENCE` = même SIREN 200054807, 29 projets). Sans canonicalisation, **51 % des projets étaient affectés** (144 entités multi-libellées).
+Les CSV sources contiennent plusieurs libellés pour une même entité légale (ex. `AIX MARSEILLE PROVENCE BP MET` + `METROPOLE D'AIX-MARSEILLE-PROVENCE` = même SIREN 200054807, 29 projets). Sans harmonisation, **51 % des projets étaient affectés** (144 entités multi-libellées).
 
 Méthode : pour chaque SIREN (champ `siren` 2023 / `siret_beneficiaire` 2024), appel à l'API publique `recherche-entreprises.api.gouv.fr` → récupération du `nom_raison_sociale` officiel INSEE. Cache permanent dans `data/siret_cache.json`.
 
@@ -118,9 +122,7 @@ Impact : **699 → 552 bénéficiaires distincts** (−21 %). Le SIREN est aussi
 | `audit_libelle` | 2 | Relocalisation après audit cohérence libellé/commune (v1.7) : Apt → Saignon, Aix → Saint-Chamas |
 | `code_corrigé_v1.8` | 21 | Audit v1.8 : entrées dont le nom commune correspondait mais le code INSEE était faux (ex. Fos-sur-Mer rattaché à Cornillon-Confoux 13029 au lieu de 13039). Codes vérifiés via `geo.api.gouv.fr`. |
 
-Sans ce travail, 113 projets seraient invisibles, 2 mal localisés, et 21 affichés sur la mauvaise commune malgré un nom correct.
-
-### 2024 — 41 dossiers relocalisés (`DOSSIER_CORRECTIONS` dans `build_map_v2.py`)
+### 2024 — 41 dossiers relocalisés (`DOSSIER_CORRECTIONS` dans `build_map.py`)
 
 Le champ `code_commune` pointe parfois sur le siège du bénéficiaire (SIRET) plutôt que sur le lieu réel du projet. Identification via le titre, le résumé et le bénéficiaire.
 
@@ -144,8 +146,11 @@ Audit libellé v1.8 (8 dossiers, ~5,7 M€ relocalisés) : Marseille → Saint-C
 ```bash
 # Données (cache complet, 0 appel API)
 python fetch_siret_names.py        # one-shot, peuple data/siret_cache.json
-python build_map_v2.py --year both
+python build_map.py --year both
 python generate_combined_data_js.py
+
+# Tests d'invariants sur les données produites
+python -m pytest tests/ -v
 
 # Déploiement
 git add -A
@@ -153,9 +158,20 @@ git commit -m "v1.x: description"
 git push
 ```
 
+## Signaler une erreur, contribuer
+
+Toute correction est bienvenue : libellé mal-localisé, code INSEE erroné, EPCI mal qualifié, projet manquant, suggestion d'amélioration.
+
+**Canal officiel** : [issues GitHub](https://github.com/brunocpu/fonds-vert-paca-carto/issues) du repo. Trois types d'issues sont prévus (templates) :
+- **Erreur de localisation** — un projet rattaché à la mauvaise commune
+- **Bug technique** — un comportement inattendu de la carte ou du build
+- **Suggestion** — fonctionnalité ou amélioration méthodologique
+
+Voir aussi [`CONTRIBUTING.md`](CONTRIBUTING.md) pour les conventions du repo.
+
 ## Contexte
 
-POC réalisé avec Claude + MCP (connecteurs data.gouv.fr, filesystem). Exercice de bout en bout : sourcing données ouvertes, pipeline Python, cartographie Leaflet, croisement inter-programmes, déploiement GitHub Pages.
+POC réalisé avec Claude et le connecteur MCP data.gouv.fr — données ouvertes, pipeline Python, cartographie Leaflet, croisement avec les zonages nationaux, déploiement GitHub Pages.
 
 ## Licence
 
