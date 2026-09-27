@@ -1,5 +1,9 @@
 # Changelog
 
+## v1.9.1 — 2026-09-27
+
+Fond de carte : CARTO `light_all` sert désormais un filigrane « API KEY REQUIRED » sans clé API → remplacé par les tuiles OpenStreetMap standard (`tile.openstreetmap.org`, sans clé), atténuées en CSS (niveaux de gris) pour garder la lisibilité des bulles. Attribution mise à jour (« © les contributeurs d'OpenStreetMap »), conformément à la politique d'usage des tuiles OSM.
+
 ## v1.9 — 2026-05-13
 
 Audit des localisations : 29 dossiers relocalisés sur la carte (~12 M€ de subventions affectées à une autre commune que celle du CSV brut), en deux passes successives. Filtre par mesure appliqué projet par projet (correction de bug : les popups affichaient parfois des projets hors filtre). Doctrine de localisation formalisée.
