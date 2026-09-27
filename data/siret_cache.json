@@ -492,10 +492,9 @@
   "tranche_eff": "12"
  },
  "412111981": {
-  "nom": "MEHDI AIT EL HADJ ALI",
-  "sigle": null,
+  "nom": "",
   "nature": "1000",
-  "tranche_eff": "NN"
+  "personne_physique": true
  },
  "200067320": {
   "nom": "CC SERRE-PONCON VAL D'AVANCE",
